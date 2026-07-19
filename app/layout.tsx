@@ -1,14 +1,33 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { site } from './data';
+import { JsonLd } from './components';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://overseasvirtualassistant.com'),
-  title: { default: 'Overseas Virtual Assistant | Simple virtual assistant hiring guides', template: '%s | Overseas Virtual Assistant' },
-  description: 'Simple, practical guides for hiring, pricing, onboarding, and managing overseas virtual assistant support.',
-  openGraph: { title: 'Overseas Virtual Assistant', description: 'Practical virtual assistant hiring guides for busy teams.', url: 'https://overseasvirtualassistant.com', siteName: 'Overseas Virtual Assistant', type: 'website' },
+  metadataBase: new URL(site.url),
+  title: { default: 'Overseas Virtual Assistant | Practical overseas VA hiring guides', template: '%s | Overseas Virtual Assistant' },
+  description: 'Simple, practical guides for hiring, pricing, onboarding, country fit, security, and managing overseas virtual assistant support.',
+  alternates: { canonical: site.url },
+  openGraph: { title: 'Overseas Virtual Assistant', description: 'Practical overseas virtual assistant hiring guides for busy teams.', url: site.url, siteName: 'Overseas Virtual Assistant', type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Overseas Virtual Assistant', description: 'Practical overseas VA hiring guides for busy teams.' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body>{children}</body></html>;
+  const organization = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${site.url}/#organization`,
+    name: site.brand,
+    url: site.url,
+  };
+  const webSite = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${site.url}/#website`,
+    name: site.brand,
+    url: site.url,
+    description: 'Simple overseas virtual assistant hiring, pricing, onboarding, security, and management guides.',
+    publisher: { '@id': `${site.url}/#organization` },
+  };
+  return <html lang="en"><body><JsonLd data={organization}/><JsonLd data={webSite}/>{children}</body></html>;
 }
