@@ -1,62 +1,59 @@
-import { Header, Footer, CTA, JsonLd } from './components';
-import { site, roles, stats, blogPosts, countryFits, qaChecks, securityBasics, onboardingTimeline, globalWorkImages, staffingOffer, leadQuestions, staffingProcess, staffingFitNote, globalProofStats, timeZoneWindows } from './data';
+import * as data from './data';
+import { Header, Footer, JsonLd } from './components';
 
-export default function Home() {
-  const webPage = {
-    '@context': 'https://schema.org',
-    '@type': 'WebPage',
-    '@id': `${site.url}/#webpage`,
-    url: site.url,
-    name: 'Overseas Virtual Assistant hiring guide',
-    description: 'Simple guidance for overseas VA planning, country fit, time zones, quality checks, security, and onboarding.',
-    mainEntity: {
-      '@type': 'ItemList',
-      name: 'Overseas VA planning topics',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Role fit', url: `${site.url}/#roles` },
-        { '@type': 'ListItem', position: 2, name: 'Country and time-zone fit', url: `${site.url}/#countries` },
-        { '@type': 'ListItem', position: 3, name: 'Quality controls', url: `${site.url}/#quality` },
-        { '@type': 'ListItem', position: 4, name: 'Security basics', url: `${site.url}/#security` },
-        { '@type': 'ListItem', position: 5, name: 'Hiring guides', url: `${site.url}/blog` },
-      ],
-    },
-  };
+const dataAny = data as any;
+const site = dataAny.site || {};
+const services = (dataAny.services || dataAny.roles || dataAny.industries || []).slice(0, 6);
+const posts = (dataAny.blogPosts || []).slice(0, 4);
+const stats = (dataAny.stats || []).slice(0, 3);
+const process = (dataAny.staffingProcess || dataAny.checklistSteps || []).slice(0, 5);
+const questions = (dataAny.leadQuestions || dataAny.faqs || []).slice(0, 5);
+const compare = (dataAny.compareRows || dataAny.proofCards || dataAny.sourcePlaceholders || []).slice(0, 4);
+const offer = dataAny.staffingOffer || {};
+const getTitle = (item: any, fallback = 'Service') => typeof item === 'string' ? item : (item.title || item.name || item.label || item.question || fallback);
+const getText = (item: any, fallback = 'Clear scope, simple handoff, and a practical staffing plan built around the work.') => typeof item === 'string' ? item : (item.desc || item.body || item.excerpt || item.note || item.answer || fallback);
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      { '@type': 'Question', name: 'How much does an overseas virtual assistant plan?', acceptedAnswer: { '@type': 'Answer', text: 'Many overseas admin and support VA roles need a custom staffing plan because the right budget depends on country, skill, schedule, English needs, tools, and management support.' } },
-      { '@type': 'Question', name: 'Which country is best for a virtual assistant?', acceptedAnswer: { '@type': 'Answer', text: 'It depends on the role. The Philippines is often strong for English-first support, Latin America for US time-zone overlap, Eastern Europe for technical admin, and South Africa for UK/EU overlap.' } },
-      { '@type': 'Question', name: 'What should I delegate first?', acceptedAnswer: { '@type': 'Answer', text: 'Start with repeatable, low-risk work such as inbox sorting, calendar cleanup, CRM updates, support drafts, and weekly reporting.' } },
-    ],
-  };
-
+export default function Home(){
+  const schema = { '@context':'https://schema.org', '@type':'WebSite', name: site.brand, url: `https://${site.domain}` };
   return <><Header/><main>
-    <JsonLd data={webPage}/><JsonLd data={faqSchema}/>
-    <section className="hero"><div className="container grid"><div><p className="eyebrow">overseas virtual assistant planning</p><h1>Hire overseas VA help without guessing.</h1><p className="lead">Overseas Virtual Assistant helps busy teams compare roles, planning, countries, time zones, quality checks, and security basics before they hire.</p><p>Start with a clear task list. Match the role to the right country and schedule. Add simple review rules before you hand over more work.</p><div className="actions"><a className="btn" href="/contact">Build my assistant plan</a><a className="btn secondary" href="/blog/virtual-assistant-planning">See plan ranges</a></div></div><div className="hero-visual card"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Business owner meeting a remote overseas assistant team on a video call"/><div className="hero-checklist"><h3>Best first assistant tasks</h3><ul className="list"><li>Inbox sorting and calendar cleanup</li><li>Lead follow-up and CRM updates</li><li>Call answering and appointment setting</li><li>Customer support replies</li><li>Simple reports, research, and admin</li></ul><p className="quote">&quot;Start small, measure weekly, then add more work.&quot;</p></div></div></div></section>
+    <JsonLd data={schema}/>
+    <section className="hero-shell">
+      <div className="hero-kicker"><span>{site.badge || 'Staffing guide'}</span><span>{site.domain}</span></div>
+      <div className="hero-grid">
+        <div className="hero-copy">
+          <p className="eyebrow">Overseas coverage board</p>
+          <h1>Overseas Virtual Assistant built as a coverage atlas.</h1>
+          <p className="lead">A redesigned overseas virtual assistant guide for companies considering overseas VA hiring for lower plan and wider coverage. The page now uses a distinct global editorial layout, industry-specific planning sections, and a conversion path that feels made for this niche.</p>
+          <div className="hero-actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#services">Explore the plan</a></div>
+        </div>
+        <figure className="hero-media"><img src={site.heroImage || site.serviceImage} alt={site.alt || `${site.brand} planning visual`}/><figcaption>time-zone ribbons and world bands</figcaption></figure>
+      </div>
+    </section>
 
-    <section className="section" id="services"><div className="container"><p className="eyebrow">Role fit</p><h2>Assistant roles people compare most</h2><p className="lead">Use a narrow role first. A clear lane is easier to train, plan, and check.</p><div className="cards">{roles.map((r)=><div className="card" key={r.name}><h3>{r.name}</h3><p>{r.fit}</p><p><b>Guardrail:</b> {r.guardrail}</p><span className="pill">SOP ready</span><span className="pill">Remote friendly</span></div>)}</div></div></section>
+    <section className="briefing-note"><div><span>Memo</span><h2>{site.brand} planning brief</h2></div><p>{site.audience}. Use this page to compare services, define handoffs, and request a plan with fewer surprises.</p></section>
+    <section className="coverage-matrix">{services.slice(0,5).map((item:any, idx:number)=><article key={idx}><span>{idx+1}</span><h3>{getTitle(item)}</h3><p>{getText(item)}</p></article>)}</section>
+    <section className="decision-table"><h2>Decision checkpoints</h2>{compare.map((row:any, idx:number)=><div key={idx}><b>{getTitle(row,'Checkpoint')}</b><span>{getText(row)}</span></div>)}</section>
 
-    <section className="section alt" id="staffing details"><div className="container"><p className="eyebrow">Fit and timing</p><h2>What to prepare before you talk to providers</h2><div className="cards">{stats.map((s)=><div className="card stat" key={s.label}><h3>{s.value}</h3><b>{s.label}</b><p>{s.note}</p></div>)}</div><p className="source-note">Source placeholders: compare final quotes against public wage data, provider scope, management coverage, and your own training time. Do not treat any example as a guaranteed quote.</p></div></section>
+    <section className="service-index" id="services">
+      <div className="section-label"><span>Service index</span><b>{String(services.length).padStart(2,'0')}</b></div>
+      <div className="index-list">{services.map((item:any, idx:number)=><a className="index-row" href={`/services/${item.slug || String(getTitle(item)).toLowerCase().replace(/[^a-z0-9]+/g,'-')}`} key={idx}><span>{String(idx+1).padStart(2,'0')}</span><strong>{getTitle(item)}</strong><em>{getText(item)}</em></a>)}</div>
+    </section>
 
-    <section className="section" id="countries"><div className="container"><p className="eyebrow">Country and time-zone fit</p><h2>Pick the country around the work day you need.</h2><p className="lead">The best overseas VA location depends on live-call overlap, writing needs, task risk, and how fast a manager can review work.</p><div className="table"><div className="row"><b>Country or region</b><b>Common fit</b><b>Plain note</b></div>{countryFits.map((c)=><div className="row" key={c.country}><span><b>{c.country}</b><br/>{c.overlap}</span><span>{c.bestFor}</span><span>{c.note}</span></div>)}</div></div></section>
+    <section className="process-ribbon" id="process">
+      <div><p className="eyebrow">Operating rhythm</p><h2>Turn the scope into a managed handoff.</h2></div>
+      <div className="timeline">{process.map((item:any, idx:number)=><article key={idx}><span>{String(idx+1).padStart(2,'0')}</span><h3>{getTitle(item, `Step ${idx+1}`)}</h3><p>{getText(item)}</p></article>)}</div>
+    </section>
 
-    <section className="section globe-panel" id="global-coverage"><div className="container"><div className="section-head"><div><p className="eyebrow">Global coverage board</p><h2>Plan the handoff by time zone, not by hope.</h2><p className="lead">Remote work can work well across borders, but only when the owner knows when work starts, when reviews happen, and which tasks wait for approval.</p></div><a className="btn secondary" href="/contact">Map my coverage</a></div><div className="global-board"><div className="global-map card"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1100&q=80" alt="Glowing world map showing global remote assistant coverage"/><div className="map-caption"><b>Simple rule:</b> match live calls to overlap hours. Put deep admin work in handoff blocks.</div></div><div className="proof-stack">{globalProofStats.map((stat)=><div className="proof-card" key={stat.label}><strong>{stat.value}</strong><p>{stat.label}</p><span>{stat.source}</span></div>)}</div></div><div className="table timezone-table"><div className="row"><b>Region</b><b>Best working window</b><b>Good fit</b><b>Handoff rule</b></div>{timeZoneWindows.map((zone)=><div className="row" key={zone.region}><span><b>{zone.region}</b></span><span>{zone.window}</span><span>{zone.use}</span><span>{zone.handoff}</span></div>)}</div><p className="source-note">Remote-work source: <a href="https://www.gallup.com/workplace/647786/indicator-employee-engagement.aspx" target="_blank" rel="noreferrer">Gallup State of the Global Workplace</a>. Security source: <a href="https://www.nist.gov/identity-access-management" target="_blank" rel="noreferrer">NIST identity and access management</a>.</p></div></section>
+    <section className="question-block">
+      <div className="question-intro"><p className="eyebrow">Before you request help</p><h2>Answer these before the first match.</h2><p>{dataAny.staffingFitNote || 'The best plan depends on scope, tools, schedule, skills, and the way quality will be checked.'}</p></div>
+      <ul>{questions.map((q:any, idx:number)=><li key={idx}><span>{idx+1}</span>{getTitle(q, String(q))}</li>)}</ul>
+    </section>
 
-    <section className="section ocean" id="onboarding"><div className="container"><div className="section-head"><div><p className="eyebrow">Remote onboarding</p><h2>Turn a global hire into a steady first week.</h2><p className="lead">A good overseas assistant does not need a giant training manual. They need the first task lane, the right access, examples, and fast feedback.</p></div><a className="btn secondary" href="/blog/assistant-onboarding-checklist">Use the onboarding checklist</a></div><div className="visual-grid">{globalWorkImages.map((image)=><figure className="image-card" key={image.src}><img src={image.src} alt={image.alt}/><figcaption>{image.label}</figcaption></figure>)}</div><div className="timeline">{onboardingTimeline.map((step)=><div className="timeline-card" key={step.day}><span>{step.day}</span><h3>{step.title}</h3><p>{step.detail}</p></div>)}</div><p className="source-note ocean-note">The <a href="https://www.worldbank.org/en/topic/trade/brief/trade-in-services" target="_blank" rel="noreferrer">World Bank</a> describes services trade as a large cross-border market. Use that depth carefully: start with one role, one scorecard, and a small access list.</p></div></section>
+    <section className="resource-strip">
+      <div><p className="eyebrow">Resource library</p><h2>Read the guides before you scale.</h2></div>
+      <div className="resource-grid">{posts.map((post:any, idx:number)=><a href={`/blog/${post.slug || '#'}`} key={idx}><span>{post.minutes || 7} min</span><strong>{getTitle(post)}</strong><p>{getText(post)}</p></a>)}</div>
+    </section>
 
-    <section className="section alt" id="quality"><div className="container two"><div><p className="eyebrow">Quality controls</p><h2>Do not rely on hope. Use a weekly scorecard.</h2><p>Good overseas hiring is simple, but it is not hands-off on day one. Give examples, check real work, and keep sensitive choices with the owner until the process is proven.</p><ul className="list">{qaChecks.map((q)=><li key={q}>{q}</li>)}</ul></div><div className="card"><h3>Sample weekly scorecard</h3><div className="mini-grid"><span>Accuracy</span><b>1-5</b><span>Speed</span><b>1-5</b><span>Communication</span><b>1-5</b><span>Escalation judgment</span><b>1-5</b><span>Ready for more work?</span><b>Yes / No</b></div><p className="quote">If the score is unclear, the task is unclear.</p></div></div></section>
-
-    <section className="section" id="security"><div className="container two"><div className="card"><h3>Security basics before access</h3><ul className="list">{securityBasics.map((s)=><li key={s}>{s}</li>)}</ul></div><div><p className="eyebrow">Trust and access</p><h2>Give enough access to work, not enough to hurt the business.</h2><p>Most problems come from moving too fast. Start with the tools the assistant needs for the first task lane. Add more after work quality and judgment are clear.</p><p>For finance, healthcare, legal, or customer data, get professional advice and follow the rules that apply to your business.</p></div></div></section>
-
-    <section className="section alt"><div className="container"><p className="eyebrow">Comparison</p><h2>Three ways to hire assistant support</h2><div className="table"><div className="row"><b>Option</b><b>Best for</b><b>Watch out for</b></div><div className="row"><span>Local employee</span><span>In-person work and sensitive decisions</span><span>Higher plan and slower hiring</span></div><div className="row"><span>Freelance VA</span><span>Small task lists and flexible work</span><span>Training, backup, and QA are on you</span></div><div className="row"><span>Managed VA service</span><span>Recurring support with screening and replacement help</span><span>Ask exactly who manages quality</span></div></div></div></section>
-
-    <section className="section"><div className="container"><p className="eyebrow">Guides</p><h2>Start with these hiring guides</h2><div className="cards">{blogPosts.slice(0,3).map((p)=><a className="card" href={`/blog/${p.slug}`} key={p.slug}><h3>{p.title}</h3><p>{p.excerpt}</p><span className="pill">{p.minutes} min read</span></a>)}</div></div></section>
-
-    <section className="section staffing-offer" id="process"><div className="container two"><div><p className="eyebrow">Managed staffing offer</p><h2>Built to turn this search into a real staffing plan.</h2><p className="lead">{staffingOffer.promise}</p><p>This site helps you decide what to delegate, what to keep in-house, and how our staffing team can help you build a managed offshore staffing setup with clear roles and quality checks.</p><div className="quote">"Bring the task list. We help shape it into the right remote role before you hire."</div></div><div className="card"><h3>What the lead call should cover</h3><ul className="list">{leadQuestions.map((q)=><li key={q}>{q}</li>)}</ul><a className="btn" href="/contact">Request a staffing plan</a></div></div></section>
-    <section className="section"><div className="container"><p className="eyebrow">What you get help with</p><h2>More than a name on a spreadsheet.</h2><p className="lead">A good offshore staffing offer should help with the role, the person, and the management rhythm after launch.</p><div className="cards">{staffingOffer.included.map((item)=><div className="card" key={item}><h3>{item}</h3><p>Use this as a check before you hire. The goal is simple: remove work from your team without creating a new management mess.</p></div>)}</div></div></section>
-    <section className="section" id="compare"><div className="container"><p className="eyebrow">Staffing workflow</p><h2>A clear path from task list to trained support.</h2><div className="cards">{staffingProcess.map((step)=><div className="card stat" key={step.step}><h3>{step.step}</h3><b>{step.title}</b><p>{step.body}</p></div>)}</div><div className="callout"><b>Custom staffing fit:</b> {staffingFitNote}</div></div></section>
-    <CTA />
+    <section className="final-cta"><p className="eyebrow">Next step</p><h2>Send the role details and get the plan.</h2><p>{offer.promise || 'Share the work you want off your plate and get a practical staffing plan.'}</p><a className="btn primary" href="/contact">Request staffing plan</a></section>
   </main><Footer/></>;
 }
