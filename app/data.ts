@@ -27,6 +27,19 @@ export const stats = [
   { label: 'Best first handoff', value: '5-10 tasks', note: 'Small recurring work beats a vague all-in role.' },
 ] as const;
 
+export const globalProofStats = [
+  { value: '48%', label: 'of workers worldwide report some remote or hybrid work', source: 'Gallup, State of the Global Workplace 2024' },
+  { value: '24/5', label: 'coverage is easier when work is split by time zone instead of rushed after hours', source: 'Ongoing remote-team planning pattern' },
+  { value: '15 min', label: 'monthly access reviews catch tool sprawl before it becomes a risk', source: 'NIST access-control guidance' },
+] as const;
+
+export const timeZoneWindows = [
+  { region: 'Philippines', window: 'US evening / early morning', use: 'Inbox cleanup, customer replies, admin, ecommerce updates', handoff: 'Send work at day end. Review the next morning.' },
+  { region: 'Latin America', window: 'US business-day overlap', use: 'Live calls, sales follow-up, scheduling, CRM cleanup', handoff: 'Use same-day review and short check-in calls.' },
+  { region: 'Eastern Europe', window: 'UK/EU day with partial US overlap', use: 'Research, operations support, technical admin', handoff: 'Batch deeper work with written notes.' },
+  { region: 'South Africa', window: 'UK/EU overlap and US morning overlap', use: 'Support, coordination, writing help', handoff: 'Use morning review blocks and clear escalation rules.' },
+] as const;
+
 export const countryFits = [
   { country: 'Philippines', overlap: 'Good US evening and early morning coverage', bestFor: 'Customer support, admin, real estate coordination, ecommerce help', note: 'Strong English fit for many buyer-facing roles. Plan clear quiet hours and backup coverage.' },
   { country: 'Latin America', overlap: 'Strong US daytime overlap', bestFor: 'Sales support, client follow-up, inbox, scheduling, operations', note: 'Often a good choice when live calls and same-day owner review matter.' },
@@ -96,13 +109,13 @@ export const blogPosts: BlogPost[] = [
     updated: '2026-07-19',
     takeaways: [
       'Plan around role, country, schedule, English needs, and management support.',
-      'custom role planfor the role is a useful first planning range for many overseas admin and support roles.',
+      'Use a custom staffing plan instead of guessing from public rate lists.',
       'The cheapest rate is not always the lowest plan if you must spend hours fixing work.',
     ],
     sections: [
-      { heading: 'Use a planning range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Use custom role planfor the role as a first planning range, then adjust for skill, hours, country, and how much support the provider gives.' },
+      { heading: 'Use a planning range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Ask for a custom staffing plan, then adjust for skill, hours, country, and how much support the provider gives.' },
       { heading: 'What changes the plan', body: 'Plan usually moves when the work needs live calls, strong writing, software knowledge, weekend coverage, or a manager who checks quality. A solo freelancer may plan less. A managed service may create more work because screening, backup, and replacement help are included.', bullets: ['Live phone work usually needs more support than back-office work.', 'Part-time help can have a higher published rate than full-time help.', 'Specialized tools like Shopify, HubSpot, QuickBooks, or property CRMs can raise the rate.'] },
-      { heading: 'Monthly budget examples', body: 'A 20-hour-per-week assistant at custom role planfor the role is about custom role planfor four weeks before fees. A 40-hour-per-week assistant at custom role planfor the role is about custom role plan,920 for four weeks before fees. These are planning examples, not quotes. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
+      { heading: 'Monthly budget examples', body: 'Do not copy a rate from a blog and treat it as a quote. Build the budget from the actual role: hours, tools, country, schedule, manager support, and replacement coverage. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
       { heading: 'Do not forget owner time', body: 'A low published rate can become expensive if the owner must rewrite every reply or chase every task. Add a weekly review block to your plan. In week one, expect more time. By week three, the assistant should need less repeat instruction if the scope is clear.' },
     ],
     faqs: [
@@ -171,7 +184,7 @@ export const blogPosts: BlogPost[] = [
     sections: [
       { heading: 'Before day one', body: 'Write the role in plain words. List the first 5-10 tasks, tools, examples, and rules. Create a shared folder for SOPs. Set up a password manager. Decide what the assistant can see and what stays private.' },
       { heading: 'Day one setup', body: 'Hold a short kickoff call. Walk through the role, the tools, the daily done list, and the escalation rules. Show one real example. Ask the assistant to repeat the task back in their own words.' },
-      { heading: 'Week one quality checks', body: 'Review work every day in week one. Pick five samples and score them as good, needs fix, or stop. Give clear notes. For example: “Use this reply when the customer asks for shipping status. Escalate refund requests over custom role plan.”' },
+      { heading: 'Week one quality checks', body: 'Review work every day in week one. Pick five samples and score them as good, needs fix, or stop. Give clear notes. For example: "Use this reply when the customer asks for shipping status. Send refund requests back to me."' },
       { heading: 'Move from training to steady work', body: 'At the end of week one, remove tasks that are not ready, keep tasks that are working, and add one new task family if the first lane is stable. Use the same weekly scorecard each Friday.' },
     ],
     faqs: [
