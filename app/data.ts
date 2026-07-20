@@ -50,6 +50,31 @@ export const securityBasics = [
   'Do a 15-minute monthly access review and remove tools the assistant no longer needs.',
 ] as const;
 
+export const onboardingTimeline = [
+  { day: 'Day 0', title: 'Prep the handoff', detail: 'List the first task lane, tools, sample work, and the decisions the assistant must send back to you.' },
+  { day: 'Day 1', title: 'Run the first live walkthrough', detail: 'Share the screen, record the call, and ask the assistant to repeat the steps in their own words.' },
+  { day: 'Days 2-5', title: 'Check real work daily', detail: 'Review five work samples, fix the SOP where the miss happened, and keep risky approvals with the owner.' },
+  { day: 'Day 7', title: 'Decide what can grow', detail: 'Keep tasks scoring well, pause weak ones, and add one new task family only if the first lane is stable.' },
+] as const;
+
+export const globalWorkImages = [
+  {
+    src: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
+    alt: 'Remote team members planning overseas assistant work on laptops',
+    label: 'Live handoff call',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80',
+    alt: 'Business team reviewing a weekly assistant scorecard together',
+    label: 'Weekly quality review',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80',
+    alt: 'Laptop dashboard for remote operations and overseas support work',
+    label: 'Remote operations desk',
+  },
+] as const;
+
 export type BlogPost = {
   slug: string;
   title: string;
