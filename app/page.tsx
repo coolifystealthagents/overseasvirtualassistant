@@ -15,7 +15,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="ova-home">
+    <main className="ova-home" data-site-marker="global-handoff-2026-07">
       <JsonLd data={schema} />
 
       <section className="ova-hero">
