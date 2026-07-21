@@ -4,7 +4,7 @@ export const site = {
   slug: 'overseasvirtualassistant',
   brand: 'Overseas Virtual Assistant',
   primary: 'overseas virtual assistant',
-  audience: 'companies hiring Philippines-based virtual assistants for lower staffing costs and reliable coverage',
+  audience: 'companies hiring Filipino virtual assistants based in the Philippines for clearly scoped remote work',
   angle: 'Philippines-based VA hiring with clear role scope, time-zone planning, and quality controls',
   color: '#16a34a',
   accent: '#1d4ed8',
@@ -13,7 +13,7 @@ export const site = {
 export const roles = [
   { name: 'Executive assistant', fit: 'Calendar, inbox, travel, meeting notes, and daily admin follow-up.', guardrail: 'Keep money moves, legal calls, and final approvals with the owner.' },
   { name: 'Customer support assistant', fit: 'Ticket replies, order updates, simple refunds for review, and FAQ responses.', guardrail: 'Give clear rules for refunds, angry customers, and private customer data.' },
-  { name: 'Lead follow-up assistant', fit: 'CRM updates, warm lead reminders, appointment booking, and quote follow-up.', guardrail: 'Use approved scripts. Do not promise plan, delivery, or results without owner approval.' },
+  { name: 'Lead follow-up assistant', fit: 'CRM updates, warm lead reminders, appointment booking, and quote follow-up.', guardrail: 'Use approved scripts. Do not promise pricing, delivery dates, or results without owner approval.' },
   { name: 'Operations assistant', fit: 'Reports, vendor updates, task tracking, SOP cleanup, and project reminders.', guardrail: 'Use weekly scorecards so small misses do not become quiet drift.' },
   { name: 'Bookkeeping support assistant', fit: 'Receipt sorting, invoice drafts, data entry, and report prep.', guardrail: 'Keep bank access, payments, tax advice, and final books review with a qualified owner.' },
   { name: 'CRM assistant', fit: 'Contact cleanup, pipeline notes, list hygiene, tagging, and simple dashboard prep.', guardrail: 'Limit export access and review records before campaigns go out.' },
@@ -22,15 +22,9 @@ export const roles = [
 export const industries = ['real estate', 'healthcare offices', 'legal teams', 'ecommerce stores', 'coaches and agencies', 'home services'] as const;
 
 export const stats = [
-  { label: 'Role clarity', value: 'Scope first', note: 'the right plan depends on tasks, schedule, skill, tools, and management needs' },
-  { label: 'Common ramp time', value: '7-21 days', note: 'Faster when SOPs, tools, sample replies, and first-week calls are ready.' },
-  { label: 'Best first handoff', value: '5-10 tasks', note: 'Small recurring work beats a vague all-in role.' },
-] as const;
-
-export const globalProofStats = [
-  { value: '48%', label: 'of workers worldwide report some remote or hybrid work', source: 'Gallup, State of the Global Workplace 2024' },
-  { value: '24/5', label: 'coverage is easier when work is split by time zone instead of rushed after hours', source: 'Ongoing remote-team planning pattern' },
-  { value: '15 min', label: 'monthly access reviews catch tool sprawl before it becomes a risk', source: 'NIST access-control guidance' },
+  { label: 'Role plan', value: 'Scope first', note: 'List the tasks, shift, tools, and owner-only decisions before recruiting.' },
+  { label: 'First review', value: 'Use real work', note: 'Check examples from the first task lane before adding more work.' },
+  { label: 'Access plan', value: 'Start small', note: 'Give each Filipino assistant only the accounts needed for the first tasks.' },
 ] as const;
 
 export const timeZoneWindows = [
@@ -57,7 +51,7 @@ export const securityBasics = [
   'Start with least-access permissions and add access only when needed.',
   'Turn on two-factor authentication for email, CRM, store, and finance tools.',
   'Use shared inboxes or role accounts where possible so access can be removed fast.',
-  'Do a 15-minute monthly access review and remove tools the assistant no longer needs.',
+  'Review access each month and remove tools the assistant no longer needs.',
 ] as const;
 
 export const onboardingTimeline = [
@@ -107,18 +101,18 @@ export const blogPosts: BlogPost[] = [
     takeaways: [
       'Budget around the role, Philippines-based schedule, English needs, and management support.',
       'Ask for a custom quote instead of guessing from public rate lists.',
-      'The cheapest rate can cost more if you must spend hours fixing work.',
+      'A low rate can cost more when the work needs heavy correction.',
     ],
     sections: [
-      { heading: 'Use a budget range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Ask for a custom staffing quote, then adjust for skill, hours, Philippines-based shift coverage, and how much support the provider gives.' },
+      { heading: 'Build the quote around the role', body: 'One rate cannot cover every Filipino assistant role. Admin support, customer service, and bookkeeping prep need different skills and controls. Ask for a custom quote based on the work, hours, Philippines-based shift, tools, and support included.' },
       { heading: 'What changes the cost', body: 'Costs usually rise when the work needs live calls, strong writing, software knowledge, weekend coverage, or a manager who checks quality. A solo freelancer may charge less. A managed service may charge more because screening, backup, and replacement help are included.', bullets: ['Live phone work usually needs more support than back-office work.', 'Part-time help can have a higher published rate than full-time help.', 'Specialized tools like Shopify, HubSpot, QuickBooks, or property CRMs can raise the rate.'] },
-      { heading: 'Monthly budget examples', body: 'Do not copy a rate from a blog and treat it as a quote. Build the budget from the actual role: hours, tools, Philippines-based schedule, manager support, and replacement coverage. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
-      { heading: 'Do not forget owner time', body: 'A low published rate can become expensive if the owner must rewrite every reply or chase every task. Add a weekly review block to your budget. In week one, expect more time. By week three, the assistant should need less repeat instruction if the scope is clear.' },
+      { heading: 'Build the monthly budget', body: 'Do not copy a rate from a blog and treat it as a quote. Build the budget from the actual role: hours, tools, Philippines-based schedule, manager support, and replacement coverage. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
+      { heading: 'Count the owner review time', body: 'A low published rate can become expensive if the owner must rewrite every reply or chase every task. Set aside review time during the first task lane. Reduce that time only after the Filipino assistant can follow the examples and escalation rules without repeated correction.' },
     ],
     faqs: [
       { question: 'Is an overseas VA always cheaper than a local employee?', answer: 'Direct labor costs are often lower, but you still need training, tools, management, and quality checks.' },
       { question: 'Should I hire hourly or monthly?', answer: 'Use hourly help for a pilot or uneven work. Use monthly help when you have steady tasks and want a stable schedule.' },
-      { question: 'What is a safe first budget?', answer: 'Many teams start with 10-20 hours per week for one clear role, then grow after two to four weeks of good results.' },
+      { question: 'How should I set a first budget?', answer: 'Price one clear role with a defined shift and task list. Add the tools and owner review time, then compare quotes on the same scope.' },
     ],
     sources: [
       { name: 'U.S. Bureau of Labor Statistics', url: 'https://www.bls.gov/oes/current/oes436014.htm', note: 'Use as a local wage comparison point for secretaries and administrative assistants.' },
@@ -131,17 +125,17 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Start with repeatable admin, follow-up, inbox, CRM, and scheduling work before sensitive decisions.',
     minutes: 7,
     updated: '2026-07-19',
-    takeaways: ['Start with tasks that repeat every day or week.', 'Keep final decisions with the owner until trust is proven.', 'Give examples before you expect speed.'],
+    takeaways: ['Start with work that repeats.', 'Keep final decisions with the owner until the process is proven.', 'Give examples before you expect speed.'],
     sections: [
       { heading: 'Pick boring work first', body: 'The best first tasks are often boring. That is good. Boring work is easier to explain, measure, and improve. Start with inbox sorting, calendar cleanup, CRM updates, lead follow-up reminders, simple research, customer reply drafts, order updates, and file cleanup.' },
       { heading: 'Use a simple risk test', body: 'Ask one question before you hand off a task: what happens if this is done wrong? If the answer is lost money, legal risk, angry customers, or private data exposure, keep the final step with a manager until the assistant proves the process.', bullets: ['Low risk: tagging emails, updating fields, preparing draft replies.', 'Medium risk: sending approved replies, booking meetings, calling leads with a script.', 'High risk: refunds, legal advice, payments, medical details, final sales promises.'] },
-      { heading: 'Build a 10-task starter list', body: 'Write down 10 tasks that happen again and again. Next to each task, add the tool, due time, good example, and success rule. This turns a vague job post into a real assistant role.' },
+      { heading: 'Build a short starter list', body: 'Write down the tasks that happen again and again. Next to each one, add the tool, due time, good example, and success rule. This turns a vague job post into a role a Filipino assistant can understand.' },
       { heading: 'Add work slowly', body: 'Do not hand over your full business in week one. Give the assistant a tight first lane. Review work daily for the first week. If quality is good, add one new task family at a time.' },
     ],
     faqs: [
       { question: 'Can an overseas VA answer customer emails?', answer: 'Yes, if you give approved reply examples, refund rules, and escalation rules.' },
       { question: 'Should a VA handle passwords?', answer: 'Use a password manager and least-access permissions. Do not send passwords in chat.' },
-      { question: 'How many tasks should I start with?', answer: 'Five to 10 recurring tasks is a safer start than one vague all-purpose role.' },
+      { question: 'How many tasks should I start with?', answer: 'Start with one small group of related tasks. Add more only after the first work is accurate and the handoff is easy to review.' },
     ],
     sources: [
       { name: 'NIST Cybersecurity Framework', url: 'https://www.nist.gov/cyberframework', note: 'Helpful reference for access control and security habits.' },
@@ -151,7 +145,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'virtual-assistant-vs-employee',
     title: 'Virtual assistant vs employee: which is better?',
-    excerpt: 'When to hire in-house and when a managed overseas assistant is the safer first step.',
+    excerpt: 'When to hire in-house and when a managed Filipino assistant may fit the work better.',
     minutes: 8,
     updated: '2026-07-19',
     takeaways: ['Use an employee for sensitive, onsite, or decision-heavy work.', 'Use a VA for repeatable remote support with clear steps.', 'A managed VA service can reduce hiring and replacement work.'],
@@ -159,7 +153,7 @@ export const blogPosts: BlogPost[] = [
       { heading: 'Choose based on the work, not the label', body: 'A virtual assistant is not a magic fix. An employee is not always the better hire. The right choice depends on task risk, schedule, training time, and how much control you need.' },
       { heading: 'When an employee fits better', body: 'Hire an employee when the role needs in-person work, deep company judgment, sensitive decisions, or constant same-room teamwork. A local employee may also fit better when the work changes every hour and cannot be written into simple steps.' },
       { heading: 'When a VA fits better', body: 'Use a VA when the work is remote, repeatable, and easy to check. Examples include inbox sorting, scheduling, CRM cleanup, lead follow-up, customer support drafts, reporting, data entry, and vendor coordination.' },
-      { heading: 'Managed service vs solo freelancer', body: 'A solo freelancer can be a good fit if you have time to screen, train, and manage. A managed service can be safer if you want help with matching, backup, quality review, and replacement. Ask what management really means before you sign.' },
+      { heading: 'Managed service vs solo freelancer', body: 'A solo Filipino freelancer can fit if you have time to screen, train, and manage. A managed Philippines staffing service may suit teams that want help with matching, attendance, quality review, and replacement. Ask who does each job before you sign.' },
     ],
     faqs: [
       { question: 'Can a VA replace a full employee?', answer: 'Sometimes, but it is safer to start with a narrow role and grow after proof.' },
@@ -174,18 +168,18 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'assistant-onboarding-checklist',
     title: 'Overseas assistant onboarding checklist',
-    excerpt: 'A simple first-week checklist for logins, SOPs, calls, QA, security, and scorecards.',
+    excerpt: 'A first-week checklist for accounts, task notes, review calls, security, and work samples.',
     minutes: 9,
     updated: '2026-07-19',
     takeaways: ['Prepare tools and examples before day one.', 'Check work daily in week one.', 'Use one scorecard so feedback is clear.'],
     sections: [
-      { heading: 'Before day one', body: 'Write the role in plain words. List the first 5-10 tasks, tools, examples, and rules. Create a shared folder for SOPs. Set up a password manager. Decide what the assistant can see and what stays private.' },
+      { heading: 'Before day one', body: 'Write the role in plain words. List the first task lane, tools, examples, and rules. Create a shared folder for task notes. Set up a password manager. Decide what the Filipino assistant can see and what stays private.' },
       { heading: 'Day one setup', body: 'Hold a short kickoff call. Walk through the role, the tools, the daily done list, and the escalation rules. Show one real example. Ask the assistant to repeat the task back in their own words.' },
       { heading: 'Week one quality checks', body: 'Review work every day in week one. Pick five samples and score them as good, needs fix, or stop. Give clear notes. For example: "Use this reply when the customer asks for shipping status. Send refund requests back to me."' },
       { heading: 'Move from training to steady work', body: 'At the end of week one, remove tasks that are not ready, keep tasks that are working, and add one new task family if the first lane is stable. Use the same weekly scorecard each Friday.' },
     ],
     faqs: [
-      { question: 'How long should onboarding take?', answer: 'Simple roles can start in a few days, but most teams should plan 7-21 days for a clean ramp.' },
+      { question: 'How long should onboarding take?', answer: 'It depends on the work, tools, access, and review needs. Keep the first lane small and expand it after the work meets your examples.' },
       { question: 'What should be in the first SOP?', answer: 'Goal, tool, steps, example, due time, quality rule, and escalation rule.' },
       { question: 'How do I give feedback?', answer: 'Use short notes tied to examples. Show the desired version instead of only saying the work is wrong.' },
     ],
@@ -198,10 +192,10 @@ export const blogPosts: BlogPost[] = [
 
 export const staffingOffer = {
   partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  promise: 'Get a Philippines staffing plan built around the work you need handled.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
+    'business owners who want Filipino remote staff but do not want to screen alone',
+    'teams that want Philippines-based support and a clear manager path',
     'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
   ],
   included: [
@@ -228,7 +222,7 @@ export const leadQuestions = [
 
 export const staffingProcess = [
   { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
+  { step: '2', title: 'Match the staff', body: 'our staffing team can help match Filipino staff to the work, shift, communication needs, and skill level you need.' },
   { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
   { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
 ] as const;

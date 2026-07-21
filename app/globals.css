@@ -160,7 +160,7 @@ a.card:hover{border-color:var(--coral)}
 form.card label{display:block;font-size:13px;font-weight:600;color:var(--ink)}
 form.card input,form.card textarea,form.card select{border:1px solid var(--line)!important;background:#fff!important;border-radius:2px!important;color:var(--ink)}
 form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--ink)}
-.article{max-width:860px}.article>.lead{max-width:760px}.meta-row{display:flex;gap:5px;margin:20px 0 34px}.article-block{margin:20px 0}.takeaways{margin-bottom:20px}.quote{font-family:'Instrument Serif',Georgia,serif;font-size:25px!important;color:var(--ink)!important}.related a{display:inline-flex}
+.article{max-width:860px}.article>.lead{max-width:760px}.meta-row{display:flex;gap:5px;margin:20px 0 34px}.article>.card{margin:20px 0}.quote{font-family:'Instrument Serif',Georgia,serif;font-size:25px!important;color:var(--ink)!important}.article>.card a:not(.pill){text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}.related a{display:inline-flex}
 .final-cta{max-width:860px;margin:60px auto 0;padding:46px;background:var(--coral);border:1px solid var(--ink);box-shadow:9px 9px 0 var(--ink)}
 .final-cta h2{font-family:'Instrument Serif',Georgia,serif;font-size:46px;font-weight:400;margin:0 0 12px}.final-cta p{line-height:1.6}.final-cta .primary{background:var(--ink);color:#fff}
 

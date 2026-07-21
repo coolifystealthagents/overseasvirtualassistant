@@ -8,7 +8,7 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: 'Overseas Virtual Assistant hiring and staffing guide',
-    description: 'Plan an overseas virtual assistant role around tasks, time zones, onboarding, and safe access.',
+    description: 'Plan a Filipino virtual assistant role around tasks, Philippines-based shifts, onboarding, and safe access.',
     url: site.url,
     isPartOf: { '@id': `${site.url}/#website` },
   };
@@ -21,9 +21,9 @@ export default function Home() {
       <section className="ova-hero">
         <div className="container ova-hero-grid">
           <div className="ova-hero-copy">
-            <p className="ova-kicker"><span>Global support</span> Built around your workday</p>
-            <h1>Hire an overseas virtual assistant. Keep the handoff under control.</h1>
-            <p className="ova-lead">Move repeat work out of your day with a role that has clear tasks, sensible access, and a real review routine. Start narrow. See what works. Add more from there.</p>
+            <p className="ova-kicker"><span>Filipino talent</span> Built around your workday</p>
+            <h1>Hire a Filipino virtual assistant. Keep the handoff under control.</h1>
+            <p className="ova-lead">We recruit and hire only in the Philippines. Start with clear tasks, limited access, and a review routine you can keep. Add work after the first lane is running well.</p>
             <ul className="ova-hero-checks" aria-label="What the staffing plan covers">
               <li><span aria-hidden="true">✓</span> Tasks and owner-only decisions</li>
               <li><span aria-hidden="true">✓</span> Workday overlap and handoff times</li>
@@ -73,8 +73,8 @@ export default function Home() {
       <section className="ova-timezone" id="coverage">
         <div className="container">
           <div className="ova-zone-head">
-            <div><p className="ova-section-no light">02 / COVERAGE</p><h2>Choose the overlap before the country.</h2></div>
-            <p>A great assistant on the wrong schedule still creates a bad handoff. Decide when the work should move, when someone must be online, and when the owner will review it.</p>
+            <div><p className="ova-section-no light">02 / COVERAGE</p><h2>Choose the shift before you hire.</h2></div>
+            <p>Every candidate is based in the Philippines. Decide when someone must be online, which work can happen while you are offline, and when the owner will review it.</p>
           </div>
           <div className="ova-zone-list">
             {timeZoneWindows.slice(0, 3).map((zone, index) => <article key={zone.region}>
@@ -123,8 +123,8 @@ export default function Home() {
       </section>
 
       <section className="container ova-final">
-        <div><p className="ova-kicker"><span>Your next hire</span> Start with the work</p><h2>Bring the messy task list. Leave with a role someone can actually do.</h2></div>
-        <div><p>Share the work, tools, schedule, and decisions that need approval. The staffing plan will turn that into a clear first lane.</p><a className="btn ova-primary" href="/contact">Request a staffing plan</a></div>
+        <div><p className="ova-kicker"><span>Your next hire</span> Start with the work</p><h2>Bring the messy task list. Leave with a clear Filipino assistant role.</h2></div>
+        <div><p>Share the work, tools, shift, and decisions that need approval. We will shape them into a first task lane for Philippines-based talent.</p><a className="btn ova-primary" href="/contact">Request a staffing plan</a></div>
       </section>
     </main>
     <Footer />

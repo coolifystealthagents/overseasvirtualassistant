@@ -35,7 +35,7 @@ export function Footer() {
     <div className="footer-grid">
       <div className="footer-brand">
         <a className="footer-logo" href="/" aria-label={`${site.brand} home`}><LogoMark /></a>
-        <p>Practical guidance for scoping an overseas assistant role, choosing coverage, and handing off work without giving up control.</p>
+        <p>Practical guidance for scoping a Filipino assistant role, choosing a Philippines-based shift, and handing off work without losing control.</p>
         <p className="footer-note">We recruit and hire talent only in the Philippines. This is an independent informational website. When you submit a request, we may route it to a staffing team or service partner that can follow up.</p>
       </div>
       <div>
@@ -61,9 +61,9 @@ export function Footer() {
 
 export function CTA() {
   return <section className="final-cta">
-    <p className="eyebrow">Start with the work</p>
-    <h2>Map the role before you hire.</h2>
-    <p>Share the tasks, tools, schedule, and quality checks. Get a practical staffing scope back.</p>
+    <p className="eyebrow">Filipino talent, clear scope</p>
+    <h2>Map the role before you hire in the Philippines.</h2>
+    <p>Share the tasks, tools, shift, and review rules. Get a practical staffing scope for a Filipino assistant.</p>
     <a className="btn primary" href="/contact">Request a staffing plan</a>
   </section>;
 }
