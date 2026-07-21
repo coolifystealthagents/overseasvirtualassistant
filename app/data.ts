@@ -4,8 +4,8 @@ export const site = {
   slug: 'overseasvirtualassistant',
   brand: 'Overseas Virtual Assistant',
   primary: 'overseas virtual assistant',
-  audience: 'companies considering overseas VA hiring for lower staffing costs and wider coverage',
-  angle: 'overseas VA hiring with cost factors, country fit, time-zone planning, and quality controls',
+  audience: 'companies hiring Philippines-based virtual assistants for lower staffing costs and reliable coverage',
+  angle: 'Philippines-based VA hiring with clear role scope, time-zone planning, and quality controls',
   color: '#16a34a',
   accent: '#1d4ed8',
 } as const;
@@ -34,17 +34,14 @@ export const globalProofStats = [
 ] as const;
 
 export const timeZoneWindows = [
-  { region: 'Philippines', window: 'US evening / early morning', use: 'Inbox cleanup, customer replies, admin, ecommerce updates', handoff: 'Send work at day end. Review the next morning.' },
-  { region: 'Latin America', window: 'US business-day overlap', use: 'Live calls, sales follow-up, scheduling, CRM cleanup', handoff: 'Use same-day review and short check-in calls.' },
-  { region: 'Eastern Europe', window: 'UK/EU day with partial US overlap', use: 'Research, operations support, technical admin', handoff: 'Batch deeper work with written notes.' },
-  { region: 'South Africa', window: 'UK/EU overlap and US morning overlap', use: 'Support, coordination, writing help', handoff: 'Use morning review blocks and clear escalation rules.' },
+  { region: 'Philippines', window: 'US business-day coverage', use: 'Live calls, support, scheduling, and CRM follow-up', handoff: 'Use a planned night shift with clear breaks and escalation rules.' },
+  { region: 'Philippines', window: 'US evening / early morning', use: 'Inbox cleanup, customer replies, admin, and ecommerce updates', handoff: 'Send work at day end. Review it the next morning.' },
+  { region: 'Philippines', window: 'UK/EU business-day coverage', use: 'Research, operations support, and technical admin', handoff: 'Use a scheduled afternoon or evening shift in the Philippines.' },
+  { region: 'Philippines', window: 'Asynchronous coverage', use: 'Reports, data cleanup, content prep, and back-office work', handoff: 'Batch the work with written notes and review it on your next workday.' },
 ] as const;
 
 export const countryFits = [
-  { country: 'Philippines', overlap: 'Good US evening and early morning coverage', bestFor: 'Customer support, admin, real estate coordination, ecommerce help', note: 'Strong English fit for many buyer-facing roles. Plan clear quiet hours and backup coverage.' },
-  { country: 'Latin America', overlap: 'Strong US daytime overlap', bestFor: 'Sales support, client follow-up, inbox, scheduling, operations', note: 'Often a good choice when live calls and same-day owner review matter.' },
-  { country: 'Eastern Europe', overlap: 'Better for UK/EU mornings and some US overlap', bestFor: 'Technical admin, research, operations, project support', note: 'Useful when the role needs deep focus and fewer live customer calls.' },
-  { country: 'South Africa', overlap: 'Good UK/EU overlap and some US morning coverage', bestFor: 'Support, admin, writing support, and client coordination', note: 'Can work well for English-first customer communication.' },
+  { country: 'Philippines only', overlap: 'Flexible shifts for US, UK, EU, or async work', bestFor: 'Customer support, admin, sales follow-up, operations, and specialist support', note: 'Every staffing plan uses Philippines-based talent. Choose the shift around the role and customer coverage needs.' },
 ] as const;
 
 export const qaChecks = [
@@ -108,14 +105,14 @@ export const blogPosts: BlogPost[] = [
     minutes: 8,
     updated: '2026-07-19',
     takeaways: [
-      'Budget around the role, country, schedule, English needs, and management support.',
+      'Budget around the role, Philippines-based schedule, English needs, and management support.',
       'Ask for a custom quote instead of guessing from public rate lists.',
       'The cheapest rate can cost more if you must spend hours fixing work.',
     ],
     sections: [
-      { heading: 'Use a budget range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Ask for a custom staffing quote, then adjust for skill, hours, country, and how much support the provider gives.' },
+      { heading: 'Use a budget range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Ask for a custom staffing quote, then adjust for skill, hours, Philippines-based shift coverage, and how much support the provider gives.' },
       { heading: 'What changes the cost', body: 'Costs usually rise when the work needs live calls, strong writing, software knowledge, weekend coverage, or a manager who checks quality. A solo freelancer may charge less. A managed service may charge more because screening, backup, and replacement help are included.', bullets: ['Live phone work usually needs more support than back-office work.', 'Part-time help can have a higher published rate than full-time help.', 'Specialized tools like Shopify, HubSpot, QuickBooks, or property CRMs can raise the rate.'] },
-      { heading: 'Monthly budget examples', body: 'Do not copy a rate from a blog and treat it as a quote. Build the budget from the actual role: hours, tools, country, schedule, manager support, and replacement coverage. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
+      { heading: 'Monthly budget examples', body: 'Do not copy a rate from a blog and treat it as a quote. Build the budget from the actual role: hours, tools, Philippines-based schedule, manager support, and replacement coverage. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
       { heading: 'Do not forget owner time', body: 'A low published rate can become expensive if the owner must rewrite every reply or chase every task. Add a weekly review block to your budget. In week one, expect more time. By week three, the assistant should need less repeat instruction if the scope is clear.' },
     ],
     faqs: [
@@ -166,7 +163,7 @@ export const blogPosts: BlogPost[] = [
     ],
     faqs: [
       { question: 'Can a VA replace a full employee?', answer: 'Sometimes, but it is safer to start with a narrow role and grow after proof.' },
-      { question: 'What if I need US time-zone coverage?', answer: 'Look at Latin America, split shifts, or a managed team with coverage planning.' },
+      { question: 'What if I need US time-zone coverage?', answer: 'Use a Philippines-based night shift, split shift, or managed team with a clear coverage plan.' },
       { question: 'What should stay in-house?', answer: 'Keep final approvals, payments, sensitive legal or medical decisions, and strategy with trusted owners.' },
     ],
     sources: [

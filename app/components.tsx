@@ -36,7 +36,7 @@ export function Footer() {
       <div className="footer-brand">
         <a className="footer-logo" href="/" aria-label={`${site.brand} home`}><LogoMark /></a>
         <p>Practical guidance for scoping an overseas assistant role, choosing coverage, and handing off work without giving up control.</p>
-        <p className="footer-note">This is an independent informational website. When you submit a request, we may route it to a staffing team or service partner that can follow up.</p>
+        <p className="footer-note">We recruit and hire talent only in the Philippines. This is an independent informational website. When you submit a request, we may route it to a staffing team or service partner that can follow up.</p>
       </div>
       <div>
         <h3>Popular roles</h3>
