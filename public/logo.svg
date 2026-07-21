@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Site logo">
-  <rect width="96" height="96" rx="24" fill="#17324D"/>
-  <path d="M24 60V29h13l22 28V29h13v38H59L37 39v28H24z" fill="#FFF8EE"/>
-  <circle cx="70" cy="26" r="8" fill="#F27B3D"/>
-  <path d="M22 73c15-8 36-8 52 0" fill="none" stroke="#0F8F73" stroke-width="8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Overseas Virtual Assistant logo">
+  <rect width="96" height="96" rx="22" fill="#08263A"/>
+  <path d="M22 52c0-16 11-28 26-28s26 12 26 28" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M22 52h10v17H22c-5 0-9-4-9-9s4-8 9-8Zm52 0h-10v17h10c5 0 9-4 9-9s-4-8-9-8Z" fill="#B7EE78"/>
+  <path d="M31 31c7 6 27 6 34 0M48 24c-7 8-10 18-10 28m10-28c7 8 10 18 10 28" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <path d="M67 70c-5 7-12 10-22 10" fill="none" stroke="#16B887" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="41" cy="80" r="5" fill="#16B887"/>
 </svg>

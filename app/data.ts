@@ -4,8 +4,8 @@ export const site = {
   slug: 'overseasvirtualassistant',
   brand: 'Overseas Virtual Assistant',
   primary: 'overseas virtual assistant',
-  audience: 'companies considering overseas VA hiring for lower plan and wider coverage',
-  angle: 'overseas VA hiring with plan ranges, country fit, time-zone planning, and quality controls',
+  audience: 'companies considering overseas VA hiring for lower staffing costs and wider coverage',
+  angle: 'overseas VA hiring with cost factors, country fit, time-zone planning, and quality controls',
   color: '#16a34a',
   accent: '#1d4ed8',
 } as const;
@@ -103,24 +103,24 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'virtual-assistant-planning',
-    title: 'How much does an overseas virtual assistant plan?',
-    excerpt: 'A plain guide to role scope, staffing models, and launch planning before you hire.',
+    title: 'What does an overseas virtual assistant cost?',
+    excerpt: 'A plain guide to role scope, staffing models, and cost factors to check before you hire.',
     minutes: 8,
     updated: '2026-07-19',
     takeaways: [
-      'Plan around role, country, schedule, English needs, and management support.',
-      'Use a custom staffing plan instead of guessing from public rate lists.',
-      'The cheapest rate is not always the lowest plan if you must spend hours fixing work.',
+      'Budget around the role, country, schedule, English needs, and management support.',
+      'Ask for a custom quote instead of guessing from public rate lists.',
+      'The cheapest rate can cost more if you must spend hours fixing work.',
     ],
     sections: [
-      { heading: 'Use a planning range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Ask for a custom staffing plan, then adjust for skill, hours, country, and how much support the provider gives.' },
-      { heading: 'What changes the plan', body: 'Plan usually moves when the work needs live calls, strong writing, software knowledge, weekend coverage, or a manager who checks quality. A solo freelancer may plan less. A managed service may create more work because screening, backup, and replacement help are included.', bullets: ['Live phone work usually needs more support than back-office work.', 'Part-time help can have a higher published rate than full-time help.', 'Specialized tools like Shopify, HubSpot, QuickBooks, or property CRMs can raise the rate.'] },
+      { heading: 'Use a budget range, not one magic rate', body: 'Many owners ask for one rate. That is risky. A simple admin assistant, a customer support assistant, and a bookkeeping support assistant do not carry the same risk. Ask for a custom staffing quote, then adjust for skill, hours, country, and how much support the provider gives.' },
+      { heading: 'What changes the cost', body: 'Costs usually rise when the work needs live calls, strong writing, software knowledge, weekend coverage, or a manager who checks quality. A solo freelancer may charge less. A managed service may charge more because screening, backup, and replacement help are included.', bullets: ['Live phone work usually needs more support than back-office work.', 'Part-time help can have a higher published rate than full-time help.', 'Specialized tools like Shopify, HubSpot, QuickBooks, or property CRMs can raise the rate.'] },
       { heading: 'Monthly budget examples', body: 'Do not copy a rate from a blog and treat it as a quote. Build the budget from the actual role: hours, tools, country, schedule, manager support, and replacement coverage. Always ask what is included: recruiting, payroll, manager review, replacement, and training support.' },
-      { heading: 'Do not forget owner time', body: 'A low published rate can become expensive if the owner must rewrite every reply or chase every task. Add a weekly review block to your plan. In week one, expect more time. By week three, the assistant should need less repeat instruction if the scope is clear.' },
+      { heading: 'Do not forget owner time', body: 'A low published rate can become expensive if the owner must rewrite every reply or chase every task. Add a weekly review block to your budget. In week one, expect more time. By week three, the assistant should need less repeat instruction if the scope is clear.' },
     ],
     faqs: [
-      { question: 'Is an overseas VA always cheaper than a local employee?', answer: 'Usually the direct labor plan is lower, but you still need training, tools, management, and quality checks.' },
-      { question: 'Should I hire public or monthly?', answer: 'Use public for a pilot or uneven work. Use monthly when you have steady tasks and want a stable schedule.' },
+      { question: 'Is an overseas VA always cheaper than a local employee?', answer: 'Direct labor costs are often lower, but you still need training, tools, management, and quality checks.' },
+      { question: 'Should I hire hourly or monthly?', answer: 'Use hourly help for a pilot or uneven work. Use monthly help when you have steady tasks and want a stable schedule.' },
       { question: 'What is a safe first budget?', answer: 'Many teams start with 10-20 hours per week for one clear role, then grow after two to four weeks of good results.' },
     ],
     sources: [
