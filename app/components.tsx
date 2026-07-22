@@ -1,69 +1,7 @@
-import { roles, site } from './data';
-
-const domain = site.domain;
-const year = new Date().getFullYear();
-const roleSlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-
-export function JsonLd({ data }: { data: unknown }) {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />;
-}
-
-export function LogoMark() {
-  return <span className="logo-mark-wrap">
-    <img className="logo-img" src="/logo.svg" alt="" aria-hidden="true" />
-    <span className="logo-name"><b>Overseas</b><span>Virtual Assistant</span></span>
-  </span>;
-}
-
-export function Header() {
-  return <header className="nav">
-    <div className="nav-inner">
-      <a className="logo" href="/" aria-label={`${site.brand} home`}><LogoMark /></a>
-      <nav className="links" aria-label="Main navigation">
-        <a href="/#roles">Roles</a>
-        <a href="/#coverage">Coverage</a>
-        <a href="/#process">How it works</a>
-        <a href="/blog">Guides</a>
-      </nav>
-      <a className="btn nav-cta" href="/contact">Request a staffing plan</a>
-    </div>
-  </header>;
-}
-
-export function Footer() {
-  return <footer className="footer legit-footer">
-    <div className="footer-grid">
-      <div className="footer-brand">
-        <a className="footer-logo" href="/" aria-label={`${site.brand} home`}><LogoMark /></a>
-        <p>Practical guidance for scoping a Filipino assistant role, choosing a Philippines-based shift, and handing off work without losing control.</p>
-        <p className="footer-note">We recruit and hire talent only in the Philippines. This is an independent informational website. When you submit a request, we may route it to a staffing team or service partner that can follow up.</p>
-      </div>
-      <div>
-        <h3>Popular roles</h3>
-        <div className="footer-links">
-          {roles.slice(0, 4).map((role) => <a href={`/#${roleSlug(role.name)}`} key={role.name}>{role.name}</a>)}
-        </div>
-      </div>
-      <div>
-        <h3>Site</h3>
-        <div className="footer-links">
-          <a href="/blog">Hiring guides</a>
-          <a href="/contact">Contact</a>
-          <a href="/privacy">Privacy policy</a>
-          <a href="/terms">Terms &amp; conditions</a>
-          <a href="/cancellation-policy">Cancellation policy</a>
-        </div>
-      </div>
-    </div>
-    <div className="footer-bottom"><span>© {year} {site.brand}. All rights reserved.</span><span>{domain}</span></div>
-  </footer>;
-}
-
-export function CTA() {
-  return <section className="final-cta">
-    <p className="eyebrow">Filipino talent, clear scope</p>
-    <h2>Map the role before you hire in the Philippines.</h2>
-    <p>Share the tasks, tools, shift, and review rules. Get a practical staffing scope for a Filipino assistant.</p>
-    <a className="btn primary" href="/contact">Request a staffing plan</a>
-  </section>;
-}
+import * as data from './data';
+const site=(data as any).site||{}; const domain=site.domain||'OverseasVirtualAssistant.com'; const year=new Date().getFullYear();
+export function JsonLd({data}:{data:any}){return <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(data)}}/>}
+export function LogoMark(){return <span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="" aria-hidden="true"/><span className="logo-name">{site.brand||'Overseas Virtual Assistant'}</span></span>}
+export function Header(){return <header className="nav fleet-nav"><div className="nav-inner"><a className="logo" href="/" aria-label="Overseas Virtual Assistant home"><LogoMark/></a><nav className="links fleet-links" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/pricing">Pricing</a><details className="resources-menu"><summary>Resources</summary><div><a href="/blog">Blog</a><a href="/research">Research</a></div></details><a href="/contact">Contact Us</a></nav><details className="mobile-menu"><summary aria-label="Open navigation">Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/pricing">Pricing</a><span>Resources</span><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact">Contact Us</a></nav></details></div></header>}
+export function Footer(){return <footer className="footer legit-footer"><div className="footer-grid"><div><a className="footer-logo" href="/"><LogoMark/></a><p>{site.brand||'Overseas Virtual Assistant'} helps businesses plan work for Philippines-based specialists with clear scopes and approval paths.</p></div><div><h3>Explore</h3><div className="footer-links"><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/blog">Blog</a><a href="/research">Research</a></div></div><div><h3>Company</h3><div className="footer-links"><a href="/contact">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a><a href="/cancellation-policy">Cancellation Policy</a></div></div></div><div className="footer-bottom"><span>© {year} {site.brand||'Overseas Virtual Assistant'}. All rights reserved.</span><span>{domain}</span></div></footer>}
+export function CTA(){return <section className="final-cta"><p className="eyebrow">Philippines staffing</p><h2>Build a clearer work lane.</h2><p>Share the role, tools, schedule, and approval needs. We will use those details to shape a practical Philippines staffing request.</p><a className="btn primary" href="/contact">Contact Us</a></section>}
