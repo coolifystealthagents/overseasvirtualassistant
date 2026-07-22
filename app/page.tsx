@@ -6,11 +6,30 @@ const roleSlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-'
 export default function Home() {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
-    name: 'Overseas Virtual Assistant hiring and staffing guide',
-    description: 'Plan a Filipino virtual assistant role around tasks, Philippines-based shifts, onboarding, and safe access.',
-    url: site.url,
-    isPartOf: { '@id': `${site.url}/#website` },
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${site.url}/#webpage`,
+        name: 'Overseas Virtual Assistant hiring and staffing guide',
+        description: 'Plan a Filipino virtual assistant role around tasks, Philippines-based shifts, onboarding, and safe access.',
+        url: site.url,
+        isPartOf: { '@id': `${site.url}/#website` },
+        hasPart: { '@id': `${site.url}/#first-week-launch` },
+      },
+      {
+        '@type': 'HowTo',
+        '@id': `${site.url}/#first-week-launch`,
+        name: 'How to launch a Filipino virtual assistant role',
+        description: 'A four-step plan for scoping, matching, onboarding, and reviewing Philippines-based remote support.',
+        step: staffingProcess.map((item, index) => ({
+          '@type': 'HowToStep',
+          position: index + 1,
+          name: item.title,
+          text: item.body.charAt(0).toUpperCase() + item.body.slice(1),
+          url: `${site.url}/#launch-step-${item.step}`,
+        })),
+      },
+    ],
   };
 
   return <>
@@ -94,11 +113,27 @@ export default function Home() {
           <p>The plan should tell both people what happens next. These four moves are enough to get the work out of someone's head and into a routine.</p>
         </div>
         <div className="ova-steps">
-          {staffingProcess.map((item) => <article key={item.step}>
+          {staffingProcess.map((item) => <article id={`launch-step-${item.step}`} key={item.step}>
             <span>{item.step}</span>
             <h3>{item.title}</h3>
             <p>{item.body.charAt(0).toUpperCase() + item.body.slice(1)}</p>
           </article>)}
+        </div>
+        <div className="ova-launch-brief">
+          <figure>
+            <img src="/images/remote-onboarding.jpg" alt="Remote professional reviewing a Filipino virtual assistant onboarding plan on a laptop" />
+            <figcaption>Role illustration. It does not show an available candidate or a customer.</figcaption>
+          </figure>
+          <div className="ova-launch-copy">
+            <p className="ova-section-no">Before day one</p>
+            <h3>Put the first task lane on one page.</h3>
+            <p>Write down the task, tool, due time, good example, and stop rule. Your Filipino assistant should know what to finish and when to send a decision back to you.</p>
+            <div className="ova-ownership-grid">
+              <div><b>The assistant owns</b><span>Drafts, updates, follow-up, and a clear done list.</span></div>
+              <div><b>The business owns</b><span>Payments, legal calls, policy exceptions, and final approval.</span></div>
+            </div>
+            <a className="ova-brief-link" href="/blog/assistant-onboarding-checklist">Use the first-week onboarding checklist <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
         <div className="ova-week">
           <div className="ova-week-title"><span>FIRST WEEK</span><h3>Review real work, not promises.</h3></div>

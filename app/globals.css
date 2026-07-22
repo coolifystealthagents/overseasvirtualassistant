@@ -118,6 +118,21 @@ h1,h2,h3,p{margin-top:0}
 .ova-steps span{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--ink);border-radius:50%;font-size:12px;font-weight:700}
 .ova-steps h3{font-family:'Instrument Serif',Georgia,serif;font-size:31px;font-weight:400;line-height:1;margin:70px 0 14px}
 .ova-steps p{font-size:13px;line-height:1.55;color:#516974;margin:0}
+.ova-launch-brief{display:grid;grid-template-columns:1.05fr .95fr;margin-top:24px;border:1px solid var(--ink);background:#fff;overflow:hidden}
+.ova-launch-brief figure{position:relative;min-height:430px;margin:0;background:#c9d8d8;overflow:hidden}
+.ova-launch-brief figure:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(5,31,45,.58),transparent 46%);pointer-events:none}
+.ova-launch-brief figure img{width:100%;height:100%;object-fit:cover}
+.ova-launch-brief figcaption{position:absolute;z-index:2;left:20px;right:20px;bottom:17px;color:#fff;font-size:11px;line-height:1.45}
+.ova-launch-copy{padding:48px 46px;display:flex;flex-direction:column;justify-content:center}
+.ova-launch-copy h3{font-family:'Instrument Serif',Georgia,serif;font-size:46px;font-weight:400;line-height:.98;letter-spacing:-.025em;margin:14px 0 18px}
+.ova-launch-copy>p:not(.ova-section-no){color:var(--ink-soft);line-height:1.65;margin-bottom:25px}
+.ova-ownership-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:25px}
+.ova-ownership-grid div{padding:15px;background:var(--paper-deep);border-top:3px solid var(--coral)}
+.ova-ownership-grid b,.ova-ownership-grid span{display:block}
+.ova-ownership-grid b{font-size:11px;text-transform:uppercase;letter-spacing:.09em;margin-bottom:7px}
+.ova-ownership-grid span{font-size:12px;line-height:1.5;color:#526a74}
+.ova-brief-link{align-self:flex-start;font-size:13px;font-weight:700;border-bottom:1px solid var(--coral);padding-bottom:7px}
+.ova-brief-link span{color:var(--coral)}
 .ova-week{margin-top:24px;background:var(--coral);border:1px solid var(--ink);padding:26px 28px;display:grid;grid-template-columns:.7fr 1.3fr;gap:40px;align-items:center}
 .ova-week-title span{font-size:10px;letter-spacing:.13em;font-weight:700}
 .ova-week-title h3{font-family:'Instrument Serif',Georgia,serif;font-size:29px;font-weight:400;margin:6px 0 0}
@@ -190,6 +205,7 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
   .ova-role-card:nth-child(3n+1){border-left:0}.ova-role-card:nth-child(2n+1){border-left:1px solid var(--line)}
   .ova-process-head{grid-template-columns:1fr}.ova-steps{grid-template-columns:repeat(2,1fr)}
   .ova-steps article:nth-child(2){border-right:0}.ova-steps article{border-bottom:1px solid var(--ink)}
+  .ova-launch-brief{grid-template-columns:1fr}.ova-launch-brief figure{min-height:380px}
   .ova-week{grid-template-columns:1fr}.ova-final{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1.3fr .7fr}
 }
@@ -205,6 +221,7 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
   .ova-zone-list article{grid-template-columns:.18fr 1fr}.ova-zone-list article>div:nth-of-type(n+2){grid-column:2}
   .ova-timezone,.ova-process,.ova-reading{padding:80px 0}
   .ova-steps{grid-template-columns:1fr}.ova-steps article{border-right:0;min-height:260px}.ova-week-track{grid-template-columns:repeat(2,1fr);gap:20px}
+  .ova-launch-brief figure{min-height:300px}.ova-launch-copy{padding:34px 24px}.ova-launch-copy h3{font-size:38px}.ova-ownership-grid{grid-template-columns:1fr}
   .ova-reading-head{align-items:start;flex-direction:column}.ova-reading-grid{grid-template-columns:1fr}.ova-reading-grid a{border-right:0;border-bottom:1px solid rgba(255,255,255,.2);margin:0;padding:28px 0;min-height:280px}
   .ova-final{padding:85px 0}.two,.cards{grid-template-columns:1fr}.section{padding:55px 0}.footer-grid{grid-template-columns:1fr;gap:36px}.footer-bottom{flex-direction:column}
 }
