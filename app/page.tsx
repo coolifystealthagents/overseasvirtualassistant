@@ -3,6 +3,33 @@ import { blogPosts, onboardingTimeline, roles, site, staffingProcess, stats, tim
 
 const roleSlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
+const hiringPaths = [
+  {
+    id: 'managed-philippines-staffing',
+    label: 'Managed Philippines staffing',
+    intro: 'You get help shaping the role and matching a Filipino assistant to the work and shift.',
+    hiring: 'The staffing team recruits and screens in the Philippines.',
+    management: 'You own the work. The staffing team can help with attendance, quality, and replacement questions.',
+    fit: 'A business that wants one clear contact instead of running the full search alone.',
+  },
+  {
+    id: 'filipino-freelancer',
+    label: 'Filipino freelancer',
+    intro: 'You find and contract with a Filipino professional directly.',
+    hiring: 'You write the role, screen candidates, check references, and agree on terms.',
+    management: 'You handle training, feedback, attendance, backup, and replacement planning.',
+    fit: 'A hands-on owner who has time to recruit and manage the relationship.',
+  },
+  {
+    id: 'local-employee',
+    label: 'Local employee',
+    intro: 'You hire in your own country for work that needs local presence or close company judgment.',
+    hiring: 'Your business runs the local hiring and employment process.',
+    management: 'Your managers own onboarding, payroll, performance, and coverage.',
+    fit: 'Onsite work, sensitive decisions, or a role that changes too often to document well.',
+  },
+] as const;
+
 export default function Home() {
   const schema = {
     '@context': 'https://schema.org',
@@ -14,7 +41,22 @@ export default function Home() {
         description: 'Plan a Filipino virtual assistant role around tasks, Philippines-based shifts, onboarding, and safe access.',
         url: site.url,
         isPartOf: { '@id': `${site.url}/#website` },
-        hasPart: { '@id': `${site.url}/#first-week-launch` },
+        hasPart: [
+          { '@id': `${site.url}/#hiring-paths` },
+          { '@id': `${site.url}/#first-week-launch` },
+        ],
+      },
+      {
+        '@type': 'ItemList',
+        '@id': `${site.url}/#hiring-paths`,
+        name: 'Ways to hire remote support',
+        numberOfItems: hiringPaths.length,
+        itemListElement: hiringPaths.map((path, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: path.label,
+          url: `${site.url}/#${path.id}`,
+        })),
       },
       {
         '@type': 'HowTo',
@@ -106,9 +148,29 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="container ova-compare" id="compare">
+        <div className="ova-compare-head">
+          <div><p className="ova-section-no">03 / HIRING PATH</p><h2>Choose how much of the hiring work you want to own.</h2></div>
+          <div><p>A managed service, a solo freelancer, and a local employee solve different problems. Our staffing path uses Filipino talent based in the Philippines.</p><a href="/blog/virtual-assistant-vs-employee">Read the full hiring guide <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div className="ova-compare-grid">
+          {hiringPaths.map((path, index) => <article id={path.id} className={index === 0 ? 'is-featured' : ''} key={path.id}>
+            <div className="ova-compare-title"><span>{String(index + 1).padStart(2, '0')}</span>{index === 0 && <b>Our model</b>}</div>
+            <h3>{path.label}</h3>
+            <p>{path.intro}</p>
+            <dl>
+              <div><dt>Who hires</dt><dd>{path.hiring}</dd></div>
+              <div><dt>Who manages</dt><dd>{path.management}</dd></div>
+              <div><dt>Best fit</dt><dd>{path.fit}</dd></div>
+            </dl>
+            {index === 0 && <a className="ova-compare-cta" href="/services">See Philippines-based services <span aria-hidden="true">↗</span></a>}
+          </article>)}
+        </div>
+      </section>
+
       <section className="container ova-process" id="process">
         <div className="ova-process-head">
-          <p className="ova-section-no">03 / THE LAUNCH</p>
+          <p className="ova-section-no">04 / THE LAUNCH</p>
           <h2>A calm first week beats a fast, messy start.</h2>
           <p>The plan should tell both people what happens next. These four moves are enough to get the work out of someone's head and into a routine.</p>
         </div>
@@ -145,7 +207,7 @@ export default function Home() {
 
       <section className="ova-reading">
         <div className="container">
-          <div className="ova-reading-head"><div><p className="ova-section-no light">04 / FIELD NOTES</p><h2>Read this before you interview anyone.</h2></div><a href="/blog">View all guides <span aria-hidden="true">↗</span></a></div>
+          <div className="ova-reading-head"><div><p className="ova-section-no light">05 / FIELD NOTES</p><h2>Read this before you interview anyone.</h2></div><a href="/blog">View all guides <span aria-hidden="true">↗</span></a></div>
           <div className="ova-reading-grid">
             {blogPosts.slice(0, 3).map((post, index) => <a href={`/blog/${post.slug}`} key={post.slug}>
               <span>{String(index + 1).padStart(2, '0')} · {post.minutes} min read</span>
