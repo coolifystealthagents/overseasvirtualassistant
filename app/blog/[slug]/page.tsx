@@ -1,10 +1,19 @@
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
+import { NightShiftArticle, nightShiftMeta, nightShiftSlug } from '../../rich-blog';
 
 export function generateStaticParams() { return blogPosts.map((p)=>({ slug: p.slug })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === nightShiftSlug) {
+    return {
+      title: nightShiftMeta.title,
+      description: nightShiftMeta.description,
+      alternates: { canonical: `${site.url}/blog/${nightShiftSlug}` },
+      openGraph: { title: nightShiftMeta.title, description: nightShiftMeta.description, url: `${site.url}/blog/${nightShiftSlug}`, type: 'article' },
+    };
+  }
   const post = blogPosts.find((p)=>p.slug===slug);
   return {
     title: post?.title || 'Overseas VA guide',
@@ -16,6 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ if (slug === nightShiftSlug) {
+   return <><Header/><main className="section"><NightShiftArticle/></main><Footer/></>;
+ }
  const post = blogPosts.find((p)=>p.slug===slug) || blogPosts[0];
  const articleSchema = {
    '@context': 'https://schema.org',

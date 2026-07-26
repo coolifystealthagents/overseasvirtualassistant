@@ -93,6 +93,17 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'philippines-virtual-assistant-night-shift-guide',
+    title: 'How to manage a Philippines virtual assistant night shift',
+    excerpt: 'A practical guide to overnight coverage, handoffs, fatigue controls, secure access, and morning review for a Filipino virtual assistant.',
+    minutes: 12,
+    updated: '2026-07-25',
+    takeaways: [],
+    sections: [],
+    faqs: [],
+    sources: [],
+  },
+  {
     slug: 'virtual-assistant-planning',
     title: 'What does an overseas virtual assistant cost?',
     excerpt: 'A plain guide to role scope, staffing models, and cost factors to check before you hire.',
