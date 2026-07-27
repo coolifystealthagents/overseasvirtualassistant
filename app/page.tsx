@@ -151,7 +151,7 @@ export default function Home() {
       <section className="container ova-compare" id="compare">
         <div className="ova-compare-head">
           <div><p className="ova-section-no">03 / HIRING PATH</p><h2>Choose how much of the hiring work you want to own.</h2></div>
-          <div><p>A managed service, a solo freelancer, and a local employee solve different problems. Our staffing path uses Filipino talent based in the Philippines.</p><a href="/blog/virtual-assistant-vs-employee">Read the full hiring guide <span aria-hidden="true">↗</span></a></div>
+          <div><p>A managed service, a solo freelancer, and a local employee solve different problems. Our staffing path uses Filipino talent based in the Philippines.</p><a href="/blog">Read the full hiring guide <span aria-hidden="true">↗</span></a></div>
         </div>
         <div className="ova-compare-grid">
           {hiringPaths.map((path, index) => <article id={path.id} className={index === 0 ? 'is-featured' : ''} key={path.id}>
@@ -194,7 +194,7 @@ export default function Home() {
               <div><b>The assistant owns</b><span>Drafts, updates, follow-up, and a clear done list.</span></div>
               <div><b>The business owns</b><span>Payments, legal calls, policy exceptions, and final approval.</span></div>
             </div>
-            <a className="ova-brief-link" href="/blog/assistant-onboarding-checklist">Use the first-week onboarding checklist <span aria-hidden="true">↗</span></a>
+            <a className="ova-brief-link" href="/blog">Use the first-week onboarding checklist <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <div className="ova-week">

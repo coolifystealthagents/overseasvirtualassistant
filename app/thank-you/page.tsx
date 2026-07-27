@@ -1,9 +1,44 @@
-import { Header, Footer, JsonLd } from '../components';
-import { site } from '../data';
+import type { Metadata } from 'next';
+import { Header, Footer } from '../components';
+import { TestimonialsRail } from '../booking-components';
 
-export const metadata = { title: 'Request received', robots: { index: false, follow: false } };
+export const metadata: Metadata = {
+  title: 'Thank You - Book A Meeting',
+  description: 'Choose a convenient time to speak with the Stealth Agents team.',
+  robots: { index: false, follow: false },
+};
 
-export default function Thanks(){
-  const schema = { '@context': 'https://schema.org', '@type': 'WebPage', url: `${site.url}/thank-you`, name: 'Request received', isPartOf: { '@id': `${site.url}/#website` } };
-  return <><Header/><main className="section"><JsonLd data={schema}/><div className="container"><h1>Thanks. Your request is in.</h1><p className="lead">A staffing team will review the role, hours, tools, and Philippines-based shift you shared. These guides can help you prepare the first handoff while you wait.</p><div className="cards"><a className="card" href="/blog/virtual-assistant-planning"><h3>Check cost factors</h3><p>See what changes a quote and which support questions to ask.</p></a><a className="card" href="/blog/tasks-to-delegate-first"><h3>Pick first tasks</h3><p>Choose a safe first task lane for a Filipino assistant.</p></a><a className="card" href="/blog/assistant-onboarding-checklist"><h3>Prep onboarding</h3><p>Set up task notes, access, examples, and work reviews.</p></a></div></div></main><Footer/></>;
+export default function ThankYouPage() {
+  return (
+    <>
+      <Header />
+      <main className="sa-booking-page">
+        <div className="container sa-booking-grid">
+          <div className="sa-booking-left">
+            <p className="sa-booking-kicker">You’re one step away.</p>
+            <h1>Step 2 - Book A Meeting</h1>
+            <p className="sa-booking-lead">No commitment. No risk. Just expert guidance.</p>
+            <img className="sa-booking-image" src="/thank-you-hero.png" alt="Stealth Agents team ready to help" width="619" height="402" />
+            <TestimonialsRail />
+          </div>
+          <section className="sa-booking-calendar" aria-labelledby="booking-calendar-title">
+            <h2 id="booking-calendar-title">Pick a Time That Works for You</h2>
+            <iframe
+              src="https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1"
+              id="SOI_StealthAgentsTeam"
+              name="ScheduleOnceIframe"
+              title="Schedule a meeting with Stealth Agents"
+              scrolling="yes"
+              frameBorder="0"
+              height="850"
+              width="100%"
+              className="sa-oncehub-frame"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          </section>
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
 }

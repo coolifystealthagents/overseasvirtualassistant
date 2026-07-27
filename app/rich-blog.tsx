@@ -53,7 +53,7 @@ const banners = [
     label: 'Handoff check',
     title: 'Test the plan with one real night.',
     text: 'Give the assistant a small live queue and review the morning record. Fix the rules before you add more customer or account access.',
-    href: '/blog/assistant-onboarding-checklist',
+    href: '/blog',
     link: 'Use the onboarding checklist',
   },
   {
@@ -293,7 +293,7 @@ export function NightShiftArticle() {
 
       <section className="card article-block">
         <h2>Related planning guides</h2>
-        <p>Use the <a href="/blog/tasks-to-delegate-first">first-task guide</a> to narrow the queue, then use the <a href="/blog/assistant-onboarding-checklist">assistant onboarding checklist</a> for the first week. Teams comparing the employment path can also read <a href="/blog/virtual-assistant-vs-employee">virtual assistant vs employee</a>.</p>
+        <p>Use the <a href="/blog">first-task guide</a> to narrow the queue, then use the <a href="/blog">assistant onboarding checklist</a> for the first week. Teams comparing the employment path can also read <a href="/blog">virtual assistant vs employee</a>.</p>
       </section>
 
       <section className="card article-block">

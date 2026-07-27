@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
 import { NightShiftArticle, nightShiftMeta, nightShiftSlug } from '../../rich-blog';
@@ -28,7 +29,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
  if (slug === nightShiftSlug) {
    return <><Header/><main className="section"><NightShiftArticle/></main><Footer/></>;
  }
- const post = blogPosts.find((p)=>p.slug===slug) || blogPosts[0];
+ const post = blogPosts.find((p)=>p.slug===slug);
+  if (!post) notFound();
  const articleSchema = {
    '@context': 'https://schema.org',
    '@type': 'Article',
