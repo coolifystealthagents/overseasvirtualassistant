@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
 import { NightShiftArticle, nightShiftMeta, nightShiftSlug } from '../../rich-blog';
+import { AccessHandoffArticle, accessHandoffMeta, accessHandoffSlug } from '../../access-blog';
 
 export function generateStaticParams() { return blogPosts.map((p)=>({ slug: p.slug })); }
 
@@ -13,6 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: nightShiftMeta.description,
       alternates: { canonical: `${site.url}/blog/${nightShiftSlug}` },
       openGraph: { title: nightShiftMeta.title, description: nightShiftMeta.description, url: `${site.url}/blog/${nightShiftSlug}`, type: 'article' },
+    };
+  }
+  if (slug === accessHandoffSlug) {
+    return {
+      title: accessHandoffMeta.title,
+      description: accessHandoffMeta.description,
+      alternates: { canonical: `${site.url}/blog/${accessHandoffSlug}` },
+      openGraph: { title: accessHandoffMeta.title, description: accessHandoffMeta.description, url: `${site.url}/blog/${accessHandoffSlug}`, type: 'article' },
     };
   }
   const post = blogPosts.find((p)=>p.slug===slug);
@@ -28,6 +37,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
  const { slug } = await params;
  if (slug === nightShiftSlug) {
    return <><Header/><main className="section"><NightShiftArticle/></main><Footer/></>;
+ }
+ if (slug === accessHandoffSlug) {
+   return <><Header/><main className="section"><AccessHandoffArticle/></main><Footer/></>;
  }
  const post = blogPosts.find((p)=>p.slug===slug);
   if (!post) notFound();

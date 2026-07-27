@@ -93,6 +93,17 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'philippines-virtual-assistant-secure-access-handoff',
+    title: 'Secure account handoff for a Philippines virtual assistant',
+    excerpt: 'A practical access plan for Filipino virtual assistants, with named accounts, MFA, least-access roles, review logs, and a clean offboarding checklist.',
+    minutes: 13,
+    updated: '2026-07-27',
+    takeaways: [],
+    sections: [],
+    faqs: [],
+    sources: [],
+  },
+  {
     slug: 'philippines-virtual-assistant-night-shift-guide',
     title: 'How to manage a Philippines virtual assistant night shift',
     excerpt: 'A practical guide to overnight coverage, handoffs, fatigue controls, secure access, and morning review for a Filipino virtual assistant.',
