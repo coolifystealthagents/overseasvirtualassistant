@@ -76,7 +76,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="ova-home" data-site-marker="global-handoff-2026-07">
+    <main className="ova-home" data-site-marker="global-handoff-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
 
       <section className="ova-hero">
@@ -86,9 +86,9 @@ export default function Home() {
             <h1>Hire a Filipino virtual assistant. Keep the handoff under control.</h1>
             <p className="ova-lead">We recruit and hire only in the Philippines. Start with clear tasks, limited access, and a review routine you can keep. Add work after the first lane is running well.</p>
             <ul className="ova-hero-checks" aria-label="What the staffing plan covers">
-              <li><span aria-hidden="true">✓</span> Tasks and owner-only decisions</li>
-              <li><span aria-hidden="true">✓</span> Workday overlap and handoff times</li>
-              <li><span aria-hidden="true">✓</span> A first-week review plan</li>
+              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/tasks-and-guardrails.svg" alt="" /></span> Tasks and owner-only decisions</li>
+              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/workday-overlap.svg" alt="" /></span> Workday overlap and handoff times</li>
+              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/first-week-plan.svg" alt="" /></span> A first-week review plan</li>
             </ul>
             <div className="ova-actions">
               <a className="btn ova-primary" href="/contact">Request a staffing plan</a>
@@ -99,7 +99,7 @@ export default function Home() {
 
           <div className="ova-portrait-stage" aria-label="Overseas assistant handoff example">
             <div className="ova-photo-shell">
-              <img src="/images/overseas-assistant.jpg" alt="Remote professional ready for an overseas virtual assistant role" />
+              <img src="/illustrations/getillustrations/goodle-team/filipino-virtual-assistant-workday.svg" alt="Illustration of a Filipino virtual assistant collaborating through a clear remote workday" />
               <div className="ova-photo-caption"><span>01</span><p>One role.<br />A clear owner.</p></div>
             </div>
             <div className="ova-float ova-float-top"><span className="ova-status-dot" /> <b>Handoff ready</b><small>Inbox triage · 8:00 AM</small></div>
@@ -183,8 +183,8 @@ export default function Home() {
         </div>
         <div className="ova-launch-brief">
           <figure>
-            <img src="/images/remote-onboarding.jpg" alt="Remote professional reviewing a Filipino virtual assistant onboarding plan on a laptop" />
-            <figcaption>Role illustration. It does not show an available candidate or a customer.</figcaption>
+            <img src="/illustrations/getillustrations/inkdex-team/remote-onboarding-collaboration.svg" alt="Illustration of a remote onboarding and document-sharing session" />
+            <figcaption>Licensed onboarding illustration. It does not show an available candidate or a customer.</figcaption>
           </figure>
           <div className="ova-launch-copy">
             <p className="ova-section-no">Before day one</p>
