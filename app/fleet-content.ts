@@ -210,7 +210,8 @@ export const fleetServices = [
     ]
   }
 ] as const;
-export const researchPosts: ReadonlyArray<{slug:string;title:string;excerpt:string;published:string;body:readonly string[]}> = [];
+import { dailyResearchPosts } from './daily-content';
+export const researchPosts = dailyResearchPosts;
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

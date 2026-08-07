@@ -89,6 +89,9 @@ export type BlogPost = {
   sections: { heading: string; body: string; bullets?: string[] }[];
   faqs: { question: string; answer: string }[];
   sources: { name: string; url: string; note: string }[];
+  image?: { src: string; alt: string };
+  internalLinks?: string[];
+  cta?: string;
 };
 
 export const blogPosts: BlogPost[] = [
@@ -114,6 +117,9 @@ export const blogPosts: BlogPost[] = [
     faqs: [],
     sources: [],
   },];
+
+import { dailyBlogPosts } from './daily-content';
+blogPosts.push(...dailyBlogPosts);
 
 export const staffingOffer = {
   partner: 'our staffing team',
