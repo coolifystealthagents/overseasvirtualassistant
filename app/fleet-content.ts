@@ -210,8 +210,8 @@ export const fleetServices = [
     ]
   }
 ] as const;
-import { dailyResearchPosts } from './daily-content';
-export const researchPosts = dailyResearchPosts;
+import { researchPosts } from './research-content';
+export { researchPosts };
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

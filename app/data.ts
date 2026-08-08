@@ -94,6 +94,17 @@ export type BlogPost = {
   cta?: string;
 };
 
+export type ResearchPost = {
+  slug: string; title: string; excerpt: string; published: string; methodology: string;
+  headlineStat: { value: string; label: string; source: string };
+  keyStats: { value: string; label: string }[];
+  takeaways: string[];
+  sections: { heading: string; body: string; table: string[][] }[];
+  sourceNotes: string; sources: { name: string; url: string; note: string }[];
+  internalLinks: string[]; faqs: { question: string; answer: string }[];
+  relatedResearch: string[]; image: { src: string; alt: string }; cta: string;
+};
+
 export const blogPosts: BlogPost[] = [
   {
     slug: 'philippines-virtual-assistant-secure-access-handoff',
