@@ -29,6 +29,21 @@ const topicSpecs = [
   ['research-workflow-design-for-virtual-assistants', 'Research workflow design for virtual assistants', 'Research workflows', 'Research work improves when the question, source standard, citation format, and stop rule are explicit.'],
   ['calendar-delegation-controls-for-remote-assistants', 'Calendar delegation controls for remote assistants', 'Calendar controls', 'Calendar delegation is safer when preferences, buffers, approvals, and exceptions are written down.'],
   ['sop-maturity-for-distributed-assistant-teams', 'SOP maturity for distributed assistant teams', 'SOP maturity', 'An SOP earns expansion when another trained person can follow it and produce a reviewable result.'],
+  ['inbox-triage-controls-for-remote-assistants', 'Inbox triage controls for remote assistants', 'Inbox triage', 'An inbox lane is safer when categories, response authority, and unresolved-item ownership are explicit.'],
+  ['meeting-notes-to-action-tracking-for-remote-teams', 'Meeting notes to action tracking for remote teams', 'Action tracking', 'Meeting notes create value when decisions, owners, due dates, and follow-up evidence are separated.'],
+  ['lead-research-quality-controls-for-virtual-assistants', 'Lead research quality controls for virtual assistants', 'Lead research', 'Lead research is more useful when inclusion rules, evidence fields, and review outcomes are defined before collection.'],
+  ['content-calendar-governance-for-small-teams', 'Content calendar governance for small teams', 'Content governance', 'A content calendar needs an accountable editor, source trail, status vocabulary, and approval boundary.'],
+  ['documented-escalation-paths-for-delegated-work', 'Documented escalation paths for delegated work', 'Escalation design', 'Escalation paths reduce delay when triggers, owners, response expectations, and stop rules are visible.'],
+  ['appointment-setting-quality-controls-for-remote-staff', 'Appointment-setting quality controls for remote staff', 'Appointment setting', 'Appointment setting should separate qualification, scheduling authority, confirmation, and exception review.'],
+  ['crm-data-hygiene-routines-for-virtual-assistants', 'CRM data hygiene routines for virtual assistants', 'CRM hygiene', 'CRM maintenance is dependable when field definitions, evidence standards, and duplicate handling are documented.'],
+  ['recurring-task-control-for-distributed-assistant-teams', 'Recurring task control for distributed assistant teams', 'Recurring tasks', 'Recurring work stays reliable when triggers, completion evidence, failure handling, and owner review are explicit.'],
+  ['client-intake-workflow-design-for-remote-support', 'Client intake workflow design for remote support', 'Client intake', 'An intake workflow should capture the minimum useful context while keeping decisions and sensitive exceptions with the owner.'],
+  ['knowledge-base-maintenance-for-remote-assistant-teams', 'Knowledge-base maintenance for remote assistant teams', 'Knowledge maintenance', 'A knowledge base remains useful when article ownership, review dates, change evidence, and retirement rules are assigned.'],
+  ['quality-sampling-for-outsourced-administrative-work', 'Quality sampling for outsourced administrative work', 'Quality sampling', 'Sampling can reveal process drift when the sample frame, acceptance rule, reviewer, and correction loop are fixed.'],
+  ['vendor-research-workflows-for-small-businesses', 'Vendor research workflows for small businesses', 'Vendor research', 'Vendor research becomes decision-ready when criteria, comparison evidence, conflicts, and approval ownership are recorded.'],
+  ['social-media-scheduling-controls-for-remote-teams', 'Social media scheduling controls for remote teams', 'Social scheduling', 'Scheduling content is safer when approved assets, publication authority, exception handling, and audit evidence are clear.'],
+  ['file-naming-and-records-routines-for-virtual-assistants', 'File naming and records routines for virtual assistants', 'Records routines', 'Consistent naming and records routines reduce reconstruction work when ownership, version, retention, and retrieval rules are explicit.'],
+  ['daily-article-creation-routines-for-remote-research-teams', 'Daily article creation routines for remote research teams', 'Article creation', 'Daily article production improves when research, evidence review, drafting, visual checks, and publication ownership are staged.'],
 ] as const;
 
 const related = (index: number) => [
@@ -41,7 +56,7 @@ export const researchPosts: ResearchPost[] = topicSpecs.map(([slug, title, clust
   slug,
   title: `Research note: ${title}`,
   excerpt: `Evidence-led planning note on ${title.toLowerCase()} for teams building dependable Philippines-based support routines.`,
-  published: '2026-08-08',
+  published: index < 15 ? '2026-08-08' : '2026-08-09',
   methodology: `This note uses a structured review of ${sources.length} public primary and government sources, then translates the evidence into an operational pilot. The headline measure is a proposed acceptance criterion, not a claim about the workforce. Recheck source dates and applicable local requirements before implementation.`,
   headlineStat: { value: '100%', label: 'of pilot work items should have an owner disposition before the lane expands', source: 'Operational acceptance criterion defined for this research note' },
   keyStats: [
