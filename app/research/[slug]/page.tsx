@@ -24,7 +24,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
         <img src={post.image.src} alt={post.image.alt} className="article-image" />
         <h2>Methodology</h2><p>{post.methodology}</p>
         <aside className="fleet-card"><b>{post.headlineStat.value}</b><p>{post.headlineStat.label}</p><small>{post.headlineStat.source}</small></aside>
-        <h2>Key Stats</h2><ul>{post.keyStats.map(s => <li key={s.label}><strong>{s.value}</strong> — {s.label}</li>)}</ul>
+        <h2>Key Stats</h2><ul>{post.keyStats.map(s => <li key={s.label}><strong>{s.value}</strong>: {s.label}</li>)}</ul>
         <h2>Key Takeaways</h2><ul>{post.takeaways.map(x => <li key={x}>{x}</li>)}</ul>
         {post.sections.map(section => <section key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p><table><tbody>{section.table.map((row, i) => <tr key={i}>{row.map((cell, j) => i === 0 ? <th key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></section>)}
         <p>{post.sourceNotes}</p>

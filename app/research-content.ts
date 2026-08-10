@@ -1,16 +1,16 @@
 import type { ResearchPost } from './data';
 
 const sources = [
-  { name: 'U.S. Small Business Administration — Hire and manage employees', url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees', note: 'role definition, supervision, and management planning' },
-  { name: 'NIST — Small Business Cybersecurity Corner', url: 'https://www.nist.gov/itl/smallbusinesscyber', note: 'small-business security controls and risk management' },
-  { name: 'CISA — Cyber Guidance for Small Businesses', url: 'https://www.cisa.gov/stopransomware', note: 'ransomware prevention and response practices' },
-  { name: 'FTC — Start with Security', url: 'https://www.ftc.gov/business-guidance/resources/start-security-guide-business', note: 'data minimization, access, and incident response guidance' },
-  { name: 'NIST — Privacy Framework', url: 'https://www.nist.gov/privacy-framework', note: 'privacy risk identification and governance' },
-  { name: 'NIST — Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'identify, protect, detect, respond, and recover functions' },
-  { name: 'U.S. Department of Labor — Hours Worked', url: 'https://www.dol.gov/general/topic/workhours', note: 'working-time planning reference' },
-  { name: 'ILO — Working time and work-life balance', url: 'https://www.ilo.org/topics/working-time', note: 'sustainable scheduling and working-time research' },
-  { name: 'NIST — Digital Identity Guidelines', url: 'https://pages.nist.gov/800-63-3/', note: 'identity proofing and authentication concepts' },
-  { name: 'CISA — Secure Our World', url: 'https://www.cisa.gov/secure-our-world', note: 'strong passwords, MFA, updates, and phishing awareness' },
+  { name: 'U.S. Small Business Administration: Hire and manage employees', url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees', note: 'role definition, supervision, and management planning' },
+  { name: 'NIST: Small Business Cybersecurity Corner', url: 'https://www.nist.gov/itl/smallbusinesscyber', note: 'small-business security controls and risk management' },
+  { name: 'CISA: Cyber Guidance for Small Businesses', url: 'https://www.cisa.gov/stopransomware', note: 'ransomware prevention and response practices' },
+  { name: 'FTC: Start with Security', url: 'https://www.ftc.gov/business-guidance/resources/start-security-guide-business', note: 'data minimization, access, and incident response guidance' },
+  { name: 'NIST: Privacy Framework', url: 'https://www.nist.gov/privacy-framework', note: 'privacy risk identification and governance' },
+  { name: 'NIST: Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'identify, protect, detect, respond, and recover functions' },
+  { name: 'U.S. Department of Labor: Hours Worked', url: 'https://www.dol.gov/general/topic/workhours', note: 'working-time planning reference' },
+  { name: 'ILO: Working time and work-life balance', url: 'https://www.ilo.org/topics/working-time', note: 'sustainable scheduling and working-time research' },
+  { name: 'NIST: Digital Identity Guidelines', url: 'https://pages.nist.gov/800-63-3/', note: 'identity proofing and authentication concepts' },
+  { name: 'CISA: Secure Our World', url: 'https://www.cisa.gov/secure-our-world', note: 'strong passwords, MFA, updates, and phishing awareness' },
 ];
 
 const topicSpecs = [
@@ -25,7 +25,7 @@ const topicSpecs = [
   ['source-quality-in-assistant-prepared-briefs', 'Source quality in assistant-prepared briefs', 'Source quality', 'A brief is decision-ready when claims, dates, methods, and source links can be checked quickly.'],
   ['risk-review-before-expanding-delegated-work', 'Risk review before expanding delegated work', 'Delegation risk', 'Expansion should follow evidence from a pilot and a documented review of impact, access, and reversibility.'],
   ['customer-support-queue-controls-for-remote-teams', 'Customer-support queue controls for remote teams', 'Support queues', 'Approved response patterns and owner-only exceptions keep support helpful without creating unauthorized commitments.'],
-  ['secure-file-sharing-for-virtual-assistant-work', 'Secure file sharing for virtual assistant work', 'File sharing', 'A file-sharing routine needs ownership, permissions, retention, and offboarding—not just a shared folder.'],
+  ['secure-file-sharing-for-virtual-assistant-work', 'Secure file sharing for virtual assistant work', 'File sharing', 'A file-sharing routine needs ownership, permissions, retention, and offboarding, rather than just a shared folder.'],
   ['research-workflow-design-for-virtual-assistants', 'Research workflow design for virtual assistants', 'Research workflows', 'Research work improves when the question, source standard, citation format, and stop rule are explicit.'],
   ['calendar-delegation-controls-for-remote-assistants', 'Calendar delegation controls for remote assistants', 'Calendar controls', 'Calendar delegation is safer when preferences, buffers, approvals, and exceptions are written down.'],
   ['sop-maturity-for-distributed-assistant-teams', 'SOP maturity for distributed assistant teams', 'SOP maturity', 'An SOP earns expansion when another trained person can follow it and produce a reviewable result.'],
