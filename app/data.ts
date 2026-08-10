@@ -129,8 +129,8 @@ export const blogPosts: BlogPost[] = [
     sources: [],
   },];
 
-import { dailyBlogPosts } from './daily-content';
-blogPosts.push(...dailyBlogPosts);
+import { dailyBlogPosts, newDailyBlogPosts } from './daily-content';
+blogPosts.push(...dailyBlogPosts, ...newDailyBlogPosts);
 
 export const staffingOffer = {
   partner: 'our staffing team',

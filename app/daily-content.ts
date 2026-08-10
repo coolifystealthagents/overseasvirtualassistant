@@ -26,6 +26,29 @@ const blogTopics = [
   ['virtual-assistant-monthly-performance-review', 'A monthly performance review for a virtual assistant', 'Turn work evidence into a fair review covering output, quality, communication, and next-step scope.'],
 ] as const;
 
+const newBlogTopics = [
+  ['virtual-assistant-content-calendar-routine', 'A content calendar routine for a virtual assistant', 'Create a repeatable calendar for briefs, drafts, reviews, updates, and approved publishing.'],
+  ['philippines-virtual-assistant-article-brief', 'How to brief a Philippines virtual assistant for an article', 'Give a remote assistant the audience, intent, evidence, structure, and approval rules needed for a useful article.'],
+  ['virtual-assistant-content-fact-checking', 'Fact checking routines for virtual assistant content', 'Use a simple source and claim review before assistant-prepared content reaches an editor.'],
+  ['remote-assistant-editorial-qa-checklist', 'An editorial QA checklist for remote assistants', 'Check structure, links, metadata, clarity, and calls to action before content approval.'],
+  ['philippines-virtual-assistant-keyword-research', 'Keyword research tasks for a Philippines virtual assistant', 'Separate discovery, intent mapping, and evidence gathering from final strategy decisions.'],
+  ['virtual-assistant-content-repurposing-workflow', 'A content repurposing workflow for a virtual assistant', 'Turn an approved article into useful briefs, snippets, and follow-up assets with clear review gates.'],
+  ['remote-assistant-content-approval-matrix', 'A content approval matrix for remote assistant work', 'Make editorial ownership visible by assigning draft, review, compliance, and publish decisions.'],
+  ['philippines-virtual-assistant-blog-refresh', 'Refreshing older blog articles with a virtual assistant', 'Audit stale pages, update evidence, improve usefulness, and preserve approved search intent.'],
+  ['virtual-assistant-content-brief-library', 'Building a content brief library for assistants', 'Store reusable brief patterns so each new article starts with consistent inputs and standards.'],
+  ['remote-assistant-editorial-handoff', 'The editorial handoff for a remote assistant', 'Move work from research to draft to review with status rules, evidence, and open questions.'],
+  ['philippines-virtual-assistant-content-sourcing', 'Source collection for Philippines-based content teams', 'Create a defensible source list without asking assistants to make unsupported claims.'],
+  ['virtual-assistant-blog-internal-linking', 'Internal linking tasks for a virtual assistant', 'Give an assistant a safe method for choosing helpful links without creating repetitive or irrelevant pages.'],
+  ['remote-assistant-content-calendar-recovery', 'Recovering a delayed content calendar with a virtual assistant', 'Triage overdue briefs, protect quality, and restore a realistic publishing rhythm.'],
+  ['philippines-virtual-assistant-content-metrics', 'Content metrics a virtual assistant can prepare', 'Delegate collection and reporting while keeping interpretation and strategic changes with the owner.'],
+  ['virtual-assistant-blog-update-log', 'An update log for assistant-managed blog content', 'Track what changed, why it changed, which sources support it, and who approved the revision.'],
+  ['remote-assistant-content-template-governance', 'Template governance for remote content assistants', 'Keep article templates useful by documenting required fields, optional modules, and change ownership.'],
+  ['philippines-virtual-assistant-content-calendar-capacity', 'Planning content capacity with a Philippines virtual assistant', 'Match briefs and review volume to available hours, handoffs, and realistic quality checks.'],
+  ['virtual-assistant-article-publishing-checklist', 'A publishing checklist for virtual assistant articles', 'Confirm the article, metadata, links, image, and review record before an owner publishes.'],
+  ['remote-assistant-content-exception-handling', 'Exception handling for remote content assistants', 'Define what happens when a source is weak, an angle overlaps, or a brief cannot be completed safely.'],
+  ['philippines-virtual-assistant-editorial-scorecard', 'An editorial scorecard for a Philippines virtual assistant', 'Measure useful output, accuracy, revision rate, handoff quality, and unresolved questions.'],
+] as const;
+
 const paragraphs = (title: string, purpose: string) => [
   `A Philippines-based virtual assistant can create reliable capacity when the work is defined as an operating system rather than a vague request. This guide focuses on ${title.toLowerCase()} and keeps decisions, examples, tools, and review ownership visible.`,
   `${purpose} Start with one lane, give the assistant representative examples, and agree what must come back to the owner before the first live batch begins.`,
@@ -53,6 +76,20 @@ export const dailyBlogPosts: BlogPost[] = blogTopics.map(([slug, title, excerpt]
   image: { src: image, alt: `Remote team planning ${title.toLowerCase()}` },
   internalLinks: ['/services', '/contact', '/research'],
   cta: 'Need a role plan? Share the task lane, tools, schedule, and owner rules with our staffing team.',
+}));
+
+export const newDailyBlogPosts: BlogPost[] = newBlogTopics.map(([slug, title, excerpt], index) => ({
+  slug, title, excerpt, minutes: 10 + (index % 5), updated: '2026-08-10',
+  takeaways: ['Define the finished editorial output and the evidence that proves it is ready.', 'Keep topic selection, sensitive claims, and final publication with the named owner.', 'Review representative samples daily at launch, then use a lightweight weekly scorecard.'],
+  sections: [
+    { heading: 'Define the editorial task lane', body: `A Philippines-based virtual assistant can make ${title.toLowerCase()} reliable when the work has a clear trigger, inputs, output, and review owner. ${excerpt} Start with one repeatable lane and write down what success looks like before assigning the first item.`, bullets: ['Name the audience, search intent, format, and deadline.', 'Separate research and preparation from editorial judgment.', 'Set a stop rule for missing evidence or overlapping topics.'] },
+    { heading: 'Create a useful handoff', body: 'Give the assistant a brief with the working angle, source standard, internal destination, and examples of approved work. Ask for open questions and evidence gaps in the handoff so the owner can resolve them before drafting continues.', bullets: ['Provide three approved examples and one correction example.', 'Name the source of truth for topics, status, and revisions.', 'Use a consistent definition of done for every article.'] },
+    { heading: 'Review quality before volume', body: 'Sample the first articles for factual support, reader usefulness, structure, links, metadata, and clarity. Record each miss in the scorecard, improve the instruction that allowed it, and check the next sample for the same issue. Quality should be visible before the publishing pace increases.' },
+    { heading: 'Control access and decisions', body: 'Start with the minimum tools needed for the assigned lane. Keep claims that need expert review, sensitive information, commercial commitments, and final publication approval with the owner or an authorized editor. Review permissions whenever the work expands.' },
+    { heading: 'Close the handoff cleanly', body: 'At the end of each shift, the assistant should send completed work, source notes, unresolved questions, exceptions, and the next suggested action. A clear handoff lets the owner approve, revise, or pause work without reconstructing what happened.' },
+  ],
+  faqs: [{ question: 'What content work should be delegated first?', answer: 'Start with repeatable research, formatting, source collection, and draft preparation that has a clear output and a reviewable result.' }, { question: 'Who should approve an article?', answer: 'A named owner or authorized editor should approve claims, positioning, compliance-sensitive language, and final publication.' }],
+  sources: [source], image: { src: `/images/thumbnails/generated/${slug}.webp`, alt: `Editorial workflow for ${title.toLowerCase()}` }, internalLinks: ['/services', '/contact'], cta: 'Need a role plan? Share the content lane, tools, schedule, and owner rules with our staffing team.',
 }));
 
 const researchTopics = [
