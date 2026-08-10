@@ -8,7 +8,7 @@ const sources = [
   { name: 'NIST: Privacy Framework', url: 'https://www.nist.gov/privacy-framework', note: 'privacy risk identification and governance' },
   { name: 'NIST: Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'identify, protect, detect, respond, and recover functions' },
   { name: 'U.S. Department of Labor: Hours Worked', url: 'https://www.dol.gov/general/topic/workhours', note: 'working-time planning reference' },
-  { name: 'ILO: Working time and work-life balance', url: 'https://www.ilo.org/topics/working-time', note: 'sustainable scheduling and working-time research' },
+  { name: 'ILO: Working Time and Work-Life Balance Around the World', url: 'https://www.ilo.org/publications/working-time-and-work-life-balance-around-world', note: 'sustainable scheduling and working-time research' },
   { name: 'NIST: Digital Identity Guidelines', url: 'https://pages.nist.gov/800-63-3/', note: 'identity proofing and authentication concepts' },
   { name: 'CISA: Secure Our World', url: 'https://www.cisa.gov/secure-our-world', note: 'strong passwords, MFA, updates, and phishing awareness' },
 ];
@@ -59,6 +59,18 @@ const topicSpecs = [
   ['acceptance-criteria-for-assistant-task-lanes', 'Acceptance criteria for assistant task lanes', 'Acceptance criteria', 'Task lanes become easier to manage when “done” is expressed as observable evidence rather than activity.'],
   ['citation-routines-for-remote-research-teams', 'Citation routines for remote research teams', 'Citation routines', 'Citation routines make research auditable when each claim has a source, location, date, and context note.'],
   ['capacity-planning-for-remote-assistant-work', 'Capacity planning for remote assistant work', 'Capacity planning', 'Capacity planning is more useful when demand, available ownership, queue limits, and exception work are recorded together.'],
+  ['editorial-source-registers-for-daily-articles', 'Editorial source registers for daily articles', 'Source registers', 'A source register keeps daily article claims traceable when URLs, access dates, claim scope, and review notes are recorded together.'],
+  ['article-cluster-mapping-for-virtual-assistant-teams', 'Article cluster mapping for virtual assistant teams', 'Cluster mapping', 'A topic cluster is easier to expand safely when each article has a distinct reader question, service relationship, and internal-link role.'],
+  ['research-queue-aging-for-content-operations', 'Research queue aging for content operations', 'Queue aging', 'Aging research requests need explicit next actions so stale briefs do not quietly consume review capacity or produce weak drafts.'],
+  ['headline-statistic-verification-for-research-articles', 'Headline statistic verification for research articles', 'Statistic verification', 'A headline statistic is publication-ready only when its definition, denominator, date, source location, and contextual limits are recorded.'],
+  ['article-methodology-notes-for-remote-researchers', 'Article methodology notes for remote researchers', 'Methodology notes', 'A concise methodology note lets an editor distinguish sourced findings from proposed operating criteria and editorial interpretation.'],
+  ['research-article-fact-check-handoffs', 'Research article fact-check handoffs', 'Fact-check handoffs', 'Fact-checking is dependable when each claim arrives with its source, evidence location, status, and required editorial decision.'],
+  ['internal-link-audits-for-research-libraries', 'Internal-link audits for research libraries', 'Link audits', 'Internal links are useful when they connect distinct reader needs and are checked for valid destinations, relevance, and family boundaries.'],
+  ['related-research-card-governance', 'Related Research card governance', 'Related content', 'Related-content recommendations should be limited, relevant, and checked against the current article family to avoid navigational noise.'],
+  ['article-revision-ledgers-for-content-teams', 'Article revision ledgers for content teams', 'Revision ledgers', 'A revision ledger preserves the reason, evidence, owner, and verification status for each material article change.'],
+  ['daily-research-publishing-capacity-controls', 'Daily research publishing capacity controls', 'Publishing capacity', 'A daily publishing target should be matched to research depth, review ownership, source quality, and the team’s ability to validate every article.'],
+  ['research-article-acceptance-gates-for-small-teams', 'Research article acceptance gates for small teams', 'Acceptance gates', 'Clear acceptance gates turn a draft into a publication decision by requiring evidence, structure, links, metadata, and owner review.'],
+  ['claim-evidence-matrices-for-research-articles', 'Claim-evidence matrices for research articles', 'Evidence matrices', 'A claim-evidence matrix gives editors a compact way to check that important statements have the right source, scope, and review status.'],
 ] as const;
 
 const related = (index: number) => [
