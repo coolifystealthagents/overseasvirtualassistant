@@ -44,6 +44,21 @@ const topicSpecs = [
   ['social-media-scheduling-controls-for-remote-teams', 'Social media scheduling controls for remote teams', 'Social scheduling', 'Scheduling content is safer when approved assets, publication authority, exception handling, and audit evidence are clear.'],
   ['file-naming-and-records-routines-for-virtual-assistants', 'File naming and records routines for virtual assistants', 'Records routines', 'Consistent naming and records routines reduce reconstruction work when ownership, version, retention, and retrieval rules are explicit.'],
   ['daily-article-creation-routines-for-remote-research-teams', 'Daily article creation routines for remote research teams', 'Article creation', 'Daily article production improves when research, evidence review, drafting, visual checks, and publication ownership are staged.'],
+  ['brief-quality-gates-for-remote-assistant-work', 'Brief quality gates for remote assistant work', 'Brief quality', 'A short brief is more useful when its outcome, evidence standard, owner, and stop rule are explicit.'],
+  ['async-status-reporting-for-distributed-assistant-teams', 'Async status reporting for distributed assistant teams', 'Status reporting', 'A concise status report reduces coordination cost when progress, risk, next action, and owner are separated.'],
+  ['approval-matrix-for-delegated-operations', 'Approval matrices for delegated operations', 'Approval design', 'An approval matrix makes authority visible before a delegated task reaches a sensitive decision.'],
+  ['content-review-routines-for-small-businesses', 'Content review routines for small businesses', 'Content review', 'A content review lane is dependable when factual, editorial, accessibility, and publication checks have named owners.'],
+  ['source-triage-for-assistant-research', 'Source triage for assistant research', 'Source triage', 'Source triage improves research quality when authority, relevance, date, method, and claim fit are checked separately.'],
+  ['backup-coverage-for-remote-assistant-teams', 'Backup coverage for remote assistant teams', 'Backup coverage', 'Backup coverage is resilient when the substitute can find current instructions, access only what is needed, and escalate exceptions.'],
+  ['offboarding-controls-for-delegated-access', 'Offboarding controls for delegated access', 'Offboarding', 'Delegated access should end through a documented checklist tied to ownership, system inventory, and evidence of removal.'],
+  ['research-brief-acceptance-criteria', 'Research brief acceptance criteria', 'Research acceptance', 'A research brief is ready for drafting when the question, source list, claim boundaries, and review path are complete.'],
+  ['task-aging-controls-for-remote-support', 'Task aging controls for remote support', 'Task aging', 'Aging controls surface stalled work before an overdue item becomes an invisible handoff failure.'],
+  ['incident-logging-for-virtual-assistant-work', 'Incident logging for virtual assistant work', 'Incident logging', 'A useful incident log records what happened, impact, containment, owner, and prevention evidence without assigning blame.'],
+  ['owner-review-routines-for-delegated-work', 'Owner review routines for delegated work', 'Owner review', 'Owner review works best as a scheduled decision loop with representative evidence and explicit follow-up.'],
+  ['work-in-progress-limits-for-small-remote-teams', 'Work-in-progress limits for small remote teams', 'Work in progress', 'A modest work-in-progress limit protects quality by making queue pressure and tradeoffs visible.'],
+  ['acceptance-criteria-for-assistant-task-lanes', 'Acceptance criteria for assistant task lanes', 'Acceptance criteria', 'Task lanes become easier to manage when “done” is expressed as observable evidence rather than activity.'],
+  ['citation-routines-for-remote-research-teams', 'Citation routines for remote research teams', 'Citation routines', 'Citation routines make research auditable when each claim has a source, location, date, and context note.'],
+  ['capacity-planning-for-remote-assistant-work', 'Capacity planning for remote assistant work', 'Capacity planning', 'Capacity planning is more useful when demand, available ownership, queue limits, and exception work are recorded together.'],
 ] as const;
 
 const related = (index: number) => [
