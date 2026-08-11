@@ -131,6 +131,8 @@ export const blogPosts: BlogPost[] = [
 
 import { dailyBlogPosts, newDailyBlogPosts, secondDailyBlogPosts } from './daily-content';
 blogPosts.push(...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
+// Keep the family index newest-first so newly published material is discoverable.
+blogPosts.sort((a, b) => b.updated.localeCompare(a.updated));
 
 export const staffingOffer = {
   partner: 'our staffing team',
