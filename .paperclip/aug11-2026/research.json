@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug11-creation-v1",
+  "campaignDate": "2026-08-11",
+  "family": "research",
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "requiredNewArticleCount": 10,
+  "actualNewArticleCount": 10,
+  "validationCommands": [
+    "npm run build",
+    "source-date audit for all 10 article records",
+    "compiled route visible-date and datePublished audit for all 10 routes",
+    "compiled research index newest-first ordering audit",
+    "git diff --check"
+  ],
+  "editorialValidation": "PASS - niche relevance, originality, family separation, authoritative citations, and prohibited-topic checks passed",
+  "entries": [
+    {"slug":"role-scope-evidence-for-virtual-assistant-hiring","route":"/research/role-scope-evidence-for-virtual-assistant-hiring","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"data-minimization-for-delegated-assistant-work","route":"/research/data-minimization-for-delegated-assistant-work","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"working-time-evidence-for-philippines-assistant-shifts","route":"/research/working-time-evidence-for-philippines-assistant-shifts","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"identity-and-accountability-in-remote-assistant-access","route":"/research/identity-and-accountability-in-remote-assistant-access","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"phishing-resilience-for-virtual-assistant-teams","route":"/research/phishing-resilience-for-virtual-assistant-teams","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"privacy-risk-questions-for-remote-assistant-roles","route":"/research/privacy-risk-questions-for-remote-assistant-roles","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"cybersecurity-risk-evidence-for-delegated-operations","route":"/research/cybersecurity-risk-evidence-for-delegated-operations","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"source-quality-for-assistant-prepared-research","route":"/research/source-quality-for-assistant-prepared-research","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"continuity-evidence-for-remote-assistant-coverage","route":"/research/continuity-evidence-for-remote-assistant-coverage","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"},
+    {"slug":"handoff-latency-in-distributed-assistant-support","route":"/research/handoff-latency-in-distributed-assistant-support","sourcePath":"app/research-content.ts","sourceDateField":"published","sourceDate":"2026-08-11","renderedDateFields":["datePublished"],"renderedDate":"2026-08-11","introducedByCommit":"00005dc399fe75e2481a246495aaef127426dbf6"}
+  ]
+}
