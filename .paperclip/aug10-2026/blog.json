@@ -10,9 +10,8 @@
   "priorRunId": "098a79cb-eebb-41ff-8e3c-b6c946920677",
   "priorIssueId": "a8292f05-5874-4b53-8482-b677f126d764",
   "validationCommands": [
-    "node scripts/validate-aug10-manifest.mjs",
     "npm run build",
-    "python3 scripts/audit_access_article.py"
+    "node scripts/validate-aug10-manifest.mjs && python3 scripts/audit_access_article.py"
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
