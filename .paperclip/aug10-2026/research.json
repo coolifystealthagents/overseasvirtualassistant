@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "research",
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "minimum": 10,
+  "priorRunId": "af6a0be0-fb5a-4126-b608-b5b1b3394cbf",
+  "priorIssueId": "79a0cacf-fd60-4345-ae74-e578c7a431fb",
+  "validationCommands": [
+    "npm run build",
+    "node scripts/validate-research-aug10-manifest.mjs",
+    "git diff --check"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {"slug":"editorial-source-registers-for-daily-articles","route":"/research/editorial-source-registers-for-daily-articles","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"article-cluster-mapping-for-virtual-assistant-teams","route":"/research/article-cluster-mapping-for-virtual-assistant-teams","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"research-queue-aging-for-content-operations","route":"/research/research-queue-aging-for-content-operations","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"headline-statistic-verification-for-research-articles","route":"/research/headline-statistic-verification-for-research-articles","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"article-methodology-notes-for-remote-researchers","route":"/research/article-methodology-notes-for-remote-researchers","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"research-article-fact-check-handoffs","route":"/research/research-article-fact-check-handoffs","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"internal-link-audits-for-research-libraries","route":"/research/internal-link-audits-for-research-libraries","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"related-research-card-governance","route":"/research/related-research-card-governance","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"article-revision-ledgers-for-content-teams","route":"/research/article-revision-ledgers-for-content-teams","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"daily-research-publishing-capacity-controls","route":"/research/daily-research-publishing-capacity-controls","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"research-article-acceptance-gates-for-small-teams","route":"/research/research-article-acceptance-gates-for-small-teams","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"},
+    {"slug":"claim-evidence-matrices-for-research-articles","route":"/research/claim-evidence-matrices-for-research-articles","sourcePath":"app/research-content.ts","provenance":"original-aug10-batch","introducedByCommit":"a1847676f62fa01821105b687fd1e40c50991b6a","sourceDateField":"topicSpecs[4]","sourceDate":"2026-08-10","renderedDateFields":["datePublished","visible-date"],"renderedDate":"2026-08-10"}
+  ]
+}
