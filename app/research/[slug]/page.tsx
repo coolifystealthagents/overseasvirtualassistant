@@ -2,11 +2,13 @@ import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { researchPosts } from '../../fleet-content';
 
+const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
+
 export function generateStaticParams() { return researchPosts.map(p => ({ slug: p.slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = researchPosts.find(p => p.slug === slug);
-  return { title: post?.title || 'Research', description: post?.excerpt, alternates: { canonical: `https://overseasvirtualassistant.com/research/${slug}` } };
+  return { title: post?.title || 'Research', description: post?.excerpt, alternates: { canonical: `https://overseasvirtualassistant.com/research/${slug}` }, openGraph: { title: post?.title, description: post?.excerpt, type: 'article', url: `https://overseasvirtualassistant.com/research/${slug}`, publishedTime: post?.published } };
 }
 
 export default async function ResearchArticle({ params }: { params: Promise<{ slug: string }> }) {
@@ -18,7 +20,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     <main className="fleet-main">
       <article className="section article-shell">
         <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.published, dateModified: post.published, citation: post.sources.map(s => s.url), mainEntityOfPage: `https://overseasvirtualassistant.com/research/${post.slug}` }} />
-        <p className="eyebrow">Philippines staffing research · {post.published}</p>
+        <p className="eyebrow">Philippines staffing research · <time dateTime={post.published}>{formatPublicDate(post.published)}</time></p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
         <img src={post.image.src} alt={post.image.alt} className="article-image" />
