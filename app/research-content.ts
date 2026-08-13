@@ -82,7 +82,7 @@ const related = (index: number) => [
 const august11ResearchSpecs = [
   {
     slug: 'role-scope-evidence-for-virtual-assistant-hiring',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Role-scope evidence for virtual assistant hiring',
     question: 'What evidence shows that a virtual assistant role is defined well enough to recruit and manage?',
     finding: 'The Small Business Administration treats hiring and management as connected planning decisions: a business needs a clear job, expectations, and management approach before it can evaluate fit.',
@@ -92,7 +92,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'data-minimization-for-delegated-assistant-work',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Data minimization for delegated assistant work',
     question: 'How much customer or business information should a remote assistant receive to complete a task?',
     finding: 'The FTC recommends starting with the information a business actually needs, protecting it through its lifecycle, and disposing of data that no longer has a business purpose.',
@@ -102,7 +102,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'working-time-evidence-for-philippines-assistant-shifts',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Working-time evidence for Philippines assistant shifts',
     question: 'What should a business examine before choosing a shift for a Philippines-based assistant?',
     finding: 'The International Labour Organization links working-time arrangements with health, work-life balance, and productivity; a shift is therefore a service-coverage decision as well as a calendar choice.',
@@ -112,7 +112,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'identity-and-accountability-in-remote-assistant-access',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Identity and accountability in remote assistant access',
     question: 'Which access evidence helps a business know who is using an account and what they are allowed to do?',
     finding: 'NIST Digital Identity Guidelines distinguish identity proofing, authentication, and authorization; those are separate questions and should not be collapsed into a shared password.',
@@ -122,7 +122,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'phishing-resilience-for-virtual-assistant-teams',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Phishing resilience for virtual assistant teams',
     question: 'What makes a remote assistant team more resilient to suspicious messages and account takeover attempts?',
     finding: 'CISA’s small-business guidance emphasizes practical protections such as multifactor authentication, software updates, strong passwords, and recognizing phishing attempts.',
@@ -132,7 +132,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'privacy-risk-questions-for-remote-assistant-roles',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Privacy-risk questions for remote assistant roles',
     question: 'How can a small business identify privacy risk before delegating a new assistant role?',
     finding: 'The NIST Privacy Framework organizes privacy risk around identifying, governing, controlling, communicating, and protecting data-processing activities.',
@@ -142,7 +142,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'cybersecurity-risk-evidence-for-delegated-operations',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Cybersecurity-risk evidence for delegated operations',
     question: 'What should a manager review before expanding a virtual assistant’s access to business systems?',
     finding: 'NIST Cybersecurity Framework 2.0 gives organizations a common language for understanding, managing, and communicating cybersecurity risk across governance, identification, protection, detection, response, and recovery.',
@@ -152,7 +152,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'source-quality-for-assistant-prepared-research',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Source quality for assistant-prepared research',
     question: 'What makes research prepared by a virtual assistant useful to a business decision-maker?',
     finding: 'A defensible research note distinguishes the authority of a source from the relevance of a claim and preserves enough context for another reader to check the conclusion.',
@@ -162,7 +162,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'continuity-evidence-for-remote-assistant-coverage',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Continuity evidence for remote assistant coverage',
     question: 'How can a small team tell whether assistant coverage will survive an absence or handoff?',
     finding: 'CISA’s ransomware guidance stresses preparation, backups, and recovery planning because continuity depends on what can be restored and who knows how to respond.',
@@ -172,7 +172,7 @@ const august11ResearchSpecs = [
   },
   {
     slug: 'handoff-latency-in-distributed-assistant-support',
-    published: '2026-08-11',
+    published: '2026-08-12',
     title: 'Handoff latency in distributed assistant support',
     question: 'How should a business study delays between a Philippines-based assistant and the next decision-maker?',
     finding: 'Handoff delay is not simply a time-zone problem: it combines the moment work becomes blocked, the quality of the context sent forward, and the availability of the next owner.',
