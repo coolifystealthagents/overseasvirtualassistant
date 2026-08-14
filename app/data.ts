@@ -132,7 +132,8 @@ export const blogPosts: BlogPost[] = [
 import { dailyBlogPosts, newDailyBlogPosts, secondDailyBlogPosts } from './daily-content';
 import { aug11BlogPosts } from './aug11-blog';
 import { aug13BlogPosts } from './aug13-blog';
-blogPosts.push(...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
+import { aug14BlogPosts } from './aug14-blog';
+blogPosts.push(...aug14BlogPosts, ...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
 // Keep the family index newest-first so newly published material is discoverable.
 blogPosts.sort((a, b) => b.updated.localeCompare(a.updated));
 
