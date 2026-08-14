@@ -86,9 +86,9 @@ export default function Home() {
             <h1>Hire a Filipino virtual assistant. Keep the handoff under control.</h1>
             <p className="ova-lead">We recruit and hire only in the Philippines. Start with clear tasks, limited access, and a review routine you can keep. Add work after the first lane is running well.</p>
             <ul className="ova-hero-checks" aria-label="What the staffing plan covers">
-              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/tasks-and-guardrails.svg" alt="" /></span> Tasks and owner-only decisions</li>
-              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/workday-overlap.svg" alt="" /></span> Workday overlap and handoff times</li>
-              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/first-week-plan.svg" alt="" /></span> A first-week review plan</li>
+              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/tasks-and-guardrails.svg" alt="Tasks and access guardrails" /></span> Tasks and owner-only decisions</li>
+              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/workday-overlap.svg" alt="Workday schedule overlap" /></span> Workday overlap and handoff times</li>
+              <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/first-week-plan.svg" alt="First-week assistant plan" /></span> A first-week review plan</li>
             </ul>
             <div className="ova-actions">
               <a className="btn ova-primary" href="/contact">Request a staffing plan</a>

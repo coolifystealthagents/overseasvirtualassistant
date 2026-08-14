@@ -5,7 +5,7 @@ import { JsonLd } from './components';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: 'Overseas Virtual Assistant | Hire Filipino virtual assistants', template: '%s | Overseas Virtual Assistant' },
+  title: { default: 'Overseas Virtual Assistant | Filipino VA Staffing', template: '%s | Overseas Virtual Assistant' },
   description: 'Plain guides and staffing plans for hiring Filipino virtual assistants based only in the Philippines.',
   alternates: { canonical: site.url },
   openGraph: { title: 'Overseas Virtual Assistant', description: 'Hire Filipino virtual assistants based in the Philippines with a clear role, shift, and review plan.', url: site.url, siteName: 'Overseas Virtual Assistant', type: 'website' },
