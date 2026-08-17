@@ -133,7 +133,8 @@ import { dailyBlogPosts, newDailyBlogPosts, secondDailyBlogPosts } from './daily
 import { aug11BlogPosts } from './aug11-blog';
 import { aug13BlogPosts } from './aug13-blog';
 import { aug14BlogPosts } from './aug14-blog';
-blogPosts.push(...aug14BlogPosts, ...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
+import { aug17BlogPosts } from './aug17-blog';
+blogPosts.push(...aug17BlogPosts, ...aug14BlogPosts, ...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
 // Keep the family index newest-first so newly published material is discoverable.
 blogPosts.sort((a, b) => b.updated.localeCompare(a.updated));
 
