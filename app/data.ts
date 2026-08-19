@@ -135,8 +135,15 @@ import { aug13BlogPosts } from './aug13-blog';
 import { aug14BlogPosts } from './aug14-blog';
 import { aug17BlogPosts } from './aug17-blog';
 import { aug18BlogPosts } from './aug18-blog';
+import { aug18ReplacementPosts } from './aug18-replacement-posts';
 blogPosts.push(...aug17BlogPosts, ...aug14BlogPosts, ...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
-blogPosts.push(...aug18BlogPosts);
+const rejectedAug18Routes = new Set([
+  'philippines-virtual-assistant-content-refresh-audit',
+  'philippines-virtual-assistant-content-qa-sampling',
+  'philippines-virtual-assistant-content-brief-exceptions',
+  'philippines-virtual-assistant-editorial-scorecard',
+]);
+blogPosts.push(...aug18BlogPosts.filter((post) => !rejectedAug18Routes.has(post.slug)), ...aug18ReplacementPosts);
 // Keep the family index newest-first so newly published material is discoverable.
 blogPosts.sort((a, b) => b.updated.localeCompare(a.updated));
 
