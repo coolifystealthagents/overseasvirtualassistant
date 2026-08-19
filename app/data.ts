@@ -135,7 +135,10 @@ import { aug13BlogPosts } from './aug13-blog';
 import { aug14BlogPosts } from './aug14-blog';
 import { aug17BlogPosts } from './aug17-blog';
 import { aug18BlogPosts } from './aug18-blog';
-import { aug18ReplacementPosts } from './aug18-replacement-posts';
+import { aug18ArticleBriefVersionControl } from './aug18-article-brief-version-control';
+import { aug18ArticleSampleCalibration } from './aug18-article-sample-calibration';
+import { aug18BriefQuestionRouting } from './aug18-brief-question-routing';
+import { aug18ArticleCorrectionControl } from './aug18-article-correction-control';
 blogPosts.push(...aug17BlogPosts, ...aug14BlogPosts, ...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
 const rejectedAug18Routes = new Set([
   'philippines-virtual-assistant-content-refresh-audit',
@@ -143,7 +146,13 @@ const rejectedAug18Routes = new Set([
   'philippines-virtual-assistant-content-brief-exceptions',
   'philippines-virtual-assistant-editorial-scorecard',
 ]);
-blogPosts.push(...aug18BlogPosts.filter((post) => !rejectedAug18Routes.has(post.slug)), ...aug18ReplacementPosts);
+blogPosts.push(
+  ...aug18BlogPosts.filter((post) => !rejectedAug18Routes.has(post.slug)),
+  aug18ArticleBriefVersionControl,
+  aug18ArticleSampleCalibration,
+  aug18BriefQuestionRouting,
+  aug18ArticleCorrectionControl,
+);
 // Keep the family index newest-first so newly published material is discoverable.
 blogPosts.sort((a, b) => b.updated.localeCompare(a.updated));
 
