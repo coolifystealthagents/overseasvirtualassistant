@@ -2,15 +2,15 @@
   "campaignDate": "2026-08-18",
   "family": "research",
   "entries": [
-    {"route":"/research/research-question-selection-for-daily-articles","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/source-date-checks-for-virtual-assistant-research","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/evidence-boundaries-for-assistant-prepared-briefs","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/handoff-latency-in-philippines-research-support","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/privacy-scope-in-remote-content-research","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/reviewer-calibration-for-daily-article-queues","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/workload-signals-in-remote-research-operations","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/access-reviews-for-daily-article-support","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/claim-scope-in-virtual-assistant-market-research","sourcePaths":["app/aug18-research.ts"]},
-    {"route":"/research/exception-routing-in-research-article-production","sourcePaths":["app/aug18-research.ts"]}
+    {"route":"/research/research-question-selection-for-daily-articles","sourcePaths":["app/aug18-research-question-selection-for-daily-articles.ts"]},
+    {"route":"/research/source-date-checks-for-virtual-assistant-research","sourcePaths":["app/aug18-source-date-checks-for-virtual-assistant-research.ts"]},
+    {"route":"/research/evidence-boundaries-for-assistant-prepared-briefs","sourcePaths":["app/aug18-evidence-boundaries-for-assistant-prepared-briefs.ts"]},
+    {"route":"/research/handoff-latency-in-philippines-research-support","sourcePaths":["app/aug18-handoff-latency-in-philippines-research-support.ts"]},
+    {"route":"/research/privacy-scope-in-remote-content-research","sourcePaths":["app/aug18-privacy-scope-in-remote-content-research.ts"]},
+    {"route":"/research/reviewer-calibration-for-daily-article-queues","sourcePaths":["app/aug18-reviewer-calibration-for-daily-article-queues.ts"]},
+    {"route":"/research/workload-signals-in-remote-research-operations","sourcePaths":["app/aug18-workload-signals-in-remote-research-operations.ts"]},
+    {"route":"/research/access-reviews-for-daily-article-support","sourcePaths":["app/aug18-access-reviews-for-daily-article-support.ts"]},
+    {"route":"/research/claim-scope-in-virtual-assistant-market-research","sourcePaths":["app/aug18-claim-scope-in-virtual-assistant-market-research.ts"]},
+    {"route":"/research/exception-routing-in-research-article-production","sourcePaths":["app/aug18-exception-routing-in-research-article-production.ts"]}
   ]
 }
