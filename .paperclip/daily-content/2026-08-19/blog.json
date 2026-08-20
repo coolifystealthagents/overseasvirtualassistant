@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/overseas-virtual-assistant-intake-source-register",
+      "source": "content/blog/overseas-virtual-assistant-intake-source-register.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-approval-evidence-matrix",
+      "source": "content/blog/overseas-virtual-assistant-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-exception-queue-triage",
+      "source": "content/blog/overseas-virtual-assistant-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-quality-review-cadence",
+      "source": "content/blog/overseas-virtual-assistant-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-handoff-acceptance-log",
+      "source": "content/blog/overseas-virtual-assistant-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-access-recertification-review",
+      "source": "content/blog/overseas-virtual-assistant-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-weekly-decision-brief",
+      "source": "content/blog/overseas-virtual-assistant-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-source-of-truth-map",
+      "source": "content/blog/overseas-virtual-assistant-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-change-control-record",
+      "source": "content/blog/overseas-virtual-assistant-change-control-record.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-work-queue-ownership",
+      "source": "content/blog/overseas-virtual-assistant-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-escalation-path-design",
+      "source": "content/blog/overseas-virtual-assistant-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/overseas-virtual-assistant-launch-readiness-review",
+      "source": "content/blog/overseas-virtual-assistant-launch-readiness-review.md"
+    }
+  ]
+}
