@@ -33,6 +33,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
         <h2>Sources</h2><ol>{post.sources.map(s => <li key={s.url}><a href={s.url}>{s.name}</a>: {s.note}</li>)}</ol>
         <h2>FAQs</h2>{post.faqs.map(f => <section key={f.question}><h3>{f.question}</h3><p>{f.answer}</p></section>)}
         <h2>Related Research</h2><div className="fleet-card-grid">{post.relatedResearch.map(relatedSlug => <a className="fleet-card" href={relatedSlug} key={relatedSlug}>Read related research</a>)}</div>
+        {post.serviceHandoff && <section className="fleet-card"><h2>Plan the next step</h2><p>{post.serviceHandoff.copy}</p><a className="btn primary" href={post.serviceHandoff.href}>{post.serviceHandoff.label}</a></section>}
         <p><a href="/blog">Read the daily blog guides</a> · <a href="/services">Explore service workflows</a> · <a href="/contact">Plan your staffing routine</a></p>
         <p>{post.cta}</p>
       </article>

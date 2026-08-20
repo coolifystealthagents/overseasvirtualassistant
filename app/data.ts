@@ -103,6 +103,7 @@ export type ResearchPost = {
   sourceNotes: string; sources: { name: string; url: string; note: string }[];
   internalLinks: string[]; faqs: { question: string; answer: string }[];
   relatedResearch: string[]; image: { src: string; alt: string }; cta: string;
+  serviceHandoff?: { href: string; label: string; copy: string };
 };
 
 export const blogPosts: BlogPost[] = [
