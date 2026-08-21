@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-20",
+  "articles": [
+    {
+      "route": "/blog/article-brief-intake",
+      "source": "content/blog/article-brief-intake.md",
+      "image": "public/aug20-heroes/article-brief-intake.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-article-brief-intake.txt"
+    },
+    {
+      "route": "/blog/editorial-calendar-ownership",
+      "source": "content/blog/editorial-calendar-ownership.md",
+      "image": "public/aug20-heroes/editorial-calendar-ownership.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-editorial-calendar-ownership.txt"
+    },
+    {
+      "route": "/blog/research-to-draft-handoff",
+      "source": "content/blog/research-to-draft-handoff.md",
+      "image": "public/aug20-heroes/research-to-draft-handoff.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-research-to-draft-handoff.txt"
+    },
+    {
+      "route": "/blog/article-fact-check",
+      "source": "content/blog/article-fact-check.md",
+      "image": "public/aug20-heroes/article-fact-check.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-article-fact-check.txt"
+    },
+    {
+      "route": "/blog/article-revision-acceptance",
+      "source": "content/blog/article-revision-acceptance.md",
+      "image": "public/aug20-heroes/article-revision-acceptance.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-article-revision-acceptance.txt"
+    },
+    {
+      "route": "/blog/content-backlog-aging",
+      "source": "content/blog/content-backlog-aging.md",
+      "image": "public/aug20-heroes/content-backlog-aging.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-content-backlog-aging.txt"
+    },
+    {
+      "route": "/blog/writer-role-scorecard",
+      "source": "content/blog/writer-role-scorecard.md",
+      "image": "public/aug20-heroes/writer-role-scorecard.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-writer-role-scorecard.txt"
+    },
+    {
+      "route": "/blog/source-access-boundary",
+      "source": "content/blog/source-access-boundary.md",
+      "image": "public/aug20-heroes/source-access-boundary.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-source-access-boundary.txt"
+    },
+    {
+      "route": "/blog/timezone-publishing-handoff",
+      "source": "content/blog/timezone-publishing-handoff.md",
+      "image": "public/aug20-heroes/timezone-publishing-handoff.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-timezone-publishing-handoff.txt"
+    },
+    {
+      "route": "/blog/topic-priority-queue",
+      "source": "content/blog/topic-priority-queue.md",
+      "image": "public/aug20-heroes/topic-priority-queue.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-topic-priority-queue.txt"
+    },
+    {
+      "route": "/blog/article-update-decision",
+      "source": "content/blog/article-update-decision.md",
+      "image": "public/aug20-heroes/article-update-decision.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-article-update-decision.txt"
+    },
+    {
+      "route": "/blog/quality-sampling",
+      "source": "content/blog/quality-sampling.md",
+      "image": "public/aug20-heroes/quality-sampling.webp",
+      "promptReceipt": ".paperclip/daily-content/2026-08-20/image-prompts/blog-quality-sampling.txt"
+    }
+  ]
+}

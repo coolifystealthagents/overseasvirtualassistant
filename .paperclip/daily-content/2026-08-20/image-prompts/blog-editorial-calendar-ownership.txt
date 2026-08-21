@@ -1,0 +1,10 @@
+Use case: photorealistic-natural
+Asset type: blog hero image
+Primary request: editorial scene for Who owns the editorial calendar when a Philippines virtual assistant prepares daily articles?
+Scene/backdrop: a tidy remote operations desk with a laptop, paper notes, and a video handoff context.
+Subject: visual metaphor for Editorial calendar ownership in Philippines-based virtual assistant work.
+Style/medium: editorial documentary photography, natural texture.
+Composition/framing: wide 3:2 composition with negative space, no readable screen text.
+Lighting/mood: soft daylight, calm and practical.
+Constraints: distinct composition, no logos, no text, no watermark, no stock-photo look.
+
