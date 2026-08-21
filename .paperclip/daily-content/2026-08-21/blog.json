@@ -1,0 +1,102 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {
+      "route": "/blog/virtual-assistant-content-intake-scorecard",
+      "sourcePaths": [
+        "content/blog/aug21-virtual-assistant-content-intake-scorecard.md"
+      ],
+      "imagePath": "public/aug21-heroes/virtual-assistant-content-intake-scorecard.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/virtual-assistant-content-intake-scorecard.json"
+    },
+    {
+      "route": "/blog/philippines-virtual-assistant-editorial-calendar-capacity",
+      "sourcePaths": [
+        "content/blog/aug21-philippines-virtual-assistant-editorial-calendar-capacity.md"
+      ],
+      "imagePath": "public/aug21-heroes/philippines-virtual-assistant-editorial-calendar-capacity.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/philippines-virtual-assistant-editorial-calendar-capacity.json"
+    },
+    {
+      "route": "/blog/virtual-assistant-source-confidence-ladder",
+      "sourcePaths": [
+        "content/blog/aug21-virtual-assistant-source-confidence-ladder.md"
+      ],
+      "imagePath": "public/aug21-heroes/virtual-assistant-source-confidence-ladder.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/virtual-assistant-source-confidence-ladder.json"
+    },
+    {
+      "route": "/blog/philippines-virtual-assistant-article-update-brief",
+      "sourcePaths": [
+        "content/blog/aug21-philippines-virtual-assistant-article-update-brief.md"
+      ],
+      "imagePath": "public/aug21-heroes/philippines-virtual-assistant-article-update-brief.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/philippines-virtual-assistant-article-update-brief.json"
+    },
+    {
+      "route": "/blog/virtual-assistant-editorial-risk-register",
+      "sourcePaths": [
+        "content/blog/aug21-virtual-assistant-editorial-risk-register.md"
+      ],
+      "imagePath": "public/aug21-heroes/virtual-assistant-editorial-risk-register.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/virtual-assistant-editorial-risk-register.json"
+    },
+    {
+      "route": "/blog/philippines-virtual-assistant-content-handoff-notes",
+      "sourcePaths": [
+        "content/blog/aug21-philippines-virtual-assistant-content-handoff-notes.md"
+      ],
+      "imagePath": "public/aug21-heroes/philippines-virtual-assistant-content-handoff-notes.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/philippines-virtual-assistant-content-handoff-notes.json"
+    },
+    {
+      "route": "/blog/virtual-assistant-reader-journey-map",
+      "sourcePaths": [
+        "content/blog/aug21-virtual-assistant-reader-journey-map.md"
+      ],
+      "imagePath": "public/aug21-heroes/virtual-assistant-reader-journey-map.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/virtual-assistant-reader-journey-map.json"
+    },
+    {
+      "route": "/blog/philippines-virtual-assistant-article-brief-approval",
+      "sourcePaths": [
+        "content/blog/aug21-philippines-virtual-assistant-article-brief-approval.md"
+      ],
+      "imagePath": "public/aug21-heroes/philippines-virtual-assistant-article-brief-approval.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/philippines-virtual-assistant-article-brief-approval.json"
+    },
+    {
+      "route": "/blog/virtual-assistant-editorial-backlog-aging",
+      "sourcePaths": [
+        "content/blog/aug21-virtual-assistant-editorial-backlog-aging.md"
+      ],
+      "imagePath": "public/aug21-heroes/virtual-assistant-editorial-backlog-aging.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/virtual-assistant-editorial-backlog-aging.json"
+    },
+    {
+      "route": "/blog/philippines-virtual-assistant-content-review-window",
+      "sourcePaths": [
+        "content/blog/aug21-philippines-virtual-assistant-content-review-window.md"
+      ],
+      "imagePath": "public/aug21-heroes/philippines-virtual-assistant-content-review-window.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/philippines-virtual-assistant-content-review-window.json"
+    },
+    {
+      "route": "/blog/virtual-assistant-article-exception-log",
+      "sourcePaths": [
+        "content/blog/aug21-virtual-assistant-article-exception-log.md"
+      ],
+      "imagePath": "public/aug21-heroes/virtual-assistant-article-exception-log.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/virtual-assistant-article-exception-log.json"
+    },
+    {
+      "route": "/blog/philippines-virtual-assistant-content-owner-map",
+      "sourcePaths": [
+        "content/blog/aug21-philippines-virtual-assistant-content-owner-map.md"
+      ],
+      "imagePath": "public/aug21-heroes/philippines-virtual-assistant-content-owner-map.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/philippines-virtual-assistant-content-owner-map.json"
+    }
+  ]
+}

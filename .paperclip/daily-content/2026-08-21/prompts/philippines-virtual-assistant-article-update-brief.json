@@ -1,0 +1,6 @@
+{
+  "route": "/blog/philippines-virtual-assistant-article-update-brief",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for Updating an existing article is a preservation job as well as a writing job. A Philippines-based virtual assistant needs to know what the page is meant to answer, which claims are still trusted, and what the owner wants changed. Without that context, an update can improve a paragraph while quietly breaking the reader promise or search intent. Distinct composition about define the update before opening the draft; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/philippines-virtual-assistant-article-update-brief.png"
+}

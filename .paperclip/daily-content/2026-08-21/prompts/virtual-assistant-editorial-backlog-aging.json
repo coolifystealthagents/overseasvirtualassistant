@@ -1,0 +1,6 @@
+{
+  "route": "/blog/virtual-assistant-editorial-backlog-aging",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for An aging backlog is a decision problem, not simply a motivation problem. Old briefs may contain useful questions, but they may also reflect a changed service, a duplicate angle, or a source that is no longer adequate. A virtual assistant can collect the evidence for triage; the owner decides whether to resume, reshape, merge, or retire each item. Distinct composition about triage age with evidence; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/virtual-assistant-editorial-backlog-aging.png"
+}

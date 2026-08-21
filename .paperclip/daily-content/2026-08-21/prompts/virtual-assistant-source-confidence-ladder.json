@@ -1,0 +1,6 @@
+{
+  "route": "/blog/virtual-assistant-source-confidence-ladder",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for Research quality improves when the assistant can distinguish a source that is useful for orientation from one that can support a public claim. A confidence ladder gives that distinction a place in the workflow. It also gives the owner a calm answer to a common question: should this item move forward, wait for evidence, or be removed from the brief? Distinct composition about label evidence before using it; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/virtual-assistant-source-confidence-ladder.png"
+}

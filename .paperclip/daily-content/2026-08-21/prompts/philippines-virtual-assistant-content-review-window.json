@@ -1,0 +1,6 @@
+{
+  "route": "/blog/philippines-virtual-assistant-content-review-window",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for A review window protects both focus and continuity. With a Philippines-based virtual assistant, the window should say when drafts are reviewed, what happens when the reviewer is unavailable, and which issues justify interruption. Predictability is more useful than pretending every article needs an immediate response. Distinct composition about make review timing explicit; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/philippines-virtual-assistant-content-review-window.png"
+}

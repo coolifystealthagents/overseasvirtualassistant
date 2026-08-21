@@ -1,0 +1,6 @@
+{
+  "route": "/blog/virtual-assistant-reader-journey-map",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for A reader journey map keeps article planning anchored in a person’s decision rather than a keyword alone. It asks what brought the reader here, what must be understood next, and what a useful next step looks like. A virtual assistant can prepare this map, while an owner keeps responsibility for positioning, sensitive promises, and final publication. Distinct composition about map the reader’s changing questions; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/virtual-assistant-reader-journey-map.png"
+}

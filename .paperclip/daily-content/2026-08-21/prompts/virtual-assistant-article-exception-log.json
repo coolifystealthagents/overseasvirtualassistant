@@ -1,0 +1,6 @@
+{
+  "route": "/blog/virtual-assistant-article-exception-log",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for An exception log preserves learning that would otherwise disappear in chat. It can record a weak source, an unclear instruction, a duplicate topic, a missing image decision, or an approval that has not arrived. The assistant records facts and proposed next actions; the owner decides the disposition when the issue changes scope or public meaning. Distinct composition about separate normal work from blocked work; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/virtual-assistant-article-exception-log.png"
+}

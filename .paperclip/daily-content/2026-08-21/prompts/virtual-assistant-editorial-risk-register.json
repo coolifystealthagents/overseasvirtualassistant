@@ -1,0 +1,6 @@
+{
+  "route": "/blog/virtual-assistant-editorial-risk-register",
+  "provider": "Gemini",
+  "prompt": "Editorial hero illustration for An editorial risk register makes risk discussable before it becomes a correction. For delegated content, risks include weak evidence, accidental overclaiming, a topic that overlaps another page, a missing approver, and access to material that should not be shared. The register does not make an assistant responsible for decisions outside the role; it makes the stop-and-ask boundary visible. Distinct composition about turn concerns into named decisions; no text, no logo, no stock photography.",
+  "imagePath": "public/aug21-heroes/virtual-assistant-editorial-risk-register.png"
+}
