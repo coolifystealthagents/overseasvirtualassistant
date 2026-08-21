@@ -1,0 +1,46 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "entries": [
+    {
+      "route": "/research/sample-frame-design-for-virtual-assistant-research",
+      "sourcePaths": [
+        "app/aug21-research.ts"
+      ],
+      "imagePath": "public/images/research-aug21/sample-frame-design-for-virtual-assistant-research.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/sample-frame-design-for-virtual-assistant-research.json"
+    },
+    {
+      "route": "/research/reviewer-disagreement-in-virtual-assistant-research",
+      "sourcePaths": [
+        "app/aug21-research.ts"
+      ],
+      "imagePath": "public/images/research-aug21/reviewer-disagreement-in-virtual-assistant-research.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/reviewer-disagreement-in-virtual-assistant-research.json"
+    },
+    {
+      "route": "/research/evidence-age-in-daily-article-research",
+      "sourcePaths": [
+        "app/aug21-research.ts"
+      ],
+      "imagePath": "public/images/research-aug21/evidence-age-in-daily-article-research.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/evidence-age-in-daily-article-research.json"
+    },
+    {
+      "route": "/research/privacy-boundaries-in-virtual-assistant-research-notes",
+      "sourcePaths": [
+        "app/aug21-research.ts"
+      ],
+      "imagePath": "public/images/research-aug21/privacy-boundaries-in-virtual-assistant-research-notes.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/privacy-boundaries-in-virtual-assistant-research-notes.json"
+    },
+    {
+      "route": "/research/handoff-context-loss-in-daily-virtual-assistant-research",
+      "sourcePaths": [
+        "app/aug21-research.ts"
+      ],
+      "imagePath": "public/images/research-aug21/handoff-context-loss-in-daily-virtual-assistant-research.png",
+      "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/handoff-context-loss-in-daily-virtual-assistant-research.json"
+    }
+  ]
+}
