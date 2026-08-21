@@ -384,6 +384,87 @@ The result is a research signal, not a performance score for an assistant or a g
   };
 };
 
+// August 20 campaign: five new route-local records with literal date bindings.
+const august20ResearchSpecs = [
+  {
+    slug: 'source-freshness-decisions-for-virtual-assistant-articles', title: 'Source freshness decisions for virtual assistant articles',
+    question: 'When should a Philippines-based virtual assistant treat an older source as insufficient for a daily article?',
+    thesis: 'Source age is a claim-level decision: a stable principle may remain useful while a date-sensitive rule, product detail, or benchmark needs a current source and an explicit recheck.',
+    analysis: 'Study a dated sample of article claims by classifying each as stable guidance, changing rule, current fact, or local interpretation. For each class, record the publication date, access date, source owner, wording supported, and the event that would reopen the check.',
+    limit: 'A freshness review cannot set a universal expiry period. Legal, employment, financial, security, and platform-specific questions may require qualified review and a source chosen for the relevant jurisdiction.',
+    sources: ['https://www.fdlp.gov/','https://www.nist.gov/cyberframework','https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees'], image: 'source-freshness-decisions-for-virtual-assistant-articles'
+  },
+  {
+    slug: 'plain-language-research-for-philippines-virtual-assistants', title: 'Plain-language research for Philippines virtual assistants',
+    question: 'How can a remote article researcher preserve source meaning when evidence must be explained in plain language?',
+    thesis: 'Plain language improves a research handoff only when simplification preserves the source’s scope, uncertainty, actor, and condition instead of turning a qualified statement into a promise.',
+    analysis: 'Compare source wording, a plain-language paraphrase, and the proposed article sentence across a bounded sample. Mark omitted conditions, changed subjects, stronger verbs, missing dates, and terms that need an owner or specialist to retain.',
+    limit: 'A readability check does not prove translation accuracy or reader comprehension. Language, legal, medical, and cultural interpretation can require a qualified reviewer with the right context.',
+    sources: ['https://www.plainlanguage.gov/guidelines/','https://www.fdlp.gov/','https://www.nist.gov/privacy-framework'], image: 'plain-language-research-for-philippines-virtual-assistants'
+  },
+  {
+    slug: 'research-queue-capacity-for-daily-article-support', title: 'Research queue capacity for daily article support',
+    question: 'What evidence shows that a Philippines-based virtual assistant research queue can support a daily article rhythm without weakening review?',
+    thesis: 'Capacity is a relationship between question difficulty, source access, correction work, reviewer availability, and queue age—not a count of articles assigned or hours observed.',
+    analysis: 'Review a fixed period of research requests and separate ready work, blocked work, returned work, escalated work, and work awaiting an owner. Record question type, source burden, correction reason, review time, and the condition that made the item publishable or unsuitable.',
+    limit: 'A local queue sample cannot establish individual productivity, a universal workload, or an employment-compliant schedule. Capacity decisions must account for actual task mix, working-time requirements, and the owner’s review obligations.',
+    sources: ['https://www.ilo.org/publications/working-time-and-work-life-balance-around-world','https://www.dol.gov/general/topic/workhours','https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees'], image: 'research-queue-capacity-for-daily-article-support'
+  },
+  {
+    slug: 'evidence-handoff-acceptance-for-remote-research', title: 'Evidence handoff acceptance for remote research',
+    question: 'What must an editor be able to verify before accepting research from a Philippines-based virtual assistant?',
+    thesis: 'A research handoff is accepted when its question, claim-to-source trail, evidence limits, open decisions, and next owner are visible enough to continue without reconstructing the work.',
+    analysis: 'Examine handoffs from a defined batch using different question types and exception cases. Test whether a second reviewer can identify the intended reader, the exact supported wording, source location, access date, unresolved gap, and decision still reserved for the owner.',
+    limit: 'A complete handoff can still contain a wrong source or a mistaken interpretation. Acceptance checks traceability and readiness; they do not replace subject-matter, legal, financial, or security review.',
+    sources: ['https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees','https://www.nist.gov/cyberframework','https://www.cisa.gov/secure-our-world'], image: 'evidence-handoff-acceptance-for-remote-research'
+  },
+  {
+    slug: 'new-article-or-update-evidence-for-va-content', title: 'New article or update: evidence for VA content decisions',
+    question: 'How should an editor decide whether a new virtual assistant research question deserves a new article or an update to an existing one?',
+    thesis: 'The decision should follow the reader’s unresolved question and evidence change: a genuinely different decision needs a distinct article, while changed facts within the same question call for a traceable update.',
+    analysis: 'Compare proposed briefs with existing titles, theses, evidence scope, audience decision, and internal links before assigning a route. Record overlap found, the new evidence or question, the route decision, and the reason an old article should or should not be changed.',
+    limit: 'A route review cannot measure search performance or guarantee that readers will prefer one structure. It also must not use an update as a way to hide a materially different thesis or erase an earlier publication record.',
+    sources: ['https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls','https://www.fdlp.gov/','https://www.nist.gov/cyberframework'], image: 'new-article-or-update-evidence-for-va-content'
+  },
+] as const;
+
+const august20SourceRecords = [
+  { slug: 'source-freshness-decisions-for-virtual-assistant-articles', published: '2026-08-20' },
+  { slug: 'plain-language-research-for-philippines-virtual-assistants', published: '2026-08-20' },
+  { slug: 'research-queue-capacity-for-daily-article-support', published: '2026-08-20' },
+  { slug: 'evidence-handoff-acceptance-for-remote-research', published: '2026-08-20' },
+  { slug: 'new-article-or-update-evidence-for-va-content', published: '2026-08-20' },
+] as const;
+
+const august20Source = (url: string) => ({ name: url.includes('google') ? 'Google Search Central' : url.includes('plainlanguage') ? 'PlainLanguage.gov' : url.includes('ilo') ? 'International Labour Organization' : url.includes('dol.gov') ? 'U.S. Department of Labor' : url.includes('nist') ? 'National Institute of Standards and Technology' : url.includes('sba.gov') ? 'U.S. Small Business Administration' : url.includes('cisa.gov') ? 'Cybersecurity and Infrastructure Security Agency' : 'U.S. Government Publishing Office', url, note: 'claim-relevant public source consulted for this research article' });
+
+const makeAugust20ResearchPost = (spec: typeof august20ResearchSpecs[number]): ResearchPost => {
+  const record = august20SourceRecords.find(item => item.slug === spec.slug);
+  if (!record) throw new Error(`Missing August 20 source record for ${spec.slug}`);
+  const bridge = `The research question stays centered on daily article support for OverseasVirtualAssistant.com and on the real decisions faced by a business using Philippines-based virtual assistant work. The public sources provide principles or definitions; they do not provide a performance claim about a worker, a country, or this company. The local study should preserve the request, evidence available, action taken, reviewer decision, and unresolved point. Include ordinary cases, corrections, delays, and escalations so the result is not selected only from clean work. If the request changes midway through the period, mark the change rather than treating unlike items as one sample. A useful record also identifies what the preparer could not know, which access was unavailable, and which decision belonged to the authorized owner. That separation protects the reader from an overstated conclusion and protects the assistant from being judged against an unstated standard.`;
+  const body = (text: string) => `${text} ${bridge} The evidence should be read at the level it supports. A public framework can guide a control question; a local sample can show how one article lane behaved; neither one turns a proposed criterion into a measured outcome. When the sources disagree or the sample is too thin, narrow the claim and state the gap. The next action may be a smaller review, a better source, an owner decision, or a pause. The article should make that boundary useful rather than filling it with confidence.`;
+  return {
+    slug: spec.slug, title: `Research note: ${spec.title}`, excerpt: `${spec.thesis} Evidence-led analysis for businesses planning dependable Philippines-based article support.`, published: record.published,
+    methodology: `Research question: ${spec.question} Methodology: compare three claim-relevant public sources with a proposed dated sample of remote article-support records. Separate source fact, local observation, editorial analysis, and owner decision. The evidence scope is one bounded article lane; it is not a workforce survey or service guarantee.`,
+    headlineStat: { value: '3', label: 'claim-relevant public sources in the evidence scope', source: 'Explicit source set for this research question' },
+    keyStats: [{ value: '1', label: 'niche-specific decision question' }, { value: '1', label: 'dated local sample proposed' }, { value: '0', label: 'invented workforce statistics' }],
+    takeaways: [spec.thesis, spec.analysis, spec.limit],
+    sections: [
+      { heading: 'What the sources establish', body: body(`${spec.thesis} ${spec.analysis}`), table: [['Evidence layer','What to preserve'],['Public source','Publisher, scope, date, and relevant passage'],['Local record','Period, unit, inclusion rule, and observed status'],['Interpretation','Why the evidence matters for this article lane'],['Boundary','What the evidence cannot prove']] },
+      { heading: 'How to examine the local question', body: body(`Start by fixing the sample frame before looking for a result. ${spec.analysis} Define the unit—claim, paraphrase, request, handoff, queue item, or proposed route—so unlike work is not combined. Record accepted, corrected, pending, and escalated items separately. A small transparent sample can reveal a decision point; a large unexplained count cannot establish one.`), table: [['Design choice','Reason'],['Sample frame','Shows which items could enter review'],['Unit of analysis','Prevents unlike work from being pooled'],['Disposition','Separates acceptance from correction or delay'],['Reopening signal','Names the change that triggers another review']] },
+      { heading: 'Where a convenient conclusion fails', body: body(`A common error is to count activity instead of examining whether an editor could use the evidence. Another is to treat a source link as proof without checking its definition, date, or conditions. A third is to turn a local observation into a statement about every Philippines-based assistant. ${spec.limit} If a claim touches private information, employment, money, security, or a regulated decision, stop at the boundary and route it to the appropriate owner or qualified adviser.`), table: [['Finding','Responsible interpretation'],['Supported','Keep the wording within the source and sample scope'],['Mixed','Show the conflict and narrow the conclusion'],['Missing','Name the next record or source needed'],['Outside authority','Escalate instead of improvising']] },
+      { heading: 'Implications for the daily article routine', body: body(`For this question, the practical output is not a score for a worker. It is an editorial decision record that helps a business decide whether to continue, revise, narrow, or pause one lane of daily research and article preparation. Keep the intended reader and operating problem visible. Preserve the evidence path beside the proposed sentence. If a reviewer changes the thesis, retain the reason so a later draft does not silently restore the broader claim. If a time-zone handoff leaves an item waiting, record whether the delay came from missing evidence, unavailable authority, or queue capacity. Those are different operating problems and need different responses.`), table: [['Decision point','Evidence to review'],['Continue','Representative work is traceable and within scope'],['Revise','A repeat issue has a specific correction'],['Narrow','Access or interpretation exceeds the role'],['Pause','Risk, authority, or evidence remains unresolved']] },
+      { heading: 'Conclusion', body: body(`${spec.thesis} The three sources support a disciplined research question, not a universal answer. Use the local evidence to make one bounded owner decision, state the limitation, and define the observation that would reopen it. For OverseasVirtualAssistant.com, a publication-ready research note is strongest when it helps a reader evaluate a real virtual assistant operating choice without inventing facts about the company or workforce.`), table: [['Conclusion test','Pass condition'],['Niche relevance','Addresses Philippines-based virtual assistant article support'],['Traceability','Names source and local evidence boundaries'],['Originality','Answers a distinct decision question'],['Usefulness','Leaves a reversible next decision']] },
+    ],
+    sourceNotes: `Sources consulted: ${spec.sources.join('; ')}. These sources inform the evidence boundary; the local review design is editorial analysis and not a measured workforce result. Limitation: ${spec.limit}`,
+    sources: spec.sources.map(august20Source), internalLinks: ['/services/research-and-data-support','/research'], faqs: [
+      { question: 'Is this a performance claim about virtual assistants?', answer: 'No. It is a bounded research design for one article-support decision and does not measure a worker, country, or service result.' },
+      { question: 'What if the evidence is incomplete?', answer: 'Record the gap, narrow the conclusion, and route the unresolved decision to the owner or a qualified adviser.' },
+      { question: 'Why is the Philippines context central?', answer: 'The site helps businesses plan Philippines-based virtual assistant support, so the evidence question is framed around that operating decision without making a claim about the workforce.' },
+    ], relatedResearch: ['/research/research-workflow-design-for-virtual-assistants','/research/source-triage-for-assistant-research','/research'], image: { src: `/images/research-aug20/${spec.image}.png`, alt: `Research illustration for ${spec.title}` }, cta: 'Want this research translated into a scoped staffing role? Share the work, tools, schedule, and owner rules with our staffing team.',
+  };
+};
+
 export const researchPosts: ResearchPost[] = [...topicSpecs.map(([slug, title, cluster, thesis, publishedDate], index) => ({
   slug,
   title: `Research note: ${title}`,
@@ -417,4 +498,4 @@ export const researchPosts: ResearchPost[] = [...topicSpecs.map(([slug, title, c
   relatedResearch: related(index),
   image: { src: `/images/thumbnails/generated/${slug}.webp`, alt: `Research illustration for ${title}` },
   cta: 'Want this research translated into a scoped staffing routine? Share the task lane, tools, schedule, and owner rules with our staffing team.',
-})), ...august11ResearchSpecs.map(makeAugust11ResearchPost), ...august13ResearchSpecs.map(makeAugust13ResearchPost), ...august14ResearchSpecs.map(makeAugust14ResearchPost), ...august17ResearchSpecs.map(makeAugust17ResearchPost)].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+})), ...august11ResearchSpecs.map(makeAugust11ResearchPost), ...august13ResearchSpecs.map(makeAugust13ResearchPost), ...august14ResearchSpecs.map(makeAugust14ResearchPost), ...august17ResearchSpecs.map(makeAugust17ResearchPost), ...august20ResearchSpecs.map(makeAugust20ResearchPost)].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
