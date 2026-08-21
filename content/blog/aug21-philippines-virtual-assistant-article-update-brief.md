@@ -1,3 +1,7 @@
+---
+datePublished: "2026-08-21"
+---
+
 # philippines virtual assistant article update brief
 
 *August 21, 2026*

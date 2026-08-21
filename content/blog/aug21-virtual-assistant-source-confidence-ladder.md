@@ -1,3 +1,7 @@
+---
+datePublished: "2026-08-21"
+---
+
 # virtual assistant source confidence ladder
 
 *August 21, 2026*

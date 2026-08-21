@@ -1,3 +1,7 @@
+---
+datePublished: "2026-08-21"
+---
+
 # virtual assistant article exception log
 
 *August 21, 2026*

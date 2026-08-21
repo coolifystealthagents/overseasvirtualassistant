@@ -1,3 +1,7 @@
+---
+datePublished: "2026-08-21"
+---
+
 # virtual assistant content intake scorecard
 
 *August 21, 2026*
