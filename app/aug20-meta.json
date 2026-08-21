@@ -1,74 +1,74 @@
 {
-  "article-brief-intake": {
+  "daily-article-queue-entry": {
     "family": "blog",
-    "title": "How to set up a daily article brief intake for a Philippines virtual assistant",
-    "description": "How to set up a daily article brief intake for a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/article-brief-intake.webp"
+    "title": "How to design a daily article queue entry for a Philippines virtual assistant",
+    "description": "How to design a daily article queue entry for a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/daily-article-queue-entry.webp"
   },
-  "editorial-calendar-ownership": {
+  "editorial-calendar-fallback-rules": {
     "family": "blog",
-    "title": "Who owns the editorial calendar when a Philippines virtual assistant prepares daily articles?",
-    "description": "Who owns the editorial calendar when a Philippines virtual assistant prepares daily articles?: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/editorial-calendar-ownership.webp"
+    "title": "How to set fallback rules for an editorial calendar with a Philippines virtual assistant",
+    "description": "How to set fallback rules for an editorial calendar with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/editorial-calendar-fallback-rules.webp"
   },
-  "research-to-draft-handoff": {
+  "evidence-led-draft-outline": {
     "family": "blog",
-    "title": "How to hand research to a Philippines virtual assistant for a daily article",
-    "description": "How to hand research to a Philippines virtual assistant for a daily article: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/research-to-draft-handoff.webp"
+    "title": "How to build an evidence-led draft outline with a Philippines virtual assistant",
+    "description": "How to build an evidence-led draft outline with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/evidence-led-draft-outline.webp"
   },
-  "article-fact-check": {
+  "claim-traceability-checklist": {
     "family": "blog",
-    "title": "A fact-check routine for articles prepared by a Philippines virtual assistant",
-    "description": "A fact-check routine for articles prepared by a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/article-fact-check.webp"
+    "title": "A claim-traceability checklist for articles prepared by a Philippines virtual assistant",
+    "description": "A claim-traceability checklist for articles prepared by a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/claim-traceability-checklist.webp"
   },
-  "article-revision-acceptance": {
+  "revision-brief-closure": {
     "family": "blog",
-    "title": "How to define article revision acceptance criteria for a Philippines virtual assistant",
-    "description": "How to define article revision acceptance criteria for a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/article-revision-acceptance.webp"
+    "title": "How to close a revision brief with a Philippines virtual assistant",
+    "description": "How to close a revision brief with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/revision-brief-closure.webp"
   },
-  "content-backlog-aging": {
+  "stale-content-recovery-plan": {
     "family": "blog",
-    "title": "How to manage an aging daily article backlog with a Philippines virtual assistant",
-    "description": "How to manage an aging daily article backlog with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/content-backlog-aging.webp"
+    "title": "How to recover a stale content queue with a Philippines virtual assistant",
+    "description": "How to recover a stale content queue with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/stale-content-recovery-plan.webp"
   },
-  "writer-role-scorecard": {
+  "assistant-coaching-observation-log": {
     "family": "blog",
-    "title": "A practical scorecard for a Philippines virtual assistant writing role",
-    "description": "A practical scorecard for a Philippines virtual assistant writing role: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/writer-role-scorecard.webp"
+    "title": "How to keep a coaching observation log for a Philippines virtual assistant",
+    "description": "How to keep a coaching observation log for a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/assistant-coaching-observation-log.webp"
   },
-  "source-access-boundary": {
+  "approved-source-request-protocol": {
     "family": "blog",
-    "title": "How to set source access boundaries for a Philippines virtual assistant article team",
-    "description": "How to set source access boundaries for a Philippines virtual assistant article team: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/source-access-boundary.webp"
+    "title": "How to build an approved-source request protocol for a Philippines virtual assistant",
+    "description": "How to build an approved-source request protocol for a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/approved-source-request-protocol.webp"
   },
-  "timezone-publishing-handoff": {
+  "cross-time-zone-review-window": {
     "family": "blog",
-    "title": "How to plan a time-zone publishing handoff with a Philippines virtual assistant",
-    "description": "How to plan a time-zone publishing handoff with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/timezone-publishing-handoff.webp"
+    "title": "How to plan a cross-time-zone review window with a Philippines virtual assistant",
+    "description": "How to plan a cross-time-zone review window with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/cross-time-zone-review-window.webp"
   },
-  "topic-priority-queue": {
+  "reader-question-triage": {
     "family": "blog",
-    "title": "How to prioritize daily article topics with a Philippines virtual assistant",
-    "description": "How to prioritize daily article topics with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/topic-priority-queue.webp"
+    "title": "How to triage reader questions with a Philippines virtual assistant",
+    "description": "How to triage reader questions with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/reader-question-triage.webp"
   },
-  "article-update-decision": {
+  "article-refresh-scope-note": {
     "family": "blog",
-    "title": "When should a Philippines virtual assistant update an existing article?",
-    "description": "When should a Philippines virtual assistant update an existing article?: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/article-update-decision.webp"
+    "title": "How to write an article refresh scope note with a Philippines virtual assistant",
+    "description": "How to write an article refresh scope note with a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/article-refresh-scope-note.webp"
   },
-  "quality-sampling": {
+  "sampled-draft-learning-loop": {
     "family": "blog",
-    "title": "How to sample daily articles prepared by a Philippines virtual assistant",
-    "description": "How to sample daily articles prepared by a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
-    "hero": "/aug20-heroes/quality-sampling.webp"
+    "title": "How to turn sampled drafts into a learning loop for a Philippines virtual assistant",
+    "description": "How to turn sampled drafts into a learning loop for a Philippines virtual assistant: practical guidance for OverseasVirtualAssistant.com.",
+    "hero": "/aug20-heroes/sampled-draft-learning-loop.webp"
   }
 }

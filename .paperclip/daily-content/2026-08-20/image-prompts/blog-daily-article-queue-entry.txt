@@ -1,0 +1,4 @@
+Use case: productivity-visual
+Asset: distinct August 20, 2026 Blog hero for /blog/daily-article-queue-entry
+Prompt: Editorial digital illustration focused on daily article queue entry for a Philippines virtual assistant content workflow; wide landscape, calm green and blue palette, no readable text, no logos, no watermark.
+Generation: built-in image generation tool, fresh standalone asset, generated 2026-08-21.
