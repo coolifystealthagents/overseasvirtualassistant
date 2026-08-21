@@ -2,10 +2,10 @@
   "campaignDate": "2026-08-20",
   "family": "research",
   "articles": [
-    { "route": "/research/source-freshness-decisions-for-virtual-assistant-articles", "sourcePaths": ["app/research-content.ts"], "imagePath": "public/images/research-aug20/source-freshness-decisions-for-virtual-assistant-articles.png" },
-    { "route": "/research/plain-language-research-for-philippines-virtual-assistants", "sourcePaths": ["app/research-content.ts"], "imagePath": "public/images/research-aug20/plain-language-research-for-philippines-virtual-assistants.png" },
-    { "route": "/research/research-queue-capacity-for-daily-article-support", "sourcePaths": ["app/research-content.ts"], "imagePath": "public/images/research-aug20/research-queue-capacity-for-daily-article-support.png" },
-    { "route": "/research/evidence-handoff-acceptance-for-remote-research", "sourcePaths": ["app/research-content.ts"], "imagePath": "public/images/research-aug20/evidence-handoff-acceptance-for-remote-research.png" },
-    { "route": "/research/new-article-or-update-evidence-for-va-content", "sourcePaths": ["app/research-content.ts"], "imagePath": "public/images/research-aug20/new-article-or-update-evidence-for-va-content.png" }
+    { "route": "/research/citation-recheck-boundaries-for-philippines-article-research", "sourcePaths": ["app/aug20-citation-recheck-boundaries-for-philippines-article-research.ts"], "imagePath": "public/images/research-aug20/citation-recheck-boundaries-for-philippines-article-research.png" },
+    { "route": "/research/reader-decision-tests-for-remote-article-research", "sourcePaths": ["app/aug20-reader-decision-tests-for-remote-article-research.ts"], "imagePath": "public/images/research-aug20/reader-decision-tests-for-remote-article-research.png" },
+    { "route": "/research/evidence-lane-capacity-for-daily-va-research", "sourcePaths": ["app/aug20-evidence-lane-capacity-for-daily-va-research.ts"], "imagePath": "public/images/research-aug20/evidence-lane-capacity-for-daily-va-research.png" },
+    { "route": "/research/claim-handoff-proof-for-philippines-va-research", "sourcePaths": ["app/aug20-claim-handoff-proof-for-philippines-va-research.ts"], "imagePath": "public/images/research-aug20/claim-handoff-proof-for-philippines-va-research.png" },
+    { "route": "/research/article-identity-decisions-for-virtual-assistant-research", "sourcePaths": ["app/aug20-article-identity-decisions-for-virtual-assistant-research.ts"], "imagePath": "public/images/research-aug20/article-identity-decisions-for-virtual-assistant-research.png" }
   ]
 }
