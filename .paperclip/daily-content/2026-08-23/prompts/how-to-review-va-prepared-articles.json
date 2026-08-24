@@ -1,7 +1,7 @@
 {
   "route": "/blog/how-to-review-va-prepared-articles",
   "provider": "Gemini",
-  "status": "unavailable",
-  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "status": "generated",
+  "imagePath": "public/aug23-heroes/how-to-review-va-prepared-articles.png",
   "prompt": "Distinct editorial hero illustration for How to review articles prepared by a virtual assistant; no text, no logo, no stock photography."
 }

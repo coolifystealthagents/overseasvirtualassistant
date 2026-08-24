@@ -1,7 +1,7 @@
 {
   "route": "/blog/content-access-checklist-for-philippines-vas",
   "provider": "Gemini",
-  "status": "unavailable",
-  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "status": "generated",
+  "imagePath": "public/aug23-heroes/content-access-checklist-for-philippines-vas.png",
   "prompt": "Distinct editorial hero illustration for A content-access checklist for Philippines virtual assistants; no text, no logo, no stock photography."
 }

@@ -1,7 +1,7 @@
 {
   "route": "/blog/philippines-va-editorial-briefs-that-prevent-rework",
   "provider": "Gemini",
-  "status": "unavailable",
-  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "status": "generated",
+  "imagePath": "public/aug23-heroes/philippines-va-editorial-briefs-that-prevent-rework.png",
   "prompt": "Distinct editorial hero illustration for Editorial briefs that prevent rework with a Philippines virtual assistant; no text, no logo, no stock photography."
 }

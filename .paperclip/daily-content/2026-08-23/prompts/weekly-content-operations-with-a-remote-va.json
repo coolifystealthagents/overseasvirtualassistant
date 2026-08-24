@@ -1,7 +1,7 @@
 {
   "route": "/blog/weekly-content-operations-with-a-remote-va",
   "provider": "Gemini",
-  "status": "unavailable",
-  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "status": "generated",
+  "imagePath": "public/aug23-heroes/weekly-content-operations-with-a-remote-va.png",
   "prompt": "Distinct editorial hero illustration for A weekly content-operations rhythm for a remote virtual assistant; no text, no logo, no stock photography."
 }

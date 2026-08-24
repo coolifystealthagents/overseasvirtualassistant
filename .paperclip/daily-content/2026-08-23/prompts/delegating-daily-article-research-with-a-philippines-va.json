@@ -1,7 +1,7 @@
 {
   "route": "/blog/delegating-daily-article-research-with-a-philippines-va",
   "provider": "Gemini",
-  "status": "unavailable",
-  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "status": "generated",
+  "imagePath": "public/aug23-heroes/delegating-daily-article-research-with-a-philippines-va.png",
   "prompt": "Distinct editorial hero illustration for Delegating daily article research to a Philippines virtual assistant; no text, no logo, no stock photography."
 }
