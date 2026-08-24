@@ -1,0 +1,74 @@
+{
+  "delegating-daily-article-research-with-a-philippines-va": {
+    "family": "blog",
+    "title": "Delegating daily article research to a Philippines virtual assistant",
+    "description": "A practical operating model for turning recurring article research into bounded, reviewable work.",
+    "hero": "/aug23-heroes/delegating-daily-article-research-with-a-philippines-va.png"
+  },
+  "philippines-va-editorial-briefs-that-prevent-rework": {
+    "family": "blog",
+    "title": "Editorial briefs that prevent rework with a Philippines virtual assistant",
+    "description": "How a precise brief protects the reader question, evidence boundary, and approval path before drafting begins.",
+    "hero": "/aug23-heroes/philippines-va-editorial-briefs-that-prevent-rework.png"
+  },
+  "weekly-content-operations-with-a-remote-va": {
+    "family": "blog",
+    "title": "A weekly content-operations rhythm for a remote virtual assistant",
+    "description": "A calm weekly cadence for keeping article ideas, drafts, reviews, and decisions moving across time zones.",
+    "hero": "/aug23-heroes/weekly-content-operations-with-a-remote-va.png"
+  },
+  "content-access-checklist-for-philippines-vas": {
+    "family": "blog",
+    "title": "A content-access checklist for Philippines virtual assistants",
+    "description": "A least-privilege checklist for giving a remote assistant enough access to research and prepare articles safely.",
+    "hero": "/aug23-heroes/content-access-checklist-for-philippines-vas.png"
+  },
+  "how-to-review-va-prepared-articles": {
+    "family": "blog",
+    "title": "How to review articles prepared by a virtual assistant",
+    "description": "A review method that tests reasoning, evidence, reader usefulness, and role boundaries rather than surface polish alone.",
+    "hero": "/aug23-heroes/how-to-review-va-prepared-articles.png"
+  },
+  "remote-va-content-calendar-recovery": {
+    "family": "blog",
+    "title": "Recovering a content calendar with a remote virtual assistant",
+    "description": "A triage approach for a calendar full of stale ideas, unclear owners, and drafts that no longer fit the site.",
+    "hero": "/aug23-heroes/remote-va-content-calendar-recovery.png"
+  },
+  "philippines-va-article-handoff-standard": {
+    "family": "blog",
+    "title": "A handoff standard for article work with a Philippines virtual assistant",
+    "description": "What a useful article handoff contains when the next action may happen during another person’s working day.",
+    "hero": "/aug23-heroes/philippines-va-article-handoff-standard.png"
+  },
+  "content-quality-sampling-for-remote-va-teams": {
+    "family": "blog",
+    "title": "Content-quality sampling for remote virtual assistant teams",
+    "description": "Use small, deliberate samples to learn whether a daily article routine is becoming more reliable.",
+    "hero": "/aug23-heroes/content-quality-sampling-for-remote-va-teams.png"
+  },
+  "topic-overlap-audit-for-va-content": {
+    "family": "blog",
+    "title": "A topic-overlap audit for virtual assistant content",
+    "description": "A repeatable way to keep a growing article library distinct, useful, and easier for readers to navigate.",
+    "hero": "/aug23-heroes/topic-overlap-audit-for-va-content.png"
+  },
+  "article-fact-checking-routine-for-philippines-vas": {
+    "family": "blog",
+    "title": "A fact-checking routine for Philippines virtual assistant article work",
+    "description": "A bounded fact-checking routine that helps an assistant surface uncertainty without making unsupported public claims.",
+    "hero": "/aug23-heroes/article-fact-checking-routine-for-philippines-vas.png"
+  },
+  "remote-va-editorial-capacity-planning": {
+    "family": "blog",
+    "title": "Editorial capacity planning for a remote virtual assistant",
+    "description": "Plan daily article creation around real stages of work instead of treating typing speed as capacity.",
+    "hero": "/aug23-heroes/remote-va-editorial-capacity-planning.png"
+  },
+  "publishing-readiness-gate-for-va-articles": {
+    "family": "blog",
+    "title": "A publishing-readiness gate for virtual assistant articles",
+    "description": "A final gate for checking that an article is accurate, distinct, accessible, and ready for authorized publication.",
+    "hero": "/aug23-heroes/publishing-readiness-gate-for-va-articles.png"
+  }
+}

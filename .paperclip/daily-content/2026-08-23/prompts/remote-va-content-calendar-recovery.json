@@ -1,0 +1,7 @@
+{
+  "route": "/blog/remote-va-content-calendar-recovery",
+  "provider": "Gemini",
+  "status": "unavailable",
+  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "prompt": "Distinct editorial hero illustration for Recovering a content calendar with a remote virtual assistant; no text, no logo, no stock photography."
+}

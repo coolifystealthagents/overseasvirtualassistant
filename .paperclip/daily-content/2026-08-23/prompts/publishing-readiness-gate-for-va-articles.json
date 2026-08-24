@@ -1,0 +1,7 @@
+{
+  "route": "/blog/publishing-readiness-gate-for-va-articles",
+  "provider": "Gemini",
+  "status": "unavailable",
+  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "prompt": "Distinct editorial hero illustration for A publishing-readiness gate for virtual assistant articles; no text, no logo, no stock photography."
+}

@@ -1,0 +1,7 @@
+{
+  "route": "/blog/philippines-va-article-handoff-standard",
+  "provider": "Gemini",
+  "status": "unavailable",
+  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "prompt": "Distinct editorial hero illustration for A handoff standard for article work with a Philippines virtual assistant; no text, no logo, no stock photography."
+}

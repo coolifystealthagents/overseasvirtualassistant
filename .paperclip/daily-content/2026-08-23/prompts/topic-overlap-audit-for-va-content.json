@@ -1,0 +1,7 @@
+{
+  "route": "/blog/topic-overlap-audit-for-va-content",
+  "provider": "Gemini",
+  "status": "unavailable",
+  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "prompt": "Distinct editorial hero illustration for A topic-overlap audit for virtual assistant content; no text, no logo, no stock photography."
+}

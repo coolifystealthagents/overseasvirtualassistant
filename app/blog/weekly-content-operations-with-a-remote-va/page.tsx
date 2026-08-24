@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import {getAug23Metadata,renderAug23Article} from '../../aug23-content';export const metadata:Metadata=getAug23Metadata('weekly-content-operations-with-a-remote-va');export default function Page(){return renderAug23Article('weekly-content-operations-with-a-remote-va')}

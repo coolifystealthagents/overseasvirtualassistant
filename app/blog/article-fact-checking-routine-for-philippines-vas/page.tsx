@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import {getAug23Metadata,renderAug23Article} from '../../aug23-content';export const metadata:Metadata=getAug23Metadata('article-fact-checking-routine-for-philippines-vas');export default function Page(){return renderAug23Article('article-fact-checking-routine-for-philippines-vas')}

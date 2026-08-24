@@ -1,0 +1,7 @@
+{
+  "route": "/blog/content-quality-sampling-for-remote-va-teams",
+  "provider": "Gemini",
+  "status": "unavailable",
+  "blocker": "Gemini image generation was not available in this repository worker; text-complete fallback authorized by the August 23 v8 contract.",
+  "prompt": "Distinct editorial hero illustration for Content-quality sampling for remote virtual assistant teams; no text, no logo, no stock photography."
+}
