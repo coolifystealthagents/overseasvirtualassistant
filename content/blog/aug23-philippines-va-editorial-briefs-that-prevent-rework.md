@@ -30,11 +30,17 @@ Treat waiting as part of capacity. When a decision is held by an owner in anothe
 
 ## Queue hygiene
 
-Close the work with a short acceptance note. State what was accepted, what was changed, what remains open, and where the next person should begin. This note becomes useful context when a similar article appears later. It also makes coaching concrete because feedback can point to a decision record instead of a vague impression about the draft.
+For this article, make reader promise concrete before any drafting begins. A Philippines-based virtual assistant can prepare the record, but the owner must be able to see the condition that changes the next action. Use a small example from article operations and state what the example cannot prove.
 
-## Brief example
+The working test is scope line. Record the input, the interpretation, and the boundary beside the task. This keeps a remote assistant from guessing when a source, file, or instruction is incomplete, and it gives the reviewer one precise question to answer.
 
-Before expanding the responsibility, inspect a small sample and ask whether the process produces the same quality when the topic changes. If it does not, improve the instruction, source boundary, or escalation rule. A routine should be stable enough to teach and flexible enough to stop when a new article introduces a risk the original brief did not cover.
+Treat source plan as a decision field rather than decoration. If it changes the meaning of a claim or the order of work, show that change in the handoff. If it does not, leave it out instead of adding detail that makes the article sound more certain than the evidence allows.
+
+A useful example for this lane follows outline proof from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
+
+When revision budget is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
+
+Close this article through approval wording. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## A practical close
 
@@ -52,8 +58,8 @@ For Editorial briefs that prevent rework with a Philippines virtual assistant, k
 
 ## When to pause instead of polishing
 
-A polished paragraph is not progress if its premise is unresolved. Pause when the article would require a company fact that has not been supplied, a promise that cannot be supported, a source whose meaning is unclear, or a decision that belongs to the authorized owner. Return a focused question, explain the consequence of each plausible answer, and move to a safe adjacent task while waiting. That pattern protects daily article creation from both avoidable rework and confident overreach.
+When revision budget is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
 
 ## The owner’s review question
 
-At the end of this lane, the owner should be able to answer one simple question: does this work help a reader make a better decision about planning or operating with a virtual assistant, and can the site stand behind the way it explains that decision? If the answer is yes, approve the next stage and note why. If the answer is no, narrow the angle, request evidence, or retire the item. A clear disposition is more useful than an indefinite request for improvement.
+Close this article through approval wording. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
