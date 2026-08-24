@@ -14,19 +14,19 @@ Give the assistant a visible record for identity. It should show the current sta
 
 ## Source integrity
 
-A bounded role improves the quality of the result. The assistant may collect, compare, organize, draft, and flag. The authorized owner decides sensitive claims, company-specific promises, public positioning, and final publication. Write that distinction beside the task so that escalation feels like good work rather than failure.
+For this article, make identity check concrete before any drafting begins. A Philippines-based virtual assistant can prepare the record, but the owner must be able to see the condition that changes the next action. Use a small example from article operations and state what the example cannot prove. Write that distinction beside the task so that escalation feels like good work rather than failure.
 
 ## Metadata
 
-Use examples that resemble the actual article queue: a reader comparing support options, a manager defining a handoff, or an owner deciding whether a draft is ready for review. Examples should show the evidence required and the point at which the assistant stops. Avoid examples that imply guaranteed savings, invented credentials, or a universal answer to a legal or tax question.
+The working test is reader usefulness. Record the input, the interpretation, and the boundary beside the task. This keeps a remote assistant from guessing when a source, file, or instruction is incomplete, and it gives the reviewer one precise question to answer. Avoid examples that imply guaranteed savings, invented credentials, or a universal answer to a legal or tax question.
 
 ## Links
 
-Build one asynchronous checkpoint into the process. The checkpoint can ask whether the angle is distinct, whether sources support the important statements, and whether the next action is clear. A reviewer does not need to rewrite every sentence at this stage. They do need enough information to prevent a weak premise from consuming a full drafting cycle.
+Treat source integrity as a decision field rather than decoration. If it changes the meaning of a claim or the order of work, show that change in the handoff. If it does not, leave it out instead of adding detail that makes the article sound more certain than the evidence allows. A reviewer does not need to rewrite every sentence at this stage. They do need enough information to prevent a weak premise from consuming a full drafting cycle.
 
 ## Visuals
 
-Treat waiting as part of capacity. When a decision is held by an owner in another time zone, record the waiting state and give the assistant a safe adjacent task. This avoids pressure to fill silence with assumptions. It also gives the owner a more honest view of the calendar: a queue can be full of activity while still lacking the approvals that make publication possible.
+A useful example for this lane follows metadata review from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason. This avoids pressure to fill silence with assumptions. It also gives the owner a more honest view of the calendar: a queue can be full of activity while still lacking the approvals that make publication possible.
 
 ## Approval
 
@@ -44,13 +44,17 @@ Close this article through authorized release. Keep the record short enough to u
 
 ## A practical close
 
-Close the work with a short acceptance note. State what was accepted, what was changed, what remains open, and where the next person should begin. This note becomes useful context when a similar article appears later. It also makes coaching concrete because feedback can point to a decision record instead of a vague impression about the draft.
+For this article, make identity check concrete before any drafting begins. A Philippines-based virtual assistant can prepare the record, but the owner must be able to see the condition that changes the next action. Use a small example from article operations and state what the example cannot prove.
 
-- The reader question and article boundary are explicit.
-- Evidence gaps and owner decisions are visible.
-- Access, review timing, and the next handoff are clear.
+The working test is reader usefulness. Record the input, the interpretation, and the boundary beside the task. This keeps a remote assistant from guessing when a source, file, or instruction is incomplete, and it gives the reviewer one precise question to answer.
 
-Before expanding the responsibility, inspect a small sample and ask whether the process produces the same quality when the topic changes. If it does not, improve the instruction, source boundary, or escalation rule. A routine should be stable enough to teach and flexible enough to stop when a new article introduces a risk the original brief did not cover.
+Treat source integrity as a decision field rather than decoration. If it changes the meaning of a claim or the order of work, show that change in the handoff. If it does not, leave it out instead of adding detail that makes the article sound more certain than the evidence allows.
+
+A useful example for this lane follows metadata review from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
+
+When link check is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
+
+Close this article through authorized release. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## What to document when the work moves
 
