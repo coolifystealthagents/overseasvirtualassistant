@@ -1,0 +1,7 @@
+{
+  "status": "text-complete",
+  "provider": "Gemini",
+  "error": "429 RESOURCE_EXHAUSTED",
+  "detail": "The Gemini project monthly spending cap was exceeded before any new image was generated.",
+  "fallback": "No stock, template, or uncertain image substitution was used; existing route imagery was not modified."
+}

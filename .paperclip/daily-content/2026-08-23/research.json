@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "entries": [
+    { "slug": "how-to-measure-research-handoff-completeness", "route": "/research/how-to-measure-research-handoff-completeness", "sourcePaths": ["app/aug23-research.ts"], "imagePath": "public/images/research-aug23/research-handoff-completeness.png" },
+    { "slug": "what-source-diversity-means-for-daily-va-research", "route": "/research/what-source-diversity-means-for-daily-va-research", "sourcePaths": ["app/aug23-research.ts"], "imagePath": "public/images/research-aug23/source-diversity-daily-research.png" },
+    { "slug": "when-to-escalate-uncertain-claims-in-va-article-research", "route": "/research/when-to-escalate-uncertain-claims-in-va-article-research", "sourcePaths": ["app/aug23-research.ts"], "imagePath": "public/images/research-aug23/uncertain-claim-escalation.png" },
+    { "slug": "how-working-time-context-changes-daily-article-research", "route": "/research/how-working-time-context-changes-daily-article-research", "sourcePaths": ["app/aug23-research.ts"], "imagePath": "public/images/research-aug23/working-time-context-research.png" },
+    { "slug": "what-a-research-revision-log-can-and-cannot-prove", "route": "/research/what-a-research-revision-log-can-and-cannot-prove", "sourcePaths": ["app/aug23-research.ts"], "imagePath": "public/images/research-aug23/research-revision-log-evidence.png" }
+  ]
+}
