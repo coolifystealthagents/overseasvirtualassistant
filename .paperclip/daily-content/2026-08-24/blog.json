@@ -1,5 +1,5 @@
 {
-  "campaignDate": "2026-08-23",
+  "campaignDate": "2026-08-24",
   "family": "blog",
   "entries": [
     {
@@ -8,7 +8,7 @@
         "content/blog/aug23-delegating-daily-article-research-with-a-philippines-va.md"
       ],
       "imagePath": "public/aug23-heroes/delegating-daily-article-research-with-a-philippines-va.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/delegating-daily-article-research-with-a-philippines-va.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/delegating-daily-article-research-with-a-philippines-va.json"
     },
     {
       "route": "/blog/philippines-va-editorial-briefs-that-prevent-rework",
@@ -16,7 +16,7 @@
         "content/blog/aug23-philippines-va-editorial-briefs-that-prevent-rework.md"
       ],
       "imagePath": "public/aug23-heroes/philippines-va-editorial-briefs-that-prevent-rework.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/philippines-va-editorial-briefs-that-prevent-rework.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/philippines-va-editorial-briefs-that-prevent-rework.json"
     },
     {
       "route": "/blog/weekly-content-operations-with-a-remote-va",
@@ -24,7 +24,7 @@
         "content/blog/aug23-weekly-content-operations-with-a-remote-va.md"
       ],
       "imagePath": "public/aug23-heroes/weekly-content-operations-with-a-remote-va.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/weekly-content-operations-with-a-remote-va.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/weekly-content-operations-with-a-remote-va.json"
     },
     {
       "route": "/blog/content-access-checklist-for-philippines-vas",
@@ -32,7 +32,7 @@
         "content/blog/aug23-content-access-checklist-for-philippines-vas.md"
       ],
       "imagePath": "public/aug23-heroes/content-access-checklist-for-philippines-vas.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/content-access-checklist-for-philippines-vas.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/content-access-checklist-for-philippines-vas.json"
     },
     {
       "route": "/blog/how-to-review-va-prepared-articles",
@@ -40,7 +40,7 @@
         "content/blog/aug23-how-to-review-va-prepared-articles.md"
       ],
       "imagePath": "public/aug23-heroes/how-to-review-va-prepared-articles.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/how-to-review-va-prepared-articles.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/how-to-review-va-prepared-articles.json"
     },
     {
       "route": "/blog/remote-va-content-calendar-recovery",
@@ -48,7 +48,7 @@
         "content/blog/aug23-remote-va-content-calendar-recovery.md"
       ],
       "imagePath": "public/aug23-heroes/remote-va-content-calendar-recovery.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/remote-va-content-calendar-recovery.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/remote-va-content-calendar-recovery.json"
     },
     {
       "route": "/blog/philippines-va-article-handoff-standard",
@@ -56,7 +56,7 @@
         "content/blog/aug23-philippines-va-article-handoff-standard.md"
       ],
       "imagePath": "public/aug23-heroes/philippines-va-article-handoff-standard.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/philippines-va-article-handoff-standard.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/philippines-va-article-handoff-standard.json"
     },
     {
       "route": "/blog/content-quality-sampling-for-remote-va-teams",
@@ -64,7 +64,7 @@
         "content/blog/aug23-content-quality-sampling-for-remote-va-teams.md"
       ],
       "imagePath": "public/aug23-heroes/content-quality-sampling-for-remote-va-teams.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/content-quality-sampling-for-remote-va-teams.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/content-quality-sampling-for-remote-va-teams.json"
     },
     {
       "route": "/blog/topic-overlap-audit-for-va-content",
@@ -72,7 +72,7 @@
         "content/blog/aug23-topic-overlap-audit-for-va-content.md"
       ],
       "imagePath": "public/aug23-heroes/topic-overlap-audit-for-va-content.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/topic-overlap-audit-for-va-content.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/topic-overlap-audit-for-va-content.json"
     },
     {
       "route": "/blog/article-fact-checking-routine-for-philippines-vas",
@@ -80,7 +80,7 @@
         "content/blog/aug23-article-fact-checking-routine-for-philippines-vas.md"
       ],
       "imagePath": "public/aug23-heroes/article-fact-checking-routine-for-philippines-vas.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/article-fact-checking-routine-for-philippines-vas.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/article-fact-checking-routine-for-philippines-vas.json"
     },
     {
       "route": "/blog/remote-va-editorial-capacity-planning",
@@ -88,7 +88,7 @@
         "content/blog/aug23-remote-va-editorial-capacity-planning.md"
       ],
       "imagePath": "public/aug23-heroes/remote-va-editorial-capacity-planning.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/remote-va-editorial-capacity-planning.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/remote-va-editorial-capacity-planning.json"
     },
     {
       "route": "/blog/publishing-readiness-gate-for-va-articles",
@@ -96,7 +96,7 @@
         "content/blog/aug23-publishing-readiness-gate-for-va-articles.md"
       ],
       "imagePath": "public/aug23-heroes/publishing-readiness-gate-for-va-articles.png",
-      "promptReceipt": ".paperclip/daily-content/2026-08-23/prompts/publishing-readiness-gate-for-va-articles.json"
+      "promptReceipt": ".paperclip/daily-content/2026-08-24/prompts/publishing-readiness-gate-for-va-articles.json"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # A publishing-readiness gate for virtual assistant articles
 
-*August 23, 2026*
+*August 24, 2026*
 
 The useful unit of work is not the title “A publishing-readiness gate for virtual assistant articles”; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site’s niche rather than turning it into an abstract productivity exercise.
 

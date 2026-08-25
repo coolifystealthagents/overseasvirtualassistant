@@ -1,6 +1,6 @@
 # Delegating daily article research to a Philippines virtual assistant
 
-*August 23, 2026*
+*August 24, 2026*
 
 Daily research becomes manageable when the assignment is smaller than “find something interesting.” Give the assistant one reader question, one decision the reader is trying to make, and a short list of acceptable source types. For OverseasVirtualAssistant.com, the question should remain connected to planning, delegating, reviewing, or operating work with a virtual assistant in the Philippines. The assistant can prepare the evidence lane; the owner remains responsible for what the site ultimately says.
 
