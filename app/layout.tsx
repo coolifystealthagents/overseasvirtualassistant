@@ -1,3 +1,5 @@
+import { AcrClient } from './acr-client';
+import Script from 'next/script';
 import './globals.css';
 import type { Metadata } from 'next';
 import { site } from './data';
@@ -29,5 +31,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     description: 'Guides and staffing plans for hiring Filipino virtual assistants based in the Philippines.',
     publisher: { '@id': `${site.url}/#organization` },
   };
-  return <html lang="en"><body><JsonLd data={organization}/><JsonLd data={webSite}/>{children}</body></html>;
+  return <html lang="en"><body><JsonLd data={organization}/><JsonLd data={webSite}/>{children}<AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'overseas-virtual-assistant',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/thank-you',step:2,label:'Form Submitted',event:'funnel_form_submitted'},{path:'/thanks-whats-next',step:3,label:'Booking Confirmed',event:'funnel_booking_confirmed'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>;
 }
