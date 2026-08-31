@@ -140,6 +140,7 @@ import { aug18ArticleBriefVersionControl } from './aug18-article-brief-version-c
 import { aug18ArticleSampleCalibration } from './aug18-article-sample-calibration';
 import { aug18BriefQuestionRouting } from './aug18-brief-question-routing';
 import { aug18ArticleCorrectionControl } from './aug18-article-correction-control';
+import { august31BlogPosts } from './august-31-content';
 blogPosts.push(...aug17BlogPosts, ...aug14BlogPosts, ...aug13BlogPosts, ...aug11BlogPosts, ...dailyBlogPosts, ...newDailyBlogPosts, ...secondDailyBlogPosts);
 const rejectedAug18Routes = new Set([
   'philippines-virtual-assistant-content-refresh-audit',
@@ -154,6 +155,7 @@ blogPosts.push(
   aug18BriefQuestionRouting,
   aug18ArticleCorrectionControl,
 );
+blogPosts.push(...august31BlogPosts);
 // Keep the family index newest-first so newly published material is discoverable.
 blogPosts.sort((a, b) => b.updated.localeCompare(a.updated));
 

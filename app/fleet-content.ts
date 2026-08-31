@@ -219,7 +219,8 @@ import { claimHandoffResearch } from './aug20-claim-handoff-proof-for-philippine
 import { articleIdentityResearch } from './aug20-article-identity-decisions-for-virtual-assistant-research';
 import { aug21ResearchPosts } from './aug21-research';
 import { aug23ResearchPosts } from './aug23-research';
-export const researchPosts = [...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+import { august31ResearchPosts } from './august-31-content';
+export const researchPosts = [...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

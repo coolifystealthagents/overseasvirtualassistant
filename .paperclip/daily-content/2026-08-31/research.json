@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-31",
+  "family": "research",
+  "entries": [
+    "/research/research-content-operations-control-record",
+    "/research/research-editorial-sampling-quality-control",
+    "/research/research-content-access-least-privilege",
+    "/research/research-asynchronous-editorial-handoffs",
+    "/research/research-worker-classification-content-assistants"
+  ]
+}
