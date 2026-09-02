@@ -221,7 +221,8 @@ import { aug21ResearchPosts } from './aug21-research';
 import { aug23ResearchPosts } from './aug23-research';
 import { august31ResearchPosts } from './august-31-content';
 import { september1ResearchPosts } from './september-1-content';
-export const researchPosts = [...september1ResearchPosts, ...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+import { september2ResearchPosts } from './september-2-content';
+export const researchPosts = [...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
