@@ -1,16 +1,14 @@
 # Content-quality sampling for remote virtual assistant teams
 
-*August 24, 2026*
+*August 23, 2026*
 
-The useful unit of work is not the title “Content-quality sampling for remote virtual assistant teams”; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site’s niche rather than turning it into an abstract productivity exercise.
+The useful unit of work is not the title "Content-quality sampling for remote virtual assistant teams"; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site's niche rather than turning it into an abstract productivity exercise.
 
 ## Why sample
 
-The useful unit of work is not the title “Content-quality sampling for remote virtual assistant teams”; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site’s niche rather than turning it into an abstract productivity exercise.
-
 ## Choose units
 
-Give the assistant a visible record for why sample. It should show the current state, the evidence or material already checked, the remaining uncertainty, and the person who can resolve it. A remote worker should be able to open the record and understand what “done for now” means without reconstructing a conversation from scattered messages.
+Give the assistant a visible record for why sample. It should show the current state, the evidence or material already checked, the remaining uncertainty, and the person who can resolve it. A remote worker should be able to open the record and understand what "done for now" means without reconstructing a conversation from scattered messages.
 
 ## Inspect reasoning
 
@@ -38,23 +36,9 @@ Treat review signals as a decision field rather than decoration. If it changes t
 
 A useful example for this lane follows defect notes from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
 
-When coaching use is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
 Close this article through workflow change. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## A practical close
-
-For this article, make sample frame concrete before any drafting begins. A Philippines-based virtual assistant can prepare the record, but the owner must be able to see the condition that changes the next action. Use a small example from article operations and state what the example cannot prove.
-
-The working test is selection bias. Record the input, the interpretation, and the boundary beside the task. This keeps a remote assistant from guessing when a source, file, or instruction is incomplete, and it gives the reviewer one precise question to answer.
-
-Treat review signals as a decision field rather than decoration. If it changes the meaning of a claim or the order of work, show that change in the handoff. If it does not, leave it out instead of adding detail that makes the article sound more certain than the evidence allows.
-
-A useful example for this lane follows defect notes from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
-
-When coaching use is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
-Close this article through workflow change. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## What to document when the work moves
 
@@ -62,8 +46,15 @@ For Content-quality sampling for remote virtual assistant teams, keep a compact 
 
 ## When to pause instead of polishing
 
-When coaching use is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
-## The owner’s review question
+## The owner's review question
 
 Close this article through workflow change. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
+
+
+## Sample the decisions, not just the finished pages
+
+A polished article can hide a weak process. Sample artifacts from earlier stages as well as published work: one brief, one source packet, one draft, and the associated review note may reveal where quality changed. Select the items before reading them so that unusually good or troublesome assignments do not dominate the picture. The sample should include ordinary work, because that is where a daily routine either holds or quietly slips.
+
+Write the review question before opening the files. One sample might test whether source gaps were surfaced. Another might test whether revisions preserved the original reader question. Mixing every concern into one score makes the result hard to use. A short defect note should name the observed issue, the stage where it first appeared, and the instruction or checkpoint that could prevent it next time.
+
+Do not turn a small sample into a claim about an assistant's overall ability. It shows what happened in the selected work. Use repeated observations to decide whether the workflow needs a clearer brief, a better example, or more owner availability. Coaching should refer to a visible decision and a specific next attempt, not a vague request to "improve quality."

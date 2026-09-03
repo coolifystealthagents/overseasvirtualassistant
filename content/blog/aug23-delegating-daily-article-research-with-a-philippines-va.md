@@ -1,12 +1,10 @@
 # Delegating daily article research to a Philippines virtual assistant
 
-*August 24, 2026*
+*August 23, 2026*
 
-Daily research becomes manageable when the assignment is smaller than “find something interesting.” Give the assistant one reader question, one decision the reader is trying to make, and a short list of acceptable source types. For OverseasVirtualAssistant.com, the question should remain connected to planning, delegating, reviewing, or operating work with a virtual assistant in the Philippines. The assistant can prepare the evidence lane; the owner remains responsible for what the site ultimately says.
+Daily research becomes manageable when the assignment is smaller than "find something interesting." Give the assistant one reader question, one decision the reader is trying to make, and a short list of acceptable source types. For OverseasVirtualAssistant.com, the question should remain connected to planning, delegating, reviewing, or operating work with a virtual assistant in the Philippines. The assistant can prepare the evidence lane; the owner remains responsible for what the site ultimately says.
 
 ## Research intake
-
-Daily research becomes manageable when the assignment is smaller than “find something interesting.” Give the assistant one reader question, one decision the reader is trying to make, and a short list of acceptable source types. For OverseasVirtualAssistant.com, the question should remain connected to planning, delegating, reviewing, or operating work with a virtual assistant in the Philippines. The assistant can prepare the evidence lane; the owner remains responsible for what the site ultimately says.
 
 ## Source triage
 
@@ -26,7 +24,7 @@ Set a handoff rhythm that does not depend on live availability. A daily research
 
 ## Access limits
 
-Access should match the research lane. A brief, approved source list, research workspace, and draft area may be sufficient. Publishing credentials, customer records, billing systems, and private exports are separate permissions and should not be bundled into a general assistant role. When the assignment changes, re-check access instead of assuming yesterday’s permissions still fit today’s work. A clear boundary protects the business and makes the assistant’s responsibility more understandable.
+Access should match the research lane. A brief, approved source list, research workspace, and draft area may be sufficient. Publishing credentials, customer records, billing systems, and private exports are separate permissions and should not be bundled into a general assistant role. When the assignment changes, re-check access instead of assuming yesterday's permissions still fit today's work. A clear boundary protects the business and makes the assistant's responsibility more understandable.
 
 ## Quality signals
 
@@ -46,18 +44,12 @@ Treat claim ledger as a decision field rather than decoration. If it changes the
 
 A useful example for this lane follows async packet from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
 
-When access boundary is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
 Close this article through decision wait. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## What to document when the work moves
 
 For Delegating daily article research to a Philippines virtual assistant, keep a compact decision record alongside the article materials. Record the question that started the task, the interpretation used, the sources or examples that shaped the answer, and the point at which the owner accepted the direction. This is not public copy and it should not expose private company information. Its purpose is continuity: a Philippines-based virtual assistant can see which assumptions were tested, while the next reviewer can challenge an assumption without reopening every earlier conversation.
 
-## When to pause instead of polishing
+## The owner's review question
 
-When access boundary is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
-## The owner’s review question
-
-Close this article through decision wait. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
+The owner should decide whether the research packet supports the proposed article direction without asking the assistant to fill an evidence gap by inference. If the answer is no, narrow the claim or provide a better source before drafting resumes.

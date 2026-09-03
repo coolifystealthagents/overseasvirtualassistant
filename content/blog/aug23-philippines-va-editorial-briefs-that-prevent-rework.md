@@ -1,16 +1,14 @@
 # Editorial briefs that prevent rework with a Philippines virtual assistant
 
-*August 24, 2026*
+*August 23, 2026*
 
-The useful unit of work is not the title “Editorial briefs that prevent rework with a Philippines virtual assistant”; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site’s niche rather than turning it into an abstract productivity exercise.
+The useful unit of work is not the title "Editorial briefs that prevent rework with a Philippines virtual assistant"; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site's niche rather than turning it into an abstract productivity exercise.
 
 ## The reader promise
 
-The useful unit of work is not the title “Editorial briefs that prevent rework with a Philippines virtual assistant”; it is the decision that must be made before the next article stage can begin. Define that decision in the brief and explain why it matters to a reader considering Philippines-based virtual assistant work. This keeps the routine tied to the site’s niche rather than turning it into an abstract productivity exercise.
-
 ## Scope decisions
 
-Give the assistant a visible record for the reader promise. It should show the current state, the evidence or material already checked, the remaining uncertainty, and the person who can resolve it. A remote worker should be able to open the record and understand what “done for now” means without reconstructing a conversation from scattered messages.
+Give the assistant a visible record for the reader promise. It should show the current state, the evidence or material already checked, the remaining uncertainty, and the person who can resolve it. A remote worker should be able to open the record and understand what "done for now" means without reconstructing a conversation from scattered messages.
 
 ## Source plan
 
@@ -38,23 +36,9 @@ Treat source plan as a decision field rather than decoration. If it changes the 
 
 A useful example for this lane follows outline proof from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
 
-When revision budget is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
 Close this article through approval wording. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## A practical close
-
-For this article, make reader promise concrete before any drafting begins. A Philippines-based virtual assistant can prepare the record, but the owner must be able to see the condition that changes the next action. Use a small example from article operations and state what the example cannot prove.
-
-The working test is scope line. Record the input, the interpretation, and the boundary beside the task. This keeps a remote assistant from guessing when a source, file, or instruction is incomplete, and it gives the reviewer one precise question to answer.
-
-Treat source plan as a decision field rather than decoration. If it changes the meaning of a claim or the order of work, show that change in the handoff. If it does not, leave it out instead of adding detail that makes the article sound more certain than the evidence allows.
-
-A useful example for this lane follows outline proof from start to finish: the assistant returns a bounded artifact, identifies an exception, and waits at the named ownership boundary. The owner then accepts, narrows, or returns the item with a reason.
-
-When revision budget is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
-Close this article through approval wording. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
 
 ## What to document when the work moves
 
@@ -62,8 +46,15 @@ For Editorial briefs that prevent rework with a Philippines virtual assistant, k
 
 ## When to pause instead of polishing
 
-When revision budget is needed, phrase it as an explicit choice with consequences. That makes asynchronous work safer across time zones. It also protects public copy from invented company facts, promises, testimonials, rates, or conclusions that belong to the authorized owner.
-
-## The owner’s review question
+## The owner's review question
 
 Close this article through approval wording. Keep the record short enough to use daily, but specific enough that another reviewer can tell what happened, what remains uncertain, and where the next Philippines virtual assistant handoff begins.
+
+
+## Put the expensive questions near the top
+
+The most costly brief omissions are the ones discovered after a complete draft. State the reader, the decision, and the article boundary before the outline. Then list the claims that require owner-supplied knowledge or approval. If the article must avoid a topic, comparison, or internal detail, say so beside the relevant section. A general reminder at the bottom is easy to miss when the assistant is resolving a specific paragraph.
+
+Give sources different jobs. Mark which materials establish facts, which pages show the site's approved language, and which examples are for structure only. Without that distinction, a writer may treat an old blog post as current evidence or copy a competitor's framing into the draft. The assistant should be able to ask for another source when the assigned material cannot support the planned claim.
+
+Approval criteria should describe an observable result. "Make it authoritative" invites subjective rewrites. "Explain where the assistant stops and the owner decides" gives the reviewer a test. Before drafting, ask the assistant to return a short interpretation: the intended reader outcome, proposed structure, uncertain claims, and first blocking question. Correcting that page is much cheaper than correcting an article built on the wrong premise.
