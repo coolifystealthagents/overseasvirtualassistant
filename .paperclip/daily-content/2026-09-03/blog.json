@@ -1,0 +1,78 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "entries": [
+    {
+      "route": "/blog/article-research-intake-boundary-for-virtual-assistants",
+      "sourcePaths": [
+        "content/blog/september3-article-research-intake-boundary-for-virtual-assistants.md"
+      ]
+    },
+    {
+      "route": "/blog/subject-matter-expert-interview-handoff-for-va-writers",
+      "sourcePaths": [
+        "content/blog/september3-subject-matter-expert-interview-handoff-for-va-writers.md"
+      ]
+    },
+    {
+      "route": "/blog/source-conflict-resolution-for-remote-article-research",
+      "sourcePaths": [
+        "content/blog/september3-source-conflict-resolution-for-remote-article-research.md"
+      ]
+    },
+    {
+      "route": "/blog/refresh-or-rewrite-triage-for-va-content",
+      "sourcePaths": [
+        "content/blog/september3-refresh-or-rewrite-triage-for-va-content.md"
+      ]
+    },
+    {
+      "route": "/blog/brand-voice-sample-calibration-for-virtual-assistant-writers",
+      "sourcePaths": [
+        "content/blog/september3-brand-voice-sample-calibration-for-virtual-assistant-writers.md"
+      ]
+    },
+    {
+      "route": "/blog/privacy-safe-source-capture-for-remote-content-teams",
+      "sourcePaths": [
+        "content/blog/september3-privacy-safe-source-capture-for-remote-content-teams.md"
+      ]
+    },
+    {
+      "route": "/blog/post-publication-correction-intake-for-va-articles",
+      "sourcePaths": [
+        "content/blog/september3-post-publication-correction-intake-for-va-articles.md"
+      ]
+    },
+    {
+      "route": "/blog/glossary-control-for-distributed-editorial-teams",
+      "sourcePaths": [
+        "content/blog/september3-glossary-control-for-distributed-editorial-teams.md"
+      ]
+    },
+    {
+      "route": "/blog/time-sensitive-claim-expiry-for-va-researched-content",
+      "sourcePaths": [
+        "content/blog/september3-time-sensitive-claim-expiry-for-va-researched-content.md"
+      ]
+    },
+    {
+      "route": "/blog/subject-matter-approval-queue-for-remote-writers",
+      "sourcePaths": [
+        "content/blog/september3-subject-matter-approval-queue-for-remote-writers.md"
+      ]
+    },
+    {
+      "route": "/blog/article-acceptance-tests-for-virtual-assistant-drafts",
+      "sourcePaths": [
+        "content/blog/september3-article-acceptance-tests-for-virtual-assistant-drafts.md"
+      ]
+    },
+    {
+      "route": "/blog/first-ten-article-assignments-for-a-content-va",
+      "sourcePaths": [
+        "content/blog/september3-first-ten-article-assignments-for-a-content-va.md"
+      ]
+    }
+  ]
+}

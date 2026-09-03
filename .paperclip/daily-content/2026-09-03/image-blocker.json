@@ -1,0 +1,7 @@
+{
+  "provider": "Gemini",
+  "status": "unavailable",
+  "reason": "API_KEY_INVALID",
+  "attemptedAt": "2026-09-03",
+  "fallback": "Text and route work completed without stock or substitute images."
+}
