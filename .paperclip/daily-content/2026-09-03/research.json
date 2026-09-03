@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "research",
+  "entries": [
+    { "route": "/research/source-change-sensitivity-in-daily-va-research", "sourcePaths": ["app/september-3-research-part1.ts"] },
+    { "route": "/research/sampling-bias-in-virtual-assistant-research-review", "sourcePaths": ["app/september-3-research-part1.ts"] },
+    { "route": "/research/resolving-conflicting-sources-in-va-article-research", "sourcePaths": ["app/september-3-research-part2.ts"] },
+    { "route": "/research/context-loss-in-asynchronous-va-research-questions", "sourcePaths": ["app/september-3-research-part2.ts"] },
+    { "route": "/research/least-privilege-evidence-collection-for-va-research", "sourcePaths": ["app/september-3-research-part2.ts"] }
+  ]
+}

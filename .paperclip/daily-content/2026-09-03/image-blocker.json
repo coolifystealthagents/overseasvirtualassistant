@@ -1,7 +1,6 @@
 {
   "provider": "Gemini",
-  "status": "unavailable",
-  "reason": "API_KEY_INVALID",
-  "attemptedAt": "2026-09-03",
-  "fallback": "Text and route work completed without stock or substitute images."
+  "status": "text-complete",
+  "error": "Gemini is unavailable in this repository worker",
+  "fallback": "No stock, template, or alternate-generator image was substituted. Five distinct image paths and prompt receipts are reserved for later Gemini fulfillment."
 }
