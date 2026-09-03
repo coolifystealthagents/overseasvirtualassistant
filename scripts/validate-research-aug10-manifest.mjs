@@ -14,7 +14,7 @@ if (manifest.schemaVersion !== 1 || manifest.contract !== 'sites3-aug10-public-d
 if (manifest.domain !== 'overseasvirtualassistant.com' || manifest.repository !== 'coolifystealthagents/overseasvirtualassistant' || manifest.branch !== 'main') fail('manifest repository mismatch');
 if (manifest.targetDate !== target || manifest.entries.length !== 12 || manifest.entries.length < manifest.minimum) fail('manifest count/date mismatch');
 if (new Set(manifest.entries.map((entry) => entry.slug)).size !== 12) fail('duplicate slug');
-if (!page.includes('datePublished: post.published') || !page.includes('Philippines staffing research · {post.published}')) fail('rendered date wiring missing');
+if (!/datePublished:\s*post\.published\b/.test(page) || !/Philippines staffing research\s*·\s*<time\s+dateTime=\{post\.published\}/.test(page)) fail('rendered date wiring missing');
 if (!index.includes('researchPosts.map')) fail('research index wiring missing');
 if (!sitemap.includes('researchPosts.map(p=>`/research/${p.slug}`')) fail('sitemap eligibility wiring missing');
 for (const entry of manifest.entries) {

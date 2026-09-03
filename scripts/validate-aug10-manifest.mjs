@@ -12,9 +12,9 @@ const page = fs.readFileSync('app/blog/[slug]/page.tsx', 'utf8');
 const data = fs.readFileSync('app/data.ts', 'utf8');
 const research = fs.readFileSync('app/research-content.ts', 'utf8');
 const sitemap = fs.readFileSync('app/sitemap.xml/route.ts', 'utf8');
-if (!page.includes('datePublished: post.updated') || !page.includes('Updated {post.updated}')) fail('rendered date wiring missing');
+if (!/datePublished:\s*post\.updated\b/.test(page) || !/Updated\s*<time\s+dateTime=\{post\.updated\}/.test(page)) fail('rendered date wiring missing');
 if (!data.includes('blogPosts.sort((a, b) => b.updated.localeCompare(a.updated))')) fail('index sort missing');
-if (!research.includes("researchPosts: ResearchPost[]") || !research.includes(".sort((a, b) => b.published.localeCompare(a.published))")) fail('research index sort missing');
+if (!/researchPosts:\s*ResearchPost\[\]\s*=\s*\[.*?\]\.sort\(\(a,\s*b\)\s*=>\s*b\.published\.localeCompare\(a\.published\)(?:\s*\|\|\s*a\.slug\.localeCompare\(b\.slug\))?\)/s.test(research)) fail('research index sort missing');
 if (!sitemap.includes('blogPosts.map(p=>`/blog/${p.slug}`')) fail('sitemap eligibility wiring missing');
 for (const entry of manifest.entries) {
   if (!/^\/blog\/[a-z0-9-]+$/.test(entry.route) || entry.route !== `/blog/${entry.slug}`) fail(`bad route: ${entry.slug}`);
