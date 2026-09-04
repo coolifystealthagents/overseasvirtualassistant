@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "research",
+  "entries": [
+    { "route": "/research/brief-completeness-signals-in-daily-va-article-research", "sourcePaths": ["app/september-4-research.ts"] },
+    { "route": "/research/handoff-delay-measurement-for-philippines-content-operations", "sourcePaths": ["app/september-4-research.ts"] },
+    { "route": "/research/editorial-sampling-coverage-for-daily-virtual-assistant-drafts", "sourcePaths": ["app/september-4-research.ts"] },
+    { "route": "/research/source-provenance-loss-in-remote-article-revisions", "sourcePaths": ["app/september-4-research.ts"] },
+    { "route": "/research/access-revocation-evidence-after-article-research-handoffs", "sourcePaths": ["app/september-4-research.ts"] }
+  ]
+}

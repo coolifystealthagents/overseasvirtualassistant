@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "blog",
+  "entries": [
+    { "route": "/blog/daily-article-brief-readiness-check-for-virtual-assistants", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/editorial-definition-of-done-for-philippines-va-articles", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/daily-content-queue-cutoff-for-remote-va-teams", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/source-packet-naming-routine-for-va-research", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/article-review-comment-severity-for-virtual-assistant-drafts", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/publication-day-link-check-for-daily-va-content", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/daily-article-correction-priority-for-remote-editors", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/virtual-assistant-article-series-continuity-check", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/handoff-proof-for-overnight-article-production", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/approved-example-library-for-content-virtual-assistants", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/pre-publish-claim-owner-map-for-va-written-articles", "sourcePaths": ["app/september-4-blog.tsx"] },
+    { "route": "/blog/daily-publishing-retrospective-for-philippines-va-teams", "sourcePaths": ["app/september-4-blog.tsx"] }
+  ]
+}
