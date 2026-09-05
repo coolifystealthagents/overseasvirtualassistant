@@ -1,13 +1,13 @@
 # Overseas Virtual Assistant topical-authority link ledger
 
-Updated: 2026-08-22
+Updated: 2026-09-05
 
 This is an internal execution map. It only uses routes that already exist in this repository. Each row names one buyer question, the closest Philippines-based service page, and one supporting research page that can earn a contextual handoff after a page-level review. A row is not permission to add a generic card or repeat the same link on every article.
 
 | Service pillar | Supporting research route | Reader question | Controlled next step | Status |
 | --- | --- | --- | --- | --- |
 | Executive assistance | `/research/executive-calendar-buffer-research` | How should an executive decide which calendar buffers and exceptions stay with them? | Audit whether the existing calendar service is specific enough; it already has a handoff to `/services/calendar-and-inbox-management`. | Existing handoff; do not duplicate. |
-| Calendar and inbox management | `/research/shift-load-evidence-for-philippines-support` | What should a team record before it adds inbox work to a Philippines shift? | Review one body-level handoff to `/services/calendar-and-inbox-management` only if the article does not already give that route as its next step. | Candidate. |
+| Calendar and inbox management | `/research/shift-load-evidence-for-philippines-support` | What should a team record before it adds inbox work to a Philippines shift? | The existing route already sends this question to `/services/calendar-and-inbox-management` and keeps priority changes and commitment-affecting exceptions with the owner. | Delivered; do not duplicate. |
 | Travel and expense support | `/research/working-time-evidence-for-philippines-assistant-shifts` | What coverage window is realistic before travel changes and expense records start arriving? | Check whether travel planning and expense preparation are named before linking to `/services/travel-and-expense-support`. | Candidate. |
 | Real estate virtual assistance | `/research/property-admin-escalation-evidence` | Which property requests can an assistant prepare, and which must return to the licensed or responsible owner? | Add one route-local handoff to `/services/real-estate-virtual-assistance` only if the source has no matching service path. | Candidate. |
 | Ecommerce virtual assistance | `/research/ecommerce-status-reconciliation-study` | How can a store separate an order update from a refund, substitution, or delivery decision? | Add one route-local handoff to `/services/ecommerce-virtual-assistance` only after checking the rendered article for an existing relevant target. | Candidate. |
