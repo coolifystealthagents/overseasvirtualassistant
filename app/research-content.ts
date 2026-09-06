@@ -206,6 +206,11 @@ const makeAugust11ResearchPost = (spec: typeof august11ResearchSpecs[number], in
   ],
   relatedResearch: related(15 + index),
   image: { src: spec.image, alt: `Research illustration for ${spec.title}` },
+  serviceHandoff: spec.slug === 'working-time-evidence-for-philippines-assistant-shifts' ? {
+    href: '/services/travel-and-expense-support',
+    label: 'Plan travel and expense support',
+    copy: 'If travel changes or expense records need a clear coverage window, review the service scope for a Philippines-based assistant. The owner keeps bookings, spending limits, approval, and any customer or supplier commitment.'
+  } : undefined,
   cta: 'Want this research translated into a scoped staffing role? Share the work, tools, schedule, and owner rules with our staffing team.',
 });
 
