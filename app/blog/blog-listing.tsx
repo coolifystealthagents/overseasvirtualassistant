@@ -4,11 +4,15 @@ import aug23Meta from "../aug23-meta.json";
 import september3Meta from "../september3-blog-meta.json";
 import { september4BlogPosts } from "../september-4-blog";
 import { september7BlogPosts } from "../september-7-blog";
+import { september8BlogPosts } from "../september-8-blog";
 import { notFound } from "next/navigation";
 import { Header, Footer } from "../components";
 import { blogPosts } from "../data";
 const PAGE_SIZE = 20;
 const campaignPosts = [
+  ...september8BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
   ...september7BlogPosts.map(
     (p) => [p.slug, { title: p.title, description: p.description }] as const,
   ),

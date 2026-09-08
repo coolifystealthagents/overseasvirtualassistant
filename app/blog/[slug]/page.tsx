@@ -5,13 +5,16 @@ import { NightShiftArticle, nightShiftMeta, nightShiftSlug } from '../../rich-bl
 import { AccessHandoffArticle, accessHandoffMeta, accessHandoffSlug } from '../../access-blog';
 import { findSeptember4BlogPost, September4BlogArticle, september4BlogMetadata, september4BlogPosts } from '../../september-4-blog';
 import { findSeptember7BlogPost, September7BlogArticle, september7BlogMetadata, september7BlogPosts } from '../../september-7-blog';
+import { findSeptember8BlogPost, September8BlogArticle, september8BlogMetadata, september8BlogPosts } from '../../september-8-blog';
 
 const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 
-export function generateStaticParams() { return [...september7BlogPosts.map((p)=>({ slug: p.slug })), ...september4BlogPosts.map((p)=>({ slug: p.slug })), ...blogPosts.map((p)=>({ slug: p.slug }))]; }
+export function generateStaticParams() { return [...september8BlogPosts.map((p)=>({ slug: p.slug })), ...september7BlogPosts.map((p)=>({ slug: p.slug })), ...september4BlogPosts.map((p)=>({ slug: p.slug })), ...blogPosts.map((p)=>({ slug: p.slug }))]; }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const september8Post = findSeptember8BlogPost(slug);
+  if (september8Post) return september8BlogMetadata(september8Post);
   const september7Post = findSeptember7BlogPost(slug);
   if (september7Post) return september7BlogMetadata(september7Post);
   const september4Post = findSeptember4BlogPost(slug);
@@ -43,6 +46,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ const september8Post = findSeptember8BlogPost(slug);
+ if (september8Post) return <September8BlogArticle post={september8Post}/>;
  const september7Post = findSeptember7BlogPost(slug);
  if (september7Post) return <September7BlogArticle post={september7Post}/>;
  const september4Post = findSeptember4BlogPost(slug);

@@ -226,7 +226,8 @@ import { september3ResearchPart1 } from './september-3-research-part1';
 import { september3ResearchPart2 } from './september-3-research-part2';
 import { september4ResearchPosts } from './september-4-research';
 import { september7ResearchPosts } from './september-7-research';
-export const researchPosts = [...september7ResearchPosts, ...september4ResearchPosts, ...september3ResearchPart1, ...september3ResearchPart2, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+import { september8ResearchPosts } from './september-8-research';
+export const researchPosts = [...september8ResearchPosts, ...september7ResearchPosts, ...september4ResearchPosts, ...september3ResearchPart1, ...september3ResearchPart2, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},
