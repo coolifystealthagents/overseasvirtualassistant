@@ -8,7 +8,7 @@ export function generateStaticParams() { return researchPosts.map(p => ({ slug: 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = researchPosts.find(p => p.slug === slug);
-  return { title: post?.title || 'Research', description: post?.excerpt, alternates: { canonical: `https://overseasvirtualassistant.com/research/${slug}` }, openGraph: { title: post?.title, description: post?.excerpt, type: 'article', url: `https://overseasvirtualassistant.com/research/${slug}`, publishedTime: post?.published } };
+  return { title: post?.title || 'Research', description: post?.excerpt, alternates: { canonical: `https://overseasvirtualassistant.com/research/${slug}` }, openGraph: { title: post?.title, description: post?.excerpt, type: 'article', url: `https://overseasvirtualassistant.com/research/${slug}`, publishedTime: post?.published, images: post?.image ? [{ url: `https://overseasvirtualassistant.com${post.image.src}`, alt: post.image.alt }] : [] } };
 }
 
 export default async function ResearchArticle({ params }: { params: Promise<{ slug: string }> }) {
