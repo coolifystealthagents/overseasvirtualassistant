@@ -20,7 +20,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     <main className="fleet-main">
       <article className="section article-shell">
         <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.published, dateModified: post.published, citation: post.sources.map(s => s.url), mainEntityOfPage: `https://overseasvirtualassistant.com/research/${post.slug}` }} />
-        <p className="eyebrow">Philippines staffing research · <time dateTime={post.published}>{formatPublicDate(post.published)}</time></p>
+        <p className="eyebrow">Philippines staffing research · {post.published === '2026-09-14' ? 'Published: ' : ''}<time dateTime={post.published}>{formatPublicDate(post.published)}</time></p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
         <img src={post.image.src} alt={post.image.alt} className="article-image" />
