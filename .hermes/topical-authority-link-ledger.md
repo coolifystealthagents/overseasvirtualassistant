@@ -1,6 +1,6 @@
 # Overseas Virtual Assistant topical-authority link ledger
 
-Updated: 2026-09-13
+Updated: 2026-09-18
 
 This is an internal execution map. It only uses routes that already exist in this repository. Each row names one buyer question, the closest Philippines-based service page, and one supporting research page that can earn a contextual handoff after a page-level review. A row is not permission to add a generic card or repeat the same link on every article.
 
@@ -16,6 +16,12 @@ This is an internal execution map. It only uses routes that already exist in thi
 | Podcast administration | `/research/handoff-context-completeness-study` | What must be in a handoff so an editor or host can continue without rebuilding the story? | Check the article’s real examples before considering `/services/podcast-administration`; skip it if the article does not address production administration. | Candidate, evidence-fit review required. |
 | Recruiting coordination | `/research/role-scope-evidence-for-virtual-assistant-hiring` | What makes a recruiting-support role clear enough to review without handing selection decisions to the assistant? | Audit one handoff to `/services/recruiting-coordination` that preserves hiring and selection authority with the owner. | Candidate. |
 | Research and data support | `/research/source-quality-for-assistant-prepared-research` | What lets an owner check a research brief before using it in a decision? | Add or confirm a route-local handoff to `/services/research-and-data-support`; do not treat a source list as a guarantee. | Candidate. |
+
+## Delivery status — 2026-09-18
+
+- Five new buyer-decision studies were added for calendar and inbox management, travel and expense support, ecommerce catalog maintenance, recruiting coordination, and research/data support.
+- Each route contains one contextual service handoff, a distinct unit of analysis, current authoritative sources checked on September 18, 2026, explicit inference limits, and a bounded pilot. Local TypeScript, production build, canonical, date, sitemap, asset, and substantive-length checks passed.
+- Public verification remains pending until the production commit deploys. The durable machine-readable records are `.hermes/research-publication-ledger.json` and `.hermes/research-verification-2026-09-18.json`.
 
 ## Delivery status — 2026-09-13
 

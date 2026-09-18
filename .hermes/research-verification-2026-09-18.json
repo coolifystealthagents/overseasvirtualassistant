@@ -1,0 +1,15 @@
+{
+  "run": "OVE-56",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "productionBranch": "main",
+  "baseSha": "edd6cb70a011d5b9b4c7d42728fb87e83c65a517",
+  "configuredTimezone": "Asia/Jakarta",
+  "publicationDate": "2026-09-18",
+  "sourceCheckedAt": "2026-09-18",
+  "requiredCount": 5,
+  "localValidatedCount": 5,
+  "liveVerifiedCount": 0,
+  "validation": {"typescript":"passed","productionBuild":"passed","staticRoutes":"passed","canonical":"passed","datePublished":"passed","visibleDate":"passed","sitemap":"passed","asset":"passed","minimumWords":"passed"},
+  "deployment": {"commitSha":null,"remoteSha":null,"coolifyApplication":"configured","evidence":null},
+  "verifiedAt": null
+}
