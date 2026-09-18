@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-09-18",
+  "family": "blog",
+  "requiredCount": 12,
+  "entries": [
+    {"slug":"executive-assistant-daily-priority-brief","route":"/blog/executive-assistant-daily-priority-brief","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"customer-support-va-escalation-matrix","route":"/blog/customer-support-va-escalation-matrix","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"crm-lead-handoff-for-philippines-virtual-assistants","route":"/blog/crm-lead-handoff-for-philippines-virtual-assistants","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"ecommerce-va-order-exception-queue","route":"/blog/ecommerce-va-order-exception-queue","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"bookkeeping-preparation-boundaries-for-a-remote-va","route":"/blog/bookkeeping-preparation-boundaries-for-a-remote-va","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"real-estate-va-listing-change-handoff","route":"/blog/real-estate-va-listing-change-handoff","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"recruiting-va-candidate-scheduling-workflow","route":"/blog/recruiting-va-candidate-scheduling-workflow","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"research-va-competitor-comparison-brief","route":"/blog/research-va-competitor-comparison-brief","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"property-management-va-maintenance-intake","route":"/blog/property-management-va-maintenance-intake","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"medical-office-va-nonclinical-admin-scope","route":"/blog/medical-office-va-nonclinical-admin-scope","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"social-media-va-comment-triage-playbook","route":"/blog/social-media-va-comment-triage-playbook","sourcePaths":["app/september-18-blog.tsx"]},
+    {"slug":"data-entry-va-quality-sampling-plan","route":"/blog/data-entry-va-quality-sampling-plan","sourcePaths":["app/september-18-blog.tsx"]}
+  ]
+}

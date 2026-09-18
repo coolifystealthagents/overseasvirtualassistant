@@ -9,13 +9,16 @@ import { findSeptember8BlogPost, September8BlogArticle, september8BlogMetadata, 
 import { findSeptember9BlogPost, September9BlogArticle, september9BlogMetadata, september9BlogPosts } from '../../september-9-blog';
 import { findSeptember10BlogPost, September10BlogArticle, september10BlogMetadata, september10BlogPosts } from '../../september-10-blog';
 import { findSeptember14BlogPost, September14BlogArticle, september14BlogMetadata, september14BlogPosts } from '../../september-14-blog';
+import { findSeptember18BlogPost, September18BlogArticle, september18BlogMetadata, september18BlogPosts } from '../../september-18-blog';
 
 const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 
-export function generateStaticParams() { return [...september14BlogPosts.map((p)=>({ slug: p.slug })), ...september10BlogPosts.map((p)=>({ slug: p.slug })), ...september9BlogPosts.map((p)=>({ slug: p.slug })), ...september8BlogPosts.map((p)=>({ slug: p.slug })), ...september7BlogPosts.map((p)=>({ slug: p.slug })), ...september4BlogPosts.map((p)=>({ slug: p.slug })), ...blogPosts.map((p)=>({ slug: p.slug }))]; }
+export function generateStaticParams() { return [...september18BlogPosts.map((p)=>({ slug: p.slug })), ...september14BlogPosts.map((p)=>({ slug: p.slug })), ...september10BlogPosts.map((p)=>({ slug: p.slug })), ...september9BlogPosts.map((p)=>({ slug: p.slug })), ...september8BlogPosts.map((p)=>({ slug: p.slug })), ...september7BlogPosts.map((p)=>({ slug: p.slug })), ...september4BlogPosts.map((p)=>({ slug: p.slug })), ...blogPosts.map((p)=>({ slug: p.slug }))]; }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const september18Post = findSeptember18BlogPost(slug);
+  if (september18Post) return september18BlogMetadata(september18Post);
   const september14Post = findSeptember14BlogPost(slug);
   if (september14Post) return september14BlogMetadata(september14Post);
   const september10Post = findSeptember10BlogPost(slug);
@@ -55,6 +58,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ const september18Post = findSeptember18BlogPost(slug);
+ if (september18Post) return <September18BlogArticle post={september18Post}/>;
  const september14Post = findSeptember14BlogPost(slug);
  if (september14Post) return <September14BlogArticle post={september14Post}/>;
  const september10Post = findSeptember10BlogPost(slug);
