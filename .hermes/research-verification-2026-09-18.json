@@ -10,6 +10,6 @@
   "localValidatedCount": 5,
   "liveVerifiedCount": 0,
   "validation": {"typescript":"passed","productionBuild":"passed","staticRoutes":"passed","canonical":"passed","datePublished":"passed","visibleDate":"passed","sitemap":"passed","asset":"passed","minimumWords":"passed"},
-  "deployment": {"commitSha":null,"remoteSha":null,"coolifyApplication":"configured","evidence":null},
+  "deployment": {"commitSha":"1f49dd4aa9671e6758dc092ebe99386985b54e0c","remoteSha":null,"coolifyApplication":"configured","evidence":null},
   "verifiedAt": null
 }
