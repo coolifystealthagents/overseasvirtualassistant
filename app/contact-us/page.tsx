@@ -4,6 +4,7 @@ import StandardContactForm from "./StandardContactForm";
 import "./contact.css";
 import "./image-fix.css";
 
+
 export const metadata: Metadata = { title: "Contact Us | Overseas Virtual Assistant Support", description: "Book a free consultation to scope reliable overseas virtual assistant support for your business.", alternates: { canonical: "/contact-us" } };
 const services = [
   ["Executive support", "Protect calendars, triage inboxes, prepare meetings, and keep executive follow-up visible."],
@@ -17,6 +18,7 @@ const quotes = [
   ["Clear access boundaries and review points made the handoff feel controlled from day one.", "Executive, growth-stage business"],
 ];
 
+
 export default function ContactUsPage(){return <>
   <Header/>
   <main className="trusted-contact tc-legal">
@@ -29,7 +31,8 @@ export default function ContactUsPage(){return <>
     <section className="tc-testimonials"><div className="container"><p className="tc-kicker">What leaders value</p><h2>Reliable support with visible ownership.</h2><div className="tc-quote-grid">{quotes.map(([quote,by])=><figure key={quote}><div aria-label="5 out of 5 stars">★★★★★</div><blockquote>“{quote}”</blockquote><figcaption>{by}</figcaption></figure>)}</div></div></section>
     <section className="tc-section"><div className="container tc-check-grid"><div><p className="tc-kicker">Capability checklist</p><h2>Role clarity comes before recruiting.</h2><p>We’ll map the operating conditions that help an overseas virtual assistant stay useful, secure, and easy to manage.</p></div><ul><li>Recurring tasks and decision boundaries</li><li>Tools, permissions, and information access</li><li>Manager ownership and review cadence</li><li>Privacy, urgency, and escalation triggers</li><li>Examples, templates, and definition of done</li><li>Coverage hours and first-month scorecard</li></ul></div></section>
     <section className="tc-why"><div className="container tc-why-grid"><img src="/images/overseas-assistant.jpg" width="1400" height="1761" alt="Overseas virtual assistant working from a professional remote office"/><div><p className="tc-kicker">Why structure matters</p><h2>Every handoff should make ownership clearer.</h2><p>We shape roles around documented inputs, named owners, secure access, useful overlap, and unmistakable escalation points—so capacity grows without creating management fog.</p><a href="#contactPageForm">Scope my overseas assistant role →</a></div></div></section>
-    <section className="tc-about"><div className="container tc-about-grid"><div><p className="tc-kicker">Powered by a proven team</p><h2>About Stealth Agents</h2><p>Stealth Agents works with over 35+ different industries. We're featured on Forbes as the top rated virtual assistant company.</p></div><a href="https://stealthagents.com" rel="noopener noreferrer">Powered by Stealth Agents</a></div></section>
+    <section className="tc-about"><div className="container tc-about-grid"><div><p className="tc-kicker">Powered by a proven team</p><h2>About Stealth Agents</h2><p>Stealth Agents works with over 35+ different industries. We're featured on Forbes as the top rated virtual assistant company.</p></div><a href="https://stealthagents.com" rel="noopener noreferrer">Powered by StealthAgents</a></div></section>
     <section className="container tc-final"><div><p className="tc-kicker">A better role brief</p><h2>Build overseas support your team can confidently rely on.</h2><p>Share the work, systems, hours, and boundaries. We’ll help define the role and next steps.</p></div><a href="#contactPageForm">Book a free consultation</a></section>
   </main><Footer/>
 </>}
+
