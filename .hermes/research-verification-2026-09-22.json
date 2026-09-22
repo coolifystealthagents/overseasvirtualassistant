@@ -4,7 +4,7 @@
   "contentCommit": "a0d8c4a371d3aad88676c4f567d3a538bff51694", "remoteSha": "a0d8c4a371d3aad88676c4f567d3a538bff51694",
   "requiredCount": 5, "verifiedCount": 0,
   "validation": {"typescript": "passed", "productionBuild": "passed", "renderedWordCounts": [2023, 1962, 1976, 1987, 1948], "canonicalDateSchemaSitemapAssets": "passed locally"},
-  "deployment": {"platform": "Coolify3", "applicationUuidConfigured": true, "authenticatedStatus": "unavailable: configured API redirected to interactive login", "publicChecks": 20, "result": "all five routes returned HTTP 404; sitemap contained zero of five routes"},
+  "deployment": {"platform": "Coolify3", "applicationUuidConfigured": true, "authenticatedStatus": "unavailable: configured API redirected to interactive login", "publicChecks": 40, "retryCommit": "60f2aa2ca0c60c3e3b5110303472aae23342a3a8", "retryWindow": "2026-09-22T23:43:15+07:00/2026-09-22T23:48:59+07:00", "result": "all five routes returned HTTP 404 before and after the Git deployment trigger; sitemap contained zero of five routes"},
   "status": "blocked_pending_deployment",
-  "recoveryAction": "Coolify3 owner must inspect or restart the Git-triggered deployment for content commit a0d8c4a371d3aad88676c4f567d3a538bff51694, then rerun live title, canonical, datePublished, asset, structured-data, sitemap, and commit checks for all five URLs."
+  "recoveryAction": "Coolify3 owner must inspect or restart the Git-triggered deployment for main SHA 60f2aa2ca0c60c3e3b5110303472aae23342a3a8 (content commit a0d8c4a371d3aad88676c4f567d3a538bff51694), then rerun live title, canonical, datePublished, asset, structured-data, sitemap, and commit checks for all five URLs."
 }
