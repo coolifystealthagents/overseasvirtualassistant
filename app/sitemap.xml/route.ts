@@ -6,6 +6,7 @@ import { september9BlogPosts } from "../september-9-blog";
 import { september10BlogPosts } from "../september-10-blog";
 import { september14BlogPosts } from "../september-14-blog";
 import { september18BlogPosts } from "../september-18-blog";
+import { september22BlogPosts } from "../september-22-blog";
 import aug23Meta from "../aug23-meta.json";
 import aug21Meta from "../aug21-meta.json";
 import aug20Meta from "../aug20-meta.json";
@@ -49,6 +50,7 @@ export async function GET() {
     .filter((n) => n > 1)
     .map((n) => `/blog/page/${n}`);
   const urls = [
+    ...september22BlogPosts.map((p) => "/blog/" + p.slug),
     ...september18BlogPosts.map((p) => "/blog/" + p.slug),
     ...september14BlogPosts.map((p) => "/blog/" + p.slug),
     ...september10BlogPosts.map((p) => "/blog/" + p.slug),

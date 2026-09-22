@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "contract": "ove-58-canonical-daily-blog-publishing",
+  "run": "OVE-58",
+  "family": "blog",
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-09-22",
+  "requiredCount": 12,
+  "baseSha": "63458bbc7859451ce3b1199b409dcbe6ffcb22b2",
+  "sources": ["https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business", "https://www.nist.gov/cyberframework"],
+  "entries": [
+    {"slug":"executive-assistant-candidate-work-sample","contentHash":"a60d2e6a32ddf4cc7edc0e9b91753da14b194756d79cd947aa5fe0459e30afb1"},
+    {"slug":"customer-support-va-hiring-scorecard","contentHash":"506a4e872c982a761744e46f5c4fe5d227f784d57a5ea90602d7b3c80a384ab3"},
+    {"slug":"crm-assistant-permission-rollout-plan","contentHash":"e9fa7863599d1fb41f7b03edf25b83f36dc4ddca9ac87efd0e4488eccb01c589"},
+    {"slug":"ecommerce-va-catalog-audit-work-sample","contentHash":"cdc74918783b4e1ed575a3ffd502c2e36fefd5f9dcfa11b64ea8ee5b4ddc2684"},
+    {"slug":"bookkeeping-va-document-intake-pilot","contentHash":"c99e79c99f6301cd3defa825f2476ad76b004c3aba5e6645db67dacd57dd5c42"},
+    {"slug":"real-estate-va-lead-intake-test","contentHash":"c33eef46b46db6d7a4adc57010ebd151e8d0312027dca55ac4e5f6b5af3bda4e"},
+    {"slug":"recruiting-coordinator-scheduling-trial","contentHash":"7daf6c2865975cc3a71d0a16021661428a7f7975f66b307505f0cd3395e0739f"},
+    {"slug":"research-va-source-evaluation-test","contentHash":"84b5a9130e69e78420f768b550be599ba452de2e6a293aa22bbbd82ba5cd2442"},
+    {"slug":"property-management-va-after-hours-intake-drill","contentHash":"8c2abe6192c0456bd768fb4473f8e7a56efe7335a5ef99dc99ffef84f70f190b"},
+    {"slug":"medical-admin-va-identity-verification-drill","contentHash":"45f8c4a07c76ac75954290bfe3c86b2b9756ea262459adffb799b147f11e7d58"},
+    {"slug":"social-media-va-response-approval-ladder","contentHash":"f026544f19bf55ac6bcd8cad38377d2b6e7b62bf8282567a009286ef0ffed0d6"},
+    {"slug":"data-entry-va-double-check-pilot","contentHash":"6c8d404da8b28ba2827f19b28d6baddb7d6970edd3ebcf92c3adf940059e7beb"}
+  ],
+  "validation": {"typescript":"passed","productionBuild":"passed","staticRoutes":"passed","canonical":"passed","datePublished":"passed","visibleDate":"passed","sitemap":"passed","asset":"passed","minimumWords":"passed","minimumWordsObserved":1388}
+}
