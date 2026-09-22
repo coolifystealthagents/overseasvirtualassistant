@@ -1,0 +1,13 @@
+{
+  "campaignDate": "2026-09-22",
+  "timezone": "Asia/Jakarta",
+  "family": "research",
+  "requiredCount": 5,
+  "entries": [
+    { "topic": "Executive meeting action-register authority", "slug": "executive-meeting-action-register-delegation-study", "route": "/research/executive-meeting-action-register-delegation-study", "sourcePaths": ["app/september-22-research.ts", "app/fleet-content.ts"], "contentHash": "caad9372e541a5cbac690459522dfed49ebd22ecea846593fdf723f4df64f8d2" },
+    { "topic": "Real-estate listing field change control", "slug": "real-estate-listing-change-control-assistant-study", "route": "/research/real-estate-listing-change-control-assistant-study", "sourcePaths": ["app/september-22-research.ts", "app/fleet-content.ts"], "contentHash": "70d5f01b1f197b8957c600566770a64fb8a22980c50589617370bd82adb62724" },
+    { "topic": "Minimum-necessary data for medical scheduling", "slug": "medical-scheduling-minimum-necessary-data-study", "route": "/research/medical-scheduling-minimum-necessary-data-study", "sourcePaths": ["app/september-22-research.ts", "app/fleet-content.ts"], "contentHash": "4cb8db7da352e654fb4b847b175f01672a957b10ecb8f15631fe49c8fa315299" },
+    { "topic": "Legal deadline evidence intake boundaries", "slug": "legal-deadline-intake-assistant-control-study", "route": "/research/legal-deadline-intake-assistant-control-study", "sourcePaths": ["app/september-22-research.ts", "app/fleet-content.ts"], "contentHash": "8e5d262da212a57e1d8344b2ee47b9718c6464d0b6bdb23b99083cfa2785361e" },
+    { "topic": "Podcast guest, asset, and sponsor release evidence", "slug": "podcast-sponsor-guest-record-handoff-study", "route": "/research/podcast-sponsor-guest-record-handoff-study", "sourcePaths": ["app/september-22-research.ts", "app/fleet-content.ts"], "contentHash": "a888554bf853ce8109542a6e96a25a4b8f742848622d674f68247f553e4fcd8d" }
+  ]
+}
