@@ -27,5 +27,5 @@
     {"topic":"Philippines night-shift handoff","slug":"night-shift-va-handoff-routine","contentHash":"635af7236ad6a04a620f9c154fb06b15038f572666af5dff0b191d4fcd393384","liveUrl":"https://overseasvirtualassistant.com/blog/night-shift-va-handoff-routine"}
   ],
   "validation": {"typescript":"passed","productionBuild":"passed","staticAndDynamicRoutes":"passed","canonical":"passed","datePublished":"passed","visibleDate":"passed","sitemap":"passed","asset":"passed","minimumWords":"passed","minimumWordsObserved":1317},
-  "deployment": {"provider":"Coolify3","resourceUuid":"configured","status":"pending"}
+  "deployment": {"provider":"Coolify3","resourceUuid":"configured","status":"blocked","pushedRemoteSha":"d875a8cbce6b251d8c9f087b1a1efdd871af1987","evidence":"Configured API token redirected to login and POST deploy returned HTTP 419; nine bounded public checks after a Git trigger returned HTTP 404."}
 }
