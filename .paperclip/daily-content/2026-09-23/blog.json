@@ -5,7 +5,7 @@
   "family": "blog",
   "domain": "overseasvirtualassistant.com",
   "repository": "coolifystealthagents/overseasvirtualassistant",
-  "branch": "main",
+  "branch": "master",
   "timezone": "Asia/Jakarta",
   "publicationDate": "2026-09-24",
   "requiredCount": 12,
@@ -27,5 +27,5 @@
     {"topic":"Philippines night-shift handoff","slug":"night-shift-va-handoff-routine","contentHash":"93311482f9d14be4eca155ceff44b8330de0a8cffe9a4d7057d47d8ab5737ffd","liveUrl":"https://overseasvirtualassistant.com/blog/night-shift-va-handoff-routine"}
   ],
   "validation": {"typescript":"passed","productionBuild":"passed","staticAndDynamicRoutes":"passed","canonical":"passed","datePublished":"passed","visibleDate":"passed","sitemap":"passed","asset":"passed","minimumWords":"passed","minimumWordsObserved":1317},
-  "deployment": {"provider":"Coolify3","resourceUuid":"configured","status":"blocked","pushedRemoteSha":"5592a3122dc04fb2f5d9529dff10ba047f87c876","evidence":"September 23 routes never became public. Publication surfaces were corrected to the September 24 site date, rebuilt, and pushed. Coolify API still redirects the configured token to login; twelve bounded public checks over three minutes returned HTTP 404."}
+  "deployment": {"provider":"Coolify3","resourceUuid":"configured","status":"blocked","pushedRemoteSha":"d855581f54f35cbeaa2033e7e8ff5cbfb6c416d3","evidence":"The repository exposed only main while the dedicated Coolify application was configured for master. The validated commit was pushed to a new master production branch to repair that dependency. Sixteen bounded public checks over four minutes still returned HTTP 404; configured Coolify API authentication remains unavailable."}
 }
