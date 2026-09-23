@@ -1,6 +1,6 @@
 import type { ResearchPost } from './data';
 
-const published = '2026-09-23';
+const published = '2026-09-24';
 const checked = 'September 23, 2026';
 const image = { src: '/images/remote-onboarding.jpg', alt: 'A Philippines-based virtual assistant and manager reviewing a controlled work queue' };
 type Source={name:string;url:string;note:string};
