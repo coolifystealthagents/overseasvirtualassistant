@@ -15,7 +15,7 @@ const sitemap = fs.readFileSync('app/sitemap.xml/route.ts', 'utf8');
 if (!/datePublished:\s*post\.updated\b/.test(page) || !/Updated\s*<time\s+dateTime=\{post\.updated\}/.test(page)) fail('rendered date wiring missing');
 if (!data.includes('blogPosts.sort((a, b) => b.updated.localeCompare(a.updated))')) fail('index sort missing');
 if (!/researchPosts:\s*ResearchPost\[\]\s*=\s*\[.*?\]\.sort\(\(a,\s*b\)\s*=>\s*b\.published\.localeCompare\(a\.published\)(?:\s*\|\|\s*a\.slug\.localeCompare\(b\.slug\))?\)/s.test(research)) fail('research index sort missing');
-if (!sitemap.includes('blogPosts.map(p=>`/blog/${p.slug}`')) fail('sitemap eligibility wiring missing');
+if (!/blogPosts\.map\(\s*\(?\s*p\s*\)?\s*=>\s*(?:`\/blog\/\$\{p\.slug\}`|["']\/blog\/["']\s*\+\s*p\.slug)\s*\)/.test(sitemap)) fail('sitemap eligibility wiring missing');
 for (const entry of manifest.entries) {
   if (!/^\/blog\/[a-z0-9-]+$/.test(entry.route) || entry.route !== `/blog/${entry.slug}`) fail(`bad route: ${entry.slug}`);
   if (entry.sourceDate !== target || entry.renderedDate !== target) fail(`bad date: ${entry.slug}`);

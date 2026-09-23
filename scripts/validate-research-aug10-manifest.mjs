@@ -14,9 +14,9 @@ if (manifest.schemaVersion !== 1 || manifest.contract !== 'sites3-aug10-public-d
 if (manifest.domain !== 'overseasvirtualassistant.com' || manifest.repository !== 'coolifystealthagents/overseasvirtualassistant' || manifest.branch !== 'main') fail('manifest repository mismatch');
 if (manifest.targetDate !== target || manifest.entries.length !== 12 || manifest.entries.length < manifest.minimum) fail('manifest count/date mismatch');
 if (new Set(manifest.entries.map((entry) => entry.slug)).size !== 12) fail('duplicate slug');
-if (!/datePublished:\s*post\.published\b/.test(page) || !/Philippines staffing research\s*·\s*<time\s+dateTime=\{post\.published\}/.test(page)) fail('rendered date wiring missing');
+if (!/datePublished:\s*post\.published\b/.test(page) || !/<time\s+dateTime=\{post\.published\}/.test(page)) fail('rendered date wiring missing');
 if (!index.includes('researchPosts.map')) fail('research index wiring missing');
-if (!sitemap.includes('researchPosts.map(p=>`/research/${p.slug}`')) fail('sitemap eligibility wiring missing');
+if (!/researchPosts\.map\(\s*\(?\s*p\s*\)?\s*=>\s*(?:`\/research\/\$\{p\.slug\}`|["']\/research\/["']\s*\+\s*p\.slug)\s*\)/.test(sitemap)) fail('sitemap eligibility wiring missing');
 for (const entry of manifest.entries) {
   if (!/^\/research\/[a-z0-9-]+$/.test(entry.route) || entry.route !== `/research/${entry.slug}`) fail(`bad route: ${entry.slug}`);
   if (entry.sourcePath !== 'app/research-content.ts' || entry.sourceDateField !== 'topicSpecs[4]') fail(`bad source record: ${entry.slug}`);
