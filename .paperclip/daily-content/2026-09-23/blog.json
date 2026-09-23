@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "contract": "canonical-daily-blog-publishing",
+  "run": "OVE-60",
+  "family": "blog",
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-09-23",
+  "requiredCount": 12,
+  "baseSha": "64d79d34b7909264b336f7e0d8363b35467087ba",
+  "contentCommitSha": "04f80a35564e3b09855357db694d917fa548c451",
+  "sources": ["https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business", "https://www.nist.gov/cyberframework"],
+  "entries": [
+    {"topic":"Executive assistant inbox triage","slug":"executive-assistant-inbox-triage-first-week-plan","contentHash":"2899bcc8a9cc7c01a96c123f71bc12274b4c72b85b391214992092396e400e99","liveUrl":"https://overseasvirtualassistant.com/blog/executive-assistant-inbox-triage-first-week-plan"},
+    {"topic":"Customer support refund authority","slug":"customer-support-va-refund-boundary-plan","contentHash":"c304c14d16bdeb5ceae54ebb22a63a953bf31e63971dedc020deafc93dd24a0c","liveUrl":"https://overseasvirtualassistant.com/blog/customer-support-va-refund-boundary-plan"},
+    {"topic":"CRM cleanup scope","slug":"crm-virtual-assistant-lead-cleanup-scope","contentHash":"4303807153b929865d24c670999d4c5029bf15d6493048e4d8d8da25d23337d4","liveUrl":"https://overseasvirtualassistant.com/blog/crm-virtual-assistant-lead-cleanup-scope"},
+    {"topic":"Ecommerce product listing handoff","slug":"ecommerce-va-product-listing-handoff","contentHash":"ecdad966f0c2324dd7833f84b59e4d140cc311fa606615ce032382c123ca81cb","liveUrl":"https://overseasvirtualassistant.com/blog/ecommerce-va-product-listing-handoff"},
+    {"topic":"Bookkeeping month-end documents","slug":"bookkeeping-va-month-end-document-checklist","contentHash":"2ca352db87b0dfa202f58959bb2a141140394d709eb4e100ba91c371d7ae46f1","liveUrl":"https://overseasvirtualassistant.com/blog/bookkeeping-va-month-end-document-checklist"},
+    {"topic":"Real estate showing intake","slug":"real-estate-va-showing-request-intake","contentHash":"3098f935559f26920e45fe85a9734a37daa07a35fedf09a371999442451d6ece","liveUrl":"https://overseasvirtualassistant.com/blog/real-estate-va-showing-request-intake"},
+    {"topic":"Recruiting interview-day coordination","slug":"recruiting-coordinator-interview-day-brief","contentHash":"3ed7db6e94c4804182276a4fff5ebfab00e3653c2ce50813656dcf1c3dc09d80","liveUrl":"https://overseasvirtualassistant.com/blog/recruiting-coordinator-interview-day-brief"},
+    {"topic":"Competitor monitoring brief","slug":"research-va-competitor-monitoring-brief","contentHash":"4951d004a24ff82a6c3f1f27d42b5a98d7ec9821d616185c0e71da59092ea615","liveUrl":"https://overseasvirtualassistant.com/blog/research-va-competitor-monitoring-brief"},
+    {"topic":"Property maintenance follow-up","slug":"property-management-va-maintenance-follow-up","contentHash":"509e8197b8522ee357f4a77006f758c4e08eda809bce846df71182b11b093959","liveUrl":"https://overseasvirtualassistant.com/blog/property-management-va-maintenance-follow-up"},
+    {"topic":"Medical appointment reminders","slug":"medical-admin-va-appointment-reminder-scope","contentHash":"3499d8a7fc368fc2b4961dee99e46334f1992f2568ad21d9149b6a558a98e331","liveUrl":"https://overseasvirtualassistant.com/blog/medical-admin-va-appointment-reminder-scope"},
+    {"topic":"Weekend social comment coverage","slug":"social-media-va-weekend-comment-coverage","contentHash":"3191c068c1a3ba95179f7a89927f450a12a87f066e6c9d323568337d0ee2bb04","liveUrl":"https://overseasvirtualassistant.com/blog/social-media-va-weekend-comment-coverage"},
+    {"topic":"Philippines night-shift handoff","slug":"night-shift-va-handoff-routine","contentHash":"635af7236ad6a04a620f9c154fb06b15038f572666af5dff0b191d4fcd393384","liveUrl":"https://overseasvirtualassistant.com/blog/night-shift-va-handoff-routine"}
+  ],
+  "validation": {"typescript":"passed","productionBuild":"passed","staticAndDynamicRoutes":"passed","canonical":"passed","datePublished":"passed","visibleDate":"passed","sitemap":"passed","asset":"passed","minimumWords":"passed","minimumWordsObserved":1317},
+  "deployment": {"provider":"Coolify3","resourceUuid":"configured","status":"pending"}
+}
