@@ -10,11 +10,13 @@ import { september10BlogPosts } from "../september-10-blog";
 import { september14BlogPosts } from "../september-14-blog";
 import { september18BlogPosts } from "../september-18-blog";
 import { september22BlogPosts } from "../september-22-blog";
+import { september23BlogPosts } from "../september-23-blog";
 import { notFound } from "next/navigation";
 import { Header, Footer } from "../components";
 import { blogPosts } from "../data";
 const PAGE_SIZE = 20;
 const campaignPosts = [
+  ...september23BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
   ...september22BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
   ...september18BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
   ...september14BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),

@@ -11,6 +11,7 @@ import { findSeptember10BlogPost, September10BlogArticle, september10BlogMetadat
 import { findSeptember14BlogPost, September14BlogArticle, september14BlogMetadata, september14BlogPosts } from '../../september-14-blog';
 import { findSeptember18BlogPost, September18BlogArticle, september18BlogMetadata, september18BlogPosts } from '../../september-18-blog';
 import { findSeptember22BlogPost, September22BlogArticle, september22BlogMetadata, september22BlogPosts } from '../../september-22-blog';
+import { findSeptember23BlogPost, September23BlogArticle, september23BlogMetadata } from '../../september-23-blog';
 
 const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 
@@ -18,6 +19,8 @@ export function generateStaticParams() { return [...september22BlogPosts.map((p)
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const september23Post = findSeptember23BlogPost(slug);
+  if (september23Post) return september23BlogMetadata(september23Post);
   const september22Post = findSeptember22BlogPost(slug);
   if (september22Post) return september22BlogMetadata(september22Post);
   const september18Post = findSeptember18BlogPost(slug);
@@ -61,6 +64,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ const september23Post = findSeptember23BlogPost(slug);
+ if (september23Post) return <September23BlogArticle post={september23Post}/>;
  const september22Post = findSeptember22BlogPost(slug);
  if (september22Post) return <September22BlogArticle post={september22Post}/>;
  const september18Post = findSeptember18BlogPost(slug);
