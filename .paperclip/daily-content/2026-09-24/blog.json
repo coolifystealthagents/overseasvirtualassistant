@@ -9,8 +9,8 @@
   "timezone": "Asia/Jakarta",
   "publicationDate": "2026-09-24",
   "requiredCount": 12,
-  "baseSha": "76ef15716645f4e0059cba25267ab19f24f8e916",
-  "contentCommitSha": "bd879d219dec57cbbbb43a716597925b7dcb3028",
+  "baseSha": "6287a7bd9e61dfed5184ad2e00de1f9f4b396f17",
+  "contentCommitSha": "76f9ec1c0327fe1ab0fbfe71e1fbf19d8bae904a",
   "sources": [
     "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
     "https://www.nist.gov/cyberframework"
