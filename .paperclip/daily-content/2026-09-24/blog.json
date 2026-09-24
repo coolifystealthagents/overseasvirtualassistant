@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "contract": "canonical-daily-blog-publishing",
+  "run": "OVE-62",
+  "family": "blog",
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "master",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-09-24",
+  "requiredCount": 12,
+  "baseSha": "76ef15716645f4e0059cba25267ab19f24f8e916",
+  "contentCommitSha": "bd879d219dec57cbbbb43a716597925b7dcb3028",
+  "sources": [
+    "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+    "https://www.nist.gov/cyberframework"
+  ],
+  "entries": [
+    {"topic":"Virtual assistant role scoping","slug":"virtual-assistant-role-scope-template","contentHash":"1efe1f7533c8d5448e54699ccea07a9bd239a108039d16fc7b38b1e0a3540416","liveUrl":"https://overseasvirtualassistant.com/blog/virtual-assistant-role-scope-template","verifiedAt":null},
+    {"topic":"Philippines VA interview scorecard","slug":"philippines-va-interview-questions-scorecard","contentHash":"26bbd095672e6984bb353e3c804f1dbc496feac4092969cb2774efb93de0a40f","liveUrl":"https://overseasvirtualassistant.com/blog/philippines-va-interview-questions-scorecard","verifiedAt":null},
+    {"topic":"Paid virtual assistant work trial","slug":"virtual-assistant-paid-work-trial-plan","contentHash":"4f9b5cc6af4e547522550a8d4f78ca10e300fb4a71a386938104dbf60a0d96dd","liveUrl":"https://overseasvirtualassistant.com/blog/virtual-assistant-paid-work-trial-plan","verifiedAt":null},
+    {"topic":"Managed VA service versus freelancer","slug":"managed-va-service-vs-freelancer","contentHash":"1014835304ed7ae4d4077cc2a4b8345e0cee584886e9fedac9dbf2919314ecb9","liveUrl":"https://overseasvirtualassistant.com/blog/managed-va-service-vs-freelancer","verifiedAt":null},
+    {"topic":"Dedicated VA versus shared support","slug":"dedicated-virtual-assistant-vs-shared-support","contentHash":"4ea01880385f1021eaab8de28bf424e8a09875b26ee91d537b6cb0ed42ea4193","liveUrl":"https://overseasvirtualassistant.com/blog/dedicated-virtual-assistant-vs-shared-support","verifiedAt":null},
+    {"topic":"Virtual assistant weekly capacity","slug":"virtual-assistant-weekly-capacity-plan","contentHash":"3349fd13e502ded525bc107f335e0fc5022abd6f3cb325d1f35f8684115b443d","liveUrl":"https://overseasvirtualassistant.com/blog/virtual-assistant-weekly-capacity-plan","verifiedAt":null},
+    {"topic":"Travel booking approval matrix","slug":"travel-booking-va-approval-matrix","contentHash":"33b3ff216c4d42b11c86a215f86b9acf968349611e2089c3a9428eea6c1af5ac","liveUrl":"https://overseasvirtualassistant.com/blog/travel-booking-va-approval-matrix","verifiedAt":null},
+    {"topic":"Legal intake and conflict-check handoff","slug":"legal-intake-va-conflict-check-handoff","contentHash":"1c6b4385edeb83bb9a970be5b4d2891e5e33eec1b350b998b034b3b8840c66c3","liveUrl":"https://overseasvirtualassistant.com/blog/legal-intake-va-conflict-check-handoff","verifiedAt":null},
+    {"topic":"Podcast episode production checklist","slug":"podcast-va-episode-production-checklist","contentHash":"75089e080669b8aeac77ba58e6b14cc9d859ef929bbf39bc71d99f0255f593f5","liveUrl":"https://overseasvirtualassistant.com/blog/podcast-va-episode-production-checklist","verifiedAt":null},
+    {"topic":"Ecommerce returns escalation matrix","slug":"ecommerce-va-returns-escalation-matrix","contentHash":"4e7907e428565f47ffd294d0d9c275316aea041307de84cffbb9d47e9fbbfc1b","liveUrl":"https://overseasvirtualassistant.com/blog/ecommerce-va-returns-escalation-matrix","verifiedAt":null},
+    {"topic":"Customer support quality review sample","slug":"customer-support-va-quality-review-sample","contentHash":"f5e1731731c2d6b5cad50fd35012d145ebd0f32cd9e8b35b27b7565f6b92594f","liveUrl":"https://overseasvirtualassistant.com/blog/customer-support-va-quality-review-sample","verifiedAt":null},
+    {"topic":"Lead follow-up qualification boundaries","slug":"lead-follow-up-va-qualification-boundaries","contentHash":"a2d80313eb9bf97e808da4e44892bd11ccf6ad7b654e7f4edbc5d9b8e7eed88d","liveUrl":"https://overseasvirtualassistant.com/blog/lead-follow-up-va-qualification-boundaries","verifiedAt":null}
+  ],
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticRoutes": "passed",
+    "canonical": "passed",
+    "datePublished": "passed",
+    "visibleDate": "passed",
+    "sitemap": "passed",
+    "asset": "passed",
+    "minimumWords": "passed",
+    "minimumWordsObserved": 1158
+  },
+  "deployment": {
+    "provider": "Coolify3",
+    "resourceUuid": "configured",
+    "status": "pending",
+    "pushedRemoteSha": null,
+    "evidence": null
+  }
+}
