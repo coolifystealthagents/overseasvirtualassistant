@@ -9,8 +9,8 @@
   "timezone": "Asia/Jakarta",
   "publicationDate": "2026-09-24",
   "requiredCount": 12,
-  "baseSha": "6287a7bd9e61dfed5184ad2e00de1f9f4b396f17",
-  "contentCommitSha": "76f9ec1c0327fe1ab0fbfe71e1fbf19d8bae904a",
+  "baseSha": "b068ac361b087d2e6385e17a12166c0915c5e921",
+  "contentCommitSha": "9138b52a262130a3a10415fe6d99bc8526c69f8a",
   "sources": [
     "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
     "https://www.nist.gov/cyberframework"
@@ -44,8 +44,9 @@
   "deployment": {
     "provider": "Coolify3",
     "resourceUuid": "configured",
-    "status": "pending",
-    "pushedRemoteSha": null,
-    "evidence": null
+    "status": "blocked_pending_deployment",
+    "pushedRemoteSha": "54d7f3954bdf3a74c93e8ae39443ebd04decae7a",
+    "evidence": "Git push to configured production branch master succeeded. Coolify3 API health is reachable, but the configured token returns HTTP 401 for the dedicated application. Four bounded public transition rounds through 2026-09-24T14:28:42Z returned HTTP 404 for every new route and no sitemap entry, so no article is counted as published.",
+    "recoveryAction": "Coolify3 application owner must restore API authorization and deploy master SHA 54d7f3954bdf3a74c93e8ae39443ebd04decae7a before 2026-09-25T00:00:00+07:00, or first update every visible/source/structured/manifest date to the later actual live date; then verify all twelve titles, unique content, canonicals, images, datePublished values, sitemap entries, and the deployed commit."
   }
 }
