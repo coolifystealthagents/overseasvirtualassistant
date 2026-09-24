@@ -1,0 +1,17 @@
+{
+  "site": "https://overseasvirtualassistant.com",
+  "timezone": "Asia/Jakarta",
+  "runs": ["OVE-62", "OVE-63"],
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "master",
+  "combinedContentHead": "330bb2348e5d78fc6802df45495920a0f6384216",
+  "singleDeploymentTriggerSha": "38bf359798d17e21b6fff5ad46887a6cb1cd0730",
+  "deploymentTriggerCount": 1,
+  "required": {"blog": 12, "research": 5, "total": 17},
+  "pushed": {"blog": 12, "research": 5, "total": 17},
+  "verified": {"blog": 0, "research": 0, "total": 0},
+  "platform": {"provider": "Coolify3", "dedicatedTargetConfigured": true, "health": "reachable", "authenticatedStatus": "HTTP 401 Unauthenticated for configured token"},
+  "transitionChecks": {"rounds": 10, "window": "2026-09-24T16:04:01Z/2026-09-24T16:07:10Z", "blogRepresentative": "HTTP 404", "researchRepresentative": "HTTP 404", "result": "deployment did not become public"},
+  "status": "blocked_pending_deployment",
+  "recoveryAction": "Coolify3 application owner must restore the dedicated target's Git deployment or API authorization for master SHA 38bf359798d17e21b6fff5ad46887a6cb1cd0730. Do not queue another deployment until this trigger is inspected. If first live occurs after 2026-09-24 in Asia/Jakarta, update all visible, source, structured-data, sitemap, manifest, and ledger publication dates before counting any article."
+}
