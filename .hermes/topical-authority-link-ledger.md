@@ -1,6 +1,6 @@
 # Overseas Virtual Assistant topical-authority link ledger
 
-Updated: 2026-09-18
+Updated: 2026-09-25
 
 This is an internal execution map. It only uses routes that already exist in this repository. Each row names one buyer question, the closest Philippines-based service page, and one supporting research page that can earn a contextual handoff after a page-level review. A row is not permission to add a generic card or repeat the same link on every article.
 
@@ -8,7 +8,7 @@ This is an internal execution map. It only uses routes that already exist in thi
 | --- | --- | --- | --- | --- |
 | Executive assistance | `/research/executive-calendar-buffer-research` | How should an executive decide which calendar buffers and exceptions stay with them? | Audit whether the existing calendar service is specific enough; it already has a handoff to `/services/calendar-and-inbox-management`. | Existing handoff; do not duplicate. |
 | Calendar and inbox management | `/research/shift-load-evidence-for-philippines-support` | What should a team record before it adds inbox work to a Philippines shift? | The existing route already sends this question to `/services/calendar-and-inbox-management` and keeps priority changes and commitment-affecting exceptions with the owner. | Delivered; do not duplicate. |
-| Travel and expense support | `/research/working-time-evidence-for-philippines-assistant-shifts` | What coverage window is realistic before travel changes and expense records start arriving? | Check whether travel planning and expense preparation are named before linking to `/services/travel-and-expense-support`. | Candidate. |
+| Travel and expense support | `/research/working-time-evidence-for-philippines-assistant-shifts` | What coverage window is realistic before travel changes and expense records start arriving? | The route already sends this question to `/services/travel-and-expense-support` and keeps bookings, spending limits, approvals, and commitments with the owner. | Delivered; do not duplicate. |
 | Real estate virtual assistance | `/research/property-admin-escalation-evidence` | Which property requests can an assistant prepare, and which must return to the licensed or responsible owner? | Add one route-local handoff to `/services/real-estate-virtual-assistance` only if the source has no matching service path. | Delivered locally; do not duplicate. |
 | Ecommerce virtual assistance | `/research/ecommerce-status-reconciliation-study` | How can a store separate an order update from a refund, substitution, or delivery decision? | The route now gives this question one contextual handoff to `/services/ecommerce-virtual-assistance`; the owner keeps refunds, substitutions, delivery disputes, and customer commitments. | Delivered locally; public verification pending. |
 | Medical administrative assistance | `/research/privacy-boundaries-in-virtual-assistant-research-notes` | What information should stay out of a research or admin note when a task touches private records? | Audit a narrowly worded handoff to `/services/medical-administrative-assistance`; keep all clinical, privacy, and professional decisions with the owner. | Candidate. |
@@ -16,6 +16,11 @@ This is an internal execution map. It only uses routes that already exist in thi
 | Podcast administration | `/research/handoff-context-completeness-study` | What must be in a handoff so an editor or host can continue without rebuilding the story? | Check the article’s real examples before considering `/services/podcast-administration`; skip it if the article does not address production administration. | Candidate, evidence-fit review required. |
 | Recruiting coordination | `/research/role-scope-evidence-for-virtual-assistant-hiring` | What makes a recruiting-support role clear enough to review without handing selection decisions to the assistant? | Audit one handoff to `/services/recruiting-coordination` that preserves hiring and selection authority with the owner. | Candidate. |
 | Research and data support | `/research/source-quality-for-assistant-prepared-research` | What lets an owner check a research brief before using it in a decision? | Add or confirm a route-local handoff to `/services/research-and-data-support`; do not treat a source list as a guarantee. | Candidate. |
+
+## Delivery status — 2026-09-25
+
+- Reconciled the travel-and-expense row against the current rendered route. The original rendered-source commit `dea3773201c539db6bf732a515b28b57f24b730a` is an ancestor of `main` and adds one route-local `/services/travel-and-expense-support` handoff to `/research/working-time-evidence-for-philippines-assistant-shifts`.
+- Fresh local production artifacts confirm the source and destination H1s, canonical URLs, and sitemap locations. The source route has one matching service href in `<main>`; this row is delivered and must not be used to create a second CTA.
 
 ## Delivery status — 2026-09-18
 
