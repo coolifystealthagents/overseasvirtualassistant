@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 3,
+  "contract": "september-28-combined-release-research-handoff",
+  "run": "OVE-66",
+  "integratorRun": "OVE-67",
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "productionBranch": "main",
+  "localBranch": "ove-66-research-2026-09-28",
+  "timezone": "Asia/Jakarta",
+  "cycleLabel": "September 28, 2026",
+  "plannedPublicationDate": "2026-09-28",
+  "publicationDateRule": "Integrator must change all five dates if first public verification occurs after local midnight; this local handoff is not a publication claim.",
+  "baseSha": "b5b37dd2ac97ecd49cecbfea6869dc5871c51a1b",
+  "latestRemoteObservedAtHandoff": "bdf433ed4f7d431420dd86a7728a72f1872eea1c",
+  "remoteNote": "The newer remote commit changes only .hermes/topical-authority-link-ledger.md; the Blog integrator must preserve it during the combined rebase.",
+  "requiredCount": 5,
+  "handoffCount": 5,
+  "status": "local-handoff-only",
+  "deploymentOwner": "browser operator",
+  "entries": [
+    {"family":"research","topic":"Payroll time-record preparation boundaries","slug":"payroll-time-record-preparation-boundary-study","bodyWords":1242,"contentHash":"5e6d79fff58d7aae7039e8ac107bc459633e54cc304c693b829a02a80c985665","sources":["https://www.dol.gov/agencies/whd/flsa/recordkeeping","https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping","https://www.irs.gov/publications/p15","https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep","https://www.nist.gov/cyberframework","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"]},
+    {"family":"research","topic":"CRM marketing consent and suppression records","slug":"crm-marketing-consent-suppression-study","bodyWords":1211,"contentHash":"78bd5442c45097786d21bb2119f4f7a0a5eefa3ccafea971b1f63a39a88b1c18","sources":["https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business","https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts","https://www.fcc.gov/document/telephone-consumer-protection-act-1991","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business","https://www.nist.gov/cyberframework"]},
+    {"family":"research","topic":"Property maintenance intake and fair-housing boundaries","slug":"property-maintenance-intake-fair-housing-boundary-study","bodyWords":1222,"contentHash":"faed5c8f91c0f20468d93ab9b17f567c1ab18f02b6b83bea158e8a5b3a212954","sources":["https://www.hud.gov/helping-americans/fair-housing-act-overview","https://www.hud.gov/sites/documents/huddojstatement.pdf","https://www.epa.gov/mold/mold-cleanup-your-home","https://www.ready.gov/plan","https://www.nist.gov/cyberframework","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"]},
+    {"family":"research","topic":"Customer refund eligibility preparation","slug":"customer-refund-eligibility-preparation-study","bodyWords":1203,"contentHash":"d9908d26a68985b6a19da058c5d53801e5d990b9a50db372302a8ea3100aa038","sources":["https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://consumer.ftc.gov/consumer-alerts/2021/12/what-ftcs-cooling-rule-means-consumers","https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business","https://www.nist.gov/cyberframework"]},
+    {"family":"research","topic":"Form I-9 administrative preparation boundaries","slug":"form-i9-administrative-preparation-boundary-study","bodyWords":1242,"contentHash":"36d8634dec80aea51ae3799c43f8a2bfb6ed3bdbf3e1e29c6e46f3921ff08f0b","sources":["https://www.uscis.gov/i-9","https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274","https://www.uscis.gov/i-9-central/remote-examination-of-documents","https://www.justice.gov/crt/immigrant-and-employee-rights-section","https://www.nist.gov/cyberframework","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"]}
+  ],
+  "originality": {"metric":"pairwise five-word-shingle Jaccard on rendered section bodies","maximum":0.3034,"threshold":0.5,"result":"passed"},
+  "validation": {"exactCount":"passed","newSlugsAgainstBaseline":"passed","bodyMinimum":"passed","originality":"passed","sources":"passed","dateFields":"passed","routes":"passed","canonical":"passed","sitemap":"passed","asset":"passed","typescript":"passed","productionBuild":"passed-with-preexisting-css-warning"},
+  "deployment": {"provider":"Coolify3","resourceUuid":"u3337glzo8zr4zjth9fapcpw","submitted":false,"note":"Research routine is forbidden to push or deploy."}
+}
