@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 4,
+  "contract": "september-28-combined-release",
+  "runs": [
+    "OVE-67",
+    "OVE-66"
+  ],
+  "domain": "overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-09-28",
+  "baseSha": "b5b37dd2ac97ecd49cecbfea6869dc5871c51a1b",
+  "integratedProductionBase": "bdf433ed4f7d431420dd86a7728a72f1872eea1c",
+  "requiredCounts": {
+    "blog": 12,
+    "research": 5
+  },
+  "actualCounts": {
+    "blog": 12,
+    "research": 5
+  },
+  "wordCounts": {
+    "blog": {
+      "virtual-assistant-inbox-triage-decision-tree": 1373,
+      "virtual-assistant-meeting-notes-action-register": 1394,
+      "virtual-assistant-crm-duplicate-resolution-playbook": 1405,
+      "virtual-assistant-customer-refund-intake-checklist": 1407,
+      "ecommerce-va-product-return-reason-audit": 1426,
+      "real-estate-va-property-tour-request-control": 1403,
+      "property-management-va-maintenance-request-triage-record": 1439,
+      "recruiting-coordinator-interview-scheduling-controls": 1402,
+      "medical-admin-va-appointment-request-routing": 1411,
+      "bookkeeping-va-receipt-exception-queue": 1436,
+      "research-va-competitor-claim-change-log": 1471,
+      "social-media-va-comment-escalation-guide": 1426
+    },
+    "research": {
+      "payroll-time-record-preparation-boundary-study": 1242,
+      "crm-marketing-consent-suppression-study": 1211,
+      "property-maintenance-intake-fair-housing-boundary-study": 1222,
+      "customer-refund-eligibility-preparation-study": 1203,
+      "form-i9-administrative-preparation-boundary-study": 1242
+    }
+  },
+  "maximumFiveWordShingleJaccard": {
+    "blog": {
+      "score": 0.47565,
+      "pair": [
+        "recruiting-coordinator-interview-scheduling-controls",
+        "social-media-va-comment-escalation-guide"
+      ]
+    },
+    "research": {
+      "score": 0.3034
+    }
+  },
+  "entries": [
+    {
+      "slug": "virtual-assistant-inbox-triage-decision-tree",
+      "contentHash": "c4e73ea7c18257a7e7ae067f72daf92703e1d18e34c7568ec29a8632bf40097f",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-inbox-triage-decision-tree",
+      "family": "blog"
+    },
+    {
+      "slug": "virtual-assistant-meeting-notes-action-register",
+      "contentHash": "1d4f9df93181b29c51ef6385719c35f214cac771ca71fc8c0740fc70555f438f",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-meeting-notes-action-register",
+      "family": "blog"
+    },
+    {
+      "slug": "virtual-assistant-crm-duplicate-resolution-playbook",
+      "contentHash": "b43f53cca8b2d4eefaa7bca81da2376d0db625638e16df879c343b6b03c8d2e5",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-crm-duplicate-resolution-playbook",
+      "family": "blog"
+    },
+    {
+      "slug": "virtual-assistant-customer-refund-intake-checklist",
+      "contentHash": "16db13fd458e80299d11cc956ca4d82da883910f44acc71f70e88f74e06c92fa",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-customer-refund-intake-checklist",
+      "family": "blog"
+    },
+    {
+      "slug": "ecommerce-va-product-return-reason-audit",
+      "contentHash": "fe9cfe5dffee511478775c404131cfd2fb6231fa118fd1826e4f65f2126829a3",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/ecommerce-va-product-return-reason-audit",
+      "family": "blog"
+    },
+    {
+      "slug": "real-estate-va-property-tour-request-control",
+      "contentHash": "9d61e79a7f832fa51aeb89d6479908f3cf50e6db3dfb490fec693f50bf57b77d",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/real-estate-va-property-tour-request-control",
+      "family": "blog"
+    },
+    {
+      "slug": "property-management-va-maintenance-request-triage-record",
+      "contentHash": "0ae405a9b65b4af08054085affe6a46766d836edfaa308a4aa608cb89833f732",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/property-management-va-maintenance-request-triage-record",
+      "family": "blog"
+    },
+    {
+      "slug": "recruiting-coordinator-interview-scheduling-controls",
+      "contentHash": "7233737971f7deaeb137de216f78f043ed87f53f4c244f80e2a19ed1663a1604",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/recruiting-coordinator-interview-scheduling-controls",
+      "family": "blog"
+    },
+    {
+      "slug": "medical-admin-va-appointment-request-routing",
+      "contentHash": "32e8a52dc9041d5e11e01b5ea0910ecaee95e02572a175cd155966911df51fcb",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/medical-admin-va-appointment-request-routing",
+      "family": "blog"
+    },
+    {
+      "slug": "bookkeeping-va-receipt-exception-queue",
+      "contentHash": "86bc2b67c0d7b9563aea915c5ad39ab6e99d6001cf0125a220dd2aad56b49c17",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/bookkeeping-va-receipt-exception-queue",
+      "family": "blog"
+    },
+    {
+      "slug": "research-va-competitor-claim-change-log",
+      "contentHash": "941a881e0eae04408a4f621d124c21b413cf8dcf68ce1e7206ae838bb7b16b9f",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/research-va-competitor-claim-change-log",
+      "family": "blog"
+    },
+    {
+      "slug": "social-media-va-comment-escalation-guide",
+      "contentHash": "fb8472f1ad565828247c5559e788d680f9c8eb57feae360ec34742bcbee984c2",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/social-media-va-comment-escalation-guide",
+      "family": "blog"
+    },
+    {
+      "family": "research",
+      "topic": "Payroll time-record preparation boundaries",
+      "slug": "payroll-time-record-preparation-boundary-study",
+      "bodyWords": 1242,
+      "contentHash": "5e6d79fff58d7aae7039e8ac107bc459633e54cc304c693b829a02a80c985665",
+      "sources": [
+        "https://www.dol.gov/agencies/whd/flsa/recordkeeping",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.irs.gov/publications/p15",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
+        "https://www.nist.gov/cyberframework",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      ]
+    },
+    {
+      "family": "research",
+      "topic": "CRM marketing consent and suppression records",
+      "slug": "crm-marketing-consent-suppression-study",
+      "bodyWords": 1211,
+      "contentHash": "78bd5442c45097786d21bb2119f4f7a0a5eefa3ccafea971b1f63a39a88b1c18",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts",
+        "https://www.fcc.gov/document/telephone-consumer-protection-act-1991",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "research",
+      "topic": "Property maintenance intake and fair-housing boundaries",
+      "slug": "property-maintenance-intake-fair-housing-boundary-study",
+      "bodyWords": 1222,
+      "contentHash": "faed5c8f91c0f20468d93ab9b17f567c1ab18f02b6b83bea158e8a5b3a212954",
+      "sources": [
+        "https://www.hud.gov/helping-americans/fair-housing-act-overview",
+        "https://www.hud.gov/sites/documents/huddojstatement.pdf",
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.ready.gov/plan",
+        "https://www.nist.gov/cyberframework",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      ]
+    },
+    {
+      "family": "research",
+      "topic": "Customer refund eligibility preparation",
+      "slug": "customer-refund-eligibility-preparation-study",
+      "bodyWords": 1203,
+      "contentHash": "d9908d26a68985b6a19da058c5d53801e5d990b9a50db372302a8ea3100aa038",
+      "sources": [
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://consumer.ftc.gov/consumer-alerts/2021/12/what-ftcs-cooling-rule-means-consumers",
+        "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "research",
+      "topic": "Form I-9 administrative preparation boundaries",
+      "slug": "form-i9-administrative-preparation-boundary-study",
+      "bodyWords": 1242,
+      "contentHash": "36d8634dec80aea51ae3799c43f8a2bfb6ed3bdbf3e1e29c6e46f3921ff08f0b",
+      "sources": [
+        "https://www.uscis.gov/i-9",
+        "https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274",
+        "https://www.uscis.gov/i-9-central/remote-examination-of-documents",
+        "https://www.justice.gov/crt/immigrant-and-employee-rights-section",
+        "https://www.nist.gov/cyberframework",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      ]
+    }
+  ],
+  "validation": {
+    "blogValidator": "passed",
+    "researchValidator": "passed",
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "routes": "passed",
+    "canonical": "passed",
+    "datePublished": "passed",
+    "visibleDate": "passed",
+    "sitemap": "passed",
+    "asset": "passed"
+  },
+  "deployment": {
+    "provider": "Coolify3",
+    "resourceUuid": "u3337glzo8zr4zjth9fapcpw",
+    "owner": "browser operator",
+    "status": "not-submitted-by-content-routine"
+  },
+  "errors": []
+}

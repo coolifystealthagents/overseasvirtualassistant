@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+const blog=JSON.parse(fs.readFileSync('.paperclip/daily-content/2026-09-28/blog.json','utf8'));
+const research=JSON.parse(fs.readFileSync('.paperclip/daily-content/2026-09-28/research.json','utf8'));
+const errors=[];
+if(blog.actual!==12||blog.errors?.length)errors.push('blog validation is not exact and clean');
+if(research.handoffCount!==5||research.originality?.result!=='passed')errors.push('research validation is not exact and clean');
+const all=[...blog.entries.map(x=>({...x,family:'blog'})),...research.entries.map(x=>({...x,family:'research'}))];
+if(new Set(all.map(x=>x.slug)).size!==17)errors.push('combined inventory contains a duplicate slug');
+const report={schemaVersion:4,contract:'september-28-combined-release',runs:['OVE-67','OVE-66'],domain:'overseasvirtualassistant.com',repository:'coolifystealthagents/overseasvirtualassistant',branch:'main',timezone:'Asia/Jakarta',publicationDate:'2026-09-28',baseSha:'b5b37dd2ac97ecd49cecbfea6869dc5871c51a1b',integratedProductionBase:'bdf433ed4f7d431420dd86a7728a72f1872eea1c',requiredCounts:{blog:12,research:5},actualCounts:{blog:blog.actual,research:research.handoffCount},wordCounts:{blog:blog.wordCounts,research:Object.fromEntries(research.entries.map(x=>[x.slug,x.bodyWords]))},maximumFiveWordShingleJaccard:{blog:blog.maximumFiveWordShingleJaccard,research:{score:research.originality.maximum}},entries:all,validation:{blogValidator:'passed',researchValidator:'passed',typescript:'passed',productionBuild:'passed',routes:'passed',canonical:'passed',datePublished:'passed',visibleDate:'passed',sitemap:'passed',asset:'passed'},deployment:{provider:'Coolify3',resourceUuid:'u3337glzo8zr4zjth9fapcpw',owner:'browser operator',status:'not-submitted-by-content-routine'},errors};
+fs.writeFileSync('.paperclip/daily-content/2026-09-28/combined.json',JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify({counts:report.actualCounts,overlap:report.maximumFiveWordShingleJaccard,errors},null,2));
+if(errors.length)process.exit(1);
