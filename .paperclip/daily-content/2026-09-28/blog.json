@@ -1,0 +1,92 @@
+{
+  "family": "blog",
+  "run": "OVE-67",
+  "date": "2026-09-28",
+  "timezone": "Asia/Jakarta",
+  "required": 12,
+  "actual": 12,
+  "wordCounts": {
+    "virtual-assistant-inbox-triage-decision-tree": 1373,
+    "virtual-assistant-meeting-notes-action-register": 1394,
+    "virtual-assistant-crm-duplicate-resolution-playbook": 1405,
+    "virtual-assistant-customer-refund-intake-checklist": 1407,
+    "ecommerce-va-product-return-reason-audit": 1426,
+    "real-estate-va-property-tour-request-control": 1403,
+    "property-management-va-maintenance-request-triage-record": 1439,
+    "recruiting-coordinator-interview-scheduling-controls": 1402,
+    "medical-admin-va-appointment-request-routing": 1411,
+    "bookkeeping-va-receipt-exception-queue": 1436,
+    "research-va-competitor-claim-change-log": 1471,
+    "social-media-va-comment-escalation-guide": 1426
+  },
+  "maximumFiveWordShingleJaccard": {
+    "score": 0.47565,
+    "pair": [
+      "recruiting-coordinator-interview-scheduling-controls",
+      "social-media-va-comment-escalation-guide"
+    ]
+  },
+  "entries": [
+    {
+      "slug": "virtual-assistant-inbox-triage-decision-tree",
+      "contentHash": "c4e73ea7c18257a7e7ae067f72daf92703e1d18e34c7568ec29a8632bf40097f",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-inbox-triage-decision-tree"
+    },
+    {
+      "slug": "virtual-assistant-meeting-notes-action-register",
+      "contentHash": "1d4f9df93181b29c51ef6385719c35f214cac771ca71fc8c0740fc70555f438f",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-meeting-notes-action-register"
+    },
+    {
+      "slug": "virtual-assistant-crm-duplicate-resolution-playbook",
+      "contentHash": "b43f53cca8b2d4eefaa7bca81da2376d0db625638e16df879c343b6b03c8d2e5",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-crm-duplicate-resolution-playbook"
+    },
+    {
+      "slug": "virtual-assistant-customer-refund-intake-checklist",
+      "contentHash": "16db13fd458e80299d11cc956ca4d82da883910f44acc71f70e88f74e06c92fa",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/virtual-assistant-customer-refund-intake-checklist"
+    },
+    {
+      "slug": "ecommerce-va-product-return-reason-audit",
+      "contentHash": "fe9cfe5dffee511478775c404131cfd2fb6231fa118fd1826e4f65f2126829a3",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/ecommerce-va-product-return-reason-audit"
+    },
+    {
+      "slug": "real-estate-va-property-tour-request-control",
+      "contentHash": "9d61e79a7f832fa51aeb89d6479908f3cf50e6db3dfb490fec693f50bf57b77d",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/real-estate-va-property-tour-request-control"
+    },
+    {
+      "slug": "property-management-va-maintenance-request-triage-record",
+      "contentHash": "0ae405a9b65b4af08054085affe6a46766d836edfaa308a4aa608cb89833f732",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/property-management-va-maintenance-request-triage-record"
+    },
+    {
+      "slug": "recruiting-coordinator-interview-scheduling-controls",
+      "contentHash": "7233737971f7deaeb137de216f78f043ed87f53f4c244f80e2a19ed1663a1604",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/recruiting-coordinator-interview-scheduling-controls"
+    },
+    {
+      "slug": "medical-admin-va-appointment-request-routing",
+      "contentHash": "32e8a52dc9041d5e11e01b5ea0910ecaee95e02572a175cd155966911df51fcb",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/medical-admin-va-appointment-request-routing"
+    },
+    {
+      "slug": "bookkeeping-va-receipt-exception-queue",
+      "contentHash": "86bc2b67c0d7b9563aea915c5ad39ab6e99d6001cf0125a220dd2aad56b49c17",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/bookkeeping-va-receipt-exception-queue"
+    },
+    {
+      "slug": "research-va-competitor-claim-change-log",
+      "contentHash": "941a881e0eae04408a4f621d124c21b413cf8dcf68ce1e7206ae838bb7b16b9f",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/research-va-competitor-claim-change-log"
+    },
+    {
+      "slug": "social-media-va-comment-escalation-guide",
+      "contentHash": "fb8472f1ad565828247c5559e788d680f9c8eb57feae360ec34742bcbee984c2",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/social-media-va-comment-escalation-guide"
+    }
+  ],
+  "errors": []
+}
