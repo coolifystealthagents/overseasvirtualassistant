@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 3,
+  "contract": "october-2-combined-release-research-handoff",
+  "run": "OVE-68",
+  "integratorRun": "OVE-69",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "productionBranch": "main",
+  "localBranch": "ove-68-research-2026-10-02",
+  "timezone": "Asia/Jakarta",
+  "cycleLabel": "2026-10-02",
+  "publicationDateStatus": "provisional-integrator-must-reconcile-to-actual-first-publication-date",
+  "baseSha": "a643301301fc380bf30ecff71e554e2b5b81b10b",
+  "requiredCount": 5,
+  "handoffCount": 5,
+  "status": "local-handoff-only",
+  "entries": [
+    {
+      "family": "research",
+      "topic": "Which inbox actions can a virtual assistant prepare when a message requests payment, credential, or bank-detail changes?",
+      "slug": "business-email-compromise-inbox-delegation-study",
+      "bodyWords": 1565,
+      "contentHash": "30669a0efea4138f1c215df259426f1bdae72c3534e31cd950072cde31aa71d4",
+      "sources": [
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+        "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf",
+        "https://www.nist.gov/cyberframework",
+        "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/business-email-compromise-inbox-delegation-study"
+    },
+    {
+      "family": "research",
+      "topic": "How can appointment-reminder support minimize disclosure while preserving patient communication preferences?",
+      "slug": "healthcare-appointment-reminder-privacy-boundary-study",
+      "bodyWords": 1561,
+      "contentHash": "c5519c1cad91c7f9a675a79699fc97e34750fb00b1f3aa4b5aa9fe6ea10d9af6",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/faq/may-health-care-providers-leave-messages/index.html",
+        "https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html",
+        "https://www.hhs.gov/hipaa/for-professionals/faq/does-hipaa-permit-health-care-providers-to-use-email-to-discuss-health-issues-with-patients/index.html",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/healthcare-appointment-reminder-privacy-boundary-study"
+    },
+    {
+      "family": "research",
+      "topic": "What vendor-onboarding evidence may an assistant collect without approving a vendor, validating tax status, or changing payment details?",
+      "slug": "vendor-onboarding-w9-data-boundary-study",
+      "bodyWords": 2143,
+      "contentHash": "050b9d4bd721fc05e3a4be6369a524a1a243a952b3105e31f1db62847d7035ab",
+      "sources": [
+        "https://www.irs.gov/forms-pubs/about-form-w-9",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.nist.gov/cyberframework"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/vendor-onboarding-w9-data-boundary-study"
+    },
+    {
+      "family": "research",
+      "topic": "How can a real-estate support assistant prepare listing copy without choosing audiences or language that creates fair-housing risk?",
+      "slug": "real-estate-listing-advertising-review-boundary-study",
+      "bodyWords": 2095,
+      "contentHash": "5d3e929c4390f00be5d5a359a825da0def2b18c063e2382f6004daf20c14bb26",
+      "sources": [
+        "https://www.hud.gov/sites/dfiles/FHEO/documents/FHEO_Guidance_on_Advertising_through_Digital_Platforms.pdf",
+        "https://www.hud.gov/sites/dfiles/FHEO/documents/BBE%20Part%20109%20Fair%20Housing%20Advertising.pdf",
+        "https://www.hud.gov/fairhousing",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/real-estate-listing-advertising-review-boundary-study"
+    },
+    {
+      "family": "research",
+      "topic": "Which account-recovery steps can customer support prepare without authenticating identity, disclosing account data, or overriding security controls?",
+      "slug": "customer-support-account-recovery-proofing-study",
+      "bodyWords": 2083,
+      "contentHash": "4d1ab189a9261172dbad65fab909ceed25b8ddf797fe622cc951f89bb4cbdc4b",
+      "sources": [
+        "https://pages.nist.gov/800-63-4/sp800-63a.html",
+        "https://www.cisa.gov/secure-our-world/use-strong-passwords",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.nist.gov/cyberframework"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/customer-support-account-recovery-proofing-study"
+    }
+  ],
+  "deployment": {
+    "resourceUuid": "u3337glzo8zr4zjth9fapcpw",
+    "submitted": false
+  }
+}
