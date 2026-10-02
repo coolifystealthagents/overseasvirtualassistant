@@ -17,7 +17,7 @@
       "topic": "A bounded follow-up system that collects missing setup evidence without promising activation or interpreting contracts.",
       "slug": "saas-va-customer-onboarding-document-chase",
       "bodyWords": 1463,
-      "contentHash": "44580d7b6c47e3e5747b1ece5c011b19be0cd1f75944cd4c7106487aa1159354",
+      "contentHash": "5af1e92390f3338d4298b5c66194017e488a362a8e4c07b00ce701d0e942b387",
       "sources": [
         "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       ],
@@ -28,7 +28,7 @@
       "topic": "A practical path from approved prospect to recorded episode while editorial selection stays with the host.",
       "slug": "podcast-va-guest-booking-workflow",
       "bodyWords": 1583,
-      "contentHash": "fefb2d93f799424d45f9b911b5dc766c14eb9413a2519cc01798dea8bc7bbdf5",
+      "contentHash": "7de64dbf9496f256a4a4f9c3544956eab9f56e0a606cb18120c9a1bb3f01b99b",
       "sources": [
         "https://www.copyright.gov/what-is-copyright/"
       ],
@@ -39,7 +39,7 @@
       "topic": "A version-aware register for addenda, questions, drawings, and due dates without delegating estimating judgment.",
       "slug": "construction-va-bid-document-register",
       "bodyWords": 1272,
-      "contentHash": "bded837f7e5c9cd129d7a646d74b1a816d8dddf205e8047438cbdc4adc29891d",
+      "contentHash": "5b78d469c7cc2782d4796d0976bc677eed29e5e12bd263492c0ea954807aef56",
       "sources": [
         "https://www.osha.gov/laws-regs"
       ],
@@ -50,7 +50,7 @@
       "topic": "An administrative follow-up lane that records carrier responses while coverage advice and claim decisions remain authorized work.",
       "slug": "insurance-va-claim-status-follow-up-boundaries",
       "bodyWords": 1180,
-      "contentHash": "9d96f2912c9b41239d40492794a4f0b8306b7d004a5a38bbfe527fa2cff3fa9c",
+      "contentHash": "6c73b6292c6f8c9efc5c1cd76565580d3f88872625186cdcb4f565b37f7c4783",
       "sources": [
         "https://content.naic.org/consumer.htm"
       ],
@@ -61,7 +61,7 @@
       "topic": "A reversible cleanup process for duplicates, preferences, and evidence gaps without changing gift restrictions or tax records.",
       "slug": "nonprofit-va-donor-record-cleanup-playbook",
       "bodyWords": 935,
-      "contentHash": "98dcf7bf29f829209e8cc6fdb057e8a73746409f7049e6c416de3f67acd39364",
+      "contentHash": "e6dd39529d497669f80cf9930b377aafffac8f3ec14468411be67a97555b9003",
       "sources": [
         "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments"
       ],
@@ -72,7 +72,7 @@
       "topic": "A complete administrative packet that supports attorney review without legal advice or an implied representation.",
       "slug": "law-firm-va-new-matter-intake-packet",
       "bodyWords": 972,
-      "contentHash": "68d3bdae87908b3e8e4964986b380e3d4afb33cd7b101fe99a27542174fbd3a3",
+      "contentHash": "53ee6d6c776fce4fa40ad502d1a0fda68c798a75f6dee14fd398fcd23728eef2",
       "sources": [
         "https://www.americanbar.org/groups/professional_responsibility/resources/model_rules_of_professional_conduct/"
       ],
@@ -83,7 +83,7 @@
       "topic": "A traceable comparison and approval process for disrupted business travel without unauthorized purchases.",
       "slug": "travel-va-itinerary-change-control",
       "bodyWords": 964,
-      "contentHash": "3368b7c3b46998fa65d6fad2c4cd26ceab81ceeae336ac491bc68efc25a84f80",
+      "contentHash": "d1b6456c4db7018704dca5b9a8e16496dd11c526e486040d6c8e5cb3795c3d23",
       "sources": [
         "https://www.transportation.gov/airconsumer"
       ],
@@ -94,7 +94,7 @@
       "topic": "An evidence-based recovery queue for suppressed listings while claims, compliance, and account-owner actions remain controlled.",
       "slug": "marketplace-va-catalog-suppression-queue",
       "bodyWords": 932,
-      "contentHash": "dc5ad26c96e8f096b81d4d3880893846b28a22f0cc8088d31aaa249a8c8c2692",
+      "contentHash": "98b2113775df0f76a7261a3e8e51b771efa761bb3bd0ebbb92d78ef1e432d5e0",
       "sources": [
         "https://www.ftc.gov/business-guidance/advertising-marketing"
       ],
@@ -105,7 +105,7 @@
       "topic": "A current, source-linked account record that helps sellers prioritize without invented buying intent.",
       "slug": "sales-va-lead-enrichment-evidence-standard",
       "bodyWords": 945,
-      "contentHash": "32aeafd07eb1563f97bc194036dc652829fe22c04b9f31b08c430d7c32028138",
+      "contentHash": "776a5b5a03bde1a86e834d384d58aea7b13a3eb90468ddbc869447ee2e85bf5a",
       "sources": [
         "https://www.ftc.gov/business-guidance/privacy-security"
       ],
@@ -116,7 +116,7 @@
       "topic": "Consistent receipt, document tracking, and routing while eligibility and accommodation decisions stay with HR professionals.",
       "slug": "hr-va-leave-request-administration-boundaries",
       "bodyWords": 934,
-      "contentHash": "70626e5687ff9eca2dfdd5eed801ad32919a2b09b9fac3bfd8f4f9088edd6c99",
+      "contentHash": "d1c925e7590dd95a93f62a2cc861802d9f9e825665c898ef2806c6485f57e558",
       "sources": [
         "https://www.dol.gov/agencies/whd/fmla"
       ],
@@ -127,7 +127,7 @@
       "topic": "A rehearsal-to-replay workflow that keeps speaker logistics dependable and publishing approval explicit.",
       "slug": "webinar-va-speaker-operations-runbook",
       "bodyWords": 935,
-      "contentHash": "1e89709f04c47a15d0b5e36fed2cbddcde1117acde0ee9f3326b1b0824688969",
+      "contentHash": "b467d8b8875adea24cb42199fc4c871f0d15230c88dcb1262527bf9ac3c4bb22",
       "sources": [
         "https://www.w3.org/WAI/media/av/"
       ],
@@ -138,7 +138,7 @@
       "topic": "A source-complete packet for finance review without delegating credits, collections judgment, or payment changes.",
       "slug": "accounts-receivable-va-dispute-packet",
       "bodyWords": 911,
-      "contentHash": "904533cb3610eeaa45aecf01f36550fb067a5bbdfd9b3a3c65a1bfbd3a087435",
+      "contentHash": "b03fbb0ca3d9e9f03f40209adfb91af0d81995a2b9b6da54fdde847aa0d2d7f5",
       "sources": [
         "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       ],
