@@ -4,7 +4,7 @@ export const october2ResearchPosts = [
     "slug": "business-email-compromise-inbox-delegation-study",
     "title": "Can a virtual assistant triage payment-change emails without increasing fraud risk?",
     "excerpt": "Which inbox actions can a virtual assistant prepare when a message requests payment, credential, or bank-detail changes?",
-    "published": "2026-10-02",
+    "published": "2026-10-03",
     "methodology": "Prospective desk study of one bounded administrative workflow. The study reviews 4 primary or authoritative sources, separates source facts from OverseasVirtualAssistant.com analysis, and tests representative cases without claiming observed company performance. October 2 is the cycle label. The Blog integrator must replace this provisional date if first publication occurs on another Asia/Jakarta calendar date.",
     "headlineStat": {
       "value": "1",
@@ -226,7 +226,7 @@ export const october2ResearchPosts = [
     "slug": "healthcare-appointment-reminder-privacy-boundary-study",
     "title": "How much patient information should an appointment reminder contain?",
     "excerpt": "How can appointment-reminder support minimize disclosure while preserving patient communication preferences?",
-    "published": "2026-10-02",
+    "published": "2026-10-03",
     "methodology": "Prospective desk study of one bounded administrative workflow. The study reviews 4 primary or authoritative sources, separates source facts from OverseasVirtualAssistant.com analysis, and tests representative cases without claiming observed company performance. October 2 is the cycle label. The Blog integrator must replace this provisional date if first publication occurs on another Asia/Jakarta calendar date.",
     "headlineStat": {
       "value": "1",
@@ -448,7 +448,7 @@ export const october2ResearchPosts = [
     "slug": "vendor-onboarding-w9-data-boundary-study",
     "title": "What vendor onboarding work can an assistant prepare without approving tax or payment data?",
     "excerpt": "What vendor-onboarding evidence may an assistant collect without approving a vendor, validating tax status, or changing payment details?",
-    "published": "2026-10-02",
+    "published": "2026-10-03",
     "methodology": "Prospective desk study of one bounded administrative workflow. The study reviews 4 primary or authoritative sources, separates source facts from OverseasVirtualAssistant.com analysis, and tests representative cases without claiming observed company performance. October 2 is the cycle label. The Blog integrator must replace this provisional date if first publication occurs on another Asia/Jakarta calendar date.",
     "headlineStat": {
       "value": "1",
@@ -670,7 +670,7 @@ export const october2ResearchPosts = [
     "slug": "real-estate-listing-advertising-review-boundary-study",
     "title": "Can a real estate virtual assistant prepare listing ads without making audience or fair-housing decisions?",
     "excerpt": "How can a real-estate support assistant prepare listing copy without choosing audiences or language that creates fair-housing risk?",
-    "published": "2026-10-02",
+    "published": "2026-10-03",
     "methodology": "Prospective desk study of one bounded administrative workflow. The study reviews 4 primary or authoritative sources, separates source facts from OverseasVirtualAssistant.com analysis, and tests representative cases without claiming observed company performance. October 2 is the cycle label. The Blog integrator must replace this provisional date if first publication occurs on another Asia/Jakarta calendar date.",
     "headlineStat": {
       "value": "1",
@@ -892,7 +892,7 @@ export const october2ResearchPosts = [
     "slug": "customer-support-account-recovery-proofing-study",
     "title": "What account recovery work can a customer support assistant prepare without deciding identity?",
     "excerpt": "Which account-recovery steps can customer support prepare without authenticating identity, disclosing account data, or overriding security controls?",
-    "published": "2026-10-02",
+    "published": "2026-10-03",
     "methodology": "Prospective desk study of one bounded administrative workflow. The study reviews 4 primary or authoritative sources, separates source facts from OverseasVirtualAssistant.com analysis, and tests representative cases without claiming observed company performance. October 2 is the cycle label. The Blog integrator must replace this provisional date if first publication occurs on another Asia/Jakarta calendar date.",
     "headlineStat": {
       "value": "1",
