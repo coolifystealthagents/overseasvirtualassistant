@@ -6,10 +6,10 @@
   "branch": "ove-69-blog-2026-10-02",
   "productionBranch": "main",
   "baselineSha": "a643301301fc380bf30ecff71e554e2b5b81b10b",
-  "validatedContentSha": "3e2fcf537f60dacadd9d58c418ef70be562789af",
+  "validatedContentSha": "4df3ae364ddc53d99d243980178dc510135be303",
   "timezone": "Asia/Jakarta",
-  "provisionalPublicationDate": "2026-10-03",
-  "publicationDateStatus": "must-reconcile-to-actual-first-publication-window-before-sole-push",
+  "publicationDate": "2026-10-03",
+  "publicationDateStatus": "actual-first-publication-date",
   "counts": {"blog": 12, "research": 5, "localHttpVerified": 17},
   "blogBodyWords": [1463, 1583, 1272, 1180, 935, 972, 964, 932, 945, 934, 935, 911],
   "researchBodyWords": [1565, 1561, 2143, 2095, 2083],
@@ -17,8 +17,8 @@
   "qualitativeOriginality": {"duplicateLongSectionsBlog": 0, "duplicateLongSectionsResearch": 0, "sharedArgumentReview": "passed"},
   "validation": {
     "lockedInstall": "passed",
-    "compatibleAuditFix": "passed-next-15.5.27-sharp-nanoid",
-    "remainingAudit": "three PostCSS-chain advisories require breaking Next 16 force upgrade",
+    "compatibleAuditFix": "passed-next-15.5.27-sharp-nanoid-postcss-8.5.28-override",
+    "remainingAudit": "zero-vulnerabilities",
     "typescript": "passed",
     "cleanProductionBuild": "passed-654-pages",
     "localRoutes": "passed-17-of-17",
@@ -35,5 +35,5 @@
     "copyHygiene": "passed-contextual-review"
   },
   "deployment": {"resourceUuid": "u3337glzo8zr4zjth9fapcpw", "owner": "browser operator", "submitted": false},
-  "readyRecordedAt": "2026-10-02T23:32:27+07:00"
+  "readyRecordedAt": "2026-10-03T00:04:59+07:00"
 }
