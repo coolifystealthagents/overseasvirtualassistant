@@ -24,7 +24,7 @@
         "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
         "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf",
         "https://www.nist.gov/cyberframework",
-        "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+        "https://www.ftc.gov/business-guidance/resources/phishing"
       ],
       "liveUrl": "https://overseasvirtualassistant.com/research/business-email-compromise-inbox-delegation-study"
     },
@@ -63,8 +63,8 @@
       "bodyWords": 2095,
       "contentHash": "5d3e929c4390f00be5d5a359a825da0def2b18c063e2382f6004daf20c14bb26",
       "sources": [
-        "https://www.hud.gov/sites/dfiles/FHEO/documents/FHEO_Guidance_on_Advertising_through_Digital_Platforms.pdf",
-        "https://www.hud.gov/sites/dfiles/FHEO/documents/BBE%20Part%20109%20Fair%20Housing%20Advertising.pdf",
+        "https://www.hud.gov/fairhousing",
+        "https://www.justice.gov/crt/fair-housing-act-1",
         "https://www.hud.gov/fairhousing",
         "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       ],

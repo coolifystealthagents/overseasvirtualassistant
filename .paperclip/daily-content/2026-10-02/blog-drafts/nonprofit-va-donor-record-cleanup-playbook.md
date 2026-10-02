@@ -52,6 +52,6 @@ Count pairs reviewed, merges approved, no-merge decisions, unresolved conflicts,
 
 When errors appear, update the match rule or field map before expanding the batch. Add one source system or record type at a time. Keep high-risk records, restricted gifts, and sensitive relationships under full review even after routine duplicates become dependable.
 
-The [IRS guidance on substantiating charitable contributions](https://www.irs.gov/charities-non-profits/charitable-organizations/substantiating-charitable-contributions) provides background for contribution records and acknowledgments. Apply the tax, privacy, fundraising, retention, and nonprofit rules relevant to your organization with qualified advisers.
+The [IRS guidance on written acknowledgments for charitable contributions](https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-written-acknowledgments) provides background for contribution records and acknowledgments. Apply the tax, privacy, fundraising, retention, and nonprofit rules relevant to your organization with qualified advisers.
 
 To scope a controlled cleanup project, review [virtual assistant services](/services) or [request a role plan](/contact). Bring a redacted pair of duplicate records, the field authority map, and the rollback procedure.

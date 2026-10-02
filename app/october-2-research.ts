@@ -183,7 +183,7 @@ export const october2ResearchPosts = [
       },
       {
         "name": "ftc.gov",
-        "url": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing",
+        "url": "https://www.ftc.gov/business-guidance/resources/phishing",
         "note": "Primary or authoritative guidance checked October 2, 2026; scope is described in the article."
       }
     ],
@@ -834,12 +834,12 @@ export const october2ResearchPosts = [
     "sources": [
       {
         "name": "hud.gov",
-        "url": "https://www.hud.gov/sites/dfiles/FHEO/documents/FHEO_Guidance_on_Advertising_through_Digital_Platforms.pdf",
+        "url": "https://www.hud.gov/fairhousing",
         "note": "Primary or authoritative guidance checked October 2, 2026; scope is described in the article."
       },
       {
         "name": "hud.gov",
-        "url": "https://www.hud.gov/sites/dfiles/FHEO/documents/BBE%20Part%20109%20Fair%20Housing%20Advertising.pdf",
+        "url": "https://www.justice.gov/crt/fair-housing-act-1",
         "note": "Primary or authoritative guidance checked October 2, 2026; scope is described in the article."
       },
       {
