@@ -52,6 +52,8 @@ Record the verification time, market, reviewer, and visible result. If the listi
 
 Pilot the queue with a mix of missing fields, conflicting identifiers, image issues, unsupported claims, and a case that needs an appeal. Review every change during the pilot. Track notices, complete evidence packets, owner corrections, rejected hypotheses, restoration results, and repeat suppressions.
 
+Add one recovery test to the pilot. Give the assistant an approved edit whose supporting file is later withdrawn by the compliance owner. The queue should stop the submission, restore the prior field value if an unpublished draft changed, and preserve both versions with the withdrawal reason. Then replace the evidence and repeat the review. This test matters because marketplace work rarely moves in a straight line. A process that cannot reverse a prepared change encourages staff to publish it merely because the work is already done.
+
 See the [FTC advertising and marketing guidance](https://www.ftc.gov/business-guidance/advertising-marketing) for general background. Marketplace rules, product requirements, and applicable law vary; qualified owners must approve the listing's claims and compliance position.
 
 To scope this workflow, review [ecommerce virtual assistance](/services/ecommerce-virtual-assistance) or [request a role plan](/contact). Bring one redacted suppression notice, the controlled product record, and the account permission map.

@@ -52,6 +52,8 @@ The closeout record should show attendance source, recording location, published
 
 Pilot the runbook on a small internal session with a remote speaker, prerecorded clip, caption workflow, reconnection test, and a deliberate late asset. Review every exception before using it for a public event.
 
+Run the closeout as part of the pilot instead of ending when the session stops. Produce a short replay candidate, send the caption file through review, replace one misspelled name, and verify that the corrected file reaches the player. Confirm that a withdrawn draft cannot remain public through an old link. The exercise shows whether production ownership continues after broadcast and whether the team can correct a visible error without losing the source recording, consent record, or earlier caption version.
+
 See the [W3C media accessibility guidance](https://www.w3.org/WAI/media/av/) for background. Apply relevant accessibility, privacy, copyright, recording, and platform requirements with qualified owners.
 
 To scope webinar coordination, review [executive assistance services](/services/executive-assistance) or [request a role plan](/contact). Bring a redacted run sheet, asset list, consent workflow, and fallback roster.

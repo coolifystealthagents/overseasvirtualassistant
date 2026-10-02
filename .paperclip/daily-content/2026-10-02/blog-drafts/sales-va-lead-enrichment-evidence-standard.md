@@ -52,6 +52,8 @@ Track fields requested, fields supported, unresolved matches, stale sources, own
 
 After import, retain the source and capture date beside the field where the system permits it. Define who reviews aging records and how corrections flow back to the research instructions. Expand volume only after the sample shows that uncertainty survives the handoff.
 
+Audit the imported sample again after a short interval. Ask a reviewer to open each cited page, confirm that the account still resolves to the intended company, and inspect whether the CRM preserved the source and uncertainty state. A broken link does not automatically make the old observation false, but it does end the claim that the field is currently verified. Record the new state and route any outreach already prepared from stale information. This second look tests maintenance, not just initial research speed.
+
 The [FTC privacy and security guidance for businesses](https://www.ftc.gov/business-guidance/privacy-security) provides general background for responsible data handling. Apply relevant privacy law, source terms, contracts, and company policy with qualified advisers.
 
 To scope a research lane, review [virtual assistant services](/services) or [request a role plan](/contact). Bring a redacted target-account sample, the CRM field list, and the source policy.
