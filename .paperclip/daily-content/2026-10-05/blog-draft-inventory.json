@@ -9,8 +9,8 @@
   "publicationDate": null,
   "publicationDateStatus": "pending-first-publication",
   "requiredCount": 12,
-  "draftedCount": 11,
-  "integrationStatus": "research-integrated-content-in-progress",
+  "draftedCount": 12,
+  "integrationStatus": "all-source-drafts-complete-render-integration-pending",
   "topics": [
     {"slug":"dental-va-insurance-verification-work-queue","pillar":"healthcare administration","readerDecision":"How to delegate pre-visit benefit checks without representing coverage as guaranteed","service":"/services/customer-support","primarySource":"https://www.hhs.gov/hipaa/for-professionals/privacy/index.html","sourcePath":"content/blog/oct5-dental-va-insurance-verification-work-queue.md","bodyWords":1413,"status":"authored-pending-render-integration"},
     {"slug":"property-management-va-maintenance-intake-triage","pillar":"property operations","readerDecision":"How to capture tenant maintenance requests while safety and repair decisions stay with authorized staff","service":"/services/customer-support","primarySource":"https://www.hud.gov/fairhousing","sourcePath":"content/blog/oct5-property-management-va-maintenance-intake-triage.md","bodyWords":1437,"status":"authored-pending-render-integration"},
@@ -23,7 +23,7 @@
     {"slug":"healthcare-va-referral-status-follow-up","pillar":"healthcare administration","readerDecision":"How to track referral records without clinical interpretation or unnecessary disclosure","service":"/services/customer-support","primarySource":"https://www.hhs.gov/hipaa/for-professionals/security/index.html","sourcePath":"content/blog/oct5-healthcare-va-referral-status-follow-up.md","bodyWords":1115,"status":"authored-pending-render-integration"},
     {"slug":"agency-va-client-report-source-reconciliation","pillar":"agency operations","readerDecision":"How to reconcile report inputs without turning incomplete platform data into confident claims","service":"/services/executive-assistance","primarySource":"https://www.ftc.gov/business-guidance/advertising-marketing","sourcePath":"content/blog/oct5-agency-va-client-report-source-reconciliation.md","bodyWords":1129,"status":"authored-pending-render-integration"},
     {"slug":"procurement-va-vendor-onboarding-checklist","pillar":"procurement administration","readerDecision":"How to collect supplier records while approval, banking changes, and risk acceptance remain segregated","service":"/services/executive-assistance","primarySource":"https://www.cisa.gov/secure-our-world","sourcePath":"content/blog/oct5-procurement-va-vendor-onboarding-checklist.md","bodyWords":1051,"status":"authored-pending-render-integration"},
-    {"slug":"online-course-va-student-support-boundaries","pillar":"education support","readerDecision":"How to answer routine learner questions while accessibility, grading, and exceptions reach the right owner","service":"/services/customer-support","primarySource":"https://www.w3.org/WAI/fundamentals/accessibility-intro/","status":"selected"}
+    {"slug":"online-course-va-student-support-boundaries","pillar":"education support","readerDecision":"How to answer routine learner questions while accessibility, grading, and exceptions reach the right owner","service":"/services/customer-support","primarySource":"https://www.w3.org/WAI/fundamentals/accessibility-intro/","sourcePath":"content/blog/oct5-online-course-va-student-support-boundaries.md","bodyWords":1181,"status":"authored-pending-render-integration"}
   ],
   "topicAudit": {
     "liveAndRepositoryInventoryReviewed": true,
