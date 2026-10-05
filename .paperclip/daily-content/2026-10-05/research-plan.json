@@ -1,0 +1,45 @@
+{
+  "cycleLabel": "2026-10-05",
+  "run": "OVE-70",
+  "integratorRun": "OVE-71",
+  "baselineSha": "621947f84a4ec633e259e2c408009542cf5ab66c",
+  "timezone": "Asia/Jakarta",
+  "publicationDateStatus": "provisional-integrator-must-reconcile-to-actual-first-publication-date",
+  "topics": [
+    {
+      "slug": "travel-expense-substantiation-preparation-study",
+      "title": "What travel-expense evidence can a virtual assistant prepare without deciding tax treatment?",
+      "decision": "Whether a travel and expense support assistant can assemble a reviewable substantiation packet while leaving business purpose, deductibility, reimbursement, and tax treatment to authorized owners.",
+      "service": "/services/travel-and-expense-support",
+      "sources": ["https://www.irs.gov/publications/p463", "https://www.irs.gov/forms-pubs/about-publication-583", "https://www.gsa.gov/travel/plan-book/per-diem-rates", "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"]
+    },
+    {
+      "slug": "recruiting-background-check-handoff-study",
+      "title": "Where should a recruiting coordinator stop in an employment background-check workflow?",
+      "decision": "How a recruiting coordinator can prepare consent, status, and notice records without ordering unauthorized checks, interpreting reports, or making employment decisions.",
+      "service": "/services/recruiting-coordination",
+      "sources": ["https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know", "https://www.eeoc.gov/laws/guidance/background-checks-what-employers-need-know", "https://www.consumerfinance.gov/ask-cfpb/when-i-apply-for-a-job-what-do-employers-see-when-they-do-a-credit-check-for-employment-and-a-background-check-en-1823/", "https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures"]
+    },
+    {
+      "slug": "acs-market-research-uncertainty-study",
+      "title": "Can a research assistant compare local markets without hiding survey uncertainty?",
+      "decision": "How a research and data support assistant can prepare ACS comparisons while preserving vintage, geography, universe, margin of error, and statistical-significance limits.",
+      "service": "/services/research-and-data-support",
+      "sources": ["https://www.census.gov/programs-surveys/acs/technical-documentation.html", "https://www.census.gov/help/topics/faq.do-i-need-to-consider-the-margins-of-error-when-comparing-acs-estimates.html", "https://www.census.gov/programs-surveys/acs/guidance/statistical-testing-tool.html", "https://www.census.gov/about/policies/quality/standards/standarde2.html"]
+    },
+    {
+      "slug": "ecommerce-product-recall-operations-study",
+      "title": "What can an ecommerce virtual assistant prepare when a product may be recalled?",
+      "decision": "How an ecommerce assistant can match affected catalog and order records, preserve evidence, and route stop-sale work without deciding reportability, hazard, remedy, or public wording.",
+      "service": "/services/ecommerce-virtual-assistance",
+      "sources": ["https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance", "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Recall-Checklist", "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Duty-to-Report-to-CPSC-Rights-and-Responsibilities-of-Businesses", "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Website-Notification-Guide-for-Recalling-Companies"]
+    },
+    {
+      "slug": "executive-decision-log-preparation-study",
+      "title": "Can an executive assistant maintain a decision log without becoming the decision-maker?",
+      "decision": "How an executive assistant can preserve decision provenance, action ownership, and supersession while executives retain authority, confidentiality, and records-policy decisions.",
+      "service": "/services/executive-assistance",
+      "sources": ["https://www.gao.gov/products/gao-14-704g", "https://www.archives.gov/records-mgmt/email-mgmt", "https://www.nist.gov/privacy-framework", "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model"]
+    }
+  ]
+}
