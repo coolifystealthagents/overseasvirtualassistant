@@ -87,11 +87,11 @@
       "topic": "How to assemble a version-controlled board packet without changing approved decisions",
       "slug": "executive-va-board-packet-assembly-runbook",
       "sourcePath": "content/blog/oct5-executive-va-board-packet-assembly-runbook.md",
-      "bodyWords": 1235,
-      "orderedParagraphHash": "fbee44325a4f0a7700a7a738c5cd2973c1fd5bd409ab2e53ade3aab70c31b787",
-      "contentHash": "e00ec313412fbcaeaae9fd0a614b07f7f370d637047b8bbb6d95854c35fe299a",
+      "bodyWords": 1236,
+      "orderedParagraphHash": "5171a70d7d24544e87b64521426f73b563146436f704a6bb1234493d396e0f75",
+      "contentHash": "686c061b4d3c6768ea861e563eb7c8442096ff0ffb99adbdbc7ef4cf299c0d8f",
       "sources": [
-        "https://www.cisa.gov/resources-tools/resources/cyber-guidance-small-businesses"
+        "https://www.cisa.gov/audiences/small-and-medium-businesses"
       ],
       "image": "/images/overseas-assistant.jpg",
       "liveUrl": "https://overseasvirtualassistant.com/blog/executive-va-board-packet-assembly-runbook"

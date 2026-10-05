@@ -50,7 +50,7 @@ Board materials may contain financial, personnel, legal, strategic, security, or
 
 Confirm the recipient list against the current official record. A contact saved in last quarter's email group may no longer be authorized. Handle guests, observers, advisers, and conflicted participants through the written access decision. The assistant should not decide that a familiar person may receive every section.
 
-The Cybersecurity and Infrastructure Security Agency publishes [cyber guidance for small businesses](https://www.cisa.gov/resources-tools/resources/cyber-guidance-small-businesses). Organizations should adapt security controls to their own obligations and advice. At a minimum, do not distribute a confidential packet through personal accounts, public links, or reused passwords.
+The Cybersecurity and Infrastructure Security Agency publishes [resources for small and medium businesses](https://www.cisa.gov/audiences/small-and-medium-businesses). Organizations should adapt security controls to their own obligations and advice. At a minimum, do not distribute a confidential packet through personal accounts, public links, or reused passwords.
 
 ## Manage corrections after release
 
