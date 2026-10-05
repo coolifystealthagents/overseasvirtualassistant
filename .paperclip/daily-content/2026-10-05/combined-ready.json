@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "cycleLabel": "2026-10-05",
+  "status": "ready-for-sole-push",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "ove-71-blog-2026-10-05",
+  "productionBranch": "main",
+  "baselineSha": "621947f84a4ec633e259e2c408009542cf5ab66c",
+  "validatedContentSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-10-06",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "localHttpVerified": 17,
+    "publicVerified": 0
+  },
+  "validation": {
+    "lockedInstall": "passed",
+    "dependencyAudit": "zero-vulnerabilities",
+    "typescript": "passed",
+    "tests": "no-script-configured",
+    "cleanProductionBuild": "passed-670-pages",
+    "localRoutes": "passed-17-of-17",
+    "orderedSourceRenderParagraphParity": "passed-17-of-17",
+    "titlesCanonicalsDates": "passed-17-of-17",
+    "indexesAndSitemap": "passed-17-of-17",
+    "imageFileDecode": "passed-2-of-2",
+    "imageHttpMimeSignature": "passed-2-of-2",
+    "authoritativeSourceHttp": "passed-after-one-cisa-repair",
+    "originalityQualitative": "passed-no-repeated-paragraphs-section-sequences-or-worked-examples"
+  },
+  "deployment": {
+    "resourceUuid": "u3337glzo8zr4zjth9fapcpw",
+    "owner": "browser operator",
+    "submitted": false
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "How to delegate pre-visit benefit checks without representing coverage as guaranteed",
+      "slug": "dental-va-insurance-verification-work-queue",
+      "sourcePath": "content/blog/oct5-dental-va-insurance-verification-work-queue.md",
+      "bodyWords": 1416,
+      "orderedParagraphHash": "909596157cc59911fd6bdb94da4aae72c064821cd0f2dacbbd469c86953025c3",
+      "contentHash": "384f7b9748fd46990779e874ca007312577fd867ac9831cbc3b71110ebddc542",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/dental-va-insurance-verification-work-queue",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to capture tenant maintenance requests while safety and repair decisions stay with authorized staff",
+      "slug": "property-management-va-maintenance-intake-triage",
+      "sourcePath": "content/blog/oct5-property-management-va-maintenance-intake-triage.md",
+      "bodyWords": 1439,
+      "orderedParagraphHash": "122bcfddaba276030d64385c6dadbd3a54a2278601b2380f86dffb5c66ce35db",
+      "contentHash": "608e0a2687beba2bbcc4605607132365f436e48bdea70527800520b087dca74b",
+      "sources": [
+        "https://www.hud.gov/fairhousing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/property-management-va-maintenance-intake-triage",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to assemble return evidence without inventing policy exceptions or refund promises",
+      "slug": "ecommerce-va-return-evidence-workflow",
+      "sourcePath": "content/blog/oct5-ecommerce-va-return-evidence-workflow.md",
+      "bodyWords": 1565,
+      "orderedParagraphHash": "3515fb0f07cdaff5d9e3b27fee9b538199e3c5ef2b323803c0bb7760043f8727",
+      "contentHash": "e0baf955f9b3bc7a1dc1342d6b8a446db7b04ae7ec5b9a0ac36b8a72b0cb6541",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/ecommerce-va-return-evidence-workflow",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to coordinate candidate interviews consistently without making selection decisions",
+      "slug": "recruiting-va-interview-scheduling-controls",
+      "sourcePath": "content/blog/oct5-recruiting-va-interview-scheduling-controls.md",
+      "bodyWords": 1456,
+      "orderedParagraphHash": "f49dd31ae30eba566f0e362602404466025634a2978c677fffcf847f67991089",
+      "contentHash": "40c0118ddf57ee1fefe1da39dead145e65a4601b8b47de151ba1732931bc765b",
+      "sources": [
+        "https://www.eeoc.gov/employers/small-business"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/recruiting-va-interview-scheduling-controls",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to resolve missing receipt records while coding and tax treatment remain with finance professionals",
+      "slug": "bookkeeping-va-receipt-exception-queue",
+      "sourcePath": "content/blog/oct5-bookkeeping-va-receipt-exception-queue.md",
+      "bodyWords": 1456,
+      "orderedParagraphHash": "2173bc88b916d469370a0101956c18bbd4152085720d66d973edb205f9ca49b3",
+      "contentHash": "043478e0a4a4054f54ea9dd29cbf915c38657540f5ee88941381ade1e5564cad",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/bookkeeping-va-receipt-exception-queue",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to assemble a version-controlled board packet without changing approved decisions",
+      "slug": "executive-va-board-packet-assembly-runbook",
+      "sourcePath": "content/blog/oct5-executive-va-board-packet-assembly-runbook.md",
+      "bodyWords": 1236,
+      "orderedParagraphHash": "5171a70d7d24544e87b64521426f73b563146436f704a6bb1234493d396e0f75",
+      "contentHash": "686c061b4d3c6768ea861e563eb7c8442096ff0ffb99adbdbc7ef4cf299c0d8f",
+      "sources": [
+        "https://www.cisa.gov/audiences/small-and-medium-businesses"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/executive-va-board-packet-assembly-runbook",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to route refund requests using evidence and approval limits without unauthorized commitments",
+      "slug": "customer-support-va-refund-escalation-lane",
+      "sourcePath": "content/blog/oct5-customer-support-va-refund-escalation-lane.md",
+      "bodyWords": 1261,
+      "orderedParagraphHash": "dfa42533af7721f8682b2fb886fc14cb60db01744bfc54a85db16f7a6ed49eac",
+      "contentHash": "29cd7393af1d15644e2a728e90cef57d05dbba20946083eb5a10666fda80622f",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/customer-support-va-refund-escalation-lane",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to keep listing inputs current while licensed judgments and representations remain controlled",
+      "slug": "real-estate-va-listing-document-coordination",
+      "sourcePath": "content/blog/oct5-real-estate-va-listing-document-coordination.md",
+      "bodyWords": 1151,
+      "orderedParagraphHash": "b87a23e0a447747bba6950897800b8722819cb0f66ad2369a5f459385bf22cee",
+      "contentHash": "aaeca9b9613fb82c336e0c40d45c1a65e7f895a16b64d96012713680569ae4f1",
+      "sources": [
+        "https://www.hud.gov/fairhousing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/real-estate-va-listing-document-coordination",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to track referral records without clinical interpretation or unnecessary disclosure",
+      "slug": "healthcare-va-referral-status-follow-up",
+      "sourcePath": "content/blog/oct5-healthcare-va-referral-status-follow-up.md",
+      "bodyWords": 1117,
+      "orderedParagraphHash": "f2c331401db965db39b41e7ce2b6f0c5e53da470d860d325e649a85f0d728da7",
+      "contentHash": "e3aa42d7d8f9a7a73a16f2383de40779414096546677ee6a70f81f2684fed15e",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/security/index.html"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/healthcare-va-referral-status-follow-up",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to reconcile report inputs without turning incomplete platform data into confident claims",
+      "slug": "agency-va-client-report-source-reconciliation",
+      "sourcePath": "content/blog/oct5-agency-va-client-report-source-reconciliation.md",
+      "bodyWords": 1131,
+      "orderedParagraphHash": "55f8474c781031284fd3da2dbda321bbde2a5623dab75d4e727a4e5df230eaef",
+      "contentHash": "b52eaebb61d13c1619d70a39799ad180398ecfd372ab64a7b76f5377af978c3e",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/agency-va-client-report-source-reconciliation",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to collect supplier records while approval, banking changes, and risk acceptance remain segregated",
+      "slug": "procurement-va-vendor-onboarding-checklist",
+      "sourcePath": "content/blog/oct5-procurement-va-vendor-onboarding-checklist.md",
+      "bodyWords": 1052,
+      "orderedParagraphHash": "acb55a6a5575f9afb4661019a973954ab79bbd218e1abcb47351366d62a340d6",
+      "contentHash": "22e705d7b908dc98a2f70a86cc947b12cce6576d493daee2946e418098aa14ca",
+      "sources": [
+        "https://www.cisa.gov/secure-our-world"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/procurement-va-vendor-onboarding-checklist",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "How to answer routine learner questions while accessibility, grading, and exceptions reach the right owner",
+      "slug": "online-course-va-student-support-boundaries",
+      "sourcePath": "content/blog/oct5-online-course-va-student-support-boundaries.md",
+      "bodyWords": 1182,
+      "orderedParagraphHash": "461791e091d545884689cd794088e747b566a61633699e1835cdb10fbf4410e7",
+      "contentHash": "f16a6f2721aebcae0d23375cddfcc237daaa7e73d9a865b4b6e80a1bf34ab238",
+      "sources": [
+        "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/online-course-va-student-support-boundaries",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Whether a travel and expense support assistant can assemble a reviewable substantiation packet while leaving business purpose, deductibility, reimbursement, and tax treatment to authorized owners.",
+      "slug": "travel-expense-substantiation-preparation-study",
+      "bodyWords": 1521,
+      "contentHash": "75cb1a6bc5c6ebf8c883b4d7b577bb5395245fcdb97a25a5e5856a203fc9761a",
+      "sources": [
+        "https://www.irs.gov/publications/p463",
+        "https://www.irs.gov/forms-pubs/about-publication-583",
+        "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/travel-expense-substantiation-preparation-study",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "How a recruiting coordinator can prepare consent, status, and notice records without ordering unauthorized checks, interpreting reports, or making employment decisions.",
+      "slug": "recruiting-background-check-handoff-study",
+      "bodyWords": 1445,
+      "contentHash": "6ee576f22beb7b9c76a811ead400e45498c829f272510eeab48bb0242b08854a",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know",
+        "https://www.eeoc.gov/laws/guidance/background-checks-what-employers-need-know",
+        "https://www.consumerfinance.gov/ask-cfpb/when-i-apply-for-a-job-what-do-employers-see-when-they-do-a-credit-check-for-employment-and-a-background-check-en-1823/",
+        "https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/recruiting-background-check-handoff-study",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "How a research and data support assistant can prepare ACS comparisons while preserving vintage, geography, universe, margin of error, and statistical-significance limits.",
+      "slug": "acs-market-research-uncertainty-study",
+      "bodyWords": 1318,
+      "contentHash": "7928a86b0cb06983f61be02390e892800835d53832f665665d2d91825e1495b3",
+      "sources": [
+        "https://www.census.gov/programs-surveys/acs/technical-documentation.html",
+        "https://www.census.gov/help/topics/faq.do-i-need-to-consider-the-margins-of-error-when-comparing-acs-estimates.html",
+        "https://www.census.gov/programs-surveys/acs/guidance/statistical-testing-tool.html",
+        "https://www.census.gov/about/policies/quality/standards/standarde2.html"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/acs-market-research-uncertainty-study",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "How an ecommerce assistant can match affected catalog and order records, preserve evidence, and route stop-sale work without deciding reportability, hazard, remedy, or public wording.",
+      "slug": "ecommerce-product-recall-operations-study",
+      "bodyWords": 1286,
+      "contentHash": "b94e5ffa2daf67a1d60d819c79cca5e4a13c7439c88340d9b18e68ed6fa89f04",
+      "sources": [
+        "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance",
+        "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Recall-Checklist",
+        "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Duty-to-Report-to-CPSC-Rights-and-Responsibilities-of-Businesses",
+        "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Website-Notification-Guide-for-Recalling-Companies"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/ecommerce-product-recall-operations-study",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "How an executive assistant can preserve decision provenance, action ownership, and supersession while executives retain authority, confidentiality, and records-policy decisions.",
+      "slug": "executive-decision-log-preparation-study",
+      "bodyWords": 1317,
+      "contentHash": "b8fe14c875f87be1ab19a7d73b3ada89f196176641917b540386002a3af3bfbd",
+      "sources": [
+        "https://www.gao.gov/products/gao-14-704g",
+        "https://www.archives.gov/records-mgmt/email-mgmt",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model"
+      ],
+      "liveUrl": "https://overseasvirtualassistant.com/research/executive-decision-log-preparation-study",
+      "publicationDate": "2026-10-06",
+      "commitSha": "d63bc1267098b3fb631f8937307fc9071151f930",
+      "deploymentEvidence": "pending-browser-operator-exact-SHA-deployment",
+      "verificationTime": null
+    }
+  ]
+}
