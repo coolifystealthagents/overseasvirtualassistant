@@ -8,19 +8,19 @@
   "localBranch": "ove-70-research-2026-10-05",
   "timezone": "Asia/Jakarta",
   "cycleLabel": "2026-10-05",
-  "publicationDate": "2026-10-05",
-  "publicationDateStatus": "provisional-integrator-must-reconcile-to-actual-first-publication-date",
+  "publicationDate": "2026-10-06",
+  "publicationDateStatus": "actual-first-publication-date-for-sole-push",
   "baseSha": "621947f84a4ec633e259e2c408009542cf5ab66c",
   "requiredCount": 5,
   "handoffCount": 5,
-  "status": "local-handoff-only",
+  "status": "integrated-by-OVE-71",
   "entries": [
     {
       "family": "research",
       "topic": "Whether a travel and expense support assistant can assemble a reviewable substantiation packet while leaving business purpose, deductibility, reimbursement, and tax treatment to authorized owners.",
       "slug": "travel-expense-substantiation-preparation-study",
       "bodyWords": 1521,
-      "contentHash": "6a6352dd40ce758d0b57b34e13a3cd3c4418ce1dc71302dad1af8c99b131df9e",
+      "contentHash": "75cb1a6bc5c6ebf8c883b4d7b577bb5395245fcdb97a25a5e5856a203fc9761a",
       "sources": [
         "https://www.irs.gov/publications/p463",
         "https://www.irs.gov/forms-pubs/about-publication-583",
@@ -34,7 +34,7 @@
       "topic": "How a recruiting coordinator can prepare consent, status, and notice records without ordering unauthorized checks, interpreting reports, or making employment decisions.",
       "slug": "recruiting-background-check-handoff-study",
       "bodyWords": 1445,
-      "contentHash": "63bdfbdb46127b29a7e77c524e2cd52eb1bd79c09ee81b69f9ad15bcce51b0bc",
+      "contentHash": "6ee576f22beb7b9c76a811ead400e45498c829f272510eeab48bb0242b08854a",
       "sources": [
         "https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know",
         "https://www.eeoc.gov/laws/guidance/background-checks-what-employers-need-know",
@@ -48,7 +48,7 @@
       "topic": "How a research and data support assistant can prepare ACS comparisons while preserving vintage, geography, universe, margin of error, and statistical-significance limits.",
       "slug": "acs-market-research-uncertainty-study",
       "bodyWords": 1318,
-      "contentHash": "ba701690b9a53c90f46cfa27768bb36248591dfe97d31c1571c5c1af367f7f07",
+      "contentHash": "7928a86b0cb06983f61be02390e892800835d53832f665665d2d91825e1495b3",
       "sources": [
         "https://www.census.gov/programs-surveys/acs/technical-documentation.html",
         "https://www.census.gov/help/topics/faq.do-i-need-to-consider-the-margins-of-error-when-comparing-acs-estimates.html",
@@ -62,7 +62,7 @@
       "topic": "How an ecommerce assistant can match affected catalog and order records, preserve evidence, and route stop-sale work without deciding reportability, hazard, remedy, or public wording.",
       "slug": "ecommerce-product-recall-operations-study",
       "bodyWords": 1286,
-      "contentHash": "0d57c49937acf1617044f65a396e99da43440931e0927b74968e3e38b3074317",
+      "contentHash": "b94e5ffa2daf67a1d60d819c79cca5e4a13c7439c88340d9b18e68ed6fa89f04",
       "sources": [
         "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance",
         "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Recall-Checklist",
@@ -76,7 +76,7 @@
       "topic": "How an executive assistant can preserve decision provenance, action ownership, and supersession while executives retain authority, confidentiality, and records-policy decisions.",
       "slug": "executive-decision-log-preparation-study",
       "bodyWords": 1317,
-      "contentHash": "509944d51c77b8d000b71f3a059f5b4e15c901c7d8f79de0e331b162476e22f4",
+      "contentHash": "b8fe14c875f87be1ab19a7d73b3ada89f196176641917b540386002a3af3bfbd",
       "sources": [
         "https://www.gao.gov/products/gao-14-704g",
         "https://www.archives.gov/records-mgmt/email-mgmt",

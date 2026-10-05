@@ -16,8 +16,8 @@ const words = (text) => text.toLowerCase().match(/[a-z0-9][a-z0-9'-]*/g) || [];
 const shingles = (text) => { const tokens = words(text); const set = new Set(); for (let i = 0; i + 4 < tokens.length; i += 1) set.add(tokens.slice(i, i + 5).join(' ')); return set; };
 
 if (posts.length !== 5 || manifest.entries.length !== 5 || manifest.requiredCount !== 5 || manifest.handoffCount !== 5) fail('exact-count gate failed');
-if (manifest.baseSha !== '621947f84a4ec633e259e2c408009542cf5ab66c' || manifest.status !== 'local-handoff-only' || manifest.deployment.submitted !== false) fail('handoff boundary failed');
-if (manifest.timezone !== 'Asia/Jakarta' || manifest.publicationDateStatus !== 'provisional-integrator-must-reconcile-to-actual-first-publication-date') fail('date reconciliation gate failed');
+if (manifest.baseSha !== '621947f84a4ec633e259e2c408009542cf5ab66c' || manifest.status !== 'integrated-by-OVE-71' || manifest.deployment.submitted !== false) fail('integration boundary failed');
+if (manifest.timezone !== 'Asia/Jakarta' || manifest.publicationDate !== '2026-10-06' || manifest.publicationDateStatus !== 'actual-first-publication-date-for-sole-push') fail('date reconciliation gate failed');
 if (!fs.existsSync('public/images/remote-onboarding.jpg')) fail('shared existing image missing');
 const priorFiles = fs.readdirSync('app').filter((name) => name.includes('research') && name.endsWith('.ts') && name !== 'october-5-research.ts');
 const prior = priorFiles.map((name) => fs.readFileSync(`app/${name}`, 'utf8')).join('\n');
@@ -52,4 +52,4 @@ for (let i = 0; i < sets.length; i += 1) for (let j = i + 1; j < sets.length; j 
   if (overlap > maximum) { maximum = overlap; maximumPair = `${sets[i][0]} / ${sets[j][0]}`; }
 }
 if (maximum >= 0.5) fail(`five-word-shingle overlap gate: ${maximum}`);
-console.log(`PASS exact 5; body words ${manifest.entries.map((entry) => entry.bodyWords).join(', ')}; maximum pairwise five-word-shingle overlap ${maximum.toFixed(4)} (${maximumPair}); unique paragraphs and section sequences; prior-slug, source, internal-link, content-hash, image, and provisional-date gates passed.`);
+console.log(`PASS exact 5; body words ${manifest.entries.map((entry) => entry.bodyWords).join(', ')}; maximum pairwise five-word-shingle overlap ${maximum.toFixed(4)} (${maximumPair}); unique paragraphs and section sequences; prior-slug, source, internal-link, content-hash, image, and actual-date gates passed.`);

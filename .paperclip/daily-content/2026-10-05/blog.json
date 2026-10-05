@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 4,
+  "contract": "october-5-combined-release-blog",
+  "run": "OVE-71",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "ove-71-blog-2026-10-05",
+  "productionBranch": "main",
+  "timezone": "Asia/Jakarta",
+  "cycleLabel": "2026-10-05",
+  "publicationDate": "2026-10-06",
+  "publicationDateStatus": "actual-first-publication-date-for-sole-push",
+  "requiredCount": 12,
+  "actualCount": 12,
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "How to delegate pre-visit benefit checks without representing coverage as guaranteed",
+      "slug": "dental-va-insurance-verification-work-queue",
+      "sourcePath": "content/blog/oct5-dental-va-insurance-verification-work-queue.md",
+      "bodyWords": 1416,
+      "orderedParagraphHash": "909596157cc59911fd6bdb94da4aae72c064821cd0f2dacbbd469c86953025c3",
+      "contentHash": "384f7b9748fd46990779e874ca007312577fd867ac9831cbc3b71110ebddc542",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/dental-va-insurance-verification-work-queue"
+    },
+    {
+      "family": "blog",
+      "topic": "How to capture tenant maintenance requests while safety and repair decisions stay with authorized staff",
+      "slug": "property-management-va-maintenance-intake-triage",
+      "sourcePath": "content/blog/oct5-property-management-va-maintenance-intake-triage.md",
+      "bodyWords": 1439,
+      "orderedParagraphHash": "122bcfddaba276030d64385c6dadbd3a54a2278601b2380f86dffb5c66ce35db",
+      "contentHash": "608e0a2687beba2bbcc4605607132365f436e48bdea70527800520b087dca74b",
+      "sources": [
+        "https://www.hud.gov/fairhousing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/property-management-va-maintenance-intake-triage"
+    },
+    {
+      "family": "blog",
+      "topic": "How to assemble return evidence without inventing policy exceptions or refund promises",
+      "slug": "ecommerce-va-return-evidence-workflow",
+      "sourcePath": "content/blog/oct5-ecommerce-va-return-evidence-workflow.md",
+      "bodyWords": 1565,
+      "orderedParagraphHash": "3515fb0f07cdaff5d9e3b27fee9b538199e3c5ef2b323803c0bb7760043f8727",
+      "contentHash": "e0baf955f9b3bc7a1dc1342d6b8a446db7b04ae7ec5b9a0ac36b8a72b0cb6541",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/ecommerce-va-return-evidence-workflow"
+    },
+    {
+      "family": "blog",
+      "topic": "How to coordinate candidate interviews consistently without making selection decisions",
+      "slug": "recruiting-va-interview-scheduling-controls",
+      "sourcePath": "content/blog/oct5-recruiting-va-interview-scheduling-controls.md",
+      "bodyWords": 1456,
+      "orderedParagraphHash": "f49dd31ae30eba566f0e362602404466025634a2978c677fffcf847f67991089",
+      "contentHash": "40c0118ddf57ee1fefe1da39dead145e65a4601b8b47de151ba1732931bc765b",
+      "sources": [
+        "https://www.eeoc.gov/employers/small-business"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/recruiting-va-interview-scheduling-controls"
+    },
+    {
+      "family": "blog",
+      "topic": "How to resolve missing receipt records while coding and tax treatment remain with finance professionals",
+      "slug": "bookkeeping-va-receipt-exception-queue",
+      "sourcePath": "content/blog/oct5-bookkeeping-va-receipt-exception-queue.md",
+      "bodyWords": 1456,
+      "orderedParagraphHash": "2173bc88b916d469370a0101956c18bbd4152085720d66d973edb205f9ca49b3",
+      "contentHash": "043478e0a4a4054f54ea9dd29cbf915c38657540f5ee88941381ade1e5564cad",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/bookkeeping-va-receipt-exception-queue"
+    },
+    {
+      "family": "blog",
+      "topic": "How to assemble a version-controlled board packet without changing approved decisions",
+      "slug": "executive-va-board-packet-assembly-runbook",
+      "sourcePath": "content/blog/oct5-executive-va-board-packet-assembly-runbook.md",
+      "bodyWords": 1235,
+      "orderedParagraphHash": "fbee44325a4f0a7700a7a738c5cd2973c1fd5bd409ab2e53ade3aab70c31b787",
+      "contentHash": "e00ec313412fbcaeaae9fd0a614b07f7f370d637047b8bbb6d95854c35fe299a",
+      "sources": [
+        "https://www.cisa.gov/resources-tools/resources/cyber-guidance-small-businesses"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/executive-va-board-packet-assembly-runbook"
+    },
+    {
+      "family": "blog",
+      "topic": "How to route refund requests using evidence and approval limits without unauthorized commitments",
+      "slug": "customer-support-va-refund-escalation-lane",
+      "sourcePath": "content/blog/oct5-customer-support-va-refund-escalation-lane.md",
+      "bodyWords": 1261,
+      "orderedParagraphHash": "dfa42533af7721f8682b2fb886fc14cb60db01744bfc54a85db16f7a6ed49eac",
+      "contentHash": "29cd7393af1d15644e2a728e90cef57d05dbba20946083eb5a10666fda80622f",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/customer-support-va-refund-escalation-lane"
+    },
+    {
+      "family": "blog",
+      "topic": "How to keep listing inputs current while licensed judgments and representations remain controlled",
+      "slug": "real-estate-va-listing-document-coordination",
+      "sourcePath": "content/blog/oct5-real-estate-va-listing-document-coordination.md",
+      "bodyWords": 1151,
+      "orderedParagraphHash": "b87a23e0a447747bba6950897800b8722819cb0f66ad2369a5f459385bf22cee",
+      "contentHash": "aaeca9b9613fb82c336e0c40d45c1a65e7f895a16b64d96012713680569ae4f1",
+      "sources": [
+        "https://www.hud.gov/fairhousing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/real-estate-va-listing-document-coordination"
+    },
+    {
+      "family": "blog",
+      "topic": "How to track referral records without clinical interpretation or unnecessary disclosure",
+      "slug": "healthcare-va-referral-status-follow-up",
+      "sourcePath": "content/blog/oct5-healthcare-va-referral-status-follow-up.md",
+      "bodyWords": 1117,
+      "orderedParagraphHash": "f2c331401db965db39b41e7ce2b6f0c5e53da470d860d325e649a85f0d728da7",
+      "contentHash": "e3aa42d7d8f9a7a73a16f2383de40779414096546677ee6a70f81f2684fed15e",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/security/index.html"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/healthcare-va-referral-status-follow-up"
+    },
+    {
+      "family": "blog",
+      "topic": "How to reconcile report inputs without turning incomplete platform data into confident claims",
+      "slug": "agency-va-client-report-source-reconciliation",
+      "sourcePath": "content/blog/oct5-agency-va-client-report-source-reconciliation.md",
+      "bodyWords": 1131,
+      "orderedParagraphHash": "55f8474c781031284fd3da2dbda321bbde2a5623dab75d4e727a4e5df230eaef",
+      "contentHash": "b52eaebb61d13c1619d70a39799ad180398ecfd372ab64a7b76f5377af978c3e",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/agency-va-client-report-source-reconciliation"
+    },
+    {
+      "family": "blog",
+      "topic": "How to collect supplier records while approval, banking changes, and risk acceptance remain segregated",
+      "slug": "procurement-va-vendor-onboarding-checklist",
+      "sourcePath": "content/blog/oct5-procurement-va-vendor-onboarding-checklist.md",
+      "bodyWords": 1052,
+      "orderedParagraphHash": "acb55a6a5575f9afb4661019a973954ab79bbd218e1abcb47351366d62a340d6",
+      "contentHash": "22e705d7b908dc98a2f70a86cc947b12cce6576d493daee2946e418098aa14ca",
+      "sources": [
+        "https://www.cisa.gov/secure-our-world"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/procurement-va-vendor-onboarding-checklist"
+    },
+    {
+      "family": "blog",
+      "topic": "How to answer routine learner questions while accessibility, grading, and exceptions reach the right owner",
+      "slug": "online-course-va-student-support-boundaries",
+      "sourcePath": "content/blog/oct5-online-course-va-student-support-boundaries.md",
+      "bodyWords": 1182,
+      "orderedParagraphHash": "461791e091d545884689cd794088e747b566a61633699e1835cdb10fbf4410e7",
+      "contentHash": "f16a6f2721aebcae0d23375cddfcc237daaa7e73d9a865b4b6e80a1bf34ab238",
+      "sources": [
+        "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+      ],
+      "image": "/images/overseas-assistant.jpg",
+      "liveUrl": "https://overseasvirtualassistant.com/blog/online-course-va-student-support-boundaries"
+    }
+  ],
+  "deployment": {
+    "resourceUuid": "u3337glzo8zr4zjth9fapcpw",
+    "submitted": false
+  }
+}

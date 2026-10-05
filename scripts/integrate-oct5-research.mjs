@@ -26,7 +26,7 @@ const posts = plan.topics.map((topic) => {
     slug: topic.slug,
     title,
     excerpt: topic.decision,
-    published: '2026-10-05',
+    published: '2026-10-06',
     methodology: `Prospective documentary study of one bounded support workflow. The study reviews ${sources.length} primary or authoritative sources, separates published facts from local analysis, and proposes representative shadow cases without claiming observed company performance. October 5 is the cycle label; the Blog integrator must reconcile this provisional date to the actual first-publication date in Asia/Jakarta before the sole production push.`,
     headlineStat: { value: '1', label: 'bounded workflow examined', source: 'Declared prospective study design' },
     keyStats: [{ value: String(sources.length), label: 'authoritative sources reviewed' }, { value: String(sections.length), label: 'topic-specific analysis sections' }, { value: '0', label: 'company performance claims' }],
@@ -47,5 +47,5 @@ const posts = plan.topics.map((topic) => {
 const serial = posts.map(({ post }) => post);
 fs.writeFileSync('app/october-5-research.ts', `import type { ResearchPost } from './data';\nexport const october5ResearchPosts = ${JSON.stringify(serial, null, 2)} satisfies ResearchPost[];\n`);
 const entries = posts.map(({ post, bodyWords }, index) => ({ family: 'research', topic: plan.topics[index].decision, slug: post.slug, bodyWords, contentHash: crypto.createHash('sha256').update(JSON.stringify(post)).digest('hex'), sources: post.sources.map((source) => source.url), liveUrl: `https://overseasvirtualassistant.com/research/${post.slug}` }));
-fs.writeFileSync(`${root}/research.json`, `${JSON.stringify({ schemaVersion: 4, contract: 'october-5-combined-release-research-handoff', run: plan.run, integratorRun: plan.integratorRun, repository: 'coolifystealthagents/overseasvirtualassistant', productionBranch: 'main', localBranch: 'ove-70-research-2026-10-05', timezone: plan.timezone, cycleLabel: plan.cycleLabel, publicationDate: '2026-10-05', publicationDateStatus: plan.publicationDateStatus, baseSha: plan.baselineSha, requiredCount: 5, handoffCount: 5, status: 'local-handoff-only', entries, deployment: { resourceUuid: 'u3337glzo8zr4zjth9fapcpw', submitted: false } }, null, 2)}\n`);
+fs.writeFileSync(`${root}/research.json`, `${JSON.stringify({ schemaVersion: 4, contract: 'october-5-combined-release-research-handoff', run: plan.run, integratorRun: plan.integratorRun, repository: 'coolifystealthagents/overseasvirtualassistant', productionBranch: 'main', localBranch: 'ove-70-research-2026-10-05', timezone: plan.timezone, cycleLabel: plan.cycleLabel, publicationDate: '2026-10-06', publicationDateStatus: 'actual-first-publication-date-for-sole-push', baseSha: plan.baselineSha, requiredCount: 5, handoffCount: 5, status: 'integrated-by-OVE-71', entries, deployment: { resourceUuid: 'u3337glzo8zr4zjth9fapcpw', submitted: false } }, null, 2)}\n`);
 console.log(posts.map(({ post, bodyWords }) => `${post.slug}: ${bodyWords}`).join('\n'));

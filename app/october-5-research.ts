@@ -4,7 +4,7 @@ export const october5ResearchPosts = [
     "slug": "travel-expense-substantiation-preparation-study",
     "title": "What travel-expense evidence can a virtual assistant prepare without deciding tax treatment?",
     "excerpt": "Whether a travel and expense support assistant can assemble a reviewable substantiation packet while leaving business purpose, deductibility, reimbursement, and tax treatment to authorized owners.",
-    "published": "2026-10-05",
+    "published": "2026-10-06",
     "methodology": "Prospective documentary study of one bounded support workflow. The study reviews 4 primary or authoritative sources, separates published facts from local analysis, and proposes representative shadow cases without claiming observed company performance. October 5 is the cycle label; the Blog integrator must reconcile this provisional date to the actual first-publication date in Asia/Jakarta before the sole production push.",
     "headlineStat": {
       "value": "1",
@@ -247,7 +247,7 @@ export const october5ResearchPosts = [
     "slug": "recruiting-background-check-handoff-study",
     "title": "Where should a recruiting coordinator stop in an employment background-check workflow?",
     "excerpt": "How a recruiting coordinator can prepare consent, status, and notice records without ordering unauthorized checks, interpreting reports, or making employment decisions.",
-    "published": "2026-10-05",
+    "published": "2026-10-06",
     "methodology": "Prospective documentary study of one bounded support workflow. The study reviews 4 primary or authoritative sources, separates published facts from local analysis, and proposes representative shadow cases without claiming observed company performance. October 5 is the cycle label; the Blog integrator must reconcile this provisional date to the actual first-publication date in Asia/Jakarta before the sole production push.",
     "headlineStat": {
       "value": "1",
@@ -490,7 +490,7 @@ export const october5ResearchPosts = [
     "slug": "acs-market-research-uncertainty-study",
     "title": "Can a research assistant compare local markets without hiding survey uncertainty?",
     "excerpt": "How a research and data support assistant can prepare ACS comparisons while preserving vintage, geography, universe, margin of error, and statistical-significance limits.",
-    "published": "2026-10-05",
+    "published": "2026-10-06",
     "methodology": "Prospective documentary study of one bounded support workflow. The study reviews 4 primary or authoritative sources, separates published facts from local analysis, and proposes representative shadow cases without claiming observed company performance. October 5 is the cycle label; the Blog integrator must reconcile this provisional date to the actual first-publication date in Asia/Jakarta before the sole production push.",
     "headlineStat": {
       "value": "1",
@@ -733,7 +733,7 @@ export const october5ResearchPosts = [
     "slug": "ecommerce-product-recall-operations-study",
     "title": "What can an ecommerce virtual assistant prepare when a product may be recalled?",
     "excerpt": "How an ecommerce assistant can match affected catalog and order records, preserve evidence, and route stop-sale work without deciding reportability, hazard, remedy, or public wording.",
-    "published": "2026-10-05",
+    "published": "2026-10-06",
     "methodology": "Prospective documentary study of one bounded support workflow. The study reviews 4 primary or authoritative sources, separates published facts from local analysis, and proposes representative shadow cases without claiming observed company performance. October 5 is the cycle label; the Blog integrator must reconcile this provisional date to the actual first-publication date in Asia/Jakarta before the sole production push.",
     "headlineStat": {
       "value": "1",
@@ -976,7 +976,7 @@ export const october5ResearchPosts = [
     "slug": "executive-decision-log-preparation-study",
     "title": "Can an executive assistant maintain a decision log without becoming the decision-maker?",
     "excerpt": "How an executive assistant can preserve decision provenance, action ownership, and supersession while executives retain authority, confidentiality, and records-policy decisions.",
-    "published": "2026-10-05",
+    "published": "2026-10-06",
     "methodology": "Prospective documentary study of one bounded support workflow. The study reviews 4 primary or authoritative sources, separates published facts from local analysis, and proposes representative shadow cases without claiming observed company performance. October 5 is the cycle label; the Blog integrator must reconcile this provisional date to the actual first-publication date in Asia/Jakarta before the sole production push.",
     "headlineStat": {
       "value": "1",
