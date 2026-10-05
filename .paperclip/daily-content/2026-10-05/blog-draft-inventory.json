@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "cycleLabel": "2026-10-05",
+  "run": "OVE-71",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "ove-71-blog-2026-10-05",
+  "baselineSha": "621947f84a4ec633e259e2c408009542cf5ab66c",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": null,
+  "publicationDateStatus": "pending-first-publication",
+  "requiredCount": 12,
+  "draftedCount": 0,
+  "integrationStatus": "awaiting-content-and-OVE-70-research-handoff",
+  "topics": [
+    {"slug":"dental-va-insurance-verification-work-queue","pillar":"healthcare administration","readerDecision":"How to delegate pre-visit benefit checks without representing coverage as guaranteed","service":"/services/customer-support","primarySource":"https://www.hhs.gov/hipaa/for-professionals/privacy/index.html","status":"selected"},
+    {"slug":"property-management-va-maintenance-intake-triage","pillar":"property operations","readerDecision":"How to capture tenant maintenance requests while safety and repair decisions stay with authorized staff","service":"/services/customer-support","primarySource":"https://www.hud.gov/housingcounseling","status":"selected"},
+    {"slug":"ecommerce-va-return-evidence-workflow","pillar":"ecommerce operations","readerDecision":"How to assemble return evidence without inventing policy exceptions or refund promises","service":"/services/customer-support","primarySource":"https://www.ftc.gov/business-guidance/advertising-marketing","status":"selected"},
+    {"slug":"recruiting-va-interview-scheduling-controls","pillar":"recruiting support","readerDecision":"How to coordinate candidate interviews consistently without making selection decisions","service":"/services/executive-assistance","primarySource":"https://www.eeoc.gov/employers/small-business","status":"selected"},
+    {"slug":"bookkeeping-va-receipt-exception-queue","pillar":"finance administration","readerDecision":"How to resolve missing receipt records while coding and tax treatment remain with finance professionals","service":"/services/bookkeeping","primarySource":"https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep","status":"selected"},
+    {"slug":"executive-va-board-packet-assembly-runbook","pillar":"executive assistance","readerDecision":"How to assemble a version-controlled board packet without changing approved decisions","service":"/services/executive-assistance","primarySource":"https://www.cisa.gov/resources-tools/resources/cyber-guidance-small-businesses","status":"selected"},
+    {"slug":"customer-support-va-refund-escalation-lane","pillar":"customer support","readerDecision":"How to route refund requests using evidence and approval limits without unauthorized commitments","service":"/services/customer-support","primarySource":"https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law","status":"selected"},
+    {"slug":"real-estate-va-listing-document-coordination","pillar":"real estate administration","readerDecision":"How to keep listing inputs current while licensed judgments and representations remain controlled","service":"/services/executive-assistance","primarySource":"https://www.hud.gov/fairhousing","status":"selected"},
+    {"slug":"healthcare-va-referral-status-follow-up","pillar":"healthcare administration","readerDecision":"How to track referral records without clinical interpretation or unnecessary disclosure","service":"/services/customer-support","primarySource":"https://www.hhs.gov/hipaa/for-professionals/security/index.html","status":"selected"},
+    {"slug":"agency-va-client-report-source-reconciliation","pillar":"agency operations","readerDecision":"How to reconcile report inputs without turning incomplete platform data into confident claims","service":"/services/executive-assistance","primarySource":"https://www.ftc.gov/business-guidance/advertising-marketing","status":"selected"},
+    {"slug":"procurement-va-vendor-onboarding-checklist","pillar":"procurement administration","readerDecision":"How to collect supplier records while approval, banking changes, and risk acceptance remain segregated","service":"/services/executive-assistance","primarySource":"https://www.cisa.gov/secure-our-world","status":"selected"},
+    {"slug":"online-course-va-student-support-boundaries","pillar":"education support","readerDecision":"How to answer routine learner questions while accessibility, grading, and exceptions reach the right owner","service":"/services/customer-support","primarySource":"https://www.w3.org/WAI/fundamentals/accessibility-intro/","status":"selected"}
+  ],
+  "topicAudit": {
+    "liveAndRepositoryInventoryReviewed": true,
+    "priorCycleCollisionCheck": "passed-by-slug-and-reader-decision-review",
+    "keywordSwapCheck": "passed",
+    "crossBrandTopics": 0,
+    "notes": "Topics cover twelve distinct operating decisions across real service conversion paths; prose, links, hashes, images, and originality remain pending."
+  }
+}
