@@ -68,4 +68,4 @@ For each case, verify that the assistant identified the right transaction, prese
 
 Track owner reversals, duplicate attempts, wrong amounts, requests missing evidence, time in owner review, and contacts caused by unclear updates. A low handling time is not success if the accounting team must repair transactions later.
 
-The virtual assistant can make refund cases easier to review and less frustrating to track. The business retains policy, exception, warranty, fraud, legal, and payment authority. Teams planning this lane can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring a redacted standard refund, one exception, and the current approval matrix to a scoping call.
+The virtual assistant can make refund cases easier to review and less frustrating to track. The business retains policy, exception, warranty, fraud, legal, and payment authority. Teams planning this lane can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring a redacted standard refund, one exception, and the current approval matrix to a scoping call.

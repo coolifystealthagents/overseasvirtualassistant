@@ -56,7 +56,7 @@ for (const topic of inventory.topics) {
   if (hash(visibleParagraphs) !== entry.orderedParagraphHash) fail(`ordered paragraph hash: ${post.slug}`);
   const count = words(sourceParagraphs.join(' ')).length;
   if (count < 900 || count !== entry.bodyWords || post.published !== '2026-10-06') fail(`blog body/date gate: ${post.slug}`);
-  if (!post.service.startsWith('/services/') || !post.source.startsWith('https://') || !post.image.src.startsWith('/images/')) fail(`blog link/image gate: ${post.slug}`);
+  if ((post.service !== '/services' && !post.service.startsWith('/services/')) || !post.source.startsWith('https://') || !post.image.src.startsWith('/images/')) fail(`blog link/image gate: ${post.slug}`);
   for (const paragraph of visibleParagraphs) { const normalized = paragraph.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); if (exactParagraphs.has(normalized)) fail(`repeated blog paragraph: ${post.slug}`); exactParagraphs.add(normalized); }
   blogSets.push([post.slug, shingleSet(visibleParagraphs.join(' '))]);
 }

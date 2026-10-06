@@ -68,4 +68,4 @@ Read a sample of closed cases against the source message and system record. Chec
 
 Pilot with a missing course, broken caption file, failed submission, grade question, accessibility request, suspicious login, refund exception, and content correction that affects an assessment. These cases reveal whether the boundaries work when a template is not enough.
 
-The virtual assistant can make learner support easier to reach and easier to audit. Course owners retain academic, accessibility, disciplinary, financial, and publication decisions. Teams considering this lane can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring a redacted support map, one routine case, and one escalated case to a scoping call.
+The virtual assistant can make learner support easier to reach and easier to audit. Course owners retain academic, accessibility, disciplinary, financial, and publication decisions. Teams considering this lane can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring a redacted support map, one routine case, and one escalated case to a scoping call.

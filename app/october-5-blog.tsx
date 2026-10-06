@@ -8,7 +8,7 @@ export const october5BlogPosts=[
     "title": "Build a dental insurance verification work queue for a virtual assistant",
     "description": "How to delegate pre-visit benefit checks without representing coverage as guaranteed",
     "published": "2026-10-06",
-    "service": "/services/customer-support",
+    "service": "/services",
     "source": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -71,7 +71,7 @@ export const october5BlogPosts=[
         "heading": "Set a clear operating boundary",
         "paragraphs": [
           "The virtual assistant can manage the work queue, use approved payer channels, record responses, prepare bounded summaries, and chase an internal review. The practice retains decisions about diagnosis, treatment, procedure codes, network interpretation, patient estimates, financial policy, disputed benefits, and what the patient is told. Write those boundaries into the workflow and the review checklist.",
-          "For privacy background, consult the [HHS HIPAA Privacy Rule guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/index.html) and apply it with advice suited to the practice. Teams considering an administrative support lane can also review OverseasVirtualAssistant.com's [customer support services](/services/customer-support). Bring a redacted appointment checklist and one difficult verification example to the scoping call. That is enough to design a pilot without exposing a live patient record."
+          "For privacy background, consult the [HHS HIPAA Privacy Rule guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/index.html) and apply it with advice suited to the practice. Teams considering an administrative support lane can also review OverseasVirtualAssistant.com's [virtual assistant services](/services). Bring a redacted appointment checklist and one difficult verification example to the scoping call. That is enough to design a pilot without exposing a live patient record."
         ]
       }
     ]
@@ -81,7 +81,7 @@ export const october5BlogPosts=[
     "title": "Set up maintenance intake triage for a property management virtual assistant",
     "description": "How to capture tenant maintenance requests while safety and repair decisions stay with authorized staff",
     "published": "2026-10-06",
-    "service": "/services/customer-support",
+    "service": "/services",
     "source": "https://www.hud.gov/fairhousing",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -145,7 +145,7 @@ export const october5BlogPosts=[
         "paragraphs": [
           "Test the workflow with synthetic or safely redacted cases before expanding it. Include a duplicate report, an after-hours water problem, a vendor that cannot attend, a resident who cannot use the portal, an unclear unit number, an access disagreement, and a proposed cost above the assistant's limit. These cases reveal more than a stack of straightforward appliance requests.",
           "For each case, ask whether a second person can reconstruct what the resident reported, which trigger applied, who decided the response, what was communicated, and what remains open. If the answer depends on a private chat or somebody's memory, the workflow is not ready.",
-          "A virtual assistant can keep the intake complete, timely, and visible. The authorized property manager retains safety assessment, legal interpretation, repair scope, vendor approval, spending decisions, access authority, and final closure. Teams scoping this work can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring a redacted maintenance form, routing table, and difficult closed ticket to the first conversation."
+          "A virtual assistant can keep the intake complete, timely, and visible. The authorized property manager retains safety assessment, legal interpretation, repair scope, vendor approval, spending decisions, access authority, and final closure. Teams scoping this work can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring a redacted maintenance form, routing table, and difficult closed ticket to the first conversation."
         ]
       }
     ]
@@ -155,7 +155,7 @@ export const october5BlogPosts=[
     "title": "Create an ecommerce return evidence workflow for a virtual assistant",
     "description": "How to assemble return evidence without inventing policy exceptions or refund promises",
     "published": "2026-10-06",
-    "service": "/services/customer-support",
+    "service": "/services",
     "source": "https://www.ftc.gov/business-guidance/advertising-marketing",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -226,7 +226,7 @@ export const october5BlogPosts=[
         "paragraphs": [
           "Test the lane with a standard size return, wrong item, damaged parcel, partial kit, expired window, marketplace order, duplicate label, lost return shipment, safety report, and mismatched serial number. Use synthetic orders if live data is not appropriate. For each case, check whether the assistant found the correct transaction and policy version, preserved the customer's words, requested only relevant evidence, applied the right state, and stopped at the approval boundary.",
           "Review all exceptions and sample ordinary closures. Track avoidable follow-up contacts, wrong labels, duplicate transactions, missing evidence, owner reversals, days in each state, and cases closed without a traceable decision. State the denominator. Two owner reversals in ten reviewed cases deserves a different response from two in a thousand.",
-          "The useful outcome is not the highest number of closed tickets. It is a queue where the company and customer can see what happened, where the decision came from, and what remains unresolved. A virtual assistant can assemble that record and run the accepted steps. The business keeps authority over policy, exceptions, product safety, fraud findings, and movement of money or replacement goods. Teams planning this lane can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring one redacted standard return plus one difficult exception to a scoping call."
+          "The useful outcome is not the highest number of closed tickets. It is a queue where the company and customer can see what happened, where the decision came from, and what remains unresolved. A virtual assistant can assemble that record and run the accepted steps. The business keeps authority over policy, exceptions, product safety, fraud findings, and movement of money or replacement goods. Teams planning this lane can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring one redacted standard return plus one difficult exception to a scoping call."
         ]
       }
     ]
@@ -319,7 +319,7 @@ export const october5BlogPosts=[
     "title": "Build a missing-receipt exception queue for a bookkeeping virtual assistant",
     "description": "How to resolve missing receipt records while coding and tax treatment remain with finance professionals",
     "published": "2026-10-06",
-    "service": "/services/bookkeeping",
+    "service": "/services/travel-and-expense-support",
     "source": "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -391,7 +391,7 @@ export const october5BlogPosts=[
         "paragraphs": [
           "Sample closed items against their source files and decisions. Check for wrong matches, missing fields, duplicate documents, unsupported classifications, sensitive information stored in the wrong place, and items closed without owner evidence. Review every override and a selection of routine matches.",
           "Track how exceptions enter the queue. If one cardholder repeatedly uploads unreadable images, repair the capture instructions. If a vendor's receipts never identify the service period, adjust the vendor process. If managers answer only after close, revise the review calendar. A shrinking backlog can still conceal weak records if people close items to meet a target.",
-          "The virtual assistant can maintain the queue, match under written rules, send precise requests, preserve evidence, and prepare the handoff. Accounting owners retain classification, approval, tax treatment, alternate-evidence decisions, and changes to financial records. Teams considering this workflow can review OverseasVirtualAssistant.com's [bookkeeping services](/services/bookkeeping) and bring a redacted transaction list, receipt standard, and two difficult exceptions to a scoping call."
+          "The virtual assistant can maintain the queue, match under written rules, send precise requests, preserve evidence, and prepare the handoff. Accounting owners retain classification, approval, tax treatment, alternate-evidence decisions, and changes to financial records. Teams considering this workflow can review OverseasVirtualAssistant.com's [travel and expense support](/services/travel-and-expense-support) and bring a redacted transaction list, receipt standard, and two difficult exceptions to a scoping call."
         ]
       }
     ]
@@ -483,7 +483,7 @@ export const october5BlogPosts=[
     "title": "Design a refund escalation lane for a customer support virtual assistant",
     "description": "How to route refund requests using evidence and approval limits without unauthorized commitments",
     "published": "2026-10-06",
-    "service": "/services/customer-support",
+    "service": "/services",
     "source": "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -556,7 +556,7 @@ export const october5BlogPosts=[
           "Pilot with a duplicate charge, pending authorization, partial service failure, cancellation near a deadline, marketplace order, previous credit, active chargeback, refund failure, request for another payment method, and amount above the assistant's limit. Use synthetic records if live financial data is unsuitable for testing.",
           "For each case, verify that the assistant identified the right transaction, preserved the customer's words, surfaced related actions, applied the correct limit, obtained approval, avoided duplicate payment, and sent an accurate update. Review every exception plus a sample of routine cases.",
           "Track owner reversals, duplicate attempts, wrong amounts, requests missing evidence, time in owner review, and contacts caused by unclear updates. A low handling time is not success if the accounting team must repair transactions later.",
-          "The virtual assistant can make refund cases easier to review and less frustrating to track. The business retains policy, exception, warranty, fraud, legal, and payment authority. Teams planning this lane can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring a redacted standard refund, one exception, and the current approval matrix to a scoping call."
+          "The virtual assistant can make refund cases easier to review and less frustrating to track. The business retains policy, exception, warranty, fraud, legal, and payment authority. Teams planning this lane can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring a redacted standard refund, one exception, and the current approval matrix to a scoping call."
         ]
       }
     ]
@@ -648,7 +648,7 @@ export const october5BlogPosts=[
     "title": "Organize healthcare referral follow-up with a virtual assistant",
     "description": "How to track referral records without clinical interpretation or unnecessary disclosure",
     "published": "2026-10-06",
-    "service": "/services/customer-support",
+    "service": "/services",
     "source": "https://www.hhs.gov/hipaa/for-professionals/security/index.html",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -712,7 +712,7 @@ export const october5BlogPosts=[
         "paragraphs": [
           "Pilot with synthetic or safely controlled cases: failed fax, wrong destination, duplicate referral, missing order field, receiver-requested document, authorization delay, patient who needs another communication method, and conflicting status sources. Confirm that the assistant preserved the order, used the correct destination, requested only approved information, protected patient data, and stopped at clinical boundaries.",
           "Review every privacy or clinical escalation and a sample of ordinary closures. Measure wrong-destination attempts, missing-field returns, unexplained retransmissions, owner response time, patient contacts caused by unclear updates, and referrals closed without outcome evidence.",
-          "The virtual assistant can make the administrative status visible and keep accepted follow-up moving. Clinical owners retain urgency, diagnosis, medical necessity, treatment, authorization interpretation, and decisions about care. Teams considering this lane can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring a redacted referral checklist, destination directory entry, and one stalled-case timeline to a scoping call."
+          "The virtual assistant can make the administrative status visible and keep accepted follow-up moving. Clinical owners retain urgency, diagnosis, medical necessity, treatment, authorization interpretation, and decisions about care. Teams considering this lane can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring a redacted referral checklist, destination directory entry, and one stalled-case timeline to a scoping call."
         ]
       }
     ]
@@ -886,7 +886,7 @@ export const october5BlogPosts=[
     "title": "Set student-support boundaries for an online course virtual assistant",
     "description": "How to answer routine learner questions while accessibility, grading, and exceptions reach the right owner",
     "published": "2026-10-06",
-    "service": "/services/customer-support",
+    "service": "/services",
     "source": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
     "image": {
       "src": "/images/overseas-assistant.jpg",
@@ -959,7 +959,7 @@ export const october5BlogPosts=[
           "Useful support measures include first response, time in each owner queue, repeated contacts for the same issue, broken-resource reports, accessibility request completion, and cases reopened after closure. Break the timing down by owner. A long instructor review should not appear as an assistant's unresolved access ticket.",
           "Read a sample of closed cases against the source message and system record. Check that the assistant verified identity, followed the playbook, avoided academic judgment, protected private information, and sent an accurate update. Review every data exposure, accommodation escalation, payment exception, and disputed academic outcome.",
           "Pilot with a missing course, broken caption file, failed submission, grade question, accessibility request, suspicious login, refund exception, and content correction that affects an assessment. These cases reveal whether the boundaries work when a template is not enough.",
-          "The virtual assistant can make learner support easier to reach and easier to audit. Course owners retain academic, accessibility, disciplinary, financial, and publication decisions. Teams considering this lane can review OverseasVirtualAssistant.com's [customer support services](/services/customer-support) and bring a redacted support map, one routine case, and one escalated case to a scoping call."
+          "The virtual assistant can make learner support easier to reach and easier to audit. Course owners retain academic, accessibility, disciplinary, financial, and publication decisions. Teams considering this lane can review OverseasVirtualAssistant.com's [virtual assistant services](/services) and bring a redacted support map, one routine case, and one escalated case to a scoping call."
         ]
       }
     ]
