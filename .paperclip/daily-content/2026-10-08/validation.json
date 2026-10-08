@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "blog": {
+    "count": 12,
+    "minimumWords": 915,
+    "maximumOverlap": {
+      "score": 0.4272363150867824,
+      "pair": [
+        "medical-referral-status-follow-up",
+        "recruiting-interview-feedback-completeness"
+      ]
+    }
+  },
+  "research": {
+    "count": 5,
+    "minimumWords": 1201,
+    "maximumOverlap": {
+      "score": 0.4322766570605187,
+      "pair": [
+        "virtual-assistant-queue-aging-measurement-bias-study",
+        "conflicting-source-escalation-reliability-study"
+      ]
+    }
+  },
+  "visibleDates": {
+    "blogDetail": true,
+    "blogListing": true,
+    "researchDetail": true,
+    "researchListing": true
+  },
+  "sha256": "457ee1e08e2f27b87b7757f5d95475aed3ed65c713b0bc0a812749dbeb7c6bf2"
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "cycleLabel": "2026-10-08",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-10-08",
+  "family": "research",
+  "requiredCount": 5,
+  "actualCount": 5,
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "entries": [
+    {
+      "slug": "cross-time-zone-handoff-latency-study",
+      "title": "When does cross-time-zone virtual assistant coverage reduce handoff latency?",
+      "bodyWords": 1295,
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.gao.gov/products/gao-25-107721",
+        "https://www.archives.gov/records-mgmt/email-mgmt"
+      ],
+      "image": "/images/remote-onboarding.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "delegated-access-recertification-sampling-study",
+      "title": "How should a small business sample delegated-access recertification evidence?",
+      "bodyWords": 1240,
+      "sources": [
+        "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+        "https://www.cisa.gov/secure-our-world/use-strong-passwords",
+        "https://www.ftc.gov/business-guidance/resources/start-security-guide-business",
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "image": "/images/remote-onboarding.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "virtual-assistant-queue-aging-measurement-bias-study",
+      "title": "What biases distort virtual assistant queue-aging metrics?",
+      "bodyWords": 1201,
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.dol.gov/agencies/whd/fact-sheets",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "image": "/images/remote-onboarding.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "conflicting-source-escalation-reliability-study",
+      "title": "Can a structured escalation improve reliability when virtual assistant sources conflict?",
+      "bodyWords": 1211,
+      "sources": [
+        "https://www.gao.gov/products/gao-25-107721",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+        "https://www.archives.gov/records-mgmt/email-mgmt"
+      ],
+      "image": "/images/remote-onboarding.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "synthetic-pilot-validity-for-delegated-work-study",
+      "title": "What can synthetic pilots prove before virtual assistant work goes live?",
+      "bodyWords": 1240,
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+        "https://www.ftc.gov/business-guidance/resources/start-security-guide-business",
+        "https://www.gao.gov/products/gao-25-107721"
+      ],
+      "image": "/images/remote-onboarding.jpg",
+      "publicationDate": "2026-10-08"
+    }
+  ],
+  "deployment": {
+    "submitted": false,
+    "resourceUuid": "u3337glzo8zr4zjth9fapcpw"
+  }
+}

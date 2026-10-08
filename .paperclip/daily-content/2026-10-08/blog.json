@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "cycleLabel": "2026-10-08",
+  "timezone": "Asia/Jakarta",
+  "publicationDate": "2026-10-08",
+  "family": "blog",
+  "requiredCount": 12,
+  "actualCount": 12,
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "entries": [
+    {
+      "slug": "executive-inbox-conflict-routing",
+      "title": "Route conflicts and sensitive requests in an executive assistant inbox",
+      "bodyWords": 965,
+      "source": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "ecommerce-chargeback-evidence-packet",
+      "title": "Prepare an ecommerce chargeback evidence packet with a virtual assistant",
+      "bodyWords": 971,
+      "source": "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "saas-churn-survey-coding",
+      "title": "Create a SaaS churn survey coding workflow for a remote virtual assistant",
+      "bodyWords": 958,
+      "source": "https://www.nist.gov/privacy-framework",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "construction-submittal-register",
+      "title": "Maintain a construction submittal register with an overseas virtual assistant",
+      "bodyWords": 948,
+      "source": "https://www.osha.gov/laws-regs",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "insurance-certificate-expiry-monitoring",
+      "title": "Monitor vendor insurance certificate expirations with a virtual assistant",
+      "bodyWords": 945,
+      "source": "https://www.sba.gov/business-guide/launch-your-business/get-business-insurance",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "nonprofit-grant-deliverable-calendar",
+      "title": "Build a nonprofit grant deliverable calendar for virtual assistant support",
+      "bodyWords": 942,
+      "source": "https://www.usa.gov/grants",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "real-estate-transaction-document-chase",
+      "title": "Control a real estate transaction document chase with a remote assistant",
+      "bodyWords": 951,
+      "source": "https://www.consumerfinance.gov/owning-a-home/",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "medical-referral-status-follow-up",
+      "title": "Structure medical referral status follow-up for a healthcare virtual assistant",
+      "bodyWords": 941,
+      "source": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "podcast-sponsorship-fulfillment-tracker",
+      "title": "Track podcast sponsorship fulfillment with an overseas virtual assistant",
+      "bodyWords": 936,
+      "source": "https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "recruiting-interview-feedback-completeness",
+      "title": "Improve interview feedback completeness with a recruiting virtual assistant",
+      "bodyWords": 915,
+      "source": "https://www.eeoc.gov/employers/small-business",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "travel-disruption-rebooking-boundary",
+      "title": "Set travel disruption and rebooking boundaries for an executive virtual assistant",
+      "bodyWords": 947,
+      "source": "https://www.transportation.gov/airconsumer",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    },
+    {
+      "slug": "accounts-receivable-remittance-matching",
+      "title": "Match accounts receivable remittance details with a remote virtual assistant",
+      "bodyWords": 936,
+      "source": "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+      "image": "/images/overseas-assistant.jpg",
+      "publicationDate": "2026-10-08"
+    }
+  ],
+  "deployment": {
+    "submitted": false,
+    "resourceUuid": "u3337glzo8zr4zjth9fapcpw"
+  }
+}
