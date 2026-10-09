@@ -21,16 +21,40 @@ import { Header, Footer } from "../components";
 import { blogPosts } from "../data";
 const PAGE_SIZE = 20;
 const campaignPosts = [
-  ...october8BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description, published: p.published }] as const),
-  ...october5BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...october2BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september28BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september26BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september23BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september22BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september18BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september14BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
-  ...september10BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description }] as const),
+  ...october8BlogPosts.map(
+    (p) =>
+      [
+        p.slug,
+        { title: p.title, description: p.description, published: p.published },
+      ] as const,
+  ),
+  ...october5BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...october2BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september28BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september26BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september23BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september22BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september18BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september14BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
+  ...september10BlogPosts.map(
+    (p) => [p.slug, { title: p.title, description: p.description }] as const,
+  ),
   ...september9BlogPosts.map(
     (p) => [p.slug, { title: p.title, description: p.description }] as const,
   ),
@@ -49,7 +73,7 @@ const campaignPosts = [
   slug,
   title: p.title,
   excerpt: p.description,
-  published: 'published' in p ? p.published : undefined,
+  published: "published" in p ? p.published : undefined,
   minutes: 7,
 }));
 export function BlogListing({ page = 1 }: { page?: number }) {
@@ -82,7 +106,11 @@ export function BlogListing({ page = 1 }: { page?: number }) {
                   >
                     <h2>{p.title}</h2>
                     <p>{p.excerpt}</p>
-                    <b>{'published' in p && p.published ? `Published ${new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${p.published}T00:00:00Z`))}` : `${p.minutes} min read`}</b>
+                    <b>
+                      {"published" in p && p.published
+                        ? `Published ${new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${p.published}T00:00:00Z`))}`
+                        : `${p.minutes} min read`}
+                    </b>
                   </a>
                 ))}
               {posts.map((p) => (
