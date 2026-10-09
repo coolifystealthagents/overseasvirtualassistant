@@ -1,6 +1,6 @@
 # Overseas Virtual Assistant topical-authority link ledger
 
-Updated: 2026-09-28
+Updated: 2026-10-09
 
 This is an internal execution map. It only uses routes that already exist in this repository. Each row names one buyer question, the closest Philippines-based service page, and one supporting research page that can earn a contextual handoff after a page-level review. A row is not permission to add a generic card or repeat the same link on every article.
 
@@ -12,10 +12,16 @@ This is an internal execution map. It only uses routes that already exist in thi
 | Real estate virtual assistance | `/research/property-admin-escalation-evidence` | Which property requests can an assistant prepare, and which must return to the licensed or responsible owner? | Add one route-local handoff to `/services/real-estate-virtual-assistance` only if the source has no matching service path. | Delivered locally; do not duplicate. |
 | Ecommerce virtual assistance | `/research/ecommerce-status-reconciliation-study` | How can a store separate an order update from a refund, substitution, or delivery decision? | The route now gives this question one contextual handoff to `/services/ecommerce-virtual-assistance`; the owner keeps refunds, substitutions, delivery disputes, and customer commitments. | Delivered locally; public verification pending. |
 | Medical administrative assistance | `/research/medical-scheduling-minimum-necessary-data-study` | What is the smallest approved scheduling record an assistant needs before clinical, privacy, or disclosure questions return to the practice? | The route already sends this question to `/services/medical-administrative-assistance` and keeps triage, medical advice, urgency, identity exceptions, disclosures, consent interpretation, and policy exceptions with qualified owners. | Delivered; do not duplicate. |
-| Legal administrative assistance | `/research/data-minimization-for-delegated-assistant-work` | What is the smallest record set an assistant needs before preparing legal-administrative work? | Audit a narrow handoff to `/services/legal-administrative-assistance`; do not imply legal advice or document review authority. | Candidate. |
+| Legal administrative assistance | `/research/legal-efiling-packet-preparation-boundary-study` | Can a legal team prepare a filing packet from approved records without handing over filing authority? | The direct e-filing study already sends this question to `/services/legal-administrative-assistance` and keeps legal advice, event choice, redaction, deadlines, signatures, payment, and final filing with authorized legal owners. The older data-minimization note remains a general privacy input, not a reason to add a legal-service CTA. | Delivered; do not duplicate. |
 | Podcast administration | `/research/handoff-context-completeness-study` | What must be in a handoff so an editor or host can continue without rebuilding the story? | Check the article’s real examples before considering `/services/podcast-administration`; skip it if the article does not address production administration. | Candidate, evidence-fit review required. |
 | Recruiting coordination | `/research/role-scope-evidence-for-virtual-assistant-hiring` | What makes a recruiting-support role clear enough to review without handing selection decisions to the assistant? | Audit one handoff to `/services/recruiting-coordination` that preserves hiring and selection authority with the owner. | Candidate. |
 | Research and data support | `/research/source-quality-for-assistant-prepared-research` | What lets an owner check a research brief before using it in a decision? | Add or confirm a route-local handoff to `/services/research-and-data-support`; do not treat a source list as a guarantee. | Candidate. |
+
+## Delivery status — 2026-10-09
+
+- Reconciled the stale legal-administrative candidate against a fresh production build. `/research/legal-efiling-packet-preparation-boundary-study` has one route-local `/services/legal-administrative-assistance` anchor inside `<main>`; both canonical-selected artifacts have their expected H1s, self-canonicals, and sitemap locations.
+- `/research/data-minimization-for-delegated-assistant-work` has no legal-service anchor. Its FTC-based privacy scope is useful context but does not support a filing-preparation CTA, so it remains unlinked rather than becoming a duplicate or generic legal path.
+- This is planning metadata only. It does not change a rendered route or prove a public deployment.
 
 ## Delivery status — 2026-09-25
 
