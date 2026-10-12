@@ -1,0 +1,172 @@
+{
+  "site": "OverseasVirtualAssistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "publicationDate": "2026-10-12",
+  "blog": [
+    {
+      "slug": "membership-renewal-evidence-queue",
+      "title": "Run a membership renewal evidence queue with an overseas virtual assistant",
+      "path": "/blog/membership-renewal-evidence-queue",
+      "image": "/images/thumbnails/generated/membership-renewal-evidence-queue.webp"
+    },
+    {
+      "slug": "proposal-assembly-source-packet",
+      "title": "Build a proposal source packet with an overseas virtual assistant",
+      "path": "/blog/proposal-assembly-source-packet",
+      "image": "/images/thumbnails/generated/proposal-assembly-source-packet.webp"
+    },
+    {
+      "slug": "franchise-location-change-register",
+      "title": "Maintain a franchise location change register with remote support",
+      "path": "/blog/franchise-location-change-register",
+      "image": "/images/thumbnails/generated/franchise-location-change-register.webp"
+    },
+    {
+      "slug": "property-inspection-report-intake",
+      "title": "Control property inspection report intake with a virtual assistant",
+      "path": "/blog/property-inspection-report-intake",
+      "image": "/images/thumbnails/generated/property-inspection-report-intake.webp"
+    },
+    {
+      "slug": "association-board-action-tracker",
+      "title": "Turn association board minutes into a controlled action tracker",
+      "path": "/blog/association-board-action-tracker",
+      "image": "/images/thumbnails/generated/association-board-action-tracker.webp"
+    },
+    {
+      "slug": "referral-document-chase-boundary",
+      "title": "Set a safe referral document chase boundary for virtual assistant support",
+      "path": "/blog/referral-document-chase-boundary",
+      "image": "/images/thumbnails/generated/referral-document-chase-boundary.webp"
+    },
+    {
+      "slug": "vendor-certificate-expiry-tracker",
+      "title": "Operate a vendor certificate expiry tracker with an overseas assistant",
+      "path": "/blog/vendor-certificate-expiry-tracker",
+      "image": "/images/thumbnails/generated/vendor-certificate-expiry-tracker.webp"
+    },
+    {
+      "slug": "training-attendance-reconciliation",
+      "title": "Reconcile training attendance without overstating completion",
+      "path": "/blog/training-attendance-reconciliation",
+      "image": "/images/thumbnails/generated/training-attendance-reconciliation.webp"
+    },
+    {
+      "slug": "insurance-certificate-request-log",
+      "title": "Build an insurance certificate request log that preserves authority",
+      "path": "/blog/insurance-certificate-request-log",
+      "image": "/images/thumbnails/generated/insurance-certificate-request-log.webp"
+    },
+    {
+      "slug": "customer-reference-consent-register",
+      "title": "Maintain customer reference consent with a virtual assistant",
+      "path": "/blog/customer-reference-consent-register",
+      "image": "/images/thumbnails/generated/customer-reference-consent-register.webp"
+    },
+    {
+      "slug": "event-sponsor-deliverable-tracker",
+      "title": "Track event sponsor deliverables across teams and channels",
+      "path": "/blog/event-sponsor-deliverable-tracker",
+      "image": "/images/thumbnails/generated/event-sponsor-deliverable-tracker.webp"
+    },
+    {
+      "slug": "equipment-maintenance-record-queue",
+      "title": "Prepare equipment maintenance records without making safety judgments",
+      "path": "/blog/equipment-maintenance-record-queue",
+      "image": "/images/thumbnails/generated/equipment-maintenance-record-queue.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "owner-wait-state-measurement-study",
+      "title": "How should teams measure owner wait states in delegated work?",
+      "path": "/research/owner-wait-state-measurement-study",
+      "image": "/images/thumbnails/generated/owner-wait-state-measurement-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "queue-resumption-reliability-study",
+      "title": "Can a new assistant resume a paused queue from the recorded evidence?",
+      "path": "/research/queue-resumption-reliability-study",
+      "image": "/images/thumbnails/generated/queue-resumption-reliability-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "access-scope-vs-task-scope-study",
+      "title": "Does access scope remain aligned with delegated task scope?",
+      "path": "/research/access-scope-vs-task-scope-study",
+      "image": "/images/thumbnails/generated/access-scope-vs-task-scope-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "instruction-version-adoption-study",
+      "title": "How reliably do remote teams adopt a new instruction version?",
+      "path": "/research/instruction-version-adoption-study",
+      "image": "/images/thumbnails/generated/instruction-version-adoption-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "destination-acceptance-evidence-study",
+      "title": "What evidence proves a delegated output reached its intended destination?",
+      "path": "/research/destination-acceptance-evidence-study",
+      "image": "/images/thumbnails/generated/destination-acceptance-evidence-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    }
+  ]
+}
