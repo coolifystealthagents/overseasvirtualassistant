@@ -39,6 +39,12 @@ This is an internal execution map. It only uses routes that already exist in thi
 - Rendered source: `3cc5182486db8abd7c5fceba33963132640e4002` added the ecommerce handoff. Local production output had the route H1 and canonical, the new marker, exactly one `/services/ecommerce-virtual-assistance` link in `<main>`, and the refreshed visible date. The generated sitemap includes the canonical route and intentionally has no `<lastmod>`.
 - Preserve rendered-source commit `3cc5182486db8abd7c5fceba33963132640e4002`. Cache-busted apex and www pages both returned the expected H1 and apex canonical but omitted the marker, target link, and refreshed date. The public sitemap contained the route and no `<lastmod>` by contract. Classification: `deployment_pending_public_verification / public_stale`; no approved deployment target or workflow was available.
 
+## Delivery status — 2026-10-12
+
+- Fresh production artifacts show `/research/source-quality-for-assistant-prepared-research` has its expected H1 and self-canonical, appears in the sitemap, and contains zero `/services/research-and-data-support` anchors inside route-local `<main>`. The existing Research and Data Support destination also has its expected H1, self-canonical, and sitemap location.
+- This is a verified-absent candidate, not a rendered handoff. The research question concerns checking source provenance, publication date, scope, and unresolved limits before an owner uses a brief. A later page-level review may add one contextual link only if it preserves the owner’s decision authority and refreshes the source route’s real modified date.
+- This entry is planning metadata only. It changes no rendered page, date, schema, sitemap, deployment, or public verification state.
+
 ## Execution rules
 
 1. Start with the listed supporting page, not the service page. Confirm its question, sources, and existing reader links still fit the service before editing.
