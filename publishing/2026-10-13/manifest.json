@@ -1,0 +1,180 @@
+{
+  "site": "OverseasVirtualAssistant.com",
+  "canonicalDomain": "https://overseasvirtualassistant.com",
+  "repository": "coolifystealthagents/overseasvirtualassistant",
+  "branch": "main",
+  "baseSha": "4ed2d57c1554a3d8195461737792d34fddd41586",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "blog": [
+    {
+      "slug": "delegated-inbox-authority-map",
+      "title": "Build an Authority Map for a Delegated Inbox",
+      "path": "/blog/delegated-inbox-authority-map",
+      "image": "/images/thumbnails/generated/delegated-inbox-authority-map.webp"
+    },
+    {
+      "slug": "multilingual-reply-glossary-control",
+      "title": "Control a Multilingual Customer Reply Glossary",
+      "path": "/blog/multilingual-reply-glossary-control",
+      "image": "/images/thumbnails/generated/multilingual-reply-glossary-control.webp"
+    },
+    {
+      "slug": "offshore-shift-cutoff-handoff",
+      "title": "Close an Offshore Shift With a Verified Cutoff Handoff",
+      "path": "/blog/offshore-shift-cutoff-handoff",
+      "image": "/images/thumbnails/generated/offshore-shift-cutoff-handoff.webp"
+    },
+    {
+      "slug": "shared-credential-migration-evidence",
+      "title": "Preserve Evidence During a Shared Credential Migration",
+      "path": "/blog/shared-credential-migration-evidence",
+      "image": "/images/thumbnails/generated/shared-credential-migration-evidence.webp"
+    },
+    {
+      "slug": "crm-lead-source-normalization",
+      "title": "Normalize CRM Lead Sources Without Rewriting History",
+      "path": "/blog/crm-lead-source-normalization",
+      "image": "/images/thumbnails/generated/crm-lead-source-normalization.webp"
+    },
+    {
+      "slug": "promise-to-pay-followup-boundary",
+      "title": "Track a Promise-to-Pay Follow-Up Without Making Collection Decisions",
+      "path": "/blog/promise-to-pay-followup-boundary",
+      "image": "/images/thumbnails/generated/promise-to-pay-followup-boundary.webp"
+    },
+    {
+      "slug": "catalog-price-change-publication",
+      "title": "Publish a Catalog Price Change From an Approved Source",
+      "path": "/blog/catalog-price-change-publication",
+      "image": "/images/thumbnails/generated/catalog-price-change-publication.webp"
+    },
+    {
+      "slug": "vendor-tax-document-intake",
+      "title": "Control Vendor Tax Document Intake With Minimum Access",
+      "path": "/blog/vendor-tax-document-intake",
+      "image": "/images/thumbnails/generated/vendor-tax-document-intake.webp"
+    },
+    {
+      "slug": "webinar-attendee-consent-evidence",
+      "title": "Preserve Webinar Attendee Consent Evidence",
+      "path": "/blog/webinar-attendee-consent-evidence",
+      "image": "/images/thumbnails/generated/webinar-attendee-consent-evidence.webp"
+    },
+    {
+      "slug": "purchase-order-change-acknowledgment",
+      "title": "Verify Supplier Acknowledgment of a Purchase Order Change",
+      "path": "/blog/purchase-order-change-acknowledgment",
+      "image": "/images/thumbnails/generated/purchase-order-change-acknowledgment.webp"
+    },
+    {
+      "slug": "contract-metadata-extraction-review",
+      "title": "Review Extracted Contract Metadata Before System Entry",
+      "path": "/blog/contract-metadata-extraction-review",
+      "image": "/images/thumbnails/generated/contract-metadata-extraction-review.webp"
+    },
+    {
+      "slug": "continuity-queue-relocation-handoff",
+      "title": "Relocate a Support Queue During a Continuity Event",
+      "path": "/blog/continuity-queue-relocation-handoff",
+      "image": "/images/thumbnails/generated/continuity-queue-relocation-handoff.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "time-zone-handoff-boundary-study",
+      "title": "Time-Zone Handoff Boundary Reliability Study",
+      "path": "/research/time-zone-handoff-boundary-study",
+      "image": "/images/thumbnails/generated/time-zone-handoff-boundary-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "temporary-permission-removal-lag-study",
+      "title": "Temporary Permission Removal Lag Study",
+      "path": "/research/temporary-permission-removal-lag-study",
+      "image": "/images/thumbnails/generated/temporary-permission-removal-lag-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "instruction-ambiguity-escalation-study",
+      "title": "Instruction Ambiguity Escalation Evidence Study",
+      "path": "/research/instruction-ambiguity-escalation-study",
+      "image": "/images/thumbnails/generated/instruction-ambiguity-escalation-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "queue-aging-owner-operator-study",
+      "title": "Queue Aging by Owner and Operator State Study",
+      "path": "/research/queue-aging-owner-operator-study",
+      "image": "/images/thumbnails/generated/queue-aging-owner-operator-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    },
+    {
+      "slug": "approved-glossary-adoption-study",
+      "title": "Approved Glossary Adoption in Multilingual Support Study",
+      "path": "/research/approved-glossary-adoption-study",
+      "image": "/images/thumbnails/generated/approved-glossary-adoption-study.webp",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model",
+        "https://www.cisa.gov/resources-tools/resources/cyber-essentials",
+        "https://www.gao.gov/green-book",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2004/m04-25.pdf"
+      ]
+    }
+  ]
+}
