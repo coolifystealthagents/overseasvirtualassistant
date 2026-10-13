@@ -8,19 +8,20 @@ export function generateStaticParams() { return researchPosts.map(p => ({ slug: 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = researchPosts.find(p => p.slug === slug);
-  return { title: post?.title || 'Research', description: post?.excerpt, alternates: { canonical: `https://overseasvirtualassistant.com/research/${slug}` }, openGraph: { title: post?.title, description: post?.excerpt, type: 'article', url: `https://overseasvirtualassistant.com/research/${slug}`, publishedTime: post?.published, images: post?.image ? [{ url: `https://overseasvirtualassistant.com${post.image.src}`, alt: post.image.alt }] : [] } };
+  return { title: post?.title || 'Research', description: post?.excerpt, alternates: { canonical: `https://overseasvirtualassistant.com/research/${slug}` }, openGraph: { title: post?.title, description: post?.excerpt, type: 'article', url: `https://overseasvirtualassistant.com/research/${slug}`, publishedTime: post?.published, modifiedTime: post?.updated ?? post?.published, images: post?.image ? [{ url: `https://overseasvirtualassistant.com${post.image.src}`, alt: post.image.alt }] : [] } };
 }
 
 export default async function ResearchArticle({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = researchPosts.find(p => p.slug === slug);
   if (!post) notFound();
+  const modified = post.updated ?? post.published;
   return <>
     <Header />
     <main className="fleet-main">
       <article className="section article-shell">
-        <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.published, dateModified: post.published, citation: post.sources.map(s => s.url), mainEntityOfPage: `https://overseasvirtualassistant.com/research/${post.slug}` }} />
-        <p className="eyebrow">Philippines staffing research · Published: <time dateTime={post.published}>{formatPublicDate(post.published)}</time></p>
+        <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.published, dateModified: modified, citation: post.sources.map(s => s.url), mainEntityOfPage: `https://overseasvirtualassistant.com/research/${post.slug}` }} />
+        <p className="eyebrow">Philippines staffing research · Published: <time dateTime={post.published}>{formatPublicDate(post.published)}</time>{modified !== post.published && <> · Updated: <time dateTime={modified}>{formatPublicDate(modified)}</time></>}</p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
         <img src={post.image.src} alt={post.image.alt} className="article-image" />

@@ -95,7 +95,7 @@ export type BlogPost = {
 };
 
 export type ResearchPost = {
-  slug: string; title: string; excerpt: string; published: string; methodology: string;
+  slug: string; title: string; excerpt: string; published: string; updated?: string; methodology: string;
   headlineStat: { value: string; label: string; source: string };
   keyStats: { value: string; label: string }[];
   takeaways: string[];

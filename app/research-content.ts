@@ -153,6 +153,7 @@ const august11ResearchSpecs = [
   {
     slug: 'source-quality-for-assistant-prepared-research',
     published: '2026-08-12',
+    updated: '2026-10-13',
     title: 'Source quality for assistant-prepared research',
     question: 'What makes research prepared by a virtual assistant useful to a business decision-maker?',
     finding: 'A defensible research note distinguishes the authority of a source from the relevance of a claim and preserves enough context for another reader to check the conclusion.',
@@ -187,6 +188,7 @@ const makeAugust11ResearchPost = (spec: typeof august11ResearchSpecs[number], in
   title: `Research note: ${spec.title}`,
   excerpt: `${spec.question} Evidence-led findings for businesses planning Philippines-based virtual assistant support.`,
   published: spec.published,
+  updated: 'updated' in spec ? spec.updated : undefined,
   methodology: `This article examines one decision question through the cited authoritative source and separates sourced guidance from the editorial interpretation. It does not claim a workforce statistic; the review criteria are proposed for a bounded staffing study.`,
   headlineStat: { value: '1', label: 'decision question kept in scope for this research note', source: 'Editorial scope statement for this article' },
   keyStats: [{ value: '1', label: 'authoritative source examined' }, { value: '4', label: 'evidence fields to review' }, { value: '0', label: 'unsupported workforce claims' }],
@@ -210,6 +212,10 @@ const makeAugust11ResearchPost = (spec: typeof august11ResearchSpecs[number], in
     href: '/services/travel-and-expense-support',
     label: 'Plan travel and expense support',
     copy: 'If travel changes or expense records need a clear coverage window, review the service scope for a Philippines-based assistant. The owner keeps bookings, spending limits, approval, and any customer or supplier commitment.'
+  } : spec.slug === 'source-quality-for-assistant-prepared-research' ? {
+    href: '/services/research-and-data-support',
+    label: 'Plan research and data support',
+    copy: 'Use this service to set up a Philippines-based research lane with an agreed question, source record, and review handoff. The accountable owner decides how the brief is used and resolves any claim, scope, or decision that the evidence does not settle.'
   } : undefined,
   cta: 'Want this research translated into a scoped staffing role? Share the work, tools, schedule, and owner rules with our staffing team.',
 });
