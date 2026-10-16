@@ -179,7 +179,7 @@ export const september1BlogPosts: BlogPost[] = blogSpecs.map((post, index) => ({
   cta: 'Need a Philippines-based assistant for a documented daily publishing routine? Share your workflow with our staffing team.',
 }));
 
-type ResearchSpec = { slug: string; title: string; excerpt: string; question: string; finding: string; application: string; limitation: string; sources: ResearchPost['sources'] };
+type ResearchSpec = { slug: string; title: string; excerpt: string; question: string; finding: string; application: string; limitation: string; sources: ResearchPost['sources']; updated?: string; serviceHandoff?: ResearchPost['serviceHandoff'] };
 
 const researchSpecs: ResearchSpec[] = [
   {
@@ -191,6 +191,12 @@ const researchSpecs: ResearchSpec[] = [
     application: 'For a Philippines-based content assistant, the manager can define required brief fields and a maximum review queue. When either control fails, the assistant prepares the next approved item rather than producing unreviewed inventory.',
     limitation: 'This is an operating model, not a measured productivity benchmark. Appropriate queue limits depend on article risk, research depth, reviewer availability, and the team’s actual correction rate.',
     sources: [sba, nist],
+    updated: '2026-10-16',
+    serviceHandoff: {
+      href: '/services/research-and-data-support',
+      label: 'Plan research and data support',
+      copy: 'Use this service page to scope a Philippines-based research support lane. The owner sets the queue rules, approves changes, and decides when work can expand.',
+    },
   },
   {
     slug: 'research-claim-ledgers-in-remote-editorial-work',
@@ -239,6 +245,7 @@ export const september1ResearchPosts: ResearchPost[] = researchSpecs.map((post, 
   title: post.title,
   excerpt: post.excerpt,
   published,
+  updated: post.updated,
   methodology: 'This operational research note reviews the named public guidance and applies it to one bounded daily-publishing question. It separates sourced principles from the editorial interpretation offered for OverseasVirtualAssistant.com.',
   headlineStat: { value: '1', label: 'bounded editorial control question', source: 'Article methodology' },
   keyStats: [{ value: String(post.sources.length), label: 'named public sources reviewed' }, { value: '4', label: 'analysis fields documented' }],
@@ -256,5 +263,5 @@ export const september1ResearchPosts: ResearchPost[] = researchSpecs.map((post, 
   relatedResearch: researchSpecs.filter((_, relatedIndex) => relatedIndex !== index).slice(0, 3).map(related => `/research/${related.slug}`),
   image: { src: image, alt: `Remote team reviewing ${post.title.toLowerCase()}` },
   cta: 'Ask our staffing team to translate this finding into a scoped Philippines-based content-support routine.',
-  serviceHandoff: undefined,
+  serviceHandoff: post.serviceHandoff,
 }));
