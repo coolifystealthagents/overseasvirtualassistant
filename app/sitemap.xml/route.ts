@@ -42,11 +42,12 @@ export async function GET() {
   const pages = [
     "",
     "/services",
+    "/about",
     "/blog",
     "/blog/top-30-overseas-virtual-assistant-companies",
     "/research",
     "/alternatives",
-    "/contact",
+    "/contact-us",
     "/privacy",
     "/terms",
     "/cancellation-policy",

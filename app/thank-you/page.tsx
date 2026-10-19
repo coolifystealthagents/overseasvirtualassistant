@@ -16,7 +16,7 @@ export default function ThankYouPage() {
         <div className="container sa-booking-grid">
           <div className="sa-booking-left">
             <p className="sa-booking-kicker">You’re one step away.</p>
-            <h1>Step 2 - Book A Meeting</h1>
+            <h1>Next, choose a time for your consultation.</h1>
             <p className="sa-booking-lead">No commitment. No risk. Just expert guidance.</p>
             <img className="sa-booking-image" src="/thank-you-hero.png" alt="Stealth Agents team ready to help" width="619" height="402" />
             <TestimonialsRail />
@@ -24,7 +24,7 @@ export default function ThankYouPage() {
           <section className="sa-booking-calendar" aria-labelledby="booking-calendar-title">
             <h2 id="booking-calendar-title">Pick a Time That Works for You</h2>
             <iframe
-              src="https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1"
+              src="https://go.oncehub.com/StealthAgentsTeam"
               id="SOI_StealthAgentsTeam"
               name="ScheduleOnceIframe"
               title="Schedule a meeting with Stealth Agents"
@@ -35,6 +35,7 @@ export default function ThankYouPage() {
               className="sa-oncehub-frame"
               referrerPolicy="strict-origin-when-cross-origin"
             />
+            <p className="booking-fallback">If the scheduler does not load, <a href="https://go.oncehub.com/StealthAgentsTeam">open the StealthAgents booking page</a>.</p>
           </section>
         </div>
       </main>

@@ -1,0 +1,1 @@
+export default function manifest(){return {name:'Overseas Virtual Assistant',short_name:'OVA',description:'Philippines virtual assistant staffing field guides',start_url:'/',display:'standalone',background_color:'#f6f0e4',theme_color:'#173f52',icons:[{src:'/logo.svg',sizes:'any',type:'image/svg+xml'}]}}

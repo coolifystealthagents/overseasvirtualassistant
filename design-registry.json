@@ -1,0 +1,168 @@
+[
+  {
+    "domain": "pestcontrolvirtualassistants.com",
+    "industry": "Pest-control office administration and virtual staffing",
+    "audience": "Pest-control owner-operators, office managers, dispatchers, and branch managers",
+    "designFamily": "Humanist industrial field-dispatch ledger",
+    "heroComposition": "Operational handoff board paired with direct value proposition",
+    "typeCharacter": "Warm editorial display with practical sans-serif interface type",
+    "paletteFamily": "Forest, paper cream, safety yellow, and muted field green",
+    "shapeGrammar": "Squared paperwork panels, rule lines, stamps, and minimal radii",
+    "imageTreatment": "Documentary operational composites plus workflow diagrams",
+    "sectionRhythm": "Alternating open editorial fields, ledgers, and dark boundary bands",
+    "navigationTreatment": "Compact sticky utility bar with exactly three primary links",
+    "motionSignature": "Restrained horizontal review rail with reduced-motion support",
+    "density": "Medium, information-rich, and scan-friendly",
+    "signatureElement": "Field-to-office workflow boards that show queues, handoffs, and decision boundaries"
+  },
+  {
+    "domain": "outsourcedbillingservices.com",
+    "industry": "Outsourced billing operations and virtual staffing",
+    "audience": "Finance owners, billing managers, operations leaders, and growing service teams",
+    "designFamily": "Editorial billing control room",
+    "heroComposition": "Conversion-first value proposition paired with a compact consultation form",
+    "typeCharacter": "Editorial display headings with compact operational sans-serif interface type",
+    "paletteFamily": "Navy, warm cream, white, and controlled blue accents",
+    "shapeGrammar": "Squared workflow panels, bordered cards, status chips, and restrained radii",
+    "imageTreatment": "Authentic team photography with billing workflow and dashboard illustrations",
+    "sectionRhythm": "Compact conversion sections alternating with structured evidence and workflow bands",
+    "navigationTreatment": "Compact sticky header with Home, Services, and Contact Us",
+    "motionSignature": "Minimal interaction motion with visible keyboard focus and reduced-motion support",
+    "density": "Medium-high, conversion-oriented, and scan-friendly",
+    "signatureElement": "Visible billing checkpoints that preserve owner approval and exception routing"
+  },
+  {
+    "domain": "virtualassistantprovider.com",
+    "industry": "Philippines virtual assistant staffing and role planning",
+    "audience": "Small and midsize business owners, operations leaders, and managers defining delegated work",
+    "designFamily": "Soft geometric staffing atlas",
+    "heroComposition": "Illustrated role-match portrait surrounded by practical handoff notes and a compact proof bar",
+    "typeCharacter": "Bold geometric sans-serif headlines with plain-language operational body copy",
+    "paletteFamily": "Deep navy, ice white, and bright cyan with controlled sky-blue gradients",
+    "shapeGrammar": "Rounded role surfaces, layered task notes, pill badges, and broad workflow bands",
+    "imageTreatment": "Purpose-built staffing illustrations paired with the official documentary StealthAgents team photograph",
+    "sectionRhythm": "Expansive illustrated opening followed by role desk, comparison field, scorecard, and concise guide rows",
+    "navigationTreatment": "Compact sticky header with the required three-link primary navigation and a disclosure-based mobile menu",
+    "motionSignature": "Predominantly static layered compositions with restrained hover and focus feedback",
+    "density": "Medium-high, operational, and progressively disclosed",
+    "signatureElement": "Role-match portrait with floating handoff, review, and safe-start notes",
+    "designRead": {
+      "statement": "Reading this as: a Philippines virtual assistant staffing guide for business owners and operations managers, with a clear, reassuring, operational visual language, leaning toward soft geometric modernism with illustrated workflow cues.",
+      "DESIGN_VARIANCE": 7,
+      "MOTION_INTENSITY": 2,
+      "VISUAL_DENSITY": 7,
+      "redesignMode": "evolve",
+      "primaryTheme": "light",
+      "primaryAccentStrategy": "Use bright cyan only for conversion actions, focus states, and selected workflow cues against navy and ice neutrals.",
+      "shapeSystem": "Rounded role surfaces, floating task notes, pill badges, and broad bands.",
+      "typographyDirection": "Bold geometric sans-serif headings with highly legible operational body text.",
+      "imageDirection": "Custom staffing and workflow illustrations supported by the official documentary parent-team photograph.",
+      "motionRationale": "Keep motion restrained so role definition, controls, and form completion remain easy to scan."
+    },
+    "portfolioComparison": {
+      "registryPath": "/workspace/design-registry.json",
+      "minimumDifferentAxes": 6,
+      "versusRecent": {
+        "pestcontrolvirtualassistants.com": 9,
+        "outsourcedbillingservices.com": 8
+      }
+    }
+  },
+  {
+    "domain": "virtualassistantcallcenter.com",
+    "industry": "Philippines-based virtual receptionist and call-center support",
+    "audience": "Business owners, operations leaders, sales teams, support managers, and practices defining repeatable call work",
+    "designFamily": "Operational signal desk",
+    "heroComposition": "Dark conversion-first split screen with reassurance, horizontal client review rail, and compact complete intake form",
+    "typeCharacter": "Humanist sans-serif interface copy with editorial serif conversion headlines",
+    "paletteFamily": "Deep navy, clean white, pale operational blue, and signal orange",
+    "shapeGrammar": "Squared status panels, rule lines, bordered workflow cards, and minimal radii",
+    "imageTreatment": "Relevant workflow illustrations supported by authentic Stealth Agents Bacolod team photography",
+    "sectionRhythm": "Dense conversion opening followed by documentary credibility, decision cards, workflow bands, FAQs, and direct CTAs",
+    "navigationTreatment": "Sticky three-link header with keyboard-controlled mobile disclosure and skip link",
+    "motionSignature": "Single horizontal five-star review rail with explicit pause and reduced-motion fallback",
+    "density": "High-information, scan-friendly, and conversion-first",
+    "signatureElement": "Caller-to-owner operational handoff boards with visible decision boundaries",
+    "designRead": {
+      "statement": "Reading this as: a Philippines call-support operating desk for owners and managers, with a precise, calm, high-accountability visual language, leaning toward editorial control-room modernism.",
+      "DESIGN_VARIANCE": 7,
+      "MOTION_INTENSITY": 3,
+      "VISUAL_DENSITY": 7,
+      "redesignMode": "evolve",
+      "primaryTheme": "light with a dark conversion opening",
+      "primaryAccentStrategy": "Use signal orange only for conversion actions, status cues, focus states, and critical boundaries against navy and cool neutrals.",
+      "shapeSystem": "Squared operational cards, narrow rule lines, compact status labels, and minimal corner rounding.",
+      "typographyDirection": "Humanist sans-serif for operational clarity with restrained editorial serif headlines.",
+      "imageDirection": "Purpose-built call-workflow illustrations plus the official Stealth Agents Bacolod team photograph.",
+      "motionRationale": "Keep motion limited to one pausable horizontal client-review rail so form completion and decision content remain stable."
+    },
+    "portfolioComparison": {
+      "registryPath": "/workspace/design-registry.json",
+      "minimumDifferentAxes": 6,
+      "versusRecent": {
+        "pestcontrolvirtualassistants.com": 8,
+        "outsourcedbillingservices.com": 7,
+        "virtualassistantprovider.com": 9
+      }
+    }
+  },
+  {
+    "domain": "hireassistantnearme.com",
+    "industry": "Philippines-based remote-assistant staffing and role planning",
+    "audience": "Local business owners comparing in-person duties with tool-based remote support",
+    "designFamily": "Warm editorial role-finder atlas",
+    "heroComposition": "Bounded split-screen role finder with a documentary assistant portrait, location-boundary card, and compact task strip",
+    "typeCharacter": "Large literary serif headlines paired with quiet humanist sans-serif navigation and evidence labels",
+    "paletteFamily": "Paper cream, deep botanical ink, terracotta, and restrained sage",
+    "shapeGrammar": "Editorial sheets, location cards, ruled directories, and soft photographic frames with selective radii",
+    "imageTreatment": "Warm desaturated role portraits, verified team photography, and editorial thumbnails with informative alt text",
+    "sectionRhythm": "Opening finder, compact task strip, asymmetric editorial explanations, dark remote-boundary bands, and ruled role directories",
+    "navigationTreatment": "Compact sticky three-link navigation with a keyboard-controlled mobile panel and visible skip link",
+    "motionSignature": "One continuously moving horizontal review rail with hover and focus pause, no playback controls, and a static reduced-motion list",
+    "density": "Medium-high editorial density with short decision blocks and substantial role-detail pages",
+    "signatureElement": "A local-versus-remote role finder that turns near-me intent into explicit Philippines staffing boundaries",
+    "designRead": {
+      "statement": "Reading this as: a remote staffing finder for owner-led teams that need practical operational clarity, with a calm humanist and documentary visual language, leaning toward structured editorial utility rather than a generic SaaS template.",
+      "DESIGN_VARIANCE": 8,
+      "MOTION_INTENSITY": 2,
+      "VISUAL_DENSITY": 7,
+      "redesignMode": "evolve",
+      "primaryTheme": "light editorial field guide with dark boundary sections",
+      "primaryAccentStrategy": "Use terracotta for decisions and links, sage for supporting evidence, and deep botanical ink for high-contrast structure.",
+      "shapeSystem": "Ruled directories, editorial sheets, and a small number of soft portrait frames; avoid repeated equal card mosaics.",
+      "typographyDirection": "Distinctive serif headlines with compact sans-serif labels and readable long-form body copy.",
+      "imageDirection": "Assistant-role photography, verified StealthAgents team photography, and content-specific editorial thumbnails without repeated decorative use.",
+      "motionRationale": "Keep conversion and role comparison stable. Only the sourced contact review rail moves automatically; it pauses on hover or focus, exposes no media controls, and becomes a complete static list for reduced motion.",
+      "reviewProvenance": "Ten distinct five-star client records verified on the official StealthAgents homepage and retained in app/review-provenance.json.",
+      "articleUtility": "Each published guide uses a topic-specific hero, generated in-page table of contents, sticky desktop sidebar, active-section state, and mobile-safe collapse."
+    },
+    "portfolioComparison": {
+      "registryPath": "/workspace/design-registry.json",
+      "minimumDifferentAxes": 6,
+      "versusRecent": {
+        "pestcontrolvirtualassistants.com": 8,
+        "outsourcedbillingservices.com": 8,
+        "virtualassistantprovider.com": 7,
+        "virtualassistantcallcenter.com": 9
+      }
+    }
+  },
+  {
+    "domain": "overseasvirtualassistant.com",
+    "industry": "Philippines-based remote staffing and operating guides",
+    "audience": "Owner-operators and department leaders defining repeatable remote work lanes",
+    "designFamily": "Field manual / route ledger editorial system",
+    "heroComposition": "Asymmetric serif-led briefing paired with route maps or documentary team imagery",
+    "typeCharacter": "Georgia editorial display with compact sans-serif labels and operational body copy",
+    "paletteFamily": "Warm paper, ink navy, tide blue, route coral, and chartreuse marker accents",
+    "shapeGrammar": "Square ledgers, bordered map cards, dashed routes, numbered checkpoints, and minimal radii",
+    "imageTreatment": "Documentary photography with hard borders plus generated route-map diagrams with descriptive alternatives",
+    "sectionRhythm": "Dense briefing bands alternating with full-width dark control ledgers and quiet paper sections",
+    "navigationTreatment": "Sticky compact header with exactly Services, About, and Contact Us plus persistent StealthAgents attribution",
+    "motionSignature": "Slow reorder-based review rail that pauses on hover and focus and becomes a static grid for reduced motion",
+    "density": "Information-rich long-form service manuals with narrow editorial reading columns",
+    "signatureElement": "A route-map field manual motif that turns every service into inputs, handoffs, owner gates, evidence, and outputs",
+    "designRead": "The existing site had strong content depth but a generic shell and fragmented conversion path. The new system reads like an operations field manual for overseas staffing: paper texture, coral route marks, review gates, clear decision boundaries, and documentary evidence from the parent team.",
+    "portfolioComparison": "Distinct from the portfolio registry entries: not a soft SaaS gradient, luxury executive layout, directory card wall, or call-center dashboard. Its visual identity is built from cartographic routes, editorial ledgers, hard rules, and warm paper."
+  }
+]

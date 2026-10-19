@@ -3,9 +3,9 @@
 import { useEffect, useState, type FormEvent } from "react";
 
 type Props = { endpoint?: string; encoding?: "json" | "form" };
-type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<string, unknown>) => void } };
+type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<string, unknown>) => void; track?: (event: string, payload?: Record<string, unknown>) => void } };
 
-const companySizes = ["1-5", "5-10", "11-50", "51-250", "251-1k", "1k+"];
+const industries = ["Professional Services", "Healthcare", "Real Estate", "Financial Services", "Ecommerce", "Technology", "Construction", "Hospitality", "Education", "Nonprofit", "Other"];
 const positions = ["Just 1 Position", "2-5 Positions", "6-10 Positions", "11-50 Positions", "51-100 Positions", "101-500 Positions", "501-1,000 Positions", "Over 1,000 Positions"];
 const referrals = ["Google", "Email", "LinkedIn", "Reddit", "X / Twitter", "Referral", "ChatGPT / AI", "Outbound Outreach", "Other"];
 const countryCodes = [
@@ -43,7 +43,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       firstName, lastName, name: `${firstName} ${lastName}`.trim(), fullName: `${firstName} ${lastName}`.trim(),
       email: String(data.get("email") || ""), businessEmail: String(data.get("email") || ""), phone,
       companyName: String(data.get("companyName") || ""), company: String(data.get("companyName") || ""),
-      website: String(data.get("website") || ""), companySize: String(data.get("companySize") || ""),
+      website: String(data.get("website") || ""), industry: String(data.get("industry") || ""),
       positions: String(data.get("positions") || ""), positionsToFill: String(data.get("positions") || ""),
       referral: String(data.get("referral") || ""), howTheyHeard: String(data.get("referral") || ""),
       referralSpecify: String(data.get("referralSpecify") || ""), message: String(data.get("message") || ""),
@@ -56,18 +56,11 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         ? { method: "POST", body: new URLSearchParams(payload) }
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
-      if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.accepted) throw new Error("Lead endpoint rejected the request");
+      try { const tracker=(window as TrackerWindow).acrTracker; tracker?.trackLead?.(payload); tracker?.track?.('contact_accepted',{source:'contact-us'}); } catch {}
       window.location.assign("/thank-you");
     } catch {
-      try {
-        const tracker = (window as TrackerWindow).acrTracker?.trackLead;
-        if (tracker) {
-          tracker(payload);
-          window.location.assign("/thank-you");
-          return;
-        }
-      } catch {}
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
     }
@@ -76,27 +69,27 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Find Growth In Your Business By Hiring Industry Experienced Virtual Assistants</h2>
-      <form onSubmit={submit} id="contactPageForm">
+      <form onSubmit={submit} id="contactPageForm" data-acr-managed="react">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
           <label>Last Name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
-        <label>Business Email *<input name="email" type="email" required autoComplete="email" /><small>Not Accepting Personal Email</small></label>
+        <label>Email *<input name="email" type="email" required autoComplete="email" /><small>Use the address where staffing follow-up should be sent.</small></label>
         <label>Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
         <div className="sa-grid">
-          <label>Company Name *<input name="companyName" required autoComplete="organization" /></label>
-          <label>Website / URL<input name="website" placeholder="example.com" autoComplete="url" /></label>
+          <label>Website *<input name="website" type="url" required placeholder="https://example.com" autoComplete="url" /></label>
+          <label>Company *<input name="companyName" required autoComplete="organization" /></label>
         </div>
         <div className="sa-grid">
-          <label>Company Size *<select name="companySize" required defaultValue=""><option value="" disabled>Select...</option>{companySizes.map((x) => <option key={x}>{x}</option>)}</select></label>
-          <label>How Many Positions to Fill *<select name="positions" required defaultValue=""><option value="" disabled>Select...</option>{positions.map((x) => <option key={x}>{x}</option>)}</select></label>
+          <label>How many virtual assistants do you need? *<select name="positions" required defaultValue=""><option value="" disabled>Select...</option>{positions.map((x) => <option key={x}>{x}</option>)}</select></label>
+          <label>What industry is your business in? *<select name="industry" required defaultValue=""><option value="" disabled>Select...</option>{industries.map((x) => <option key={x}>{x}</option>)}</select></label>
         </div>
         <label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
         {referral === "Other" ? <label>Please Specify *<input name="referralSpecify" required /></label> : null}
         <label>Message<textarea name="message" rows={4} /></label>
         {error ? <p className="sa-error" role="alert">{error}</p> : null}
-        <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book a Free Consultation"}</button>
+        <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Start Today With Stealth Agents"}</button>
       </form>
       <style jsx>{`
         .sa-form-card{width:100%;max-width:876px;margin:0 auto;background:#fff;border:1px solid #e3e8ef;border-radius:22px;padding:34px 48px 48px;box-shadow:0 18px 48px rgba(15,34,58,.16);color:#34415a;text-align:left}
