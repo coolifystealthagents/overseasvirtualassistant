@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { sendLeadFallbackToMattermost } from '../../lib/lead-fallback-mattermost';
 
 const MAX_BODY_BYTES=48_000; const WINDOW_MS=15*60_000; const EMAIL=/^[^\s@]+@[^\s@]+\.[^\s@]+$/; const PHONE=/^[+()\d][+()\d\s.-]{6,30}$/; const buckets=new Map<string,number[]>();
 const limits:Record<string,number>={firstName:100,lastName:100,email:320,phone:100,companyName:200,website:300,industry:100,positions:60,referral:100,referralSpecify:150,message:3000};
@@ -20,7 +21,9 @@ export async function POST(request:NextRequest){
  const firstName=get('firstName'),lastName=get('lastName'),email=get('email')?.toLowerCase(),phone=get('phone'),companyName=get('companyName'),website=get('website'),industry=get('industry'),positions=get('positions'),referral=get('referral'),referralSpecify=get('referralSpecify'),message=get('message');
  if([firstName,lastName,email,phone,companyName,website,industry,positions,referral,message].some(v=>v===null)||!firstName||!lastName||!email||!EMAIL.test(email)||!phone||!PHONE.test(phone)||!website||!companyName||!industry||!positions||!referral)return reply(422,'Check the required fields and try again.');
  if(rateLimited(`email:${email}`,3))return reply(429,'Please wait before trying again.');
- const token=process.env.LEAD_AUTH_TOKEN;const endpoint=process.env.LEAD_INGEST_URL;if(!token||!endpoint)return reply(503,'The form is temporarily unavailable.');
+ const token=process.env.LEAD_AUTH_TOKEN;const endpoint=process.env.LEAD_INGEST_URL||'https://leads.stealthagents.com/api/leads';if(!token)return reply(503,'The form is temporarily unavailable.');
  const sourcePage=new URL('/contact-us',request.url).toString();const payload={full_name:`${firstName} ${lastName}`,email,phone,company_name:companyName,message:[message,`Website: ${website}`,`Industry: ${industry}`,`Virtual assistants needed: ${positions}`].filter(Boolean).join('\n'),how_they_heard:referralSpecify?`${referral}: ${referralSpecify}`:referral,client_event_id:crypto.randomUUID(),attribution:{source_page:sourcePage,landing_page:sourcePage,referrer:request.headers.get('referer')||'',page_journey:['Contact Us','Lead accepted']}};
- try{const upstream=await fetch(endpoint,{method:'POST',headers:{'content-type':'application/json','x-lead-token':token},body:JSON.stringify(payload),cache:'no-store',signal:AbortSignal.timeout(10000)});if(!upstream.ok)return reply(502,'We could not submit the request. Please try again.');return NextResponse.json({accepted:true,redirect:'/thank-you'},{status:202,headers:{'cache-control':'no-store'}})}catch{return reply(502,'We could not submit the request. Please try again.')}
+ try{const upstream=await fetch(endpoint,{method:'POST',headers:{'content-type':'application/json','x-lead-token':token},body:JSON.stringify(payload),cache:'no-store',signal:AbortSignal.timeout(12000)});const result=await upstream.json().catch(()=>null)as{ok?:boolean}|null;if(!upstream.ok||result?.ok!==true)return reply(502,'We could not submit the request. Please try again.')}catch{return reply(502,'We could not submit the request. Please try again.')}
+ void sendLeadFallbackToMattermost({name:`${firstName} ${lastName}`,email,phone,business:companyName,message:payload.message,positions,referral:payload.how_they_heard,pageUrl:sourcePage,userAgent:request.headers.get('user-agent')||''});
+ return NextResponse.json({accepted:true,redirect:'/thank-you'},{status:202,headers:{'cache-control':'no-store'}});
 }

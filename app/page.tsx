@@ -1,7 +1,9 @@
 import { Header, Footer, JsonLd } from './components';
+import type {Metadata} from 'next';
 import { blogPosts, onboardingTimeline, roles, site, staffingProcess, stats, timeZoneWindows } from './data';
 
 const roleSlug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+export const metadata:Metadata={alternates:{canonical:'/'}};
 
 const hiringPaths = [
   {
@@ -83,8 +85,8 @@ export default function Home() {
         <div className="container ova-hero-grid">
           <div className="ova-hero-copy">
             <p className="ova-kicker"><span>Filipino talent</span> Built around your workday</p>
-            <h1>Hire a Filipino virtual assistant. Keep the handoff under control.</h1>
-            <p className="ova-lead">We recruit and hire only in the Philippines. Start with clear tasks, limited access, and a review routine you can keep. Add work after the first lane is running well.</p>
+            <h1>Hire a Filipino virtual assistant with a controlled handoff.</h1>
+            <p className="ova-lead">Philippines-based assistants for clear task lanes, limited access, and owner-reviewed handoffs.</p>
             <ul className="ova-hero-checks" aria-label="What the staffing plan covers">
               <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/tasks-and-guardrails.svg" alt="Tasks and access guardrails" /></span> Tasks and owner-only decisions</li>
               <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/workday-overlap.svg" alt="Workday schedule overlap" /></span> Workday overlap and handoff times</li>

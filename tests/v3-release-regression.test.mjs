@@ -4,9 +4,9 @@ import { readFileSync, existsSync } from 'node:fs';
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
-test('global navigation is exactly Services, About, Contact Us plus the required attribution', () => {
+test('global navigation is exactly Home, Services, Contact Us plus the required attribution', () => {
   const header = read('app/site-header.tsx');
-  assert.match(header, /const links = \[\['Services','\/services'\],\['About','\/about'\],\['Contact Us','\/contact-us'\]\]/);
+  assert.match(header, /const links = \[\['Home','\/'\],\['Services','\/services'\],\['Contact Us','\/contact-us'\]\]/);
   assert.match(header, /Powered by <a[^>]+>StealthAgents<\/a>/);
   assert.match(read('app/components.tsx'), /Powered by <a[^>]+>StealthAgents<\/a>/);
 });
@@ -32,6 +32,8 @@ test('contact page preserves the mandated visible label sequence and trust evide
 test('lead endpoint validates, rate limits, rejects spam, and forwards to the configured backend', () => {
   const route = read('app/api/contact/route.ts');
   for (const gate of ['sameOrigin', 'rateLimited', 'website_url', 'LEAD_INGEST_URL', 'LEAD_AUTH_TOKEN', 'application/x-www-form-urlencoded', 'EMAIL.test', 'PHONE.test']) assert.ok(route.includes(gate), `${gate} missing`);
+  assert.match(route, /result\?\.ok!==true/);
+  assert.match(route, /sendLeadFallbackToMattermost/);
   assert.match(read('app/acr-client.tsx'), /acrManaged==='react'/);
 });
 
@@ -42,6 +44,8 @@ test('conversion sequence, services, and long-form editorial controls remain exp
   assert.match(read('app/services/[slug]/page.tsx'), /Boundaries and quality controls/);
   assert.match(read('app/services/[slug]/page.tsx'), /Adjacent service field guides/);
   const enhancer = read('app/article-enhancer.tsx');
+  assert.match(enhancer, /\^\\\/\(blog\|research\)/);
+  assert.doesNotMatch(enhancer, /querySelector<HTMLElement>\('main article,/);
   assert.match(enhancer, /editorial-layout/);
   assert.match(enhancer, /On this page/);
   assert.match(enhancer, /Related service field guides/);

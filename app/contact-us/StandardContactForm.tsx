@@ -9,23 +9,23 @@ const industries = ["Professional Services", "Healthcare", "Real Estate", "Finan
 const positions = ["Just 1 Position", "2-5 Positions", "6-10 Positions", "11-50 Positions", "51-100 Positions", "101-500 Positions", "501-1,000 Positions", "Over 1,000 Positions"];
 const referrals = ["Google", "Email", "LinkedIn", "Reddit", "X / Twitter", "Referral", "ChatGPT / AI", "Outbound Outreach", "Other"];
 const countryCodes = [
-  ["🇺🇸", "+1"], ["🇨🇦", "+1"], ["🇮🇩", "+62"], ["🇵🇭", "+63"], ["🇬🇧", "+44"],
-  ["🇦🇺", "+61"], ["🇳🇿", "+64"], ["🇸🇬", "+65"], ["🇮🇳", "+91"], ["🇦🇪", "+971"],
-  ["🇲🇽", "+52"], ["🇧🇷", "+55"], ["🇿🇦", "+27"], ["🇩🇪", "+49"], ["🇫🇷", "+33"],
-];
+  ["🇺🇸", "+1", "US"], ["🇨🇦", "+1", "CA"], ["🇮🇩", "+62", "ID"], ["🇵🇭", "+63", "PH"], ["🇬🇧", "+44", "GB"],
+  ["🇦🇺", "+61", "AU"], ["🇳🇿", "+64", "NZ"], ["🇸🇬", "+65", "SG"], ["🇮🇳", "+91", "IN"], ["🇦🇪", "+971", "AE"],
+  ["🇲🇽", "+52", "MX"], ["🇧🇷", "+55", "BR"], ["🇿🇦", "+27", "ZA"], ["🇩🇪", "+49", "DE"], ["🇫🇷", "+33", "FR"],
+] as const;
 
 export default function StandardContactForm({ endpoint = "/api/submit-lead", encoding = "json" }: Props) {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
-  const [countryCode, setCountryCode] = useState("+1");
+  const [countryCode, setCountryCode] = useState("+1|US");
   const [referral, setReferral] = useState("");
 
   useEffect(() => {
     const zone = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
     const zones: Record<string, string> = {
-      "Asia/Jakarta": "+62", "Asia/Makassar": "+62", "Asia/Jayapura": "+62", "Asia/Manila": "+63",
-      "Europe/London": "+44", "Australia/Sydney": "+61", "Australia/Melbourne": "+61",
-      "Pacific/Auckland": "+64", "Asia/Singapore": "+65", "Asia/Kolkata": "+91", "Asia/Dubai": "+971",
+      "Asia/Jakarta": "+62|ID", "Asia/Makassar": "+62|ID", "Asia/Jayapura": "+62|ID", "Asia/Manila": "+63|PH",
+      "Europe/London": "+44|GB", "Australia/Sydney": "+61|AU", "Australia/Melbourne": "+61|AU",
+      "Pacific/Auckland": "+64|NZ", "Asia/Singapore": "+65|SG", "Asia/Kolkata": "+91|IN", "Asia/Dubai": "+971|AE",
     };
     if (zones[zone]) setCountryCode(zones[zone]);
   }, []);
@@ -38,7 +38,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
     if (String(data.get("website_url") || "").trim()) return;
     const firstName = String(data.get("firstName") || "").trim();
     const lastName = String(data.get("lastName") || "").trim();
-    const phone = `${countryCode} ${String(data.get("phoneLocal") || "").trim()}`.trim();
+    const phone = `${countryCode.split("|")[0]} ${String(data.get("phoneLocal") || "").trim()}`.trim();
     const payload: Record<string, string> = {
       firstName, lastName, name: `${firstName} ${lastName}`.trim(), fullName: `${firstName} ${lastName}`.trim(),
       email: String(data.get("email") || ""), businessEmail: String(data.get("email") || ""), phone,
@@ -68,15 +68,17 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
 
   return (
     <div className="sa-form-card">
-      <h2>Find Growth In Your Business By Hiring Industry Experienced Virtual Assistants</h2>
+      <h2>Tell us what you need to delegate.</h2>
       <form onSubmit={submit} id="contactPageForm" data-acr-managed="react">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
           <label>Last Name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
-        <label>Email *<input name="email" type="email" required autoComplete="email" /><small>Use the address where staffing follow-up should be sent.</small></label>
-        <label>Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code], i) => <option value={code} key={`${code}-${i}`}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <div className="sa-grid">
+          <label>Email *<input name="email" type="email" required autoComplete="email" /><small>Where should we follow up?</small></label>
+          <label>Phone Number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>{countryCodes.map(([flag, code, country]) => <option value={`${code}|${country}`} key={country}>{flag} {code}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        </div>
         <div className="sa-grid">
           <label>Website *<input name="website" type="url" required placeholder="https://example.com" autoComplete="url" /></label>
           <label>Company *<input name="companyName" required autoComplete="organization" /></label>
@@ -85,9 +87,11 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
           <label>How many virtual assistants do you need? *<select name="positions" required defaultValue=""><option value="" disabled>Select...</option>{positions.map((x) => <option key={x}>{x}</option>)}</select></label>
           <label>What industry is your business in? *<select name="industry" required defaultValue=""><option value="" disabled>Select...</option>{industries.map((x) => <option key={x}>{x}</option>)}</select></label>
         </div>
-        <label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
+        <div className="sa-grid sa-grid-final">
+          <label>How Did You Hear About Us? *<select name="referral" required value={referral} onChange={(e) => setReferral(e.target.value)}><option value="" disabled>Select...</option>{referrals.map((x) => <option key={x}>{x}</option>)}</select></label>
+          <label>Message<textarea name="message" rows={2} /></label>
+        </div>
         {referral === "Other" ? <label>Please Specify *<input name="referralSpecify" required /></label> : null}
-        <label>Message<textarea name="message" rows={4} /></label>
         {error ? <p className="sa-error" role="alert">{error}</p> : null}
         <button type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Start Today With Stealth Agents"}</button>
       </form>

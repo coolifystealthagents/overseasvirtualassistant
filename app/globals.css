@@ -10,7 +10,7 @@
   --font:'DM Sans',system-ui,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}
 body{margin:0;max-width:100%;overflow-x:hidden;background:var(--paper);color:var(--ink);font-family:var(--font)}
 a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
@@ -34,26 +34,26 @@ h1,h2,h3,p{margin-top:0}
 .nav-cta:hover{background:var(--coral);color:var(--ink)}
 
 .ova-home{background:var(--paper)}
-.ova-hero{padding:70px 0 0;position:relative;overflow:hidden;background:radial-gradient(circle at 82% 16%,rgba(22,184,135,.2),transparent 31%),linear-gradient(145deg,#061d2d 0%,#0a3347 58%,#0d4450 100%);color:var(--white)}
+.ova-hero{padding:12px 0 0;position:relative;overflow:hidden;background:radial-gradient(circle at 82% 16%,rgba(22,184,135,.2),transparent 31%),linear-gradient(145deg,#061d2d 0%,#0a3347 58%,#0d4450 100%);color:var(--white)}
 .ova-hero:before{content:"";position:absolute;width:500px;height:500px;border:1px solid rgba(183,238,120,.14);border-radius:50%;left:-360px;top:110px;box-shadow:0 0 0 70px rgba(183,238,120,.025),0 0 0 140px rgba(183,238,120,.02)}
-.ova-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:88px;align-items:center}
-.ova-hero-copy{position:relative;z-index:2;padding:24px 0 56px}
-.ova-kicker{display:flex;align-items:center;gap:10px;margin-bottom:24px;font-size:12px;line-height:1;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+.ova-hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:52px;align-items:center}
+.ova-hero-copy{position:relative;z-index:2;min-width:0;padding:8px 0 16px}
+.ova-kicker{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:11px;line-height:1;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
 .ova-kicker span{background:var(--lime);padding:8px 10px;border-radius:999px;letter-spacing:.08em}
 .ova-hero .ova-kicker span{color:var(--ink)}
-.ova-hero h1{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(64px,6.3vw,92px);font-weight:400;line-height:.88;letter-spacing:-.045em;max-width:780px;margin:0 0 27px}
-.ova-lead{max-width:650px;color:#c5d9dd;font-size:19px;line-height:1.58;margin-bottom:22px}
-.ova-hero-checks{display:grid;gap:10px;list-style:none;padding:0;margin:0 0 28px;color:#e8f3f2;font-size:14px}
+.ova-hero h1{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(40px,3.3vw,48px);font-weight:400;line-height:.94;letter-spacing:-.035em;max-width:690px;margin:0 0 10px}
+.ova-lead{max-width:650px;color:#c5d9dd;font-size:15px;line-height:1.42;margin-bottom:10px}
+.ova-hero-checks{display:grid;gap:5px;list-style:none;padding:0;margin:0 0 12px;color:#e8f3f2;font-size:12px}
 .ova-hero-checks li{display:flex;align-items:center;gap:10px}
 .ova-hero-checks span{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:rgba(183,238,120,.16);border:1px solid rgba(183,238,120,.5);color:var(--lime);font-size:12px;font-weight:700}
-.ova-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.ova-actions{display:flex;align-items:center;gap:14px;flex-wrap:nowrap}
 .ova-primary{background:var(--coral);color:#031b28;box-shadow:7px 7px 0 var(--lime);border:1px solid #041d2b;transition:.18s ease}
 .ova-primary:hover{transform:translate(3px,3px);box-shadow:4px 4px 0 var(--lime)}
 .ova-text-link{font-size:14px;font-weight:700;border-bottom:1px solid rgba(255,255,255,.55);padding:10px 0 7px}
 .ova-text-link span{color:var(--lime);margin-left:8px}
-.ova-fineprint{margin:25px 0 0;font-size:13px;color:#a9c3c8}
+.ova-fineprint{margin:10px 0 0;font-size:11px;line-height:1.35;color:#a9c3c8}
 
-.ova-portrait-stage{position:relative;min-height:600px}
+.ova-portrait-stage{position:relative;min-width:0;min-height:500px}
 .ova-photo-shell{position:absolute;inset:18px 32px 22px 38px;background:var(--ink);border:1px solid rgba(255,255,255,.3);border-radius:170px 170px 28px 28px;overflow:hidden;box-shadow:20px 24px 0 var(--lime)}
 .ova-photo-shell:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(3,24,35,.58),transparent 42%);pointer-events:none}
 .ova-photo-shell img{width:100%;height:100%;object-fit:cover;object-position:center 28%}
@@ -71,12 +71,12 @@ h1,h2,h3,p{margin-top:0}
 .ova-orbit span{color:var(--white);padding:0 2px}
 
 .ova-guidance{display:grid;grid-template-columns:1.35fr repeat(3,.65fr);align-items:stretch;background:#ffffff;color:var(--ink);border-radius:18px 18px 0 0;box-shadow:0 -12px 40px rgba(3,24,35,.18)}
-.ova-guidance>p,.ova-guidance>div{margin:0;padding:21px 24px;border-right:1px solid var(--line)}
+.ova-guidance>p,.ova-guidance>div{margin:0;padding:12px 16px;border-right:1px solid var(--line)}
 .ova-guidance>div:last-child{border-right:0}
 .ova-guidance p b,.ova-guidance p span,.ova-guidance div strong,.ova-guidance div span{display:block}
 .ova-guidance p b{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#0b8d68;margin-bottom:5px}
 .ova-guidance p span,.ova-guidance div span{color:#617985;font-size:11px;line-height:1.35}
-.ova-guidance div strong{font-family:'Instrument Serif',Georgia,serif;font-size:31px;font-weight:400;line-height:1;margin-bottom:5px;color:var(--ink)}
+.ova-guidance div strong{font-family:'Instrument Serif',Georgia,serif;font-size:25px;font-weight:400;line-height:1;margin-bottom:3px;color:var(--ink)}
 .ova-guidance div span{text-transform:uppercase;letter-spacing:.1em}
 
 .ova-intro{padding:120px 0 58px;display:grid;grid-template-columns:.42fr 1fr;gap:56px;border-bottom:1px solid var(--line)}
@@ -233,17 +233,18 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
 @media(max-width:700px){
   .container,.nav-inner,.footer-grid{width:min(100% - 30px,1180px)}
   .nav-inner{min-height:72px}.logo-name span{display:none}.logo-img{width:38px;height:38px}.nav-cta{font-size:12px;padding:10px 12px;min-height:40px}
-  .ova-hero{padding-top:40px}.ova-hero h1{font-size:54px}.ova-lead{font-size:17px}.ova-actions{align-items:flex-start;flex-direction:column;gap:14px}
-  .ova-portrait-stage{min-height:490px}.ova-photo-shell{inset:15px 16px 20px}.ova-float-top{right:0}.ova-float-bottom{left:0}.ova-orbit{right:0}
+  .ova-hero{padding-top:20px}.ova-hero-grid>*{min-width:0}.ova-hero h1{font-size:40px}.ova-lead{font-size:15px}.ova-actions{align-items:flex-start;flex-direction:column;gap:10px}
+  .ova-portrait-stage{min-height:430px;width:100%}.ova-photo-shell{inset:15px 16px 20px}.ova-float{min-width:0;max-width:78%;font-size:12px}.ova-float-top{right:0}.ova-float-bottom{left:0}.ova-orbit{right:8px}
   .ova-guidance{grid-template-columns:1fr}.ova-guidance>p,.ova-guidance>div{border-right:0}
-  .ova-intro,.ova-zone-head,.ova-compare-head{grid-template-columns:1fr;gap:20px}.ova-intro{padding-top:80px}
-  .ova-role-board{grid-template-columns:1fr}.ova-role-card,.ova-role-card:nth-child(n){border-left:1px solid var(--line);border-right:1px solid var(--line)}
-  .ova-zone-list article{grid-template-columns:.18fr 1fr}.ova-zone-list article>div:nth-of-type(n+2){grid-column:2}
+  .ova-intro,.ova-zone-head,.ova-compare-head{grid-template-columns:minmax(0,1fr);gap:20px}.ova-intro>*{min-width:0}.ova-intro{padding-top:80px}
+  .ova-role-board{grid-template-columns:minmax(0,1fr)}.ova-role-card,.ova-role-card:nth-child(n){min-width:0;width:100%;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+  .ova-zone-head>*,.ova-zone-list article>*,.ova-reading-head>*,.ova-reading-grid>*,.ova-final>*{min-width:0}
+  .ova-zone-list article{grid-template-columns:minmax(0,.18fr) minmax(0,1fr)}.ova-zone-list article>div:nth-of-type(n+2){grid-column:2}
   .ova-timezone,.ova-process,.ova-reading,.ova-compare{padding:80px 0}
   .ova-steps{grid-template-columns:1fr}.ova-steps article{border-right:0;min-height:260px}.ova-week-track{grid-template-columns:repeat(2,1fr);gap:20px}
   .ova-launch-brief figure{min-height:300px}.ova-launch-copy{padding:34px 24px}.ova-launch-copy h3{font-size:38px}.ova-ownership-grid{grid-template-columns:1fr}
-  .ova-reading-head{align-items:flex-start;flex-direction:column}.ova-reading-grid{grid-template-columns:1fr}.ova-reading-grid a{border-right:0;border-bottom:1px solid rgba(255,255,255,.2);margin:0;padding:28px 0;min-height:280px}
-  .ova-final{padding:85px 0}.two,.cards{grid-template-columns:1fr}.section{padding:55px 0}.footer-grid{grid-template-columns:1fr;gap:36px}.footer-bottom{flex-direction:column}
+  .ova-reading-head{align-items:flex-start;flex-direction:column}.ova-reading-grid{grid-template-columns:minmax(0,1fr)}.ova-reading-grid a{border-right:0;border-bottom:1px solid rgba(255,255,255,.2);margin:0;padding:28px 0;min-height:280px}
+  .ova-final{padding:85px 0;grid-template-columns:minmax(0,1fr)}.ova-final .btn{width:100%;white-space:normal}.two,.cards{grid-template-columns:minmax(0,1fr)}.section{padding:55px 0}.footer-grid{grid-template-columns:minmax(0,1fr);gap:36px}.footer-bottom{flex-direction:column}
 }
 
 /* Fleet content architecture */

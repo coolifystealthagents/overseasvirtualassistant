@@ -9,14 +9,15 @@ export function ArticleEnhancer(){
  useEffect(()=>{
    const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node:Node|null;
    while((node=walker.nextNode())){const p=node.parentElement;if(!p||['SCRIPT','STYLE','TEXTAREA','CODE','PRE'].includes(p.tagName))continue;const next=clean(node.textContent||'');if(next!==node.textContent)node.textContent=next}
-   const root=document.querySelector<HTMLElement>('main article, article.article, .article-shell article, article[data-article-root]');if(!root)return;
+   const detail=/^\/(blog|research)\/[^/]+\/?$/.test(window.location.pathname);if(!detail)return;
+   const root=document.querySelector<HTMLElement>('main > article, main.article-shell > article, main article.container.article, main article.article-shell, article[data-article-root]');if(!root)return;
+   const heads=[...root.querySelectorAll<HTMLElement>('h2')];if(heads.length<1)return;
    root.classList.add('editorial-prose');
    const parent=root.parentElement; if(!parent)return;
    const layout=document.createElement('div'); layout.className='editorial-layout';
    const tocHost=document.createElement('div'); tocHost.className='editorial-sidebar-host';
    parent.insertBefore(layout,root); layout.append(tocHost,root); setHost(tocHost);
-   const heads=[...root.querySelectorAll<HTMLElement>('h2')]; const seen=new Map<string,number>();
-   const list=heads.map((h,i)=>{let base=(h.id||h.textContent||`section-${i+1}`).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');const n=seen.get(base)||0;seen.set(base,n+1);h.id=n?`${base}-${n+1}`:base;return{id:h.id,text:clean(h.textContent||'Section')}});setItems(list);
+   const seen=new Map<string,number>(); const list=heads.map((h,i)=>{let base=(h.id||h.textContent||`section-${i+1}`).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');const n=seen.get(base)||0;seen.set(base,n+1);h.id=n?`${base}-${n+1}`:base;return{id:h.id,text:clean(h.textContent||'Section')}});setItems(list);
    const observer=new IntersectionObserver(entries=>{const visible=entries.filter(x=>x.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(visible)setActive(visible.target.id)},{rootMargin:'-96px 0px -68%'});heads.forEach(h=>observer.observe(h));
    return()=>{observer.disconnect();setHost(null);if(layout.parentElement){layout.parentElement.insertBefore(root,layout);layout.remove()}};
  },[]);
