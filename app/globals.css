@@ -53,10 +53,10 @@ h1,h2,h3,p{margin-top:0}
 .ova-text-link span{color:var(--lime);margin-left:8px}
 .ova-fineprint{margin:10px 0 0;font-size:11px;line-height:1.35;color:#a9c3c8}
 
-.ova-portrait-stage{position:relative;min-width:0;min-height:500px}
-.ova-photo-shell{position:absolute;inset:18px 32px 22px 38px;background:var(--ink);border:1px solid rgba(255,255,255,.3);border-radius:170px 170px 28px 28px;overflow:hidden;box-shadow:20px 24px 0 var(--lime)}
-.ova-photo-shell:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(3,24,35,.58),transparent 42%);pointer-events:none}
-.ova-photo-shell img{width:100%;height:100%;object-fit:cover;object-position:center 28%}
+.ova-portrait-stage{position:relative;min-width:0;min-height:500px;margin:0;display:grid;place-items:center}
+.ova-photo-shell{position:absolute;inset:0;background:transparent;border:0;border-radius:0;overflow:visible;box-shadow:none}
+.ova-photo-shell:after{display:none}
+.ova-photo-shell img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;padding:0;background:transparent;transform:scale(1.22);transform-origin:center;filter:drop-shadow(0 22px 24px rgba(0,0,0,.2))}
 .ova-photo-caption{position:absolute;z-index:2;left:22px;bottom:20px;display:flex;align-items:flex-end;gap:13px;color:#fff}
 .ova-photo-caption span{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--lime);color:var(--ink);font-weight:700;font-size:12px}
 .ova-photo-caption p{margin:0;font-family:'Instrument Serif',Georgia,serif;font-size:25px;line-height:.98}
@@ -88,7 +88,7 @@ h1,h2,h3,p{margin-top:0}
 .ova-role-board{display:grid;grid-template-columns:repeat(3,1fr);padding:0 0 120px}
 .ova-role-card{padding:31px 29px 28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-height:360px;display:flex;flex-direction:column}
 .ova-role-card:nth-child(3n+1){border-left:1px solid var(--line)}
-.ova-role-top{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:700;color:var(--coral)}
+.ova-role-top{display:flex;justify-content:flex-end;align-items:center;font-size:11px;font-weight:700;color:var(--coral)}
 .ova-role-arrow{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);font-size:16px;color:var(--ink)}
 .ova-role-card h3{font-family:'Instrument Serif',Georgia,serif;font-size:36px;font-weight:400;line-height:1;margin:45px 0 16px}
 .ova-role-card>p{color:var(--ink-soft);line-height:1.55}
@@ -101,7 +101,7 @@ h1,h2,h3,p{margin-top:0}
 .ova-zone-head{display:grid;grid-template-columns:1.15fr .65fr;gap:90px;align-items:flex-end;padding-bottom:48px}
 .ova-zone-head>p{color:#bfd3d7;line-height:1.65;font-size:16px;margin:0}
 .ova-zone-list{border-top:1px solid rgba(255,255,255,.18)}
-.ova-zone-list article{display:grid;grid-template-columns:.14fr .7fr 1fr 1fr;gap:28px;align-items:flex-start;padding:30px 0;border-bottom:1px solid rgba(255,255,255,.18)}
+.ova-zone-list article{display:grid;grid-template-columns:.7fr 1fr 1fr;gap:28px;align-items:flex-start;padding:30px 0;border-bottom:1px solid rgba(255,255,255,.18)}
 .ova-zone-list h3{font-family:'Instrument Serif',Georgia,serif;font-size:31px;font-weight:400;margin:0 0 6px}
 .ova-zone-list p{margin:0;color:#bfd3d7;font-size:13px;line-height:1.55}
 .ova-zone-list b{display:block;color:var(--lime);font-size:10px;letter-spacing:.13em;text-transform:uppercase;margin-bottom:6px}
@@ -234,12 +234,12 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
   .container,.nav-inner,.footer-grid{width:min(100% - 30px,1180px)}
   .nav-inner{min-height:72px}.logo-name span{display:none}.logo-img{width:38px;height:38px}.nav-cta{font-size:12px;padding:10px 12px;min-height:40px}
   .ova-hero{padding-top:20px}.ova-hero-grid>*{min-width:0}.ova-hero h1{font-size:40px}.ova-lead{font-size:15px}.ova-actions{align-items:flex-start;flex-direction:column;gap:10px}
-  .ova-portrait-stage{min-height:430px;width:100%}.ova-photo-shell{inset:15px 16px 20px}.ova-float{min-width:0;max-width:78%;font-size:12px}.ova-float-top{right:0}.ova-float-bottom{left:0}.ova-orbit{right:8px}
+  .ova-portrait-stage{min-height:430px;width:100%}.ova-photo-shell{inset:0}
   .ova-guidance{grid-template-columns:1fr}.ova-guidance>p,.ova-guidance>div{border-right:0}
   .ova-intro,.ova-zone-head,.ova-compare-head{grid-template-columns:minmax(0,1fr);gap:20px}.ova-intro>*{min-width:0}.ova-intro{padding-top:80px}
   .ova-role-board{grid-template-columns:minmax(0,1fr)}.ova-role-card,.ova-role-card:nth-child(n){min-width:0;width:100%;border-left:1px solid var(--line);border-right:1px solid var(--line)}
   .ova-zone-head>*,.ova-zone-list article>*,.ova-reading-head>*,.ova-reading-grid>*,.ova-final>*{min-width:0}
-  .ova-zone-list article{grid-template-columns:minmax(0,.18fr) minmax(0,1fr)}.ova-zone-list article>div:nth-of-type(n+2){grid-column:2}
+  .ova-zone-list article{grid-template-columns:minmax(0,1fr)}.ova-zone-list article>div:nth-of-type(n+2){grid-column:auto}
   .ova-timezone,.ova-process,.ova-reading,.ova-compare{padding:80px 0}
   .ova-steps{grid-template-columns:1fr}.ova-steps article{border-right:0;min-height:260px}.ova-week-track{grid-template-columns:repeat(2,1fr);gap:20px}
   .ova-launch-brief figure{min-height:300px}.ova-launch-copy{padding:34px 24px}.ova-launch-copy h3{font-size:38px}.ova-ownership-grid{grid-template-columns:1fr}
@@ -307,6 +307,6 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
 /* Licensed GetIllustrations homepage rollout */
 .ova-hero-checks span{width:30px;height:30px;flex:0 0 30px;background:#fff;border-color:rgba(183,238,120,.65)}
 .ova-hero-checks span img{width:24px;height:24px;object-fit:contain}
-.ova-photo-shell img{object-fit:contain;object-position:center;padding:24px;background:#e8f6f2}
+.ova-photo-shell img{object-fit:contain;object-position:center;padding:0;background:transparent}
 .ova-launch-brief figure img{object-fit:contain;padding:24px;background:#edf7f5}
-@media(max-width:700px){.ova-photo-shell img,.ova-launch-brief figure img{padding:12px}}
+@media(max-width:700px){.ova-photo-shell img{padding:0}.ova-launch-brief figure img{padding:12px}}

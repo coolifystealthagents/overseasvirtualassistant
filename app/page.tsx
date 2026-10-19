@@ -93,21 +93,17 @@ export default function Home() {
               <li><span aria-hidden="true"><img src="/icons/getillustrations/sharpie-office/first-week-plan.svg" alt="First-week assistant plan" /></span> A first-week review plan</li>
             </ul>
             <div className="ova-actions">
-              <a className="btn ova-primary" href="/contact">Request a staffing plan</a>
+              <a className="btn ova-primary" href="/contact-us">Request a staffing plan</a>
               <a className="ova-text-link" href="#roles">See the first tasks to hand off <span aria-hidden="true">↓</span></a>
             </div>
             <p className="ova-fineprint">No public rate card. The right setup depends on the role, hours, tools, and time-zone overlap.</p>
           </div>
 
-          <div className="ova-portrait-stage" aria-label="Overseas assistant handoff example">
+          <figure className="ova-portrait-stage">
             <div className="ova-photo-shell">
               <img src="/illustrations/getillustrations/goodle-team/filipino-virtual-assistant-workday.svg" alt="Illustration of a Filipino virtual assistant collaborating through a clear remote workday" />
-              <div className="ova-photo-caption"><span>01</span><p>One role.<br />A clear owner.</p></div>
             </div>
-            <div className="ova-float ova-float-top"><span className="ova-status-dot" /> <b>Handoff ready</b><small>Inbox triage · 8:00 AM</small></div>
-            <div className="ova-float ova-float-bottom"><b>Owner approval stays put</b><small>Refunds · payments · legal calls</small></div>
-            <div className="ova-orbit" aria-hidden="true">PH <span>↗</span> US</div>
-          </div>
+          </figure>
         </div>
 
         <div className="container ova-guidance" aria-label="Planning guidance">
@@ -117,7 +113,6 @@ export default function Home() {
       </section>
 
       <section className="ova-intro container">
-        <p className="ova-section-no">01 / THE ROLE</p>
         <div>
           <h2>Do not hire a "do everything" assistant.</h2>
           <p>That job is impossible to scope and miserable to manage. Pick a lane with repeatable work, show what good looks like, and keep risky decisions with someone who already knows the business.</p>
@@ -125,8 +120,8 @@ export default function Home() {
       </section>
 
       <section className="container ova-role-board" id="roles">
-        {roles.slice(0, 6).map((role, index) => <article className="ova-role-card" id={roleSlug(role.name)} key={role.name}>
-          <div className="ova-role-top"><span>{String(index + 1).padStart(2, '0')}</span><span className="ova-role-arrow" aria-hidden="true">↗</span></div>
+        {roles.slice(0, 6).map((role) => <article className="ova-role-card" id={roleSlug(role.name)} key={role.name}>
+          <div className="ova-role-top"><span className="ova-role-arrow" aria-hidden="true">↗</span></div>
           <h3>{role.name}</h3>
           <p>{role.fit}</p>
           <div className="ova-guardrail"><b>Keep with the owner</b><span>{role.guardrail}</span></div>
@@ -136,12 +131,11 @@ export default function Home() {
       <section className="ova-timezone" id="coverage">
         <div className="container">
           <div className="ova-zone-head">
-            <div><p className="ova-section-no light">02 / COVERAGE</p><h2>Choose the shift before you hire.</h2></div>
+            <div><h2>Choose the shift before you hire.</h2></div>
             <p>Every candidate is based in the Philippines. Decide when someone must be online, which work can happen while you are offline, and when the owner will review it.</p>
           </div>
           <div className="ova-zone-list">
-            {timeZoneWindows.slice(0, 3).map((zone, index) => <article key={zone.region}>
-              <span className="ova-zone-index">0{index + 1}</span>
+            {timeZoneWindows.slice(0, 3).map((zone) => <article key={zone.region}>
               <div><h3>{zone.region}</h3><p>{zone.window}</p></div>
               <div><b>Good for</b><p>{zone.use}</p></div>
               <div><b>Handoff</b><p>{zone.handoff}</p></div>
@@ -152,12 +146,12 @@ export default function Home() {
 
       <section className="container ova-compare" id="compare">
         <div className="ova-compare-head">
-          <div><p className="ova-section-no">03 / HIRING PATH</p><h2>Choose how much of the hiring work you want to own.</h2></div>
+          <div><h2>Choose how much of the hiring work you want to own.</h2></div>
           <div><p>A managed service, a solo freelancer, and a local employee solve different problems. Our staffing path uses Filipino talent based in the Philippines.</p><a href="/blog">Read the full hiring guide <span aria-hidden="true">↗</span></a></div>
         </div>
         <div className="ova-compare-grid">
           {hiringPaths.map((path, index) => <article id={path.id} className={index === 0 ? 'is-featured' : ''} key={path.id}>
-            <div className="ova-compare-title"><span>{String(index + 1).padStart(2, '0')}</span>{index === 0 && <b>Our model</b>}</div>
+            <div className="ova-compare-title">{index === 0 && <b>Our model</b>}</div>
             <h3>{path.label}</h3>
             <p>{path.intro}</p>
             <dl>
@@ -172,7 +166,6 @@ export default function Home() {
 
       <section className="container ova-process" id="process">
         <div className="ova-process-head">
-          <p className="ova-section-no">04 / THE LAUNCH</p>
           <h2>A calm first week beats a fast, messy start.</h2>
           <p>The plan should tell both people what happens next. These four moves are enough to get the work out of someone's head and into a routine.</p>
         </div>
@@ -189,7 +182,7 @@ export default function Home() {
             <figcaption>Licensed onboarding illustration. It does not show an available candidate or a customer.</figcaption>
           </figure>
           <div className="ova-launch-copy">
-            <p className="ova-section-no">Before day one</p>
+            <p>Before day one</p>
             <h3>Put the first task lane on one page.</h3>
             <p>Write down the task, tool, due time, good example, and stop rule. Your Filipino assistant should know what to finish and when to send a decision back to you.</p>
             <div className="ova-ownership-grid">
@@ -209,10 +202,10 @@ export default function Home() {
 
       <section className="ova-reading">
         <div className="container">
-          <div className="ova-reading-head"><div><p className="ova-section-no light">05 / FIELD NOTES</p><h2>Read this before you interview anyone.</h2></div><a href="/blog">View all guides <span aria-hidden="true">↗</span></a></div>
+          <div className="ova-reading-head"><div><h2>Read this before you interview anyone.</h2></div><a href="/blog">View all guides <span aria-hidden="true">↗</span></a></div>
           <div className="ova-reading-grid">
-            {blogPosts.slice(0, 3).map((post, index) => <a href={`/blog/${post.slug}`} key={post.slug}>
-              <span>{String(index + 1).padStart(2, '0')} · {post.minutes} min read</span>
+            {blogPosts.slice(0, 3).map((post) => <a href={`/blog/${post.slug}`} key={post.slug}>
+              <span>{post.minutes} min read</span>
               <h3>{post.title}</h3>
               <p>{post.excerpt}</p>
               <b>Read guide ↗</b>
@@ -223,7 +216,7 @@ export default function Home() {
 
       <section className="container ova-final">
         <div><p className="ova-kicker"><span>Your next hire</span> Start with the work</p><h2>Bring the messy task list. Leave with a clear Filipino assistant role.</h2></div>
-        <div><p>Share the work, tools, shift, and decisions that need approval. We will shape them into a first task lane for Philippines-based talent.</p><a className="btn ova-primary" href="/contact">Request a staffing plan</a></div>
+        <div><p>Share the work, tools, shift, and decisions that need approval. We will shape them into a first task lane for Philippines-based talent.</p><a className="btn ova-primary" href="/contact-us">Request a staffing plan</a></div>
       </section>
     </main>
     <Footer />

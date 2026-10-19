@@ -77,3 +77,15 @@ test('visible application source contains no em dash or spaced double hyphen', (
   const files = ['app/site-header.tsx','app/components.tsx','app/contact-us/page.tsx','app/contact-us/StandardContactForm.tsx','app/services/page.tsx','app/services/[slug]/page.tsx','app/about/page.tsx','app/thank-you/page.tsx','app/thanks-whats-next/page.tsx'];
   for (const file of files) { const source = read(file); assert.doesNotMatch(source, /[—–]|\s--\s/, file); }
 });
+
+test('homepage hero is one clean visual without decorative boxes or numbering', () => {
+  const home = read('app/page.tsx');
+  const css = read('app/globals.css');
+  for (const forbidden of ['ova-photo-caption', 'ova-float-top', 'ova-float-bottom', 'ova-orbit', 'padStart(2', 'ova-zone-index']) {
+    assert.ok(!home.includes(forbidden), `homepage still contains ${forbidden}`);
+  }
+  assert.ok(!/\b0[1-9]\s*\//.test(home), 'homepage still contains a decorative zero-padded section label');
+  assert.match(css, /\.ova-photo-shell\{[^}]*background:transparent[^}]*border:0[^}]*box-shadow:none/);
+  assert.match(css, /\.ova-photo-shell img\{[^}]*padding:0[^}]*background:transparent/);
+  assert.match(home, /href="\/contact-us">Request a staffing plan/);
+});
