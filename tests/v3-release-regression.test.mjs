@@ -67,6 +67,8 @@ test('metadata, redirects, sitemap, security, and assets meet release contracts'
   const sitemap = read('app/sitemap.xml/route.ts');
   assert.match(sitemap, /"\/about"/);
   assert.match(sitemap, /"\/contact-us"/);
+  assert.match(sitemap, /new Set\(urls\)/);
+  assert.match(sitemap, /uniqueUrls\.map/);
   assert.ok(!sitemap.includes('"/contact",'));
   for (const asset of ['public/images/stealth-agents-team.webp', 'public/images/stealth-agents-logo-black.png']) assert.ok(existsSync(new URL(`../${asset}`, import.meta.url)), `${asset} missing`);
 });

@@ -87,6 +87,7 @@ export async function GET() {
     ...researchPosts.map((p) => `/research/${p.slug}`),
     ...alternatives.map((p) => `/alternatives/${p.slug}`),
   ];
-  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map((x) => `<url><loc>${base}${x}</loc></url>`).join("")}</urlset>`;
+  const uniqueUrls = [...new Set(urls)];
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${uniqueUrls.map((x) => `<url><loc>${base}${x}</loc></url>`).join("")}</urlset>`;
   return new Response(xml, { headers: { "Content-Type": "application/xml" } });
 }
