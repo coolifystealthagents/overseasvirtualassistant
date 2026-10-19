@@ -60,6 +60,10 @@ test('metadata, redirects, sitemap, security, and assets meet release contracts'
   const config = read('next.config.mjs');
   for (const header of ['Strict-Transport-Security', 'Content-Security-Policy', 'Permissions-Policy', 'X-Content-Type-Options', 'Referrer-Policy']) assert.match(config, new RegExp(header));
   assert.match(config, /source: '\/contact', destination: '\/contact-us', permanent: true/);
+  const middleware = read('middleware.ts');
+  assert.match(middleware, /canonicalHost = 'overseasvirtualassistant\.com'/);
+  assert.match(middleware, /cf-visitor/);
+  assert.match(middleware, /NextResponse\.redirect\(destination, 308\)/);
   const sitemap = read('app/sitemap.xml/route.ts');
   assert.match(sitemap, /"\/about"/);
   assert.match(sitemap, /"\/contact-us"/);
