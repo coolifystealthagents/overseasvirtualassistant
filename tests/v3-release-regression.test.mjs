@@ -84,8 +84,13 @@ test('homepage hero is one clean visual without decorative boxes or numbering', 
   for (const forbidden of ['ova-photo-caption', 'ova-float-top', 'ova-float-bottom', 'ova-orbit', 'padStart(2', 'ova-zone-index']) {
     assert.ok(!home.includes(forbidden), `homepage still contains ${forbidden}`);
   }
+  for (const legacyStyle of ['.ova-photo-caption', '.ova-float{', '.ova-orbit{']) {
+    assert.ok(!css.includes(legacyStyle), `legacy boxed-hero style remains: ${legacyStyle}`);
+  }
   assert.ok(!/\b0[1-9]\s*\//.test(home), 'homepage still contains a decorative zero-padded section label');
   assert.match(css, /\.ova-photo-shell\{[^}]*background:transparent[^}]*border:0[^}]*box-shadow:none/);
   assert.match(css, /\.ova-photo-shell img\{[^}]*padding:0[^}]*background:transparent/);
+  assert.match(home, /src="\/images\/stealth-agents-team\.webp"/);
+  assert.ok(!home.includes('filipino-virtual-assistant-workday.svg'), 'boxed SVG hero asset is still in use');
   assert.match(home, /href="\/contact-us">Request a staffing plan/);
 });

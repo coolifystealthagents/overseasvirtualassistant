@@ -101,7 +101,13 @@ export default function Home() {
 
           <figure className="ova-portrait-stage">
             <div className="ova-photo-shell">
-              <img src="/illustrations/getillustrations/goodle-team/filipino-virtual-assistant-workday.svg" alt="Illustration of a Filipino virtual assistant collaborating through a clear remote workday" />
+              <img
+                src="/images/stealth-agents-team.webp"
+                alt="Stealth Agents operations team collaborating around laptops"
+                width="1600"
+                height="1067"
+                fetchPriority="high"
+              />
             </div>
           </figure>
         </div>

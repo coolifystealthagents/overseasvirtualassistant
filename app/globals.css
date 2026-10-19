@@ -54,21 +54,9 @@ h1,h2,h3,p{margin-top:0}
 .ova-fineprint{margin:10px 0 0;font-size:11px;line-height:1.35;color:#a9c3c8}
 
 .ova-portrait-stage{position:relative;min-width:0;min-height:500px;margin:0;display:grid;place-items:center}
-.ova-photo-shell{position:absolute;inset:0;background:transparent;border:0;border-radius:0;overflow:visible;box-shadow:none}
+.ova-photo-shell{position:absolute;inset:0;background:transparent;border:0;border-radius:48% 48% 14% 14% / 38% 38% 12% 12%;overflow:hidden;box-shadow:none}
 .ova-photo-shell:after{display:none}
-.ova-photo-shell img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;padding:0;background:transparent;transform:scale(1.22);transform-origin:center;filter:drop-shadow(0 22px 24px rgba(0,0,0,.2))}
-.ova-photo-caption{position:absolute;z-index:2;left:22px;bottom:20px;display:flex;align-items:flex-end;gap:13px;color:#fff}
-.ova-photo-caption span{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--lime);color:var(--ink);font-weight:700;font-size:12px}
-.ova-photo-caption p{margin:0;font-family:'Instrument Serif',Georgia,serif;font-size:25px;line-height:.98}
-.ova-float{position:absolute;z-index:3;background:var(--white);border:1px solid var(--ink);box-shadow:7px 7px 0 var(--ink);padding:14px 16px;min-width:210px}
-.ova-float b,.ova-float small{display:block}
-.ova-float b{font-size:13px}
-.ova-float small{margin-top:5px;color:#58717b;font-size:11px}
-.ova-float-top{right:-4px;top:96px}
-.ova-float-bottom{left:-4px;bottom:67px}
-.ova-status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#3fb878;margin-right:6px}
-.ova-orbit{position:absolute;z-index:3;right:-7px;bottom:32px;width:86px;height:86px;border-radius:50%;display:grid;place-content:center;background:var(--coral);border:1px solid var(--ink);font-size:13px;font-weight:700;transform:rotate(8deg)}
-.ova-orbit span{color:var(--white);padding:0 2px}
+.ova-photo-shell img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 48%;padding:0;background:transparent;transform:none;filter:none}
 
 .ova-guidance{display:grid;grid-template-columns:1.35fr repeat(3,.65fr);align-items:stretch;background:#ffffff;color:var(--ink);border-radius:18px 18px 0 0;box-shadow:0 -12px 40px rgba(3,24,35,.18)}
 .ova-guidance>p,.ova-guidance>div{margin:0;padding:12px 16px;border-right:1px solid var(--line)}
@@ -307,6 +295,6 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
 /* Licensed GetIllustrations homepage rollout */
 .ova-hero-checks span{width:30px;height:30px;flex:0 0 30px;background:#fff;border-color:rgba(183,238,120,.65)}
 .ova-hero-checks span img{width:24px;height:24px;object-fit:contain}
-.ova-photo-shell img{object-fit:contain;object-position:center;padding:0;background:transparent}
+.ova-photo-shell img{object-fit:cover;object-position:center 48%;padding:0;background:transparent}
 .ova-launch-brief figure img{object-fit:contain;padding:24px;background:#edf7f5}
 @media(max-width:700px){.ova-photo-shell img{padding:0}.ova-launch-brief figure img{padding:12px}}
