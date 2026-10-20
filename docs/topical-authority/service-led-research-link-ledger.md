@@ -18,6 +18,15 @@ Checked from a fresh production build on 2026-10-04. Every row below has a self-
 
 All five September 26 research-to-service links are already present in the generated reader path. Do not add another CTA for any of these pairs. A later operator should inspect a different source/destination pair from its own record and artifact evidence before proposing a new contextual link.
 
+## 2026-10-20 candidate review: CRM duplicate resolution
+
+- Source route: `/blog/virtual-assistant-crm-duplicate-resolution-playbook` answers one operational question: how a Philippines-based virtual assistant can prepare a reversible CRM duplicate-merge proposal without deciding identity or consent.
+- Fresh artifact: the source route has its self-canonical URL, its expected H1, one generic `/services` anchor inside `<main>`, and a sitemap entry.
+- Service inventory: `fleetServices` has no CRM-specific service pillar. The generic `/services` link is therefore not a verified contextual handoff to a matching money page.
+- Candidate state: prerequisite, not a rendered-link task. Define and publish a real CRM support service pillar with its own scope, approvals, and canonical/sitemap coverage before replacing the generic link. Do not infer that `Research and Data Support` is a CRM service match.
+- Reader question for the eventual supporting-page handoff: "Where can I get Philippines-based CRM support for a controlled duplicate-review process?"
+- Ownership boundary: the assistant may prepare evidence, proposed survivor records, and rollback notes. The authorized CRM/data owner decides identity, consent, merge approval, campaign use, and any customer-facing action.
+
 ## Evidence boundary
 
 This is repository-local planning metadata. It documents local generated-artifact evidence only. It does not prove a deployment or a public route rollout.
