@@ -21,21 +21,23 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     <main className="fleet-main">
       <article className="section article-shell">
         <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.published, dateModified: modified, citation: post.sources.map(s => s.url), mainEntityOfPage: `https://overseasvirtualassistant.com/research/${post.slug}` }} />
-        <p className="eyebrow">Philippines staffing research · Published: <time dateTime={post.published}>{formatPublicDate(post.published)}</time>{modified !== post.published && <> · Updated: <time dateTime={modified}>{formatPublicDate(modified)}</time></>}</p>
+        <p className="eyebrow">Philippines staffing research · Published <time dateTime={post.published}>{formatPublicDate(post.published)}</time>{modified !== post.published && <> · Updated: <time dateTime={modified}>{formatPublicDate(modified)}</time></>}</p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
         <img src={post.image.src} alt={post.image.alt} className="article-image" />
-        <h2>Methodology</h2><p>{post.methodology}</p>
+        <details className="oct22-mobile-toc"><summary>On this page</summary><nav>{[{id:"methodology",label:"Methodology"},...post.sections.map(section=>({id:section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""),label:section.heading})),{id:"sources",label:"Sources"},{id:"faqs",label:"FAQs"}].map(item=><a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav></details>
+        <div className="oct22-layout"><div className="oct22-body">
+        <h2 id="methodology">Methodology</h2><p>{post.methodology}</p>
         <aside className="fleet-card"><b>{post.headlineStat.value}</b><p>{post.headlineStat.label}</p><small>{post.headlineStat.source}</small></aside>
-        <h2>Key Stats</h2><ul>{post.keyStats.map(s => <li key={s.label}><strong>{s.value}</strong>: {s.label}</li>)}</ul>
-        <h2>Key Takeaways</h2><ul>{post.takeaways.map(x => <li key={x}>{x}</li>)}</ul>
-        {post.sections.map(section => <section key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p><table><tbody>{section.table.map((row, i) => <tr key={i}>{row.map((cell, j) => i === 0 ? <th key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></section>)}
+        <h2 id="key-stats">Key Stats</h2><ul>{post.keyStats.map(s => <li key={s.label}><strong>{s.value}</strong>: {s.label}</li>)}</ul>
+        <h2 id="key-takeaways">Key Takeaways</h2><ul>{post.takeaways.map(x => <li key={x}>{x}</li>)}</ul>
+        {post.sections.map(section => <section key={section.heading}><h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"")}>{section.heading}</h2><p>{section.body}</p><table><tbody>{section.table.map((row, i) => <tr key={i}>{row.map((cell, j) => i === 0 ? <th key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></section>)}
         <p>{post.sourceNotes}</p>
-        <h2>Sources</h2><ol>{post.sources.map(s => <li key={s.url}><a href={s.url}>{s.name}</a>: {s.note}</li>)}</ol>
-        <h2>FAQs</h2>{post.faqs.map(f => <section key={f.question}><h3>{f.question}</h3><p>{f.answer}</p></section>)}
-        <h2>Related Research</h2><div className="fleet-card-grid">{post.relatedResearch.map(relatedSlug => <a className="fleet-card" href={relatedSlug} key={relatedSlug}>Read related research</a>)}</div>
+        <h2 id="sources">Sources</h2><ol>{post.sources.map(s => <li key={s.url}><a href={s.url}>{s.name}</a>: {s.note}</li>)}</ol>
+        <h2 id="faqs">FAQs</h2>{post.faqs.map(f => <section key={f.question}><h3>{f.question}</h3><p>{f.answer}</p></section>)}
+        <h2 id="related-research">Related Research</h2><div className="fleet-card-grid">{post.relatedResearch.map(relatedSlug => <a className="fleet-card" href={relatedSlug} key={relatedSlug}>Read related research</a>)}</div>
         {post.serviceHandoff && <section className="fleet-card"><h2>Plan the next step</h2><p>{post.serviceHandoff.copy}</p><a className="btn primary" href={post.serviceHandoff.href}>{post.serviceHandoff.label}</a></section>}
-        <p><a href="/blog">Read the daily blog guides</a> · <a href="/services">Explore service workflows</a> · <a href="/contact">Plan your staffing routine</a></p>
+        </div><aside className="oct22-side" aria-label="Research sidebar"><nav aria-label="Table of contents"><p className="eyebrow">On this page</p>{[{id:"methodology",label:"Methodology"},...post.sections.map(section=>({id:section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""),label:section.heading})),{id:"sources",label:"Sources"},{id:"faqs",label:"FAQs"}].map(item=><a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav></aside></div><p><a href="/blog">Read the daily blog guides</a> · <a href="/services">Explore service workflows</a> · <a href="/contact">Plan your staffing routine</a></p>
         <p>{post.cta}</p>
       </article>
       <CTA />
