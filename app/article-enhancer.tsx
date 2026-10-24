@@ -11,6 +11,10 @@ export function ArticleEnhancer(){
    while((node=walker.nextNode())){const p=node.parentElement;if(!p||['SCRIPT','STYLE','TEXTAREA','CODE','PRE'].includes(p.tagName))continue;const next=clean(node.textContent||'');if(next!==node.textContent)node.textContent=next}
    const detail=/^\/(blog|research)\/[^/]+\/?$/.test(window.location.pathname);if(!detail)return;
    const root=document.querySelector<HTMLElement>('main > article, main.article-shell > article, main article.container.article, main article.article-shell, article[data-article-root]');if(!root)return;
+   // The October 22 template already renders its own sticky desktop ToC and
+   // mobile disclosure. Wrapping it again creates a second ToC and can move the
+   // sticky panel outside the layout it was styled for.
+   if(root.querySelector('.oct22-side, .oct22-mobile-toc, .oct22-layout'))return;
    const heads=[...root.querySelectorAll<HTMLElement>('h2')];if(heads.length<1)return;
    root.classList.add('editorial-prose');
    const parent=root.parentElement; if(!parent)return;
