@@ -27,6 +27,13 @@ All five September 26 research-to-service links are already present in the gener
 - Reader question for the eventual supporting-page handoff: "Where can I get Philippines-based CRM support for a controlled duplicate-review process?"
 - Ownership boundary: the assistant may prepare evidence, proposed survivor records, and rollback notes. The authorized CRM/data owner decides identity, consent, merge approval, campaign use, and any customer-facing action.
 
+## 2026-10-24 CRM hygiene prerequisite revalidation
+
+- Source route: `/blog/crm-hygiene-tasks-for-an-overseas-va` answers the adjacent buyer question: which cleanup records a Philippines-based VA can prepare without deciding identity, consent, or a merge outcome.
+- Fresh local build evidence: the source artifact has the expected H1 and self-canonical, one generic `/services` anchor inside `<main>`, and a generated sitemap entry. The active `fleetServices` inventory still contains no CRM support pillar or `/services/crm-*` route.
+- Candidate state: hold the generic services link in place. Do not repoint it to Research and Data Support or add a second CRM CTA. A future CRM pillar must first define its scope, approved records, reversible work, owner approval path, and canonical/sitemap coverage.
+- Ownership boundary: a VA may record source evidence, flag conflicts, apply an owner-approved suppression rule, and prepare a duplicate-review packet. The authorized CRM, privacy, or marketing owner decides identity, consent, merge approval, campaign use, and customer-facing action.
+
 ## Evidence boundary
 
 This is repository-local planning metadata. It documents local generated-artifact evidence only. It does not prove a deployment or a public route rollout.
