@@ -611,7 +611,7 @@ export const october25ResearchPosts: ResearchPost[] = [
     "title": "Measuring response time for calendar control",
     "excerpt": "A source-bounded overseas VA support guide for business owners hiring overseas: calendar control without unsupported decisions.",
     "published": "2026-10-25",
-    "updated": "2026-10-25",
+    "updated": "2026-10-26",
     "methodology": "Bounded method review with 4 authoritative sources and 8 analysis sections. No provider performance claim is made.",
     "headlineStat": {
       "value": "4",
@@ -775,7 +775,7 @@ export const october25ResearchPosts: ResearchPost[] = [
       }
     ],
     "internalLinks": [
-      "/services",
+      "/services/calendar-and-inbox-management",
       "/contact"
     ],
     "faqs": [
@@ -803,9 +803,9 @@ export const october25ResearchPosts: ResearchPost[] = [
     },
     "cta": "Use the method to define a bounded lane and a named review point.",
     "serviceHandoff": {
-      "href": "/services",
-      "label": "Review virtual assistant services",
-      "copy": "Translate the method into a bounded role brief with named review points."
+      "href": "/services/calendar-and-inbox-management",
+      "label": "Set up calendar and inbox support",
+      "copy": "Use the service page to scope a Philippines-based calendar and inbox support lane. The owner keeps priority, schedule-change, travel, and exception decisions."
     }
   },
   {
