@@ -21,7 +21,8 @@ test('contact page preserves the mandated visible label sequence and trust evide
   const page = read('app/contact-us/page.tsx');
   assert.match(page, /<TestimonialsRail contact/);
   assert.match(page, /Official team, Bacolod/);
-  assert.match(page, /stealth-agents-team\.webp/);
+  assert.match(page, /thank-you-hero\.png/);
+  assert.match(page, /width="619" height="402"/);
   assert.match(page, /stealth-agents-logo-black\.png/);
   const provenance = JSON.parse(read('app/review-provenance.json'));
   assert.equal(provenance.records.length, 10);

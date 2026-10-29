@@ -33,6 +33,17 @@ test('customer support is a published shared service with operational depth', ()
   }
 });
 
+test('contact identity uses the approved official team photograph at a sharp rendered size', () => {
+  const contact = read('app/contact-us/page.tsx');
+  const styles = read('app/v3.css');
+  assert.match(contact, /images:\['\/thank-you-hero\.png'\]/);
+  assert.match(contact, /className="official-photo" src="\/thank-you-hero\.png" width="619" height="402"/);
+  assert.doesNotMatch(contact, /stealth-agents-team\.webp/);
+  assert.match(styles, /grid-template-columns:minmax\(0,400px\) 1fr/);
+  assert.match(styles, /\.official-photo\{width:100%;max-width:400px;height:auto;object-fit:cover;align-self:center;justify-self:center\}/);
+  assert.doesNotMatch(styles, /\.official-photo\{height:\d+px\}/);
+});
+
 test('provider comparison discloses affiliation without unsupported proof claims or decorative steps', () => {
   const page = read('app/blog/top-30-overseas-virtual-assistant-companies/page.tsx');
   assert.match(page, /powered by StealthAgents/i);
