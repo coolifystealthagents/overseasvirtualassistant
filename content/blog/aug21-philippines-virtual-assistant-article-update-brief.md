@@ -30,7 +30,7 @@ A useful source note says what the source supports, what it does not support, an
 
 ## The review owner’s job
 
-The owner reviews the thesis, audience fit, sensitive claims, company-specific language, and final recommendation. They should not rely on a score that hides the article. Read enough of the source notes and body to confirm that the conclusion follows from the evidence. If feedback repeats, improve the brief or example rather than asking for the same correction indefinitely. A short decision note—approved, revise, pause, or retire—gives the assistant a reliable signal for the next assignment.
+The owner reviews the thesis, audience fit, sensitive claims, company-specific language, and final recommendation. They should not rely on a score that hides the article. Read enough of the source notes and body to confirm that the conclusion follows from the evidence. If feedback repeats, improve the brief or example rather than asking for the same correction indefinitely. A short decision note that says approved, revise, pause, or retire gives the assistant a reliable signal for the next assignment.
 
 ## Handoff and time-zone design
 

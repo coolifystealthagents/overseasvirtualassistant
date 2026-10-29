@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { sanitizeVisibleContent } from '../../content-sanitizer';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
 import { NightShiftArticle, nightShiftMeta, nightShiftSlug } from '../../rich-blog';
@@ -32,47 +33,47 @@ export function generateStaticParams() { return [...october28BlogPosts.map((p)=>
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const october28Post = findOctober28BlogPost(slug);
+  const october28Post = sanitizeVisibleContent(findOctober28BlogPost(slug));
   if (october28Post) return { title: october28Post.title, description: october28Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: october28Post.title, description: october28Post.description, type: 'article', publishedTime: october28Post.published } };
-  const october27Post = findOctober27BlogPost(slug);
+  const october27Post = sanitizeVisibleContent(findOctober27BlogPost(slug));
   if (october27Post) return { title: october27Post.title, description: october27Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: october27Post.title, description: october27Post.description, type: 'article', publishedTime: october27Post.published } };
-  const october26Post = findOctober26BlogPost(slug);
+  const october26Post = sanitizeVisibleContent(findOctober26BlogPost(slug));
   if (october26Post) return { title: october26Post.title, description: october26Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: october26Post.title, description: october26Post.description, type: 'article', publishedTime: october26Post.published } };
-  const october25Post = findOctober25BlogPost(slug);
+  const october25Post = sanitizeVisibleContent(findOctober25BlogPost(slug));
   if (october25Post) return october25BlogMetadata(october25Post);
-  const october22Post = findOctober22BlogPost(slug);
+  const october22Post = sanitizeVisibleContent(findOctober22BlogPost(slug));
   if (october22Post) return october22BlogMetadata(october22Post);
- const october13Post = findOctober13BlogPost(slug);
+ const october13Post = sanitizeVisibleContent(findOctober13BlogPost(slug));
   if (october13Post) return october13BlogMetadata(october13Post);
-  const october12Post = findOctober12BlogPost(slug);
+  const october12Post = sanitizeVisibleContent(findOctober12BlogPost(slug));
   if (october12Post) return october12BlogMetadata(october12Post);
-  const october8Post = findOctober8BlogPost(slug);
+  const october8Post = sanitizeVisibleContent(findOctober8BlogPost(slug));
   if (october8Post) return october8BlogMetadata(october8Post);
-  const october5Post = findOctober5BlogPost(slug);
+  const october5Post = sanitizeVisibleContent(findOctober5BlogPost(slug));
   if (october5Post) return october5BlogMetadata(october5Post);
-  const october2Post = findOctober2BlogPost(slug);
+  const october2Post = sanitizeVisibleContent(findOctober2BlogPost(slug));
   if (october2Post) return october2BlogMetadata(october2Post);
-  const september28Post = findSeptember28BlogPost(slug);
+  const september28Post = sanitizeVisibleContent(findSeptember28BlogPost(slug));
   if (september28Post) return september28BlogMetadata(september28Post);
-  const september26Post = findSeptember26BlogPost(slug);
+  const september26Post = sanitizeVisibleContent(findSeptember26BlogPost(slug));
   if (september26Post) return september26BlogMetadata(september26Post);
-  const september23Post = findSeptember23BlogPost(slug);
+  const september23Post = sanitizeVisibleContent(findSeptember23BlogPost(slug));
   if (september23Post) return september23BlogMetadata(september23Post);
-  const september22Post = findSeptember22BlogPost(slug);
+  const september22Post = sanitizeVisibleContent(findSeptember22BlogPost(slug));
   if (september22Post) return september22BlogMetadata(september22Post);
-  const september18Post = findSeptember18BlogPost(slug);
+  const september18Post = sanitizeVisibleContent(findSeptember18BlogPost(slug));
   if (september18Post) return september18BlogMetadata(september18Post);
-  const september14Post = findSeptember14BlogPost(slug);
+  const september14Post = sanitizeVisibleContent(findSeptember14BlogPost(slug));
   if (september14Post) return september14BlogMetadata(september14Post);
-  const september10Post = findSeptember10BlogPost(slug);
+  const september10Post = sanitizeVisibleContent(findSeptember10BlogPost(slug));
   if (september10Post) return september10BlogMetadata(september10Post);
-  const september9Post = findSeptember9BlogPost(slug);
+  const september9Post = sanitizeVisibleContent(findSeptember9BlogPost(slug));
   if (september9Post) return september9BlogMetadata(september9Post);
-  const september8Post = findSeptember8BlogPost(slug);
+  const september8Post = sanitizeVisibleContent(findSeptember8BlogPost(slug));
   if (september8Post) return september8BlogMetadata(september8Post);
-  const september7Post = findSeptember7BlogPost(slug);
+  const september7Post = sanitizeVisibleContent(findSeptember7BlogPost(slug));
   if (september7Post) return september7BlogMetadata(september7Post);
-  const september4Post = findSeptember4BlogPost(slug);
+  const september4Post = sanitizeVisibleContent(findSeptember4BlogPost(slug));
   if (september4Post) return september4BlogMetadata(september4Post);
   if (slug === nightShiftSlug) {
     return {
@@ -90,7 +91,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       openGraph: { title: accessHandoffMeta.title, description: accessHandoffMeta.description, url: `${site.url}/blog/${accessHandoffSlug}`, type: 'article' },
     };
   }
-  const post = blogPosts.find((p)=>p.slug===slug);
+  const post = sanitizeVisibleContent(blogPosts.find((p)=>p.slug===slug));
   return {
     title: post?.title || 'Overseas VA guide',
     description: post?.excerpt,
@@ -101,47 +102,47 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
- const october28Post = findOctober28BlogPost(slug);
+ const october28Post = sanitizeVisibleContent(findOctober28BlogPost(slug));
  if (october28Post) return <October25BlogArticle post={october28Post as any}/>;
- const october27Post = findOctober27BlogPost(slug);
+ const october27Post = sanitizeVisibleContent(findOctober27BlogPost(slug));
  if (october27Post) return <October25BlogArticle post={october27Post as any}/>;
- const october26Post = findOctober26BlogPost(slug);
+ const october26Post = sanitizeVisibleContent(findOctober26BlogPost(slug));
  if (october26Post) return <October25BlogArticle post={october26Post as any}/>;
- const october25Post = findOctober25BlogPost(slug);
+ const october25Post = sanitizeVisibleContent(findOctober25BlogPost(slug));
  if (october25Post) return <October25Article post={october25Post}/>;
- const october22Post = findOctober22BlogPost(slug);
+ const october22Post = sanitizeVisibleContent(findOctober22BlogPost(slug));
  if (october22Post) return <October22BlogArticle post={october22Post}/>;
- const october13Post = findOctober13BlogPost(slug);
+ const october13Post = sanitizeVisibleContent(findOctober13BlogPost(slug));
  if (october13Post) return <October13BlogArticle post={october13Post}/>;
- const october12Post = findOctober12BlogPost(slug);
+ const october12Post = sanitizeVisibleContent(findOctober12BlogPost(slug));
  if (october12Post) return <October12BlogArticle post={october12Post}/>;
- const october8Post = findOctober8BlogPost(slug);
+ const october8Post = sanitizeVisibleContent(findOctober8BlogPost(slug));
  if (october8Post) return <October8BlogArticle post={october8Post}/>;
- const october5Post = findOctober5BlogPost(slug);
+ const october5Post = sanitizeVisibleContent(findOctober5BlogPost(slug));
  if (october5Post) return <October5BlogArticle post={october5Post}/>;
- const october2Post = findOctober2BlogPost(slug);
+ const october2Post = sanitizeVisibleContent(findOctober2BlogPost(slug));
  if (october2Post) return <October2BlogArticle post={october2Post}/>;
- const september28Post = findSeptember28BlogPost(slug);
+ const september28Post = sanitizeVisibleContent(findSeptember28BlogPost(slug));
  if (september28Post) return <September28BlogArticle post={september28Post}/>;
- const september26Post = findSeptember26BlogPost(slug);
+ const september26Post = sanitizeVisibleContent(findSeptember26BlogPost(slug));
  if (september26Post) return <September26BlogArticle post={september26Post}/>;
- const september23Post = findSeptember23BlogPost(slug);
+ const september23Post = sanitizeVisibleContent(findSeptember23BlogPost(slug));
  if (september23Post) return <September23BlogArticle post={september23Post}/>;
- const september22Post = findSeptember22BlogPost(slug);
+ const september22Post = sanitizeVisibleContent(findSeptember22BlogPost(slug));
  if (september22Post) return <September22BlogArticle post={september22Post}/>;
- const september18Post = findSeptember18BlogPost(slug);
+ const september18Post = sanitizeVisibleContent(findSeptember18BlogPost(slug));
  if (september18Post) return <September18BlogArticle post={september18Post}/>;
- const september14Post = findSeptember14BlogPost(slug);
+ const september14Post = sanitizeVisibleContent(findSeptember14BlogPost(slug));
  if (september14Post) return <September14BlogArticle post={september14Post}/>;
- const september10Post = findSeptember10BlogPost(slug);
+ const september10Post = sanitizeVisibleContent(findSeptember10BlogPost(slug));
  if (september10Post) return <September10BlogArticle post={september10Post}/>;
- const september9Post = findSeptember9BlogPost(slug);
+ const september9Post = sanitizeVisibleContent(findSeptember9BlogPost(slug));
  if (september9Post) return <September9BlogArticle post={september9Post}/>;
- const september8Post = findSeptember8BlogPost(slug);
+ const september8Post = sanitizeVisibleContent(findSeptember8BlogPost(slug));
  if (september8Post) return <September8BlogArticle post={september8Post}/>;
- const september7Post = findSeptember7BlogPost(slug);
+ const september7Post = sanitizeVisibleContent(findSeptember7BlogPost(slug));
  if (september7Post) return <September7BlogArticle post={september7Post}/>;
- const september4Post = findSeptember4BlogPost(slug);
+ const september4Post = sanitizeVisibleContent(findSeptember4BlogPost(slug));
  if (september4Post) return <September4BlogArticle post={september4Post}/>;
  if (slug === nightShiftSlug) {
    return <><Header/><main className="section"><NightShiftArticle/></main><Footer/></>;
@@ -149,7 +150,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
  if (slug === accessHandoffSlug) {
    return <><Header/><main className="section"><AccessHandoffArticle/></main><Footer/></>;
  }
- const post = blogPosts.find((p)=>p.slug===slug);
+ const post = sanitizeVisibleContent(blogPosts.find((p)=>p.slug===slug));
   if (!post) notFound();
  const articleSchema = {
    '@context': 'https://schema.org',

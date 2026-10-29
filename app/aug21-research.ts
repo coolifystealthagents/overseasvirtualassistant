@@ -56,7 +56,7 @@ export const aug21ResearchPosts: ResearchPost[] = [
     sourceNotes: 'Sources consulted: https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees; https://www.nist.gov/cyberframework; https://www.cisa.gov/secure-our-world. They support expectations, context, and control reasoning; the disagreement model is local editorial analysis.',
     sources: [sources.sba, sources.nist, sources.cisa],
     faqs: [{ question: 'Is disagreement proof that a virtual assistant is underperforming?', answer: 'No. First inspect the claim, source, rule, context, and reviewer reasoning.' }, { question: 'What should be escalated?', answer: 'Escalate disagreements that could alter privacy, security, legal, financial, or public commitment language.' }],
-    relatedResearch: ['/research/review-consistency-in-remote-assistant-teams', '/research/claim-evidence-matrices-for-research-articles'],
+    relatedResearch: ['/research/reviewer-independence-in-remote-content-support', '/research/claim-evidence-matrices-for-research-articles'],
     image: { src: '/images/research-aug21/reviewer-disagreement-in-virtual-assistant-research.png', alt: 'Editorial illustration of two reviewers comparing evidence in a remote research handoff' },
   }),
   post({

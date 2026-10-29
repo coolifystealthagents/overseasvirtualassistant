@@ -147,6 +147,27 @@ export const fleetServices = [
     ]
   },
   {
+    "slug": "customer-support",
+    "title": "Customer Support",
+    "summary": "Customer support assistance for documented queues, approved replies, status follow-up, and clear escalation to the responsible owner.",
+    "tasks": [
+      "triage approved customer-support queues",
+      "prepare replies from current policies and records",
+      "follow up on documented status and missing information",
+      "log exceptions and hand off owner-only decisions"
+    ],
+    "controls": [
+      "Approved reply and escalation rules",
+      "Role-based access to customer records",
+      "Owner review for exceptions and commitments"
+    ],
+    "launch": [
+      "Choose one queue and define eligible request types",
+      "Provide approved replies, source records, and stop rules",
+      "Review the first resolved and escalated cases together"
+    ]
+  },
+  {
     "slug": "podcast-administration",
     "title": "Podcast Administration",
     "summary": "Podcast Administration delivered by Philippines-based specialists with a documented scope, review path, and owner approval rules.",
@@ -230,7 +251,6 @@ import { september7ResearchPosts } from './september-7-research';
 import { september8ResearchPosts } from './september-8-research';
 import { september9ResearchPosts } from './september-9-research';
 import { september10ResearchPosts } from './september-10-research';
-import { september14ResearchPosts } from './september-14-research';
 import { september18ResearchPosts } from './september-18-research';
 import { september22ResearchPosts } from './september-22-research';
 import { september23ResearchPosts } from './september-23-research';
@@ -246,7 +266,7 @@ import { october27ResearchPosts } from './october-27-research';
 import { october26ResearchPosts } from './october-26-research';
 import { october25ResearchPosts } from './october-25-research';
 import { october22ResearchPosts } from './october-22-research';
-export const researchPosts: ResearchPost[] = [...october28ResearchPosts, ...october27ResearchPosts, ...october26ResearchPosts, ...october25ResearchPosts, ...october22ResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september26ResearchPosts, ...september23ResearchPosts, ...september22ResearchPosts, ...september18ResearchPosts, ...september14ResearchPosts, ...september10ResearchPosts, ...september9ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4ResearchPosts, ...september3ResearchPart1, ...september3ResearchPart2, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+export const researchPosts: ResearchPost[] = [...october28ResearchPosts, ...october27ResearchPosts, ...october26ResearchPosts, ...october25ResearchPosts, ...october22ResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september26ResearchPosts, ...september23ResearchPosts, ...september22ResearchPosts, ...september18ResearchPosts, ...september10ResearchPosts, ...september9ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4ResearchPosts, ...september3ResearchPart1, ...september3ResearchPart2, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...aug23ResearchPosts, ...aug21ResearchPosts, ...august18ResearchPosts, ...legacyResearchPosts, citationRecheckResearch, readerDecisionResearch, evidenceLaneCapacityResearch, claimHandoffResearch, articleIdentityResearch].sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
 export const publicTiers = [
   {name:'Executive Assistants', price:'$10/hour', detail:'Philippines-based support for structured executive and administrative work.'},
   {name:'Senior Assistants', price:'$15/hour', detail:'Experienced Philippines-based support for specialized workflows and coordination.'},

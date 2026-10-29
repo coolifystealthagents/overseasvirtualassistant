@@ -11,7 +11,7 @@ const sources = {
 };
 
 type Spec = Omit<ResearchPost, 'internalLinks' | 'cta' | 'image'> & { imageSlug: string; imageAlt: string };
-const make = (s: Spec): ResearchPost => ({ ...s, internalLinks: ['/services/research-and-data-support', '/research'], cta, image: { src: `/images/research-aug23/${s.imageSlug}.png`, alt: s.imageAlt } });
+const make = (s: Spec): ResearchPost => ({ ...s, internalLinks: ['/services/research-and-data-support', '/research'], cta, image: { src: `/images/research-aug23/${s.imageSlug}.svg`, alt: s.imageAlt } });
 
 export const aug23ResearchPosts: ResearchPost[] = [
   make({
@@ -48,7 +48,7 @@ export const aug23ResearchPosts: ResearchPost[] = [
       { heading: 'Limitations and evidence-led conclusion', body: 'No source map can remove judgment from research. Authorities may disagree, pages may change, and a narrow staffing question may have no source that addresses the exact operating situation. The three sources used here do not establish a best number of references, a country-specific labor conclusion, or a business outcome. Source diversity can also become performative if the article includes unrelated authorities merely to look rigorous. The evidence supports a bounded conclusion: diversity adds value when distinct sources contribute distinct roles, their origin and scope are visible, and the final claim remains no broader than the evidence. For a daily research routine, a Philippines-based virtual assistant is well placed to build the map and expose repetition or gaps. An owner or editor must decide whether the evidence supports the article’s public conclusion.', table: [['Evidence-led close','Boundary'],['Different roles','Do not confuse topical variety with proof'],['Independent paths','Trace repeated source chains'],['Claim discipline','Keep geography and certainty within evidence'],['Escalation','Refer conflict or sensitive interpretation to owner']] },
     ],
     sourceNotes: 'Sources consulted: https://www.cisa.gov/secure-our-world; https://www.nist.gov/cyberframework; https://www.fdlp.gov/. They inform control, context, and provenance distinctions; the source-map method is editorial analysis.',
-    sources: [sources.cisa, sources.nist, sources.fdlp], faqs: [{ question: 'Does adding more links make research stronger?', answer: 'Only when the links add relevant, independent evidence or useful context.' }, { question: 'Who checks whether sources are independent?', answer: 'The assistant can trace and label the relationships; an authorized editor decides the final evidence treatment.' }], relatedResearch: ['/research/evidence-age-in-daily-article-research', '/research/source-independence-in-virtual-assistant-research'],
+    sources: [sources.cisa, sources.nist, sources.fdlp], faqs: [{ question: 'Does adding more links make research stronger?', answer: 'Only when the links add relevant, independent evidence or useful context.' }, { question: 'Who checks whether sources are independent?', answer: 'The assistant can trace and label the relationships; an authorized editor decides the final evidence treatment.' }], relatedResearch: ['/research/evidence-age-in-daily-article-research', '/research/source-quality-for-assistant-prepared-research'],
   }),
   make({
     slug: 'when-to-escalate-uncertain-claims-in-va-article-research', published: '2026-08-23', imageSlug: 'uncertain-claim-escalation', imageAlt: 'Remote research handoff pausing an uncertain article claim for owner review',

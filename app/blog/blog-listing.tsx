@@ -7,7 +7,6 @@ import { september7BlogPosts } from "../september-7-blog";
 import { september8BlogPosts } from "../september-8-blog";
 import { september9BlogPosts } from "../september-9-blog";
 import { september10BlogPosts } from "../september-10-blog";
-import { september14BlogPosts } from "../september-14-blog";
 import { september18BlogPosts } from "../september-18-blog";
 import { september22BlogPosts } from "../september-22-blog";
 import { september23BlogPosts } from "../september-23-blog";
@@ -61,9 +60,6 @@ const campaignPosts = [
     (p) => [p.slug, { title: p.title, description: p.description }] as const,
   ),
   ...september18BlogPosts.map(
-    (p) => [p.slug, { title: p.title, description: p.description }] as const,
-  ),
-  ...september14BlogPosts.map(
     (p) => [p.slug, { title: p.title, description: p.description }] as const,
   ),
   ...september10BlogPosts.map(

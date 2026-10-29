@@ -4,7 +4,6 @@ import { september7BlogPosts } from "../september-7-blog";
 import { september8BlogPosts } from "../september-8-blog";
 import { september9BlogPosts } from "../september-9-blog";
 import { september10BlogPosts } from "../september-10-blog";
-import { september14BlogPosts } from "../september-14-blog";
 import { september18BlogPosts } from "../september-18-blog";
 import { september22BlogPosts } from "../september-22-blog";
 import { september23BlogPosts } from "../september-23-blog";
@@ -15,6 +14,7 @@ import { october5BlogPosts } from "../october-5-blog";
 import { october8BlogPosts } from "../october-8-blog";
 import { october12BlogPosts } from "../october-12-blog";
 import { october13BlogPosts } from "../october-13-blog";
+import { october28BlogPosts } from "../october-28-blog";
 import { october27BlogPosts } from "../october-27-blog";
 import { october26BlogPosts } from "../october-26-blog";
 import { october25BlogPosts } from "../october-25-blog";
@@ -63,6 +63,7 @@ export async function GET() {
     .filter((n) => n > 1)
     .map((n) => `/blog/page/${n}`);
   const urls = [
+    ...october28BlogPosts.map((p) => `/blog/${p.slug}`),
     ...october27BlogPosts.map((p) => `/blog/${p.slug}`),
     ...october26BlogPosts.map((p) => `/blog/${p.slug}`),
     ...october25BlogPosts.map((p) => `/blog/${p.slug}`),
@@ -77,7 +78,6 @@ export async function GET() {
     ...september23BlogPosts.map((p) => "/blog/" + p.slug),
     ...september22BlogPosts.map((p) => "/blog/" + p.slug),
     ...september18BlogPosts.map((p) => "/blog/" + p.slug),
-    ...september14BlogPosts.map((p) => "/blog/" + p.slug),
     ...september10BlogPosts.map((p) => "/blog/" + p.slug),
     ...september9BlogPosts.map((p) => "/blog/" + p.slug),
     ...september8BlogPosts.map((p) => "/blog/" + p.slug),
@@ -92,7 +92,7 @@ export async function GET() {
     ...fleetServices.map((s) => `/services/${s.slug}`),
     ...blogPosts.map((p) => `/blog/${p.slug}`),
     ...blogPages,
-    ...researchPosts.map((p) => `/research/${p.slug}`),
+    ...researchPosts.filter((p) => !p.slug.startsWith("sep14-")).map((p) => `/research/${p.slug}`),
     ...alternatives.map((p) => `/alternatives/${p.slug}`),
   ];
   const uniqueUrls = [...new Set(urls)];
