@@ -1,6 +1,6 @@
 # Overseas Virtual Assistant topical-authority link ledger
 
-Updated: 2026-10-09
+Updated: 2026-11-01
 
 This is an internal execution map. It only uses routes that already exist in this repository. Each row names one buyer question, the closest Philippines-based service page, and one supporting research page that can earn a contextual handoff after a page-level review. A row is not permission to add a generic card or repeat the same link on every article.
 
@@ -15,7 +15,7 @@ This is an internal execution map. It only uses routes that already exist in thi
 | Legal administrative assistance | `/research/legal-efiling-packet-preparation-boundary-study` | Can a legal team prepare a filing packet from approved records without handing over filing authority? | The direct e-filing study already sends this question to `/services/legal-administrative-assistance` and keeps legal advice, event choice, redaction, deadlines, signatures, payment, and final filing with authorized legal owners. The older data-minimization note remains a general privacy input, not a reason to add a legal-service CTA. | Delivered; do not duplicate. |
 | Podcast administration | `/research/handoff-context-completeness-study` | What must be in a handoff so an editor or host can continue without rebuilding the story? | Check the article’s real examples before considering `/services/podcast-administration`; skip it if the article does not address production administration. | Candidate, evidence-fit review required. |
 | Recruiting coordination | `/research/role-scope-evidence-for-virtual-assistant-hiring` | What makes a recruiting-support role clear enough to review without handing selection decisions to the assistant? | Audit one handoff to `/services/recruiting-coordination` that preserves hiring and selection authority with the owner. | Candidate. |
-| Research and data support | `/research/source-quality-for-assistant-prepared-research` | What lets an owner check a research brief before using it in a decision? | Add or confirm a route-local handoff to `/services/research-and-data-support`; do not treat a source list as a guarantee. | Candidate. |
+| Research and data support | `/research/source-quality-for-assistant-prepared-research` | What lets an owner check a research brief before using it in a decision? | The research route now sends readers to `/services/research-and-data-support` through a route-local planning handoff. The owner decides how to use the brief and resolves claims, scope, and decisions that the evidence does not settle. | Delivered; do not duplicate. |
 
 ## Delivery status — 2026-10-09
 
@@ -44,6 +44,12 @@ This is an internal execution map. It only uses routes that already exist in thi
 - Fresh production artifacts show `/research/source-quality-for-assistant-prepared-research` has its expected H1 and self-canonical, appears in the sitemap, and contains zero `/services/research-and-data-support` anchors inside route-local `<main>`. The existing Research and Data Support destination also has its expected H1, self-canonical, and sitemap location.
 - This is a verified-absent candidate, not a rendered handoff. The research question concerns checking source provenance, publication date, scope, and unresolved limits before an owner uses a brief. A later page-level review may add one contextual link only if it preserves the owner’s decision authority and refreshes the source route’s real modified date.
 - This entry is planning metadata only. It changes no rendered page, date, schema, sitemap, deployment, or public verification state.
+
+## Delivery status — 2026-11-01
+
+- Reconciled the Research and Data Support row against the current typed record and fresh production artifacts. `/research/source-quality-for-assistant-prepared-research` has one `/services/research-and-data-support` anchor inside route-local `<main>` with the visible label "Plan research and data support." The route tells readers to use an agreed question, source record, and review handoff; the accountable owner retains claim, scope, and decision calls.
+- The source and destination artifacts have their expected H1s and self-canonical URLs. The exact source canonical appears in the generated sitemap, which intentionally has no `<lastmod>`.
+- This is a ledger correction only. It adds no CTA and changes no rendered page, date, schema, sitemap, deployment, or public verification state.
 
 ## Execution rules
 
