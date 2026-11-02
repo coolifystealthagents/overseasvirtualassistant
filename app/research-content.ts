@@ -79,7 +79,10 @@ const related = (index: number) => [
   `/research/${topicSpecs[(index + 3) % topicSpecs.length][0]}`,
 ];
 
-const august11ResearchSpecs = [
+const august11ResearchSpecs: Array<{
+  slug: string; published: string; updated?: string; title: string; question: string; finding: string; implication: string;
+  source: { name: string; url: string; note: string }; image: string; serviceHandoff?: ResearchPost['serviceHandoff'];
+}> = [
   {
     slug: 'role-scope-evidence-for-virtual-assistant-hiring',
     published: '2026-08-12',
@@ -89,6 +92,12 @@ const august11ResearchSpecs = [
     implication: 'For a Philippines-based assistant, the useful research artifact is a bounded role brief that separates recurring responsibilities from owner-only decisions and identifies the examples a candidate should discuss.',
     source: { name: 'U.S. Small Business Administration: Hire and manage employees', url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees', note: 'employment planning, expectations, and management responsibilities' },
     image: '/images/thumbnails/generated/role-design-for-philippines-remote-staffing.webp',
+    updated: '2026-11-02',
+    serviceHandoff: {
+      href: '/services/recruiting-coordination',
+      label: 'Plan recruiting coordination',
+      copy: 'Use this service when your team needs a Philippines-based coordinator to prepare role briefs, candidate records, and interview handoffs. Your hiring owner keeps screening standards, candidate choice, offers, and every employment decision.',
+    },
   },
   {
     slug: 'data-minimization-for-delegated-assistant-work',
@@ -188,7 +197,7 @@ const makeAugust11ResearchPost = (spec: typeof august11ResearchSpecs[number], in
   title: `Research note: ${spec.title}`,
   excerpt: `${spec.question} Evidence-led findings for businesses planning Philippines-based virtual assistant support.`,
   published: spec.published,
-  updated: 'updated' in spec ? spec.updated : undefined,
+  updated: spec.updated,
   methodology: `This article examines one decision question through the cited authoritative source and separates sourced guidance from the editorial interpretation. It does not claim a workforce statistic; the review criteria are proposed for a bounded staffing study.`,
   headlineStat: { value: '1', label: 'decision question kept in scope for this research note', source: 'Editorial scope statement for this article' },
   keyStats: [{ value: '1', label: 'authoritative source examined' }, { value: '4', label: 'evidence fields to review' }, { value: '0', label: 'unsupported workforce claims' }],
@@ -216,7 +225,7 @@ const makeAugust11ResearchPost = (spec: typeof august11ResearchSpecs[number], in
     href: '/services/research-and-data-support',
     label: 'Plan research and data support',
     copy: 'Use this service to set up a Philippines-based research lane with an agreed question, source record, and review handoff. The accountable owner decides how the brief is used and resolves any claim, scope, or decision that the evidence does not settle.'
-  } : undefined,
+  } : spec.serviceHandoff,
   cta: 'Want this research translated into a scoped staffing role? Share the work, tools, schedule, and owner rules with our staffing team.',
 });
 
