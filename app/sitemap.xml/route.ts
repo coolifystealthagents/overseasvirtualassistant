@@ -16,6 +16,7 @@ import { october8BlogPosts } from "../october-8-blog";
 import { october12BlogPosts } from "../october-12-blog";
 import { october13BlogPosts } from "../october-13-blog";
 import { october27BlogPosts } from "../october-27-blog";
+import { november2BlogPosts } from "../november-2-blog";
 import { october26BlogPosts } from "../october-26-blog";
 import { october25BlogPosts } from "../october-25-blog";
 import { october22BlogPosts } from "../october-22-blog";
@@ -63,6 +64,7 @@ export async function GET() {
     .filter((n) => n > 1)
     .map((n) => `/blog/page/${n}`);
   const urls = [
+    ...november2BlogPosts.map((p) => `/blog/${p.slug}`),
     ...october27BlogPosts.map((p) => `/blog/${p.slug}`),
     ...october26BlogPosts.map((p) => `/blog/${p.slug}`),
     ...october25BlogPosts.map((p) => `/blog/${p.slug}`),

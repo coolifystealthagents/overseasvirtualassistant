@@ -20,6 +20,7 @@ import { findOctober8BlogPost, October8BlogArticle, october8BlogMetadata, octobe
 import { findOctober12BlogPost, October12BlogArticle, october12BlogMetadata, october12BlogPosts } from '../../october-12-blog';
 import { findOctober13BlogPost, October13BlogArticle, october13BlogMetadata, october13BlogPosts } from '../../october-13-blog';
 import { findOctober28BlogPost, october28BlogPosts } from '../../october-28-blog';
+import { findNovember2BlogPost, november2BlogPosts } from '../../november-2-blog';
 import { findOctober27BlogPost, october27BlogPosts } from '../../october-27-blog';
 import { findOctober26BlogPost, october26BlogPosts } from '../../october-26-blog';
 import { October25BlogArticle } from '../../october-25-blog';
@@ -28,10 +29,12 @@ import { findOctober22BlogPost, October22BlogArticle, october22BlogMetadata, oct
 
 const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 
-export function generateStaticParams() { return [...october28BlogPosts.map((p)=>({ slug: p.slug })), ...october27BlogPosts.map((p)=>({ slug: p.slug })), ...october26BlogPosts.map((p)=>({ slug: p.slug })), ...october25BlogPosts.map((p)=>({ slug: p.slug })), ...october22BlogPosts.map((p)=>({ slug: p.slug })), ...october13BlogPosts.map((p)=>({ slug: p.slug })), ...october12BlogPosts.map((p)=>({ slug: p.slug })), ...october8BlogPosts.map((p)=>({ slug: p.slug })), ...october5BlogPosts.map((p)=>({ slug: p.slug })), ...october2BlogPosts.map((p)=>({ slug: p.slug })), ...september28BlogPosts.map((p)=>({ slug: p.slug })), ...september26BlogPosts.map((p)=>({ slug: p.slug })), ...september22BlogPosts.map((p)=>({ slug: p.slug })), ...september18BlogPosts.map((p)=>({ slug: p.slug })), ...september14BlogPosts.map((p)=>({ slug: p.slug })), ...september10BlogPosts.map((p)=>({ slug: p.slug })), ...september9BlogPosts.map((p)=>({ slug: p.slug })), ...september8BlogPosts.map((p)=>({ slug: p.slug })), ...september7BlogPosts.map((p)=>({ slug: p.slug })), ...september4BlogPosts.map((p)=>({ slug: p.slug })), ...blogPosts.map((p)=>({ slug: p.slug }))]; }
+export function generateStaticParams() { return [...november2BlogPosts.map((p)=>({ slug: p.slug })), ...october28BlogPosts.map((p)=>({ slug: p.slug })), ...october27BlogPosts.map((p)=>({ slug: p.slug })), ...october26BlogPosts.map((p)=>({ slug: p.slug })), ...october25BlogPosts.map((p)=>({ slug: p.slug })), ...october22BlogPosts.map((p)=>({ slug: p.slug })), ...october13BlogPosts.map((p)=>({ slug: p.slug })), ...october12BlogPosts.map((p)=>({ slug: p.slug })), ...october8BlogPosts.map((p)=>({ slug: p.slug })), ...october5BlogPosts.map((p)=>({ slug: p.slug })), ...october2BlogPosts.map((p)=>({ slug: p.slug })), ...september28BlogPosts.map((p)=>({ slug: p.slug })), ...september26BlogPosts.map((p)=>({ slug: p.slug })), ...september22BlogPosts.map((p)=>({ slug: p.slug })), ...september18BlogPosts.map((p)=>({ slug: p.slug })), ...september14BlogPosts.map((p)=>({ slug: p.slug })), ...september10BlogPosts.map((p)=>({ slug: p.slug })), ...september9BlogPosts.map((p)=>({ slug: p.slug })), ...september8BlogPosts.map((p)=>({ slug: p.slug })), ...september7BlogPosts.map((p)=>({ slug: p.slug })), ...september4BlogPosts.map((p)=>({ slug: p.slug })), ...blogPosts.map((p)=>({ slug: p.slug }))]; }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const november2Post = findNovember2BlogPost(slug);
+  if (november2Post) return { title: november2Post.title, description: november2Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: november2Post.title, description: november2Post.description, type: 'article', publishedTime: november2Post.published, images: [{ url: `https://overseasvirtualassistant.com${november2Post.image.src}`, alt: november2Post.image.alt }] } };
   const october28Post = findOctober28BlogPost(slug);
   if (october28Post) return { title: october28Post.title, description: october28Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: october28Post.title, description: october28Post.description, type: 'article', publishedTime: october28Post.published } };
   const october27Post = findOctober27BlogPost(slug);
@@ -101,6 +104,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ const november2Post = findNovember2BlogPost(slug);
+ if (november2Post) return <October25BlogArticle post={november2Post as any}/>;
  const october28Post = findOctober28BlogPost(slug);
  if (october28Post) return <October25BlogArticle post={october28Post as any}/>;
  const october27Post = findOctober27BlogPost(slug);
