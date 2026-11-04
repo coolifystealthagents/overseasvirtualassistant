@@ -37,8 +37,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const november4Post = findNovember4BlogPost(slug);
   if (november4Post) return { title: november4Post.title, description: november4Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: november4Post.title, description: november4Post.description, type: 'article', publishedTime: november4Post.published, images: [{ url: `https://overseasvirtualassistant.com${november4Post.image.src}`, alt: november4Post.image.alt }] } };
-  const november4Post = findNovember4BlogPost(slug);
- if (november4Post) return <October25BlogArticle post={november4Post as any}/>;
  const november3Post = findNovember3BlogPost(slug);
   if (november3Post) return { title: november3Post.title, description: november3Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: november3Post.title, description: november3Post.description, type: 'article', publishedTime: november3Post.published, images: [{ url: `https://overseasvirtualassistant.com${november3Post.image.src}`, alt: november3Post.image.alt }] } };
   const november2Post = findNovember2BlogPost(slug);
@@ -112,6 +110,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ const november4Post = findNovember4BlogPost(slug);
+ if (november4Post) return <October25BlogArticle post={november4Post as any}/>;
  const november3Post = findNovember3BlogPost(slug);
  if (november3Post) return <October25BlogArticle post={november3Post as any}/>;
  const november2Post = findNovember2BlogPost(slug);
