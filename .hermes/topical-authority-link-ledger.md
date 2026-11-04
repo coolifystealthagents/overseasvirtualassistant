@@ -1,6 +1,6 @@
 # Overseas Virtual Assistant topical-authority link ledger
 
-Updated: 2026-11-01
+Updated: 2026-11-04
 
 This is an internal execution map. It only uses routes that already exist in this repository. Each row names one buyer question, the closest Philippines-based service page, and one supporting research page that can earn a contextual handoff after a page-level review. A row is not permission to add a generic card or repeat the same link on every article.
 
@@ -14,7 +14,7 @@ This is an internal execution map. It only uses routes that already exist in thi
 | Medical administrative assistance | `/research/medical-scheduling-minimum-necessary-data-study` | What is the smallest approved scheduling record an assistant needs before clinical, privacy, or disclosure questions return to the practice? | The route already sends this question to `/services/medical-administrative-assistance` and keeps triage, medical advice, urgency, identity exceptions, disclosures, consent interpretation, and policy exceptions with qualified owners. | Delivered; do not duplicate. |
 | Legal administrative assistance | `/research/legal-efiling-packet-preparation-boundary-study` | Can a legal team prepare a filing packet from approved records without handing over filing authority? | The direct e-filing study already sends this question to `/services/legal-administrative-assistance` and keeps legal advice, event choice, redaction, deadlines, signatures, payment, and final filing with authorized legal owners. The older data-minimization note remains a general privacy input, not a reason to add a legal-service CTA. | Delivered; do not duplicate. |
 | Podcast administration | `/research/handoff-context-completeness-study` | What must be in a handoff so an editor or host can continue without rebuilding the story? | Check the article’s real examples before considering `/services/podcast-administration`; skip it if the article does not address production administration. | Candidate, evidence-fit review required. |
-| Recruiting coordination | `/research/role-scope-evidence-for-virtual-assistant-hiring` | What makes a recruiting-support role clear enough to review without handing selection decisions to the assistant? | Audit one handoff to `/services/recruiting-coordination` that preserves hiring and selection authority with the owner. | Candidate. |
+| Recruiting coordination | `/research/role-scope-evidence-for-virtual-assistant-hiring` | What makes a recruiting-support role clear enough to review without handing selection decisions to the assistant? | The research route sends readers to `/services/recruiting-coordination` to plan role briefs, candidate records, and interview handoffs. The hiring owner keeps screening standards, candidate choice, offers, and every employment decision. | Delivered; do not duplicate. |
 | Research and data support | `/research/source-quality-for-assistant-prepared-research` | What lets an owner check a research brief before using it in a decision? | The research route now sends readers to `/services/research-and-data-support` through a route-local planning handoff. The owner decides how to use the brief and resolves claims, scope, and decisions that the evidence does not settle. | Delivered; do not duplicate. |
 
 ## Delivery status — 2026-10-09
@@ -50,6 +50,12 @@ This is an internal execution map. It only uses routes that already exist in thi
 - Reconciled the Research and Data Support row against the current typed record and fresh production artifacts. `/research/source-quality-for-assistant-prepared-research` has one `/services/research-and-data-support` anchor inside route-local `<main>` with the visible label "Plan research and data support." The route tells readers to use an agreed question, source record, and review handoff; the accountable owner retains claim, scope, and decision calls.
 - The source and destination artifacts have their expected H1s and self-canonical URLs. The exact source canonical appears in the generated sitemap, which intentionally has no `<lastmod>`.
 - This is a ledger correction only. It adds no CTA and changes no rendered page, date, schema, sitemap, deployment, or public verification state.
+
+## Delivery status — 2026-11-04
+
+- Reconciled the recruiting-coordination candidate against the inherited rendered-source commit `4cc0541888765833bc437c2c67300d78ba718d2a`, which is now an ancestor of `main`.
+- Fresh production artifacts show `/research/role-scope-evidence-for-virtual-assistant-hiring` has one `/services/recruiting-coordination` link inside route-local `<main>`, an expected H1, and a self-canonical URL. The service artifact has its expected H1 and self-canonical URL; both exact canonicals appear in the generated sitemap, which intentionally has no `<lastmod>` values.
+- This correction is planning metadata only. It does not alter a rendered route or establish public deployment proof for the earlier source commit.
 
 ## Execution rules
 
