@@ -319,3 +319,9 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
  .oct22-mobile-toc[open] nav{position:absolute;top:100%;left:-1px;right:-1px;max-height:42vh;overflow:auto;padding:10px 16px 14px;background:#fff;display:grid;gap:8px}
  .oct22-mobile-toc nav a{font-size:14px;text-decoration:none}
 }
+
+/* 2026-11-05 evidence tables in research articles */
+.oct22-body table{width:100%;border-collapse:collapse;margin:16px 0 24px}
+.oct22-body th,.oct22-body td{border:1px solid #d8e0dc;padding:9px 11px;text-align:left;font-size:14px;line-height:1.5}
+.oct22-body th{background:#f2f6f4;font-weight:800}
+.oct22-body h2{margin-top:1.9em}
