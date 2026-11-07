@@ -22,10 +22,10 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
       <article className="section article-shell">
         <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.published, dateModified: modified, citation: post.sources.map(s => s.url), mainEntityOfPage: `https://overseasvirtualassistant.com/research/${post.slug}` }} />
         <p className="eyebrow">Philippines staffing research · Published <time dateTime={post.published}>{formatPublicDate(post.published)}</time>{modified !== post.published && <> · Updated: <time dateTime={modified}>{formatPublicDate(modified)}</time></>}</p>
+        <details className="oct22-mobile-toc"><summary>On this page</summary><nav>{[{id:"methodology",label:"Methodology"},...post.sections.map(section=>({id:section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""),label:section.heading})),{id:"sources",label:"Sources"},{id:"faqs",label:"FAQs"}].map(item=><a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav></details>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
         <img src={post.image.src} alt={post.image.alt} className="article-image" />
-        <details className="oct22-mobile-toc"><summary>On this page</summary><nav>{[{id:"methodology",label:"Methodology"},...post.sections.map(section=>({id:section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""),label:section.heading})),{id:"sources",label:"Sources"},{id:"faqs",label:"FAQs"}].map(item=><a key={item.id} href={`#${item.id}`}>{item.label}</a>)}</nav></details>
         <div className="oct22-layout"><div className="oct22-body">
         <h2 id="methodology">Methodology</h2><p>{post.methodology}</p>
         <aside className="fleet-card"><b>{post.headlineStat.value}</b><p>{post.headlineStat.label}</p><small>{post.headlineStat.source}</small></aside>
