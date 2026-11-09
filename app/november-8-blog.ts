@@ -79,7 +79,7 @@ export const november8BlogPosts = [
     }
   },
   {
-    "slug": "overseasvirtualassistant-plan-interview-scheduling-support",
+    "slug": "overseasvirtualassistant-plan-interview-scheduling-support-for-a-recruiter",
     "title": "Plan interview scheduling support for a recruiter",
     "description": "A scheduling lane for a Philippines-based recruiting assistant, with availability rules, calendar protection, reschedule handling, and candidate communication standards.",
     "source": "https://www.bls.gov/ooh/business-and-financial/human-resources-specialists.htm",
@@ -153,7 +153,7 @@ export const november8BlogPosts = [
     "published": "2026-11-08",
     "service": "/services",
     "image": {
-      "src": "/images/thumbnails/generated/daily08/overseasvirtualassistant-plan-interview-scheduling-support.png",
+      "src": "/images/thumbnails/generated/daily08/overseasvirtualassistant-plan-interview-scheduling-support-for-a-recruiter.png",
       "alt": "Plan interview scheduling support for a recruiter"
     }
   },
