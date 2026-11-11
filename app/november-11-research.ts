@@ -118,6 +118,18 @@ export const november11ResearchPosts: ResearchPost[] = [
         ]
       },
       {
+        "heading": "Sampling access between review cycles",
+        "body": "A quarterly review can miss a change that happened last week, so sample a few mailboxes between cycles. Choose the sample from change events rather than convenience: a new assistant, a client contact who left, or a role that gained send permission. Three mailboxes are enough for a small team, provided the reason for each selection is recorded. The sample is not a substitute for the full review, and the summary should say so. Its purpose is to catch drift early and to test whether the joiner and leaver records are working."
+      },
+      {
+        "heading": "What the sample should collect",
+        "body": "For each sampled mailbox, pull a current permission export and compare it with the last approved list. Check the delegate list, send-on-behalf settings, forwarding rules, and any client portal account that the team knows about. Ask the person who manages the mailbox to confirm the entries that changed since the last review. Save the export and the confirmation together, with the date and the reviewer's name. A sample that finds no difference still produces useful evidence that the control is operating."
+      },
+      {
+        "heading": "Following up on a sample finding",
+        "body": "Record the sample in the same log as the quarterly review, using a separate row so the two activities do not blur. If the sample finds an unexplained entry, treat it as a full finding and escalate it through the normal removal path. Do not wait for the next quarter to correct access that no longer has a business reason. At the next quarterly review, check whether the sampled mailbox received a proper decision. This follow-through turns a quick check into a feedback loop rather than a one-time inspection."
+      },
+      {
         "heading": "Limits of the record",
         "body": "The review cannot prove that no unauthorized reading occurred between exports. It also cannot show whether a client understood who could see their messages. Those limits should appear in the summary rather than being implied away. Report the mailbox, the export date, the decisions taken, and the known gaps. Avoid language that suggests the mailbox is secure or that every access path has been found. A modest, well-bounded claim gives the owner something they can act on and gives the next reviewer a fair starting point.",
         "table": [
@@ -342,6 +354,18 @@ export const november11ResearchPosts: ResearchPost[] = [
             "Reason, approver, and any follow-up condition"
           ]
         ]
+      },
+      {
+        "heading": "Separating vendor delay from internal delay",
+        "body": "Aging becomes useful when the queue separates vendor delay from internal delay. A receipt may be missing because the vendor has not replied, because the assistant has not sent the request, or because the approver has not reviewed the document that arrived. Record the owner of the next action beside the age, not only the number of days. An item that is old because the team never asked is a different problem from one that is old because the vendor is unresponsive, and the repair is different too."
+      },
+      {
+        "heading": "Setting chase thresholds that fit the cycle",
+        "body": "Set thresholds that match the reporting cycle. A first request should go out within one working day of the missing-document finding, a second within three, and an escalation within five unless the policy says otherwise. Use the same thresholds for every vendor so the queue can be sorted without interpretation. When a vendor has a documented slow process, record the expected response window and exclude it from the standard aging view. The exception should be visible, not silent."
+      },
+      {
+        "heading": "Reviewing the oldest open items",
+        "body": "Review the oldest items first and ask why each one is still open. If the answer is that nobody owns the next step, assign it before the meeting ends. If the answer is that the vendor cannot provide the document, move the item to a documented exception with the approver's decision. Track the count of items that cross each threshold, not only the total open count. A stable total can hide a growing tail of items that have been open for weeks."
       },
       {
         "heading": "Limits of the record",
@@ -570,6 +594,18 @@ export const november11ResearchPosts: ResearchPost[] = [
         ]
       },
       {
+        "heading": "Finding corrections that were never logged",
+        "body": "A correction log only describes what someone remembered to record, so it undercounts the errors that were fixed quietly. Sample delivered work each month and compare it with the version the client received. Look for small changes that were made after delivery without a log entry, such as a corrected name, a resend, or a revised attachment. These cases are easy to miss because the client may not have complained. The sample estimates how much the log is missing without pretending to measure every error."
+      },
+      {
+        "heading": "Choosing a sample of delivered work",
+        "body": "Choose the sample from the workflows that produce the most client-visible output, not from the entries already in the log. Pull five or ten recent deliverables and ask the assistant who sent them whether anything changed afterward. Check the sent folder for resends and the client thread for acknowledgments that mention a correction. If the team cannot answer from memory, the version history is the next place to look. Keep the sample small enough to finish in an hour. A repeatable sample is more useful than an exhaustive review that happens once."
+      },
+      {
+        "heading": "Recording a correction found by sampling",
+        "body": "Add the missing cases to the log with the date they were found and a note that they came from the sample. Do not backdate the entry as if it had been recorded at the time of the error. Update the log fields if the sample shows that a type of correction has no place to go. At the next review, compare the sampled count with the logged count to see whether reporting is improving. The gap between the two is the measure that matters, not the raw number of entries."
+      },
+      {
         "heading": "Limits of the record",
         "body": "The log cannot show the errors that were never reported or the corrections that were made quietly before the client noticed. It also cannot show whether the client lost confidence, because that judgment is not visible in the entry. Report the period, the client scope, and the known gaps beside the pattern. Avoid language that implies the log is a complete measure of quality. A bounded claim about visible corrections is more useful than a broad claim about reliability. The gaps tell the owner where a second evidence source, such as a review sample, is needed.",
         "table": [
@@ -796,6 +832,18 @@ export const november11ResearchPosts: ResearchPost[] = [
         ]
       },
       {
+        "heading": "Observing the first live queue",
+        "body": "Checklist completion is not the same as readiness, so observe the assistant during the first live queue. Watch one request from arrival to close and note where the assistant pauses, opens a second window, or asks for help. Compare those moments with the checklist step that was supposed to cover them. The observation should happen before the first solo shift or within the first two days. It gives the reviewer evidence about the checklist rather than an impression of the person. A short observation is enough to reveal a missing link that a completed checklist can hide."
+      },
+      {
+        "heading": "What to measure during the observation",
+        "body": "Record how long the assistant takes to find the right system, draft a reply, and decide whether to escalate. These times are not performance scores; they show which part of the handoff is still unclear. If the assistant can complete the task but cannot explain why, the decision rule is missing. If the assistant explains the rule but cannot find the record, the system map is incomplete. Use the observation to choose one checklist change for the next request. Write the observation beside the checklist item, not in a separate performance file."
+      },
+      {
+        "heading": "Turning the observation into a checklist change",
+        "body": "Keep the observation short and tell the assistant what will be watched before it begins. The goal is to improve the document, not to surprise the person or create a test. After the request closes, ask the assistant which step they would rewrite and why. Add that answer to the checklist review at the end of the week. Record the observation date and the change that followed, so the next reviewer can see whether the checklist is being maintained rather than merely completed. The record belongs with the onboarding notes, where the next handoff can find it."
+      },
+      {
         "heading": "Limits of the record",
         "body": "The record cannot show how much the assistant learned from a shadow session or whether the reviewer was generous. It also cannot show what happened in conversations that were never documented. Report the lane, the week, and the known gaps beside the result. Avoid language that treats checklist adherence as proof of competence. A narrow claim about documented steps is more defensible than a broad claim about readiness. The gaps also tell the owner where a short observation sample would strengthen the evidence.",
         "table": [
@@ -1020,6 +1068,18 @@ export const november11ResearchPosts: ResearchPost[] = [
             "Identify the most affected queue and add a backup note"
           ]
         ]
+      },
+      {
+        "heading": "Rehearsing the reassignment before leave",
+        "body": "A reassignment plan is more credible after a rehearsal. Before a planned leave, ask the backup owner to run one shift using only the written queue notes. The assistant on leave should be reachable for questions but should not take over the work. This test shows whether the notes name the next action, the owner, and the date clearly enough for someone else to act. It also reveals access problems while there is still time to fix them. A plan that has never been exercised is only an intention."
+      },
+      {
+        "heading": "Running the rehearsal shift",
+        "body": "During the rehearsal, the backup owner works from the note alone and records every question that the note cannot answer. The reviewer watches for tasks that were completed from memory rather than from the queue. Check that the backup can open the client records, send from the shared address, and find the escalation contact. At the end of the shift, compare the work completed with the plan. Ask the backup to write down the first three decisions they made without help. The difference is the gap that the real leave would have exposed."
+      },
+      {
+        "heading": "Fixing gaps before the leave begins",
+        "body": "Record the rehearsal date, the tasks covered, and the gaps that were fixed before the leave began. Update the queue notes with the missing steps and confirm that the backup owner can find the new version. If a gap requires access that cannot be granted in time, name the person who will cover that task another way. Repeat the rehearsal for any leave longer than a few days. Keep the record with the leave request so the next absence starts from a tested plan. The evidence of preparation is stronger than a promise to stay reachable."
       },
       {
         "heading": "Limits of the record",

@@ -41,7 +41,8 @@ export const november11BlogPosts = [
         "heading": "Set the review and escalation path",
         "paragraphs": [
           "Name the person the assistant contacts when a request falls outside the checklist. Give a primary and a backup, along with the hours when each is available. State what information the assistant should include in an escalation, such as the client, the request, the step completed, and the decision needed. A clear escalation note lets the owner respond once instead of asking three follow-up questions.",
-          "Schedule a short review at the end of week one, week two, and week four. Use the review to test the checklist against actual work, confirm access is still correct, and agree on the next task to hand over. Close the handoff when the assistant can complete the core routine without prompting. Keep the checklist as a living reference and update it whenever the client's pattern changes."
+          "Schedule a short review at the end of week one, week two, and week four. Use the review to test the checklist against actual work, confirm access is still correct, and agree on the next task to hand over. Close the handoff when the assistant can complete the core routine without prompting. Keep the checklist as a living reference and update it whenever the client's pattern changes.",
+          "Test the checklist with one real request before the first solo shift. Ask the assistant to walk through the document, name the system they would open, and state the decision rule they would apply, then note every pause as a gap. If the assistant needs the owner to interpret a step, rewrite that step instead of explaining it again. A checklist that only works when the owner is available has not been handed off, and the first busy day will expose that weakness quickly."
         ]
       }
     ],
@@ -92,7 +93,8 @@ export const november11BlogPosts = [
         "heading": "Compare access to current duties",
         "paragraphs": [
           "For each entry, write the task that justifies the access and the client or team it serves. A scheduling assistant may need calendar access but not the finance folder, and a document assistant may need read access but not send permission. If the justification is a project that ended, mark the access for removal. If nobody can explain the access, treat it as unowned and escalate rather than guessing.",
-          "Review the combinations as well as the single permissions. Read access plus send permission plus mailbox rule control is a powerful set, even when each item looks reasonable on its own. Flag any account that can change its own permissions or delete another delegate. The reviewer should be able to see the highest-risk combination without opening four separate screens."
+          "Review the combinations as well as the single permissions. Read access plus send permission plus mailbox rule control is a powerful set, even when each item looks reasonable on its own. Flag any account that can change its own permissions or delete another delegate. The reviewer should be able to see the highest-risk combination without opening four separate screens.",
+          "Keep a separate line for access the client controls. Many client portals grant their own user accounts, and removing a delegate from the mailbox does not remove that portal user. Ask the client to confirm which accounts they created for the assistant and whether those should stay active. Record the client contact who made the change and the date. Without that step, the review can show a clean mailbox while an old portal login still reaches client data, and the next review should recheck both sides rather than assuming the mailbox record is complete."
         ]
       },
       {
@@ -171,7 +173,8 @@ export const november11BlogPosts = [
         "heading": "Set the first and second request dates",
         "paragraphs": [
           "Send the first request as soon as the report is reviewed, not at the end of the month. Include the specific item, the amount, the date, and a link to the place where the document should be uploaded. Ask for one document rather than a general request for receipts, because a specific ask is easier to answer. Record the send time in the queue.",
-          "Set the second request three working days later and copy the approver only when the item is material or the deadline is close. A third request should offer an alternative, such as a vendor copy or a written explanation. Do not keep sending identical reminders without changing the route. The queue should show that the team tried distinct steps before escalating."
+          "Set the second request three working days later and copy the approver only when the item is material or the deadline is close. A third request should offer an alternative, such as a vendor copy or a written explanation. Do not keep sending identical reminders without changing the route. The queue should show that the team tried distinct steps before escalating.",
+          "Group requests by vendor when several receipts are missing from the same source. One clear message listing the dates, amounts, and reference numbers is easier for a busy vendor to answer than five separate reminders. Keep each item as its own row in the queue so the reply can be matched line by line. If the vendor sends one document for several charges, split the evidence across the rows and note the shared source. This keeps the queue accurate without multiplying the vendor's work."
         ]
       },
       {
@@ -229,7 +232,8 @@ export const november11BlogPosts = [
         "heading": "Fix the fields every note must carry",
         "paragraphs": [
           "Require a client or queue name, a one-line status, the next action, the owner, and a due date. Add a link to the source record, such as the email thread or project task, so the next person does not have to search. These fields are small enough to fill in during the shift and specific enough to be useful at handover. A note without a next action is a status update, not a handoff.",
-          "Keep the field list stable across shifts and teams. If one assistant uses a different format each day, the reader has to learn the format before learning the work. Put the fields in the shared template and make the first field the client name. The template should be short enough that nobody skips it when the queue is busy."
+          "Keep the field list stable across shifts and teams. If one assistant uses a different format each day, the reader has to learn the format before learning the work. Put the fields in the shared template and make the first field the client name. The template should be short enough that nobody skips it when the queue is busy.",
+          "Put the note where the incoming assistant already starts the day, and link to it from the shift schedule. A note buried in a personal document is invisible even when it is well written. Give the template a clear owner and a version date so the team knows which format is current. When the process changes, update the template before the next handoff rather than sending a separate instruction that will be lost. A five-minute check at the end of the shift is cheaper than a thirty-minute reconstruction the next morning, and it keeps the handoff from depending on who happened to be online."
         ]
       },
       {
@@ -315,7 +319,8 @@ export const november11BlogPosts = [
         "heading": "Record the client impact",
         "paragraphs": [
           "Describe what the client had to do because of the error: rework, a delayed decision, a repeated meeting, or a correction sent to their own customer. Note whether the client detected the error or the team did. These details matter because a fast internal catch has a different cost from a client-facing failure. Record the impact without exaggerating it.",
-          "If the error affected money, access, or a regulated record, mark it for the owner's immediate review. Do not wait for the monthly meeting. The log can hold the entry while a separate escalation runs. For ordinary errors, a short impact note is enough. The point is to make the consequence visible, not to build a case against the person who made the correction."
+          "If the error affected money, access, or a regulated record, mark it for the owner's immediate review. Do not wait for the monthly meeting. The log can hold the entry while a separate escalation runs. For ordinary errors, a short impact note is enough. The point is to make the consequence visible, not to build a case against the person who made the correction.",
+          "Send the client a brief note when a correction changes something they already received. State what changed, what stayed the same, and whether they need to act. Avoid a long apology that buries the useful part. If the client had to rework their own document, ask whether they want a short call rather than assuming a written note is enough. Record the client's response in the log so the next reviewer knows the correction was acknowledged, not merely sent, and can see that it reached the person who needed it."
         ]
       },
       {
