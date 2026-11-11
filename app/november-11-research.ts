@@ -188,7 +188,7 @@ export const november11ResearchPosts: ResearchPost[] = [
       },
       {
         "name": "Cybersecurity and Infrastructure Security Agency",
-        "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/phishing",
+        "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
         "note": "Explains phishing risks that affect shared and delegated mailboxes."
       }
     ],
