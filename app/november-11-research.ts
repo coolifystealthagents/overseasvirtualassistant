@@ -119,15 +119,57 @@ export const november11ResearchPosts: ResearchPost[] = [
       },
       {
         "heading": "Sampling access between review cycles",
-        "body": "A quarterly review can miss a change that happened last week, so sample a few mailboxes between cycles. Choose the sample from change events rather than convenience: a new assistant, a client contact who left, or a role that gained send permission. Three mailboxes are enough for a small team, provided the reason for each selection is recorded. The sample is not a substitute for the full review, and the summary should say so. Its purpose is to catch drift early and to test whether the joiner and leaver records are working."
+        "body": "A quarterly review can miss a change that happened last week, so sample a few mailboxes between cycles. Choose the sample from change events rather than convenience: a new assistant, a client contact who left, or a role that gained send permission. Three mailboxes are enough for a small team, provided the reason for each selection is recorded. The sample is not a substitute for the full review, and the summary should say so. Its purpose is to catch drift early and to test whether the joiner and leaver records are working.",
+        "table": [
+          [
+            "Trigger",
+            "Sample and timing"
+          ],
+          [
+            "New assistant or role change",
+            "One mailbox within five working days"
+          ],
+          [
+            "Client contact departure",
+            "One mailbox plus portal confirmation"
+          ]
+        ]
       },
       {
         "heading": "What the sample should collect",
-        "body": "For each sampled mailbox, pull a current permission export and compare it with the last approved list. Check the delegate list, send-on-behalf settings, forwarding rules, and any client portal account that the team knows about. Ask the person who manages the mailbox to confirm the entries that changed since the last review. Save the export and the confirmation together, with the date and the reviewer's name. A sample that finds no difference still produces useful evidence that the control is operating."
+        "body": "For each sampled mailbox, pull a current permission export and compare it with the last approved list. Check the delegate list, send-on-behalf settings, forwarding rules, and any client portal account that the team knows about. Ask the person who manages the mailbox to confirm the entries that changed since the last review. Save the export and the confirmation together, with the date and the reviewer's name. A sample that finds no difference still produces useful evidence that the control is operating.",
+        "table": [
+          [
+            "Record",
+            "What to compare"
+          ],
+          [
+            "Permission export",
+            "Delegate, send, forwarding, and portal entries"
+          ],
+          [
+            "Owner confirmation",
+            "Dated approval for each changed entry"
+          ]
+        ]
       },
       {
         "heading": "Following up on a sample finding",
-        "body": "Record the sample in the same log as the quarterly review, using a separate row so the two activities do not blur. If the sample finds an unexplained entry, treat it as a full finding and escalate it through the normal removal path. Do not wait for the next quarter to correct access that no longer has a business reason. At the next quarterly review, check whether the sampled mailbox received a proper decision. This follow-through turns a quick check into a feedback loop rather than a one-time inspection."
+        "body": "Record the sample in the same log as the quarterly review, using a separate row so the two activities do not blur. If the sample finds an unexplained entry, treat it as a full finding and escalate it through the normal removal path. Do not wait for the next quarter to correct access that no longer has a business reason. At the next quarterly review, check whether the sampled mailbox received a proper decision. This follow-through turns a quick check into a feedback loop rather than a one-time inspection.",
+        "table": [
+          [
+            "Finding",
+            "Next step"
+          ],
+          [
+            "Unexplained access",
+            "Escalate through the removal path"
+          ],
+          [
+            "No difference",
+            "Record the sample as operating evidence"
+          ]
+        ]
       },
       {
         "heading": "Limits of the record",
@@ -357,15 +399,61 @@ export const november11ResearchPosts: ResearchPost[] = [
       },
       {
         "heading": "Separating vendor delay from internal delay",
-        "body": "Aging becomes useful when the queue separates vendor delay from internal delay. A receipt may be missing because the vendor has not replied, because the assistant has not sent the request, or because the approver has not reviewed the document that arrived. Record the owner of the next action beside the age, not only the number of days. An item that is old because the team never asked is a different problem from one that is old because the vendor is unresponsive, and the repair is different too."
+        "body": "Aging becomes useful when the queue separates vendor delay from internal delay. A receipt may be missing because the vendor has not replied, because the assistant has not sent the request, or because the approver has not reviewed the document that arrived. Record the owner of the next action beside the age, not only the number of days. An item that is old because the team never asked is a different problem from one that is old because the vendor is unresponsive, and the repair is different too.",
+        "table": [
+          [
+            "Age reason",
+            "Owner of the next action"
+          ],
+          [
+            "Request not sent",
+            "Assistant"
+          ],
+          [
+            "Vendor not replying",
+            "Assistant, then approver on escalation"
+          ]
+        ]
       },
       {
         "heading": "Setting chase thresholds that fit the cycle",
-        "body": "Set thresholds that match the reporting cycle. A first request should go out within one working day of the missing-document finding, a second within three, and an escalation within five unless the policy says otherwise. Use the same thresholds for every vendor so the queue can be sorted without interpretation. When a vendor has a documented slow process, record the expected response window and exclude it from the standard aging view. The exception should be visible, not silent."
+        "body": "Set thresholds that match the reporting cycle. A first request should go out within one working day of the missing-document finding, a second within three, and an escalation within five unless the policy says otherwise. Use the same thresholds for every vendor so the queue can be sorted without interpretation. When a vendor has a documented slow process, record the expected response window and exclude it from the standard aging view. The exception should be visible, not silent.",
+        "table": [
+          [
+            "Stage",
+            "Working-day threshold"
+          ],
+          [
+            "First request",
+            "One day after the finding"
+          ],
+          [
+            "Second request",
+            "Three days after the first"
+          ],
+          [
+            "Escalation",
+            "Five days unless policy says otherwise"
+          ]
+        ]
       },
       {
         "heading": "Reviewing the oldest open items",
-        "body": "Review the oldest items first and ask why each one is still open. If the answer is that nobody owns the next step, assign it before the meeting ends. If the answer is that the vendor cannot provide the document, move the item to a documented exception with the approver's decision. Track the count of items that cross each threshold, not only the total open count. A stable total can hide a growing tail of items that have been open for weeks."
+        "body": "Review the oldest items first and ask why each one is still open. If the answer is that nobody owns the next step, assign it before the meeting ends. If the answer is that the vendor cannot provide the document, move the item to a documented exception with the approver's decision. Track the count of items that cross each threshold, not only the total open count. A stable total can hide a growing tail of items that have been open for weeks.",
+        "table": [
+          [
+            "Open item",
+            "Question for review"
+          ],
+          [
+            "No next owner",
+            "Assign before the meeting ends"
+          ],
+          [
+            "Vendor cannot supply",
+            "Documented exception with approver decision"
+          ]
+        ]
       },
       {
         "heading": "Limits of the record",
@@ -595,15 +683,57 @@ export const november11ResearchPosts: ResearchPost[] = [
       },
       {
         "heading": "Finding corrections that were never logged",
-        "body": "A correction log only describes what someone remembered to record, so it undercounts the errors that were fixed quietly. Sample delivered work each month and compare it with the version the client received. Look for small changes that were made after delivery without a log entry, such as a corrected name, a resend, or a revised attachment. These cases are easy to miss because the client may not have complained. The sample estimates how much the log is missing without pretending to measure every error."
+        "body": "A correction log only describes what someone remembered to record, so it undercounts the errors that were fixed quietly. Sample delivered work each month and compare it with the version the client received. Look for small changes that were made after delivery without a log entry, such as a corrected name, a resend, or a revised attachment. These cases are easy to miss because the client may not have complained. The sample estimates how much the log is missing without pretending to measure every error.",
+        "table": [
+          [
+            "Sample",
+            "What to compare"
+          ],
+          [
+            "Delivered files",
+            "Version sent versus current version"
+          ],
+          [
+            "Client thread",
+            "Resends and correction acknowledgments"
+          ]
+        ]
       },
       {
         "heading": "Choosing a sample of delivered work",
-        "body": "Choose the sample from the workflows that produce the most client-visible output, not from the entries already in the log. Pull five or ten recent deliverables and ask the assistant who sent them whether anything changed afterward. Check the sent folder for resends and the client thread for acknowledgments that mention a correction. If the team cannot answer from memory, the version history is the next place to look. Keep the sample small enough to finish in an hour. A repeatable sample is more useful than an exhaustive review that happens once."
+        "body": "Choose the sample from the workflows that produce the most client-visible output, not from the entries already in the log. Pull five or ten recent deliverables and ask the assistant who sent them whether anything changed afterward. Check the sent folder for resends and the client thread for acknowledgments that mention a correction. If the team cannot answer from memory, the version history is the next place to look. Keep the sample small enough to finish in an hour. A repeatable sample is more useful than an exhaustive review that happens once.",
+        "table": [
+          [
+            "Sample rule",
+            "Evidence"
+          ],
+          [
+            "Five to ten deliverables",
+            "Recent client-visible output"
+          ],
+          [
+            "Repeatable source",
+            "Same workflow each month"
+          ]
+        ]
       },
       {
         "heading": "Recording a correction found by sampling",
-        "body": "Add the missing cases to the log with the date they were found and a note that they came from the sample. Do not backdate the entry as if it had been recorded at the time of the error. Update the log fields if the sample shows that a type of correction has no place to go. At the next review, compare the sampled count with the logged count to see whether reporting is improving. The gap between the two is the measure that matters, not the raw number of entries."
+        "body": "Add the missing cases to the log with the date they were found and a note that they came from the sample. Do not backdate the entry as if it had been recorded at the time of the error. Update the log fields if the sample shows that a type of correction has no place to go. At the next review, compare the sampled count with the logged count to see whether reporting is improving. The gap between the two is the measure that matters, not the raw number of entries.",
+        "table": [
+          [
+            "Field",
+            "Entry"
+          ],
+          [
+            "Found date",
+            "Date of the sample, not the original error"
+          ],
+          [
+            "Source",
+            "Marked as sample finding"
+          ]
+        ]
       },
       {
         "heading": "Limits of the record",
@@ -833,15 +963,57 @@ export const november11ResearchPosts: ResearchPost[] = [
       },
       {
         "heading": "Observing the first live queue",
-        "body": "Checklist completion is not the same as readiness, so observe the assistant during the first live queue. Watch one request from arrival to close and note where the assistant pauses, opens a second window, or asks for help. Compare those moments with the checklist step that was supposed to cover them. The observation should happen before the first solo shift or within the first two days. It gives the reviewer evidence about the checklist rather than an impression of the person. A short observation is enough to reveal a missing link that a completed checklist can hide."
+        "body": "Checklist completion is not the same as readiness, so observe the assistant during the first live queue. Watch one request from arrival to close and note where the assistant pauses, opens a second window, or asks for help. Compare those moments with the checklist step that was supposed to cover them. The observation should happen before the first solo shift or within the first two days. It gives the reviewer evidence about the checklist rather than an impression of the person. A short observation is enough to reveal a missing link that a completed checklist can hide.",
+        "table": [
+          [
+            "Observation",
+            "What it tests"
+          ],
+          [
+            "One live request",
+            "Checklist coverage from arrival to close"
+          ],
+          [
+            "Timing",
+            "Before the first solo shift or within two days"
+          ]
+        ]
       },
       {
         "heading": "What to measure during the observation",
-        "body": "Record how long the assistant takes to find the right system, draft a reply, and decide whether to escalate. These times are not performance scores; they show which part of the handoff is still unclear. If the assistant can complete the task but cannot explain why, the decision rule is missing. If the assistant explains the rule but cannot find the record, the system map is incomplete. Use the observation to choose one checklist change for the next request. Write the observation beside the checklist item, not in a separate performance file."
+        "body": "Record how long the assistant takes to find the right system, draft a reply, and decide whether to escalate. These times are not performance scores; they show which part of the handoff is still unclear. If the assistant can complete the task but cannot explain why, the decision rule is missing. If the assistant explains the rule but cannot find the record, the system map is incomplete. Use the observation to choose one checklist change for the next request. Write the observation beside the checklist item, not in a separate performance file.",
+        "table": [
+          [
+            "Signal",
+            "Likely gap"
+          ],
+          [
+            "Cannot explain the decision",
+            "Missing decision rule"
+          ],
+          [
+            "Cannot find the record",
+            "Incomplete system map"
+          ]
+        ]
       },
       {
         "heading": "Turning the observation into a checklist change",
-        "body": "Keep the observation short and tell the assistant what will be watched before it begins. The goal is to improve the document, not to surprise the person or create a test. After the request closes, ask the assistant which step they would rewrite and why. Add that answer to the checklist review at the end of the week. Record the observation date and the change that followed, so the next reviewer can see whether the checklist is being maintained rather than merely completed. The record belongs with the onboarding notes, where the next handoff can find it."
+        "body": "Keep the observation short and tell the assistant what will be watched before it begins. The goal is to improve the document, not to surprise the person or create a test. After the request closes, ask the assistant which step they would rewrite and why. Add that answer to the checklist review at the end of the week. Record the observation date and the change that followed, so the next reviewer can see whether the checklist is being maintained rather than merely completed. The record belongs with the onboarding notes, where the next handoff can find it.",
+        "table": [
+          [
+            "Record",
+            "Where it goes"
+          ],
+          [
+            "Observation date",
+            "Onboarding notes"
+          ],
+          [
+            "Checklist change",
+            "Beside the revised step"
+          ]
+        ]
       },
       {
         "heading": "Limits of the record",
@@ -1071,15 +1243,57 @@ export const november11ResearchPosts: ResearchPost[] = [
       },
       {
         "heading": "Rehearsing the reassignment before leave",
-        "body": "A reassignment plan is more credible after a rehearsal. Before a planned leave, ask the backup owner to run one shift using only the written queue notes. The assistant on leave should be reachable for questions but should not take over the work. This test shows whether the notes name the next action, the owner, and the date clearly enough for someone else to act. It also reveals access problems while there is still time to fix them. A plan that has never been exercised is only an intention."
+        "body": "A reassignment plan is more credible after a rehearsal. Before a planned leave, ask the backup owner to run one shift using only the written queue notes. The assistant on leave should be reachable for questions but should not take over the work. This test shows whether the notes name the next action, the owner, and the date clearly enough for someone else to act. It also reveals access problems while there is still time to fix them. A plan that has never been exercised is only an intention.",
+        "table": [
+          [
+            "Rehearsal",
+            "Purpose"
+          ],
+          [
+            "One shift",
+            "Test the note without the owner taking over"
+          ],
+          [
+            "Access check",
+            "Confirm records, send address, and escalation path"
+          ]
+        ]
       },
       {
         "heading": "Running the rehearsal shift",
-        "body": "During the rehearsal, the backup owner works from the note alone and records every question that the note cannot answer. The reviewer watches for tasks that were completed from memory rather than from the queue. Check that the backup can open the client records, send from the shared address, and find the escalation contact. At the end of the shift, compare the work completed with the plan. Ask the backup to write down the first three decisions they made without help. The difference is the gap that the real leave would have exposed."
+        "body": "During the rehearsal, the backup owner works from the note alone and records every question that the note cannot answer. The reviewer watches for tasks that were completed from memory rather than from the queue. Check that the backup can open the client records, send from the shared address, and find the escalation contact. At the end of the shift, compare the work completed with the plan. Ask the backup to write down the first three decisions they made without help. The difference is the gap that the real leave would have exposed.",
+        "table": [
+          [
+            "Moment",
+            "Evidence to record"
+          ],
+          [
+            "Question the note cannot answer",
+            "Missing step for the queue notes"
+          ],
+          [
+            "Task completed from memory",
+            "Unwritten dependency"
+          ]
+        ]
       },
       {
         "heading": "Fixing gaps before the leave begins",
-        "body": "Record the rehearsal date, the tasks covered, and the gaps that were fixed before the leave began. Update the queue notes with the missing steps and confirm that the backup owner can find the new version. If a gap requires access that cannot be granted in time, name the person who will cover that task another way. Repeat the rehearsal for any leave longer than a few days. Keep the record with the leave request so the next absence starts from a tested plan. The evidence of preparation is stronger than a promise to stay reachable."
+        "body": "Record the rehearsal date, the tasks covered, and the gaps that were fixed before the leave began. Update the queue notes with the missing steps and confirm that the backup owner can find the new version. If a gap requires access that cannot be granted in time, name the person who will cover that task another way. Repeat the rehearsal for any leave longer than a few days. Keep the record with the leave request so the next absence starts from a tested plan. The evidence of preparation is stronger than a promise to stay reachable.",
+        "table": [
+          [
+            "Gap",
+            "Fix before leave"
+          ],
+          [
+            "Missing access",
+            "Name an alternative owner"
+          ],
+          [
+            "Unclear step",
+            "Update the note and confirm the backup can find it"
+          ]
+        ]
       },
       {
         "heading": "Limits of the record",
