@@ -58,7 +58,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       const response = await fetch(endpoint, request);
       const result = await response.json().catch(() => ({}));
       if (!response.ok || !result.accepted) throw new Error("Lead endpoint rejected the request");
-      try { const tracker=(window as TrackerWindow).acrTracker; tracker?.trackLead?.(payload); tracker?.track?.('contact_accepted',{source:'contact-us'}); } catch {}
+      try { const tracker=(window as TrackerWindow).acrTracker; /* ACR captures the native submit event once. */ tracker?.track?.('contact_accepted',{source:'contact-us'}); } catch {}
       window.location.assign("/thank-you");
     } catch {
       setError("We could not submit your request. Please try again.");
