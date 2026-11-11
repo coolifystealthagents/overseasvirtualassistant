@@ -317,6 +317,7 @@ form.card .btn{background:var(--coral);color:var(--ink);border:1px solid var(--i
  .oct22-mobile-toc summary::after{content:"+";font-size:20px}
  .oct22-mobile-toc[open] summary::after{content:"-"}
  .oct22-mobile-toc:not([open]) nav{display:none}
+ .oct22-mobile-toc[open]{position:static}
  .oct22-mobile-toc[open] nav{position:static;max-height:42vh;overflow:auto;padding:10px 16px 14px;background:#fff;display:grid;gap:8px}
  .oct22-mobile-toc nav a{font-size:14px;text-decoration:none}
 }
