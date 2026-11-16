@@ -1,0 +1,252 @@
+{
+  "brand": "Overseas Virtual Assistant",
+  "theme": "atlas",
+  "font": "Cabinet Grotesk",
+  "heading": "Great work travels well.",
+  "intro": "Philippines-based virtual assistants who become part of your working day. Connect the right person with your tools, your hours and the responsibilities that need attention.",
+  "serviceHeading": "The right support, wherever you work.",
+  "statement": "Different time zones. A shared sense of purpose.",
+  "body": "Remote support works when the details are close: a shared calendar, a useful update and someone who knows what happens next. We help you shape a role that fits the way your business actually runs.",
+  "contactTitle": "Let\u2019s find your next teammate.",
+  "hero": "operations-follow-through",
+  "bands": [
+    "Philippines-based talent",
+    "Your tools & working hours",
+    "A connected working day"
+  ],
+  "domain": "overseasvirtualassistant.com",
+  "services": [
+    {
+      "slug": "executive-assistance",
+      "title": "Executive Assistance",
+      "summary": "Give a busy leader dependable daily administrative support.",
+      "tasks": [
+        "executive assistance queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/executive-assistance.webp",
+      "imageAlt": "Colleagues reviewing documents together at a laptop"
+    },
+    {
+      "slug": "calendar-and-inbox-management",
+      "title": "Calendar and Inbox Management",
+      "summary": "Keep schedules coordinated and important messages moving.",
+      "tasks": [
+        "calendar and inbox management queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/calendar-and-inbox-management.webp",
+      "imageAlt": "Office professional coordinating work with a headset and binder"
+    },
+    {
+      "slug": "travel-and-expense-support",
+      "title": "Travel and Expense Support",
+      "summary": "Organize travel options, receipts and expense records.",
+      "tasks": [
+        "travel and expense support queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/travel-and-expense-support.webp",
+      "imageAlt": "Financial paperwork being checked with a calculator"
+    },
+    {
+      "slug": "real-estate-virtual-assistance",
+      "title": "Real Estate Virtual Assistance",
+      "summary": "Support listing updates, property records and routine follow-ups.",
+      "tasks": [
+        "real estate virtual assistance queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/real-estate-virtual-assistance.webp",
+      "imageAlt": "Colleagues preparing documents around a meeting table"
+    },
+    {
+      "slug": "ecommerce-virtual-assistance",
+      "title": "Ecommerce Virtual Assistance",
+      "summary": "Keep product information, orders and customer messages organized.",
+      "tasks": [
+        "ecommerce virtual assistance queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/ecommerce-virtual-assistance.webp",
+      "imageAlt": "Professional using a laptop and headset at a desk"
+    },
+    {
+      "slug": "medical-administrative-assistance",
+      "title": "Medical Administrative Assistance",
+      "summary": "Coordinate administrative records and scheduling for your practice.",
+      "tasks": [
+        "medical administrative assistance queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/medical-administrative-assistance.webp",
+      "imageAlt": "Office professional coordinating work with a headset and binder"
+    },
+    {
+      "slug": "legal-administrative-assistance",
+      "title": "Legal Administrative Assistance",
+      "summary": "Organize matter records, calendars and document preparation.",
+      "tasks": [
+        "legal administrative assistance queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/legal-administrative-assistance.webp",
+      "imageAlt": "Documents and laptops arranged for a team discussion"
+    },
+    {
+      "slug": "podcast-administration",
+      "title": "Podcast Administration",
+      "summary": "Coordinate guests, episode schedules and publishing administration.",
+      "tasks": [
+        "podcast administration queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/podcast-administration.webp",
+      "imageAlt": "Colleagues reviewing information on a laptop"
+    },
+    {
+      "slug": "recruiting-coordination",
+      "title": "Recruiting Coordination",
+      "summary": "Keep interview scheduling, candidate records and onboarding connected.",
+      "tasks": [
+        "recruiting coordination queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/recruiting-coordination.webp",
+      "imageAlt": "A candidate and interviewer discussing a role"
+    },
+    {
+      "slug": "research-and-data-support",
+      "title": "Research and Data Support",
+      "summary": "Prepare useful research and accurate data for review.",
+      "tasks": [
+        "research and data support queue preparation",
+        "source-record checks and updates",
+        "exception logging for manager review",
+        "daily handoff notes and follow-up"
+      ],
+      "controls": [
+        "Named owner for approvals and exceptions",
+        "Role-based access to required tools",
+        "Sample review before the work lane expands"
+      ],
+      "launch": [
+        "Share current examples and source records",
+        "Document the finish line and escalation rule",
+        "Review the first work batch together"
+      ],
+      "image": "/refresh/research-and-data-support.webp",
+      "imageAlt": "Documents and laptops arranged for a team discussion"
+    }
+  ],
+  "heroImage": "/refresh/hero.webp",
+  "heroAlt": "Colleagues reviewing information on a laptop"
+}

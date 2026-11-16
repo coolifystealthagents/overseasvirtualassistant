@@ -68,7 +68,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
 
   return (
     <div className="sa-form-card">
-      <h2>Tell us what you need to delegate.</h2>
+      <h2>Tell us about your business</h2>
       <form onSubmit={submit} id="contactPageForm" data-acr-managed="react">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">

@@ -2,6 +2,7 @@ import { AcrClient } from './acr-client';
 import Script from 'next/script';
 import './globals.css';
 import './v3.css';
+import './_refresh/refresh.css';
 import type { Metadata } from 'next';
 import { site } from './data';
 import { JsonLd } from './components';
