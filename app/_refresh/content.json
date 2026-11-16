@@ -7,7 +7,7 @@
   "serviceHeading": "The right support, wherever you work.",
   "statement": "Different time zones. A shared sense of purpose.",
   "body": "Remote support works when the details are close: a shared calendar, a useful update and someone who knows what happens next. We help you shape a role that fits the way your business actually runs.",
-  "contactTitle": "Let\u2019s find your next teammate.",
+  "contactTitle": "Let’s find your next teammate.",
   "hero": "operations-follow-through",
   "bands": [
     "Philippines-based talent",
@@ -21,10 +21,9 @@
       "title": "Executive Assistance",
       "summary": "Give a busy leader dependable daily administrative support.",
       "tasks": [
-        "executive assistance queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Prepare daily priorities and briefing notes for your executive",
+        "Coordinate meeting requests across time zones",
+        "Track decisions and follow-ups through the next handoff"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -36,18 +35,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/executive-assistance.webp",
-      "imageAlt": "Colleagues reviewing documents together at a laptop"
+      "image": "/refresh/executive-assistance-20261117.jpg",
+      "imageAlt": "Colleagues coordinating documents and executive office work"
     },
     {
       "slug": "calendar-and-inbox-management",
       "title": "Calendar and Inbox Management",
       "summary": "Keep schedules coordinated and important messages moving.",
       "tasks": [
-        "calendar and inbox management queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Sort incoming messages into agreed priority categories",
+        "Schedule meetings with working hours and time zones checked",
+        "Draft routine responses and flag conflicts for a decision"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -59,18 +57,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/calendar-and-inbox-management.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder"
+      "image": "/refresh/calendar-and-inbox-management-20261117.jpg",
+      "imageAlt": "Professional managing correspondence at a laptop"
     },
     {
       "slug": "travel-and-expense-support",
       "title": "Travel and Expense Support",
       "summary": "Organize travel options, receipts and expense records.",
       "tasks": [
-        "travel and expense support queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Compile route and accommodation options within your policy",
+        "Maintain itineraries and collect supporting receipts",
+        "Prepare expense records for review without approving payments"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -82,18 +79,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/travel-and-expense-support.webp",
-      "imageAlt": "Financial paperwork being checked with a calculator"
+      "image": "/refresh/travel-and-expense-support-20261117.jpg",
+      "imageAlt": "Business traveller reviewing her itinerary at an airport"
     },
     {
       "slug": "real-estate-virtual-assistance",
       "title": "Real Estate Virtual Assistance",
       "summary": "Support listing updates, property records and routine follow-ups.",
       "tasks": [
-        "real estate virtual assistance queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Update listing records from approved property information",
+        "Coordinate viewing requests and document collection",
+        "Track missing paperwork and route transaction questions to your team"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -105,18 +101,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/real-estate-virtual-assistance.webp",
-      "imageAlt": "Colleagues preparing documents around a meeting table"
+      "image": "/refresh/real-estate-virtual-assistance-20261117.jpg",
+      "imageAlt": "Office team discussing a project plan"
     },
     {
       "slug": "ecommerce-virtual-assistance",
       "title": "Ecommerce Virtual Assistance",
       "summary": "Keep product information, orders and customer messages organized.",
       "tasks": [
-        "ecommerce virtual assistance queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Maintain approved product details and store records",
+        "Check order status and prepare delivery updates",
+        "Organize return requests for review under your store policy"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -128,18 +123,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/ecommerce-virtual-assistance.webp",
-      "imageAlt": "Professional using a laptop and headset at a desk"
+      "image": "/refresh/ecommerce-virtual-assistance-20261117.jpg",
+      "imageAlt": "Online store owner preparing an order beside a laptop"
     },
     {
       "slug": "medical-administrative-assistance",
       "title": "Medical Administrative Assistance",
       "summary": "Coordinate administrative records and scheduling for your practice.",
       "tasks": [
-        "medical administrative assistance queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Coordinate appointment requests using your scheduling rules",
+        "Collect only approved administrative intake information",
+        "Route clinical questions and access exceptions to authorized staff"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -151,18 +145,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/medical-administrative-assistance.webp",
-      "imageAlt": "Office professional coordinating work with a headset and binder"
+      "image": "/refresh/medical-administrative-assistance-20261117.jpg",
+      "imageAlt": "Medical professional updating information on a laptop"
     },
     {
       "slug": "legal-administrative-assistance",
       "title": "Legal Administrative Assistance",
       "summary": "Organize matter records, calendars and document preparation.",
       "tasks": [
-        "legal administrative assistance queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Organize matter files using your naming and access rules",
+        "Coordinate appointments and document requests",
+        "Maintain assigned deadline reminders for attorney review"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -174,18 +167,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/legal-administrative-assistance.webp",
-      "imageAlt": "Documents and laptops arranged for a team discussion"
+      "image": "/refresh/legal-administrative-assistance-20261117.jpg",
+      "imageAlt": "Professional typing alongside an open document"
     },
     {
       "slug": "podcast-administration",
       "title": "Podcast Administration",
       "summary": "Coordinate guests, episode schedules and publishing administration.",
       "tasks": [
-        "podcast administration queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Coordinate guest availability and recording instructions",
+        "Prepare episode assets and publishing checklists",
+        "Track approvals, release dates and guest follow-ups"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -197,18 +189,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/podcast-administration.webp",
-      "imageAlt": "Colleagues reviewing information on a laptop"
+      "image": "/refresh/podcast-administration-20261117.jpg",
+      "imageAlt": "Podcast host recording with a microphone"
     },
     {
       "slug": "recruiting-coordination",
       "title": "Recruiting Coordination",
       "summary": "Keep interview scheduling, candidate records and onboarding connected.",
       "tasks": [
-        "recruiting coordination queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Arrange interviews around candidate and panel availability",
+        "Send approved instructions and collect required documents",
+        "Keep applicant records and feedback requests up to date"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -220,18 +211,17 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/recruiting-coordination.webp",
-      "imageAlt": "A candidate and interviewer discussing a role"
+      "image": "/refresh/recruiting-coordination-20261117.jpg",
+      "imageAlt": "Recruiter interviewing a candidate"
     },
     {
       "slug": "research-and-data-support",
       "title": "Research and Data Support",
       "summary": "Prepare useful research and accurate data for review.",
       "tasks": [
-        "research and data support queue preparation",
-        "source-record checks and updates",
-        "exception logging for manager review",
-        "daily handoff notes and follow-up"
+        "Gather information from agreed sources with traceable links",
+        "Clean and organize records using your field definitions",
+        "Flag duplicates, missing values and facts needing verification"
       ],
       "controls": [
         "Named owner for approvals and exceptions",
@@ -243,10 +233,12 @@
         "Document the finish line and escalation rule",
         "Review the first work batch together"
       ],
-      "image": "/refresh/research-and-data-support.webp",
-      "imageAlt": "Documents and laptops arranged for a team discussion"
+      "image": "/refresh/research-and-data-support-20261117.jpg",
+      "imageAlt": "Professional preparing a visual research summary"
     }
   ],
   "heroImage": "/refresh/hero.webp",
-  "heroAlt": "Colleagues reviewing information on a laptop"
+  "heroAlt": "Colleagues reviewing information on a laptop",
+  "servicesHeroImage": "/refresh/services-overview-20261117.jpg",
+  "servicesHeroAlt": "A team leader discussing a work plan with colleagues"
 }

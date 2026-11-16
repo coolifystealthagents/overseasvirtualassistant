@@ -1,95 +1,5 @@
 [
   {
-    "asset": "/refresh/executive-assistance.webp",
-    "pexelsPhotoId": 7731381,
-    "source": "https://www.pexels.com/photo/7731381/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues reviewing documents together at a laptop",
-    "sha256": "467a79a70719703aa650b5b5a4006f8cf41f1e039f0299816d2f4d9376778a8a",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/calendar-and-inbox-management.webp",
-    "pexelsPhotoId": 8101449,
-    "source": "https://www.pexels.com/photo/8101449/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Office professional coordinating work with a headset and binder",
-    "sha256": "14479f589b35b78e79e658b3f6d288dd7efceea011f868788d1fe80eb4023acb",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/travel-and-expense-support.webp",
-    "pexelsPhotoId": 8296970,
-    "source": "https://www.pexels.com/photo/8296970/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Financial paperwork being checked with a calculator",
-    "sha256": "1a79be2778120c5dce6f678e4899fcb0ea29c900e695d98a10083ef49c830892",
-    "note": "Licensed stock photograph illustrating the service; not company staff."
-  },
-  {
-    "asset": "/refresh/real-estate-virtual-assistance.webp",
-    "pexelsPhotoId": 6964119,
-    "source": "https://www.pexels.com/photo/6964119/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues preparing documents around a meeting table",
-    "sha256": "ee35f617fb18d676ef9bca4ef0ec0334d27ecb3f5611b828eae7b86e88c7a20e",
-    "note": "Licensed stock photograph illustrating the service; not company staff."
-  },
-  {
-    "asset": "/refresh/ecommerce-virtual-assistance.webp",
-    "pexelsPhotoId": 7682093,
-    "source": "https://www.pexels.com/photo/7682093/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Professional using a laptop and headset at a desk",
-    "sha256": "4d9e5115e7056854aef87aa391908fb2d71a172e5e9aaf65352d775e36a8ebd6",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/medical-administrative-assistance.webp",
-    "pexelsPhotoId": 8101449,
-    "source": "https://www.pexels.com/photo/8101449/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Office professional coordinating work with a headset and binder",
-    "sha256": "14479f589b35b78e79e658b3f6d288dd7efceea011f868788d1fe80eb4023acb",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/legal-administrative-assistance.webp",
-    "pexelsPhotoId": 7964540,
-    "source": "https://www.pexels.com/photo/7964540/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Documents and laptops arranged for a team discussion",
-    "sha256": "fa3041a668ddb2d577a216a753ce322c45b1b910c3f045f42ea0920afe225b34",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/podcast-administration.webp",
-    "pexelsPhotoId": 7693683,
-    "source": "https://www.pexels.com/photo/7693683/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues reviewing information on a laptop",
-    "sha256": "a35505301ea221feea57db21c14c8e2b1b57ae693415c20ccd537dde816d5d25",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/recruiting-coordination.webp",
-    "pexelsPhotoId": 7644155,
-    "source": "https://www.pexels.com/photo/7644155/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "A candidate and interviewer discussing a role",
-    "sha256": "5fed77131eb35e660acec6342e597555a6dfaf22d9932f6ba594aa7975da28d0",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
-    "asset": "/refresh/research-and-data-support.webp",
-    "pexelsPhotoId": 7964540,
-    "source": "https://www.pexels.com/photo/7964540/",
-    "license": "https://www.pexels.com/license/",
-    "alt": "Documents and laptops arranged for a team discussion",
-    "sha256": "fa3041a668ddb2d577a216a753ce322c45b1b910c3f045f42ea0920afe225b34",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
-  },
-  {
     "asset": "/refresh/hero.webp",
     "pexelsPhotoId": 7693683,
     "source": "https://www.pexels.com/photo/7693683/",
@@ -97,5 +7,126 @@
     "alt": "Colleagues reviewing information on a laptop",
     "sha256": "a35505301ea221feea57db21c14c8e2b1b57ae693415c20ccd537dde816d5d25",
     "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/refresh/services-overview-20261117.jpg",
+    "pexelsPhotoId": 8123843,
+    "source": "https://www.pexels.com/photo/8123843/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "A team leader discussing a work plan with colleagues",
+    "sha256": "9a846a3340a7672a56ed75d1e1cabfb05eb942ee3a0e347d35ba1bcd8574eb6c",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/executive-assistance-20261117.jpg",
+    "pexelsPhotoId": 7731381,
+    "source": "https://www.pexels.com/photo/7731381/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Colleagues coordinating documents and executive office work",
+    "sha256": "6b304f37e5a6cb93a45a43d22f14d28b98099225354e43ebd38c784e2b6b9e73",
+    "width": 2000,
+    "height": 1321,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/calendar-and-inbox-management-20261117.jpg",
+    "pexelsPhotoId": 7709145,
+    "source": "https://www.pexels.com/photo/7709145/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Professional managing correspondence at a laptop",
+    "sha256": "da1ee2d2c390b993655cc3731ed27c4dd0354b3ed21f28cb66a24c11f1af8232",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/travel-and-expense-support-20261117.jpg",
+    "pexelsPhotoId": 4173236,
+    "source": "https://www.pexels.com/photo/4173236/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Business traveller reviewing her itinerary at an airport",
+    "sha256": "03b98faec865ae42e45462a267fe2035b68edbc68fd90b50c7b75b821acfb167",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/real-estate-virtual-assistance-20261117.jpg",
+    "pexelsPhotoId": 5439484,
+    "source": "https://www.pexels.com/photo/5439484/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Office team discussing a project plan",
+    "sha256": "51bc3e6b4333648ecddf91eaa021c0d03e0f0eeed61793894e704b7afe15cae8",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/ecommerce-virtual-assistance-20261117.jpg",
+    "pexelsPhotoId": 7289725,
+    "source": "https://www.pexels.com/photo/7289725/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Online store owner preparing an order beside a laptop",
+    "sha256": "38e9fe8e2576d84061d35d05b17bf9d4e70812b4d6c140b30be6a758706861df",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/medical-administrative-assistance-20261117.jpg",
+    "pexelsPhotoId": 4989170,
+    "source": "https://www.pexels.com/photo/4989170/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Medical professional updating information on a laptop",
+    "sha256": "15dc461c36ec35e32e21aa4c7d940b0808180fb60fb860bd1cf0f2e3a76771d6",
+    "width": 2000,
+    "height": 3000,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/legal-administrative-assistance-20261117.jpg",
+    "pexelsPhotoId": 5917564,
+    "source": "https://www.pexels.com/photo/5917564/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Professional typing alongside an open document",
+    "sha256": "1a57daff74286b3e874dce98dc8b5ddaf7cff70caaa33bf6c89fd939237de11f",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/podcast-administration-20261117.jpg",
+    "pexelsPhotoId": 6954150,
+    "source": "https://www.pexels.com/photo/6954150/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Podcast host recording with a microphone",
+    "sha256": "c916470ce4dec47e4d027458d232757bb506b6f44db69d3fb547af7a0d8dd032",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/recruiting-coordination-20261117.jpg",
+    "pexelsPhotoId": 7644155,
+    "source": "https://www.pexels.com/photo/7644155/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Recruiter interviewing a candidate",
+    "sha256": "4a001e8c2f08b115ba44c663f668baa9dbc0792077cd8850d1d40b2c029a1263",
+    "width": 2000,
+    "height": 1333,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+  },
+  {
+    "asset": "/refresh/research-and-data-support-20261117.jpg",
+    "pexelsPhotoId": 6248949,
+    "source": "https://www.pexels.com/photo/6248949/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Professional preparing a visual research summary",
+    "sha256": "3e0c0231e2fb518a305ae13905357714e6a20825b9240b1cdfb182d77379dfd8",
+    "width": 2000,
+    "height": 1335,
+    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
   }
 ]
