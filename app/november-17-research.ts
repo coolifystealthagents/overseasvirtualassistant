@@ -39,11 +39,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Request, client reference, arrival channel, date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "No intake entry or undefined arrival time"
           ]
         ]
       },
@@ -53,11 +53,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Requester, outcome owner, approver named"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Authority left to the message thread"
           ]
         ]
       },
@@ -67,11 +67,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Stated urgency and assessed importance, with reason"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "One priority value and no rationale"
           ]
         ]
       },
@@ -81,11 +81,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Lane, skill, assignee, assignment time"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Assignee overwritten without a reason"
           ]
         ]
       },
@@ -95,11 +95,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Arrival time, first substantive response, time zone"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Acknowledgement counted as work started"
           ]
         ]
       },
@@ -109,11 +109,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Return reason, date, person, clarification sent"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Returned item dropped from the queue count"
           ]
         ]
       },
@@ -123,11 +123,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Revision date, new scope, approver"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Delivered work differs with no revision note"
           ]
         ]
       },
@@ -137,11 +137,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Counts by day, hour, lane, and client"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Weekly summary only, no source timestamps"
           ]
         ]
       },
@@ -151,11 +151,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Required fields present, missing fields named"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Gaps filled later from messages"
           ]
         ]
       },
@@ -165,11 +165,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Outcome, due date, and approver matched"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Unexplained mismatch between ask and delivery"
           ]
         ]
       },
@@ -179,11 +179,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Questions the tracker cannot answer are stated"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Complete tracker read as well run"
           ]
         ]
       },
@@ -193,11 +193,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Gap, count, likely process cause"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Assistant ranking without process context"
           ]
         ]
       },
@@ -207,11 +207,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Five records checked, one change applied"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "One-time score with no repeat"
           ]
         ]
       }
@@ -307,11 +307,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Request, client reference, arrival channel, date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "No intake entry or undefined arrival time"
           ]
         ]
       },
@@ -321,11 +321,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Decision text, status agreed or pending, date sent"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "General summary with no decision label"
           ]
         ]
       },
@@ -335,11 +335,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "One named owner and one calendar date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Team name or relative date"
           ]
         ]
       },
@@ -349,11 +349,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Time sent, recipients, agreed window"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Late send or unrecorded list"
           ]
         ]
       },
@@ -363,11 +363,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Document type, purpose, link between them"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Transcript merged into the action list"
           ]
         ]
       },
@@ -377,11 +377,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Version, changed field, date, reason"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Silent edit with no note"
           ]
         ]
       },
@@ -391,11 +391,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Expected elements listed for the meeting type"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Long recap missing owners"
           ]
         ]
       },
@@ -405,11 +405,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Action, task created, close date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Action closed with no record"
           ]
         ]
       },
@@ -419,11 +419,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Meeting type and expected recap depth"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "One standard applied to every call"
           ]
         ]
       },
@@ -433,11 +433,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Record limits stated in the review"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Clean recap read as full agreement"
           ]
         ]
       },
@@ -447,11 +447,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Fixed sample, counts, two examples"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Selected examples with no method"
           ]
         ]
       },
@@ -461,11 +461,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Ten meetings scored, one template change"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Unlimited review with no decision"
           ]
         ]
       }
@@ -561,11 +561,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Request, client reference, arrival channel, date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "No intake entry or undefined arrival time"
           ]
         ]
       },
@@ -575,11 +575,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Client date, provider date, source checked"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Date copied from memory"
           ]
         ]
       },
@@ -589,11 +589,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Same-day, next-day, wait, confirmed by client"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Everything marked same-day"
           ]
         ]
       },
@@ -603,11 +603,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Named owner, backup, hours, acceptance date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Team name as the only cover"
           ]
         ]
       },
@@ -617,11 +617,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Allowed actions and escalation path"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Instruction to use good judgment"
           ]
         ]
       },
@@ -631,11 +631,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Mailbox, queue, folders tested, date, result"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "No test before the holiday"
           ]
         ]
       },
@@ -645,11 +645,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Dates, cover owner, response window, recipient"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Client not told what pauses"
           ]
         ]
       },
@@ -659,11 +659,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Open items, dates, templates, confirmation"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Long thread treated as a handoff"
           ]
         ]
       },
@@ -673,11 +673,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Urgent items, handling time, owner"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Unranked requests with no record"
           ]
         ]
       },
@@ -687,11 +687,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Plan compared with week, differences noted"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Review skipped after the return"
           ]
         ]
       },
@@ -701,11 +701,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Questions the tracker cannot answer are stated"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Complete tracker read as well run"
           ]
         ]
       },
@@ -715,11 +715,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Missing records by type, one change"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Speed ranking without client context"
           ]
         ]
       }
@@ -815,11 +815,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Request, client reference, arrival channel, date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "No intake entry or undefined arrival time"
           ]
         ]
       },
@@ -829,11 +829,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Rule, batch size, sample size, selector"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Sample chosen after inspection"
           ]
         ]
       },
@@ -843,11 +843,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Error types, examples, counting rule"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Unwritten standard applied from memory"
           ]
         ]
       },
@@ -857,11 +857,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Reviewer, date, time, independence"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Preparer check labeled independent"
           ]
         ]
       },
@@ -871,11 +871,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Row, field, old value, new value, date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Silent fix with no entry"
           ]
         ]
       },
@@ -885,11 +885,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Work type, sample size, key version"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Mixed work types averaged together"
           ]
         ]
       },
@@ -899,11 +899,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Pattern, rows affected, reasoning"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Every error treated the same"
           ]
         ]
       },
@@ -913,11 +913,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Fresh rows, reviewer, result"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Same sampled rows re-read"
           ]
         ]
       },
@@ -927,11 +927,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Sample size and limit stated"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Batch described as error-free"
           ]
         ]
       },
@@ -941,11 +941,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Batch, sample, errors, correction status"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Scorecard with no usability answer"
           ]
         ]
       },
@@ -955,11 +955,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Storage location, access list, retention end"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Whole records copied into the log"
           ]
         ]
       },
@@ -969,11 +969,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Five records checked, one change applied"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "One-time score with no repeat"
           ]
         ]
       }
@@ -1069,11 +1069,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Request, client reference, arrival channel, date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "No intake entry or undefined arrival time"
           ]
         ]
       },
@@ -1083,11 +1083,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Purpose, format, version, owner"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Flat filename list with no reason"
           ]
         ]
       },
@@ -1097,11 +1097,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Status, definition, history timestamp"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Received used to mean accepted"
           ]
         ]
       },
@@ -1111,11 +1111,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Reviewer, date, storage link, version"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Status changed without opening the file"
           ]
         ]
       },
@@ -1125,11 +1125,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Date, channel, recipient, missing item"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Undated reminder repeating the list"
           ]
         ]
       },
@@ -1139,11 +1139,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Reason, substitute, approver, review date"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Overdue item with no decision"
           ]
         ]
       },
@@ -1153,11 +1153,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Milestone, dependency, request-to-accept gap"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Generic due date with no link"
           ]
         ]
       },
@@ -1167,11 +1167,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Viewer list, storage location, transfer method"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Sensitive values in a wide channel"
           ]
         ]
       },
@@ -1181,11 +1181,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Accepted items, exceptions, outstanding, date sent"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Onboarding closed without a note"
           ]
         ]
       },
@@ -1195,11 +1195,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Category, milestone, status definition"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Client names compared without grouping"
           ]
         ]
       },
@@ -1209,11 +1209,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Questions the tracker cannot answer are stated"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Complete tracker read as well run"
           ]
         ]
       },
@@ -1223,11 +1223,11 @@ export const november17ResearchPosts: ResearchPost[] = [
         "table": [
           [
             "Recorded",
-            "Field, date, owner, and result"
+            "Missing records by type, one change"
           ],
           [
             "Not recorded",
-            "Missing entry or undefined status"
+            "Speed ranking without client context"
           ]
         ]
       }
