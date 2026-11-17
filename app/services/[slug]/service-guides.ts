@@ -62,7 +62,7 @@ export const serviceGuides: Record<string, Guide> = {
     outputs: ['Prepared appointment records', 'Administrative intake notes', 'Clinical questions routed to staff'],
     boundary: 'The assistant does not triage symptoms, give medical advice or access records beyond the approved administrative role.',
     launch: ['Document appointment types, privacy limits and escalation contacts.', 'Begin with routine scheduling requests only.', 'Review records for correct times, minimal data and clinical handoffs.'],
-    question: 'Can the assistant answer a medical question?', answer: 'No. It should preserve the patientâ€™s question and route it through the practiceâ€™s clinical process.',
+    question: 'Can the assistant answer a medical question?', answer: 'No. It should preserve the patient\u2019s question and route it through the practice\u2019s clinical process.',
   },
   'legal-administrative-assistance': {
     fit: 'For legal teams that need matter records, calendars and document requests kept organized.',
