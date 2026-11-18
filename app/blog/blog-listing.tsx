@@ -20,6 +20,7 @@ import { october12BlogPosts } from "../october-12-blog";
 import { october13BlogPosts } from "../october-13-blog";
 import { october28BlogPosts } from "../october-28-blog";
 import { november2BlogPosts } from "../november-2-blog";
+import { november18BlogPosts } from "../november-18-blog";
 import { november17BlogPosts } from "../november-17-blog";
 import { november16BlogPosts } from "../november-16-blog";
 import { november11BlogPosts } from "../november-11-blog";
@@ -39,6 +40,7 @@ import { Header, Footer } from "../components";
 import { blogPosts } from "../data";
 const PAGE_SIZE = 20;
 const campaignPosts = [
+  ...november18BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description, published: p.published }] as const),
   ...november17BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description, published: p.published }] as const),
   ...november16BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description, published: p.published }] as const),
   ...november11BlogPosts.map((p) => [p.slug, { title: p.title, description: p.description, published: p.published }] as const),
