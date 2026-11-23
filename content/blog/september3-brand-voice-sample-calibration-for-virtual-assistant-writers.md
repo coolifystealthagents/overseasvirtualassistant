@@ -4,6 +4,8 @@
 
 A folder of favorite articles does not teach voice unless the choices inside those articles are explained. For OverseasVirtualAssistant.com, the practical question is how a Philippines-based virtual assistant can move article work forward while the accountable business owner keeps decisions that require company context, specialist judgment, or publication authority. The routine below is designed for daily use, where a small ambiguity can otherwise consume another working day across time zones.
 
+If you would rather hand this off, the [virtual assistant directory](https://virtualassistantdirectories.com) lists vetted agencies and specialists you can compare.
+
 ## Annotate choices rather than adjectives
 
 Begin with a real item that cannot safely proceed. Copying surface phrases produces imitation while missing how the site handles uncertainty. Put that failure beside the current request and identify the missing decision. This makes the boundary teachable. The assistant sees why the work paused, and the owner receives a question tied to a consequence rather than a vague request for more detail. A queue should distinguish ready, returned, waiting, and retired work so activity is not mistaken for progress.
