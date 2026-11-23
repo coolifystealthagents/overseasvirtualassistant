@@ -31,7 +31,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
         <aside className="fleet-card"><b>{post.headlineStat.value}</b><p>{post.headlineStat.label}</p><small>{post.headlineStat.source}</small></aside>
         <h2 id="key-stats">Key Stats</h2><ul>{post.keyStats.map(s => <li key={s.label}><strong>{s.value}</strong>: {s.label}</li>)}</ul>
         <h2 id="key-takeaways">Key Takeaways</h2><ul>{post.takeaways.map(x => <li key={x}>{x}</li>)}</ul>
-        {post.sections.map(section => <section key={section.heading}><h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"")}>{section.heading}</h2><p>{section.body}</p><table><tbody>{section.table.map((row, i) => <tr key={i}>{row.map((cell, j) => i === 0 ? <th key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table></section>)}
+        {post.sections.map(section => <section key={section.heading}><h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"")}>{section.heading}</h2><p>{section.body}</p>{section.table ? <table><tbody>{section.table.map((row, i) => <tr key={i}>{row.map((cell, j) => i === 0 ? <th key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody></table> : null}</section>)}
         <p>{post.sourceNotes}</p>
         <h2 id="sources">Sources</h2><ol>{post.sources.map(s => <li key={s.url}><a href={s.url}>{s.name}</a>: {s.note}</li>)}</ol>
         <h2 id="faqs">FAQs</h2>{post.faqs.map(f => <section key={f.question}><h3>{f.question}</h3><p>{f.answer}</p></section>)}

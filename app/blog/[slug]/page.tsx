@@ -51,9 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const november22Post = findNovember22BlogPost(slug);
   if (november22Post) return { title: november22Post.title, description: november22Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: november22Post.title, description: november22Post.description, type: 'article', publishedTime: november22Post.published, images: [{ url: `https://overseasvirtualassistant.com${november22Post.image.src}`, alt: november22Post.image.alt }] } };
-  const november22Post = findNovember22BlogPost(slug);
- if (november22Post) return <October25BlogArticle post={november22Post as any}/>;
- const november21Post = findNovember21BlogPost(slug);
+  const november21Post = findNovember21BlogPost(slug);
   if (november21Post) return { title: november21Post.title, description: november21Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: november21Post.title, description: november21Post.description, type: 'article', publishedTime: november21Post.published, images: [{ url: `https://overseasvirtualassistant.com${november21Post.image.src}`, alt: november21Post.image.alt }] } };
   const november20Post = findNovember20BlogPost(slug);
   if (november20Post) return { title: november20Post.title, description: november20Post.description, alternates: { canonical: `https://overseasvirtualassistant.com/blog/${slug}` }, openGraph: { title: november20Post.title, description: november20Post.description, type: 'article', publishedTime: november20Post.published, images: [{ url: `https://overseasvirtualassistant.com${november20Post.image.src}`, alt: november20Post.image.alt }] } };
@@ -154,6 +152,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
  const { slug } = await params;
+ const november22Post = findNovember22BlogPost(slug);
+ if (november22Post) return <October25BlogArticle post={november22Post as any}/>;
  const november21Post = findNovember21BlogPost(slug);
  if (november21Post) return <October25BlogArticle post={november21Post as any}/>;
  const november20Post = findNovember20BlogPost(slug);
