@@ -99,7 +99,7 @@ export type ResearchPost = {
   headlineStat: { value: string; label: string; source: string };
   keyStats: { value: string; label: string }[];
   takeaways: string[];
-  sections: { heading: string; body: string; table: string[][] }[];
+  sections: { heading: string; body: string; table?: string[][] }[];
   sourceNotes: string; sources: { name: string; url: string; note: string }[];
   internalLinks: string[]; faqs: { question: string; answer: string }[];
   relatedResearch: string[]; image: { src: string; alt: string }; cta: string;
