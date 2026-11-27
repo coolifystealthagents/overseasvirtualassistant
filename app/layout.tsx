@@ -9,6 +9,8 @@ import { JsonLd } from './components';
 import { ArticleEnhancer } from './article-enhancer';
 import { SkipLink } from './skip-link';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Overseas Virtual Assistant | Filipino VA Staffing', template: '%s | Overseas Virtual Assistant' },
